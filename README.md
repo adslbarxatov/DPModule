@@ -1,10 +1,10 @@
 # DPModule 9
 
-Deployment packages utilityfor RD AAOW FUPL projects / Модуль развёртки для проектов RD AAOW FUPL
+Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / deinstallation / building / updates checking for our products
 
-This tool works with deployment packages of our products
+Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов
 
-Инструмент работает с пакетами развёртки наших продуктов
+
 
 ## Changes
 
