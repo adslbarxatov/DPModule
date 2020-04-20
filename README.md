@@ -2,13 +2,9 @@
 
 Deployment packages utilityfor RD AAOW FUPL projects / Модуль развёртки для проектов RD AAOW FUPL
 
-#
-
 This tool works with deployment packages of our products
 
 Инструмент работает с пакетами развёртки наших продуктов
-
-#
 
 ## Changes
 
