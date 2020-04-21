@@ -1,15 +1,9 @@
 ﻿Deployment packages module changes log
 
-ToDo before release:
-• Update icon;
-• Fix updates checker;
-• Implement command line arguments processing;
-• Fix empty links operating
-
 Version 9.0
 • First publication on GitHub;
 • Application namespace, icon and development environment have been unified;
 • Completely new packages and links processing implemented; packages operating have been unified for all projects;
 • Backward compatibility for v8 packages has been preserved;
-• Definitely new interface behaviour applied;
+• Definitely new interface behavior applied;
 • New version of packages has been implemented; it allows multitarget deployment of... almost everything
