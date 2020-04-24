@@ -1,4 +1,4 @@
-# DPModule 9.0
+﻿# DPModule 9.0
 > PCC: 0010B925E9022D91
 
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products
@@ -17,8 +17,8 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 
 - Программа, как и ранее, использует стандартные имена пакетов, если они расположены в той же директории, что и она сама. Однако при их отсутствии (т.е. если папка не содержит ни одного пакета) пользователь теперь может самостоятельно выбрать нужный файл пакета в любом удобном расположении. Для этого при запуске будет отображено соответствующее диалоговое окно.
 - Окно ручного выбора пакета развёртки доступно также при вызове утилиты с ключом ```–m```.
-- Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```-l```. Однако при переходе на версию 9 его потребуется задать заново.
-- Также при применении обновлений предыдущих версий (```dpu```) может потребоваться восстановление путей установки соответствующих модов. Для этого следует запустить программу с ключом ```-r```, выбрать пакет, для которого требуется задать путь установки, и указать его в соответствующем диалоговом окне.
+- Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```–l```. Однако при переходе на версию 9 его потребуется задать заново.
+- Также при применении обновлений предыдущих версий (```dpu```) может потребоваться восстановление путей установки соответствующих модов. Для этого следует запустить программу с ключом ```–r```, выбрать пакет, для которого требуется задать путь установки, и указать его в соответствующем диалоговом окне.
 - Значок в трее, отображаемый при запуске приложения, теперь поддерживает все функции, связанные с обновлением обрабатываемого пакета, по щелчку правой кнопкой мыши.
 
 ## Changes
@@ -33,8 +33,8 @@ This version of utility has following differences:
 
 - Application, as before, uses standard package names if they are located in the same directory with the executable. However, if they are absent (i.e. if the folder doesn't contain any packages), user can now independently select the needed package file in any convenient location. To do this, at startup, the corresponding dialog box will be displayed.
 - Dialog box for manual selection of deployment package is also available when calling the utility with ```–m``` key.
-- The choice of interface language, as before, is available at the first start and at start with ```-l``` key. However, when upgrading to version 9, you will need to set it again.
-- Also, when applying updates from previous versions (```dpu```), it may be necessary to restore installation paths of corresponding mods. To do this, run the application with ```-r``` key, select the package for which you want to specify an installation path, and specify it in corresponding dialog box.
+- The choice of interface language, as before, is available at the first start and at start with ```–l``` key. However, when upgrading to version 9, you will need to set it again.
+- Also, when applying updates from previous versions (```dpu```), it may be necessary to restore installation paths of corresponding mods. To do this, run the application with ```–r``` key, select the package for which you want to specify an installation path, and specify it in corresponding dialog box.
 - Tray icon that is displayed when the application starts, now supports all functions related to updating the processed package, by right-clicking.
 
 #
