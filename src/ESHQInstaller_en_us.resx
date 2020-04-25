@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbortButtonText" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="ArchiveAccessError" xml:space="preserve">
+    <value>Cannot create or access package file</value>
+  </data>
+  <data name="ArchiveDamagedError" xml:space="preserve">
+    <value>Package file is damaged or incorrect</value>
+  </data>
+  <data name="ArchiveReadError" xml:space="preserve">
+    <value>Cannot access package file</value>
+  </data>
+  <data name="ArchiveReadError_Update" xml:space="preserve">
+    <value> (contains installation script)</value>
+  </data>
+  <data name="BackButtonText" xml:space="preserve">
+    <value>&lt; &amp;Back</value>
+  </data>
+  <data name="BuildRadioText" xml:space="preserve">
+    <value>Build package: allows creation of updates</value>
+  </data>
+  <data name="CompletedSuccessfully" xml:space="preserve">
+    <value>Operation completed successfully</value>
+  </data>
+  <data name="CompletedUnsuccessfully" xml:space="preserve">
+    <value>Operation completed unsuccessfully</value>
+  </data>
+  <data name="CorrectPackage" xml:space="preserve">
+    <value>Your deployment package is correct and up to date</value>
+  </data>
+  <data name="DisclaimerLink1Length" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DisclaimerLink1Offset" xml:space="preserve">
+    <value>146</value>
+  </data>
+  <data name="DisclaimerMainText" xml:space="preserve">
+    <value>You can improve the application or view our other projects (just click the banner of interest). If you have troubles with this utility, remind us here or here</value>
+  </data>
+  <data name="ExitButtonText" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="FilesAccessError" xml:space="preserve">
+    <value>Cannot access one or more source file(s)</value>
+  </data>
+  <data name="FilesCreationError" xml:space="preserve">
+    <value>Cannot create or access one or more file(s) or directory(ies)</value>
+  </data>
+  <data name="FilesSizeError" xml:space="preserve">
+    <value>One or more source file(s) is/are too large</value>
+  </data>
+  <data name="IncorrectPackage" xml:space="preserve">
+    <value>Your deployment package is not original! We strongly recommend against using it!
+
+Download original package: right-click on this icon and open updates webpage</value>
+  </data>
+  <data name="InstallRadioText_Main" xml:space="preserve">
+    <value>Install: allows application setup or recover</value>
+  </data>
+  <data name="InstallRadioText_Update" xml:space="preserve">
+    <value>Install: allows update package applying</value>
+  </data>
+  <data name="InterruptInstallation" xml:space="preserve">
+    <value>Do you want to interrupt installation?</value>
+  </data>
+  <data name="LogCreationError" xml:space="preserve">
+    <value>Failed to create installation log</value>
+  </data>
+  <data name="MainModeHelpLinkOffset" xml:space="preserve">
+    <value>289</value>
+  </data>
+  <data name="MainModeMainText" xml:space="preserve">
+    <value>You are welcomed by {0:S} and ESHQ mod v {1:S}!
+
+ESHQ is a stand-alone modification for Half-Life 1 (by Valve software) based on stabilized and adapted Xash3D engine v43/0.91 (3737). Right-click tray icon for details.
+
+For continue setup press "Next"; otherwise press "Cancel"</value>
+  </data>
+  <data name="MainModeMasterLinkOffset" xml:space="preserve">
+    <value>189</value>
+  </data>
+  <data name="MainModeOtherLink1Offset" xml:space="preserve">
+    <value>318</value>
+  </data>
+  <data name="MainModeOtherLink2Offset" xml:space="preserve">
+    <value>324</value>
+  </data>
+  <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
+    <value>Project webpage is not fully available for now. Try again later</value>
+  </data>
+  <data name="ModDBIsUnavailable" xml:space="preserve">
+    <value>Project webpage is unavailable for now. Try again later</value>
+  </data>
+  <data name="ModeLabelText_Main" xml:space="preserve">
+    <value>Select installation mode:</value>
+  </data>
+  <data name="ModeLabelText_Update" xml:space="preserve">
+    <value>Select updating mode:</value>
+  </data>
+  <data name="ModPath" xml:space="preserve">
+    <value>Application's installation path:</value>
+  </data>
+  <data name="NextButtonText" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="OperationInterrupted" xml:space="preserve">
+    <value>Operation interrupted by user</value>
+  </data>
+  <data name="PackageChecking" xml:space="preserve">
+    <value>Checking deployment package. Please, wait...</value>
+  </data>
+  <data name="PathAlreadyExists" xml:space="preserve">
+    <value>Specified directory already exists. Use it?</value>
+  </data>
+  <data name="PathDoesntExist" xml:space="preserve">
+    <value>Specified directory does not exist</value>
+  </data>
+  <data name="PathDoesntExistButMust" xml:space="preserve">
+    <value>Specified directory does not exist. Create it?</value>
+  </data>
+  <data name="ReadyMessage1" xml:space="preserve">
+    <value>We are ready for </value>
+  </data>
+  <data name="ReadyMessage2_Install" xml:space="preserve">
+    <value>application installation at
+"{0:S}"</value>
+  </data>
+  <data name="ReadyMessage2_Rebuild" xml:space="preserve">
+    <value>package rebuilding.</value>
+  </data>
+  <data name="ReadyMessage2_Uninstall" xml:space="preserve">
+    <value>application removing from
+"{0:S}"</value>
+  </data>
+  <data name="ReadyMessage2_Update" xml:space="preserve">
+    <value>updating installation at
+"{0:S}"</value>
+  </data>
+  <data name="ReadyMessage3" xml:space="preserve">
+    <value>
+Press "Next" to continue. Operation can take about 5 minutes</value>
+  </data>
+  <data name="RegistryKeyNotFound" xml:space="preserve">
+    <value>Application's installation path not found in registry. Use /r command line key to restore it.
+
+NOTE: if you'll set incorrect path, application may damage valuable files!</value>
+  </data>
+  <data name="SpecifyModPath" xml:space="preserve">
+    <value>Specify application's installation path:</value>
+  </data>
+  <data name="UninstallRadioText" xml:space="preserve">
+    <value>Uninstall: allows application remove</value>
+  </data>
+  <data name="UpdateMessage1_Update" xml:space="preserve">
+    <value>Update to v {0:S}</value>
+  </data>
+  <data name="UpdateMessage2" xml:space="preserve">
+    <value> available for download.
+
+Right-click on this icon and open updates webpage for continue</value>
+  </data>
+  <data name="UpdateModeHelpLinkLength" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="UpdateModeHelpLinkOffset" xml:space="preserve">
+    <value>207</value>
+  </data>
+  <data name="UpdateModeMainText" xml:space="preserve">
+    <value>You are welcomed by {0:S} and ESHQ mod!
+
+This application will update mod's content to version {1:S}. Right-click tray icon for details.
+
+For continue setup press "Next"; otherwise press "Cancel"</value>
+  </data>
+  <data name="UpdateModeMasterLinkLength" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="UpdateModeMasterLinkOffset" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="UpdateModeOtherLink1Length" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UpdateModeOtherLink1Offset" xml:space="preserve">
+    <value>236</value>
+  </data>
+  <data name="UpdateModeOtherLink2Length" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="UpdateModeOtherLink2Offset" xml:space="preserve">
+    <value>242</value>
+  </data>
+  <data name="UpdatesChecking" xml:space="preserve">
+    <value>Checking for updates...</value>
+  </data>
+  <data name="VersionUnavailable" xml:space="preserve">
+    <value>&lt;unavailable&gt;</value>
+  </data>
+  <data name="AlreadyStarted" xml:space="preserve">
+    <value> already started</value>
+  </data>
+  <data name="PathRestoreText" xml:space="preserve">
+    <value>You are welcomed by {0:S}!
+
+This function will restore registry entry required by deployment module. You must specify correct path to application's installation directory in the next window (f. e., {1:S}\{2:S}\).
+
+NOTE: if you'll set incorrect path, updater and installer may damage valuable files!</value>
+  </data>
+  <data name="LanguageSelectorMessage" xml:space="preserve">
+    <value>Current interface language is {0:S}.
+Select new language:</value>
+  </data>
+  <data name="ExtModeHelpLinkOffset" xml:space="preserve">
+    <value>281</value>
+  </data>
+  <data name="ExtModeMainText" xml:space="preserve">
+    <value>You are welcomed by {0:S} and Crazy cheater's mod
+v {1:S}!
+
+CCM is a mod for GTA Vice City that saves original story, but fixes some troubles and extends player's abilities. Right-click tray icon for details.
+
+For continue setup press "Next"; otherwise press "Cancel"</value>
+  </data>
+  <data name="ExtModeMasterLinkOffset" xml:space="preserve">
+    <value>181</value>
+  </data>
+  <data name="ExtModeOtherLink1Offset" xml:space="preserve">
+    <value>310</value>
+  </data>
+  <data name="ExtModeOtherLink2Offset" xml:space="preserve">
+    <value>316</value>
+  </data>
+  <data name="DisclaimerLink2Offset" xml:space="preserve">
+    <value>154</value>
+  </data>
+  <data name="SelectPackage" xml:space="preserve">
+    <value>Select deployment package</value>
+  </data>
+  <data name="DisclaimerLink3Length" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DisclaimerLink3Offset" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="IconMenuShowAbout" xml:space="preserve">
+    <value>Actual package's version info</value>
+  </data>
+  <data name="IconMenuUpdate" xml:space="preserve">
+    <value>Open package's updates webpage</value>
+  </data>
+  <data name="IconMenuDPUpdate" xml:space="preserve">
+    <value>Update {0:S} to version {1:S}</value>
+  </data>
+</root>

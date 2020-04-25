@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 9.1
+• DPModule now can check its own updates at GitHub;
+• Some code improvements applied
+
 Version 9.0
 • First publication on GitHub;
 • Application namespace, icon and development environment have been unified;
