@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 9.2
+• Some bugs in packages building algorithm fixed;
+• Some bugs in logo drawing algorithm fixed;
+• Some improvements applied in user interface
+
 Version 9.1
 • DPModule now can check its own updates at GitHub;
 • Some code improvements applied

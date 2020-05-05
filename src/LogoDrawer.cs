@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
+using System.Runtime.InteropServices;
+using System.Threading;
 using System.Windows.Forms;
 
 // Классы
@@ -719,7 +721,7 @@ namespace RD_AAOW
 
 				case 5:
 					if (steps++ == 0)
-						g.DrawString (logoString1, headerFont, foreBrush, 80, lineFeed);
+						g.DrawString ("ESHQ", headerFont, foreBrush, 80, lineFeed);
 					else if (steps > 20)
 						{
 						steps = 0;
