@@ -5,6 +5,8 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 
 Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов
 
+
+
 ## Изменения
 
 Новая версия программы обеспечивает весь функционал предыдущего релиза, несмотря на полный и глубокий пересмотр алгоритма её работы. В частности, модуль поддерживает пакеты версии 8 (```dpm``` / ```dpp``` / ```dpu```) и 8.6 (```dpx```). Вместе с тем модуль более не привязан к конкретным проектам и может быть использован для развёртки любого программного продукта или набора файлов. Кроме того, новая версия пакетов теперь поддерживает дополнительный установочный функционал.
@@ -20,6 +22,8 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 - Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```–l```. Однако при переходе на версию 9 его потребуется задать заново.
 - Также при применении обновлений предыдущих версий (```dpu```) может потребоваться восстановление путей установки соответствующих модов. Для этого следует запустить программу с ключом ```–r```, выбрать пакет, для которого требуется задать путь установки, и указать его в соответствующем диалоговом окне.
 - Значок в трее, отображаемый при запуске приложения, теперь поддерживает все функции, связанные с обновлением обрабатываемого пакета, по щелчку правой кнопкой мыши.
+
+
 
 ## Changes
 
@@ -37,16 +41,26 @@ This version of utility has following differences:
 - Also, when applying updates from previous versions (```dpu```), it may be necessary to restore installation paths of corresponding mods. To do this, run the application with ```–r``` key, select the package for which you want to specify an installation path, and specify it in corresponding dialog box.
 - Tray icon that is displayed when the application starts, now supports all functions related to updating the processed package, by right-clicking.
 
-#
 
-We've formalized our [Applications development policy (ADP)](https://vk.com/@rdaaow_fupl-adp).
-We're strongly recommend reading it before using our products.
 
-Мы формализовали нашу [Политику разработки приложений (ADP)](https://vk.com/@rdaaow_fupl-adp).
-Настоятельно рекомендуем ознакомиться с ней перед использованием наших продуктов.
-
-#
+## Requirements / Требования
 
 Needs Windows XP and newer, Framework 4.0 and newer. Interface languages: ru_ru, en_us
 
 Требуется ОС Windows XP и новее, Framework 4.0 и новее. Языки интерфейса: ru_ru, en_us
+
+
+
+## Development policy and EULA / Политика разработки и EULA
+
+This [Policy (ADP)](https://vk.com/@rdaaow_fupl-adp), its positions, conclusion, EULA and application methods
+describes general rules that we follow in all of our development processes, released applications and implemented
+ideas.
+**It must be acquainted by participants and users before using any of laboratory's products.
+By downloading them, you agree to this Policy**
+
+Данная [Политика (ADP)](https://vk.com/@rdaaow_fupl-adp), её положения, заключение, EULA и способы применения
+описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
+и реализованных идеях.
+**Обязательна к ознакомлению всем участникам и пользователям перед использованием любого из продуктов лаборатории.
+Загружая их, вы соглашаетесь с этой Политикой**
