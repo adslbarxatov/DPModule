@@ -1,15 +1,18 @@
 ﻿Deployment packages module changes log
 
-Version 9.2
+Version 9.3p:
+• ADP link added to the banner carousel
+
+Version 9.2:
 • Some bugs in packages building algorithm fixed;
 • Some bugs in logo drawing algorithm fixed;
 • Some improvements applied in user interface
 
-Version 9.1
+Version 9.1:
 • DPModule now can check its own updates at GitHub;
 • Some code improvements applied
 
-Version 9.0
+Version 9.0:
 • First publication on GitHub;
 • Application namespace, icon and development environment have been unified;
 • Completely new packages and links processing implemented; packages operating have been unified for all projects;
