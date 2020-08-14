@@ -1,5 +1,5 @@
-﻿# DPModule 9.3
-> CRC32: E9513FF0
+﻿# DPModule 9.4
+> CRC32: 0179FD0A
 
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products
 

@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 9.4:
+• Added ability to accept/decline ADP at first start to the application info interface;
+• Other code improvements applied
+
 Version 9.3p:
 • ADP link added to the banner carousel
 

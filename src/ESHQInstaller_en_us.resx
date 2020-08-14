@@ -370,4 +370,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="IconMenuDPUpdate" xml:space="preserve">
     <value>Update {0:S} to version {1:S}</value>
   </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
+  </data>
 </root>
