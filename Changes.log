@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 9.5i:
+• Found and fixed hidden bug that caused an error when starting the application from local network;
+• Fixed bug that caused the web page request method to fail if server disconnected;
+• Added user manual link
+
 Version 9.4:
 • Added ability to accept/decline ADP at first start to the application info interface;
 • Other code improvements applied
