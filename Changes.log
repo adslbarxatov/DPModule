@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 9.6:
+• Application info interface now able to get last release's changes log;
+• Added precaution for existing files overwriting;
+• Some code artifacts removed;
+• Fixed 'only C:\' bug in path suggestion code
+
 Version 9.5i:
 • Found and fixed hidden bug that caused an error when starting the application from local network;
 • Fixed bug that caused the web page request method to fail if server disconnected;

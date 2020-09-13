@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
-using System.Runtime.InteropServices;
-using System.Threading;
+#if LDDEBUG
+	using System.Runtime.InteropServices;
+	using System.Threading;
+#endif
 using System.Windows.Forms;
 
 // Классы
@@ -419,7 +421,7 @@ namespace RD_AAOW
 		// Таймеры отрисовки
 
 		// Основное лого, вариант 1
-		private void DrawingTimer_Mode1 (object sender, System.EventArgs e)
+		private void DrawingTimer_Mode1 (object sender, EventArgs e)
 			{
 			// Определение следующей позиции
 			switch (phase1)
@@ -530,7 +532,7 @@ namespace RD_AAOW
 			}
 
 		// Основное лого, вариант 2
-		private void DrawingTimer_Mode2 (object sender, System.EventArgs e)
+		private void DrawingTimer_Mode2 (object sender, EventArgs e)
 			{
 			// Определение следующей позиции
 			switch (phase1)

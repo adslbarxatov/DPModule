@@ -229,7 +229,13 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Checking deployment package. Please, wait...</value>
   </data>
   <data name="PathAlreadyExists" xml:space="preserve">
-    <value>Specified directory already exists. Use it?</value>
+    <value>This is a stand-alone application. No pre-installed software is required to work.
+
+Therefore, it is strongly recommended to keep the suggested installation path.
+
+If possible, don't overwrite or supplement existing installations. Deployment module can handle this case (backup and restore original files). But it cannot deal with unforeseen consequences.
+
+Continue with specified path?</value>
   </data>
   <data name="PathDoesntExist" xml:space="preserve">
     <value>Specified directory does not exist</value>

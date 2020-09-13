@@ -1,9 +1,9 @@
-﻿# DPModule 9.5
-> CRC32: F40EC237
+﻿# DPModule 9.6
+> CRC32: 65E87ABF
 
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products
 
-Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов
+Модуль развёртывания для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов
 
 
 

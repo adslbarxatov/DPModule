@@ -1234,7 +1234,7 @@ namespace RD_AAOW
 		/// <summary>
 		/// Максимально допустимая скорость объекта
 		/// </summary>
-		public const uint MaxObjectSpeed = 20;
+		public const uint MaxObjectSpeed = 50;
 
 		/// <summary>
 		/// Минимально допустимый размер объекта
