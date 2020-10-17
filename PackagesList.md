@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-Geomag data drawer	https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0	GeomagDataDrawer.dp0	1338211
+Geomag data drawer	https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0	GeomagDataDrawer.dp0	1338213
 
 ESHQ 9	https://www.moddb.com/downloads/mirror/196465/125/76a8090a480e156d0e5c5139d032a153	ESHQ_9.7z	165444571
 ESHQ update to v 9.4	https://www.moddb.com/downloads/mirror/202128/115/a48f64315bcf9cf426cd4dbb90586625	ESHQ_update_to_v_9_4.7z	45917766

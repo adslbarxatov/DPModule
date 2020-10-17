@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 10.1 (preparing):
+- Fix buttons names and placements;
+- Fix menu items;
+- Split config sections
+
 Version 10.0:
 • Deployment module now can download deployment packages; function available when there are no .dp? files
   in the same directory with DPModule or with -p key;
