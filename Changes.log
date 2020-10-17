@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 10:
+• Internal text encoding changed to UTF8;
+• Removed support for old package formats (.dpp, .dpm, .dpu, .dpx);
+• Deployment module now allows to manually select all packages that are needed to be deployed;
+• 
+
 Version 9.6:
 • Application info interface now able to get last release's changes log;
 • Added precaution for existing files overwriting;
