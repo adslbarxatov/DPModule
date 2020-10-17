@@ -18,44 +18,44 @@ namespace RD_AAOW
 	public partial class LogoDrawer:Form
 		{
 		// Переменные
-		private const int scale = 130;							// Главный масштабный множитель
-		private const int drawerSize = scale / 8;				// Размер кисти
-		private const int tailsSize = (int)(scale * 0.3);		// Длина "хвостов" лого за границами кругов
+		private const int scale = 130;                          // Главный масштабный множитель
+		private const int drawerSize = scale / 8;               // Размер кисти
+		private const int tailsSize = (int)(scale * 0.3);       // Длина "хвостов" лого за границами кругов
 
-		private const int frameSpeed = 6;						// Частота смены кадров / отступ кисти в пикселях
+		private const int frameSpeed = 6;                       // Частота смены кадров / отступ кисти в пикселях
 
-		private const int logoFontSize = (int)(scale * 0.42);	// Размер шрифта лого
-		private const int headerFontSize = (int)(scale * 0.20);	// Размер шрифта заголовков расширенного режима
-		private const int textFontSize = (int)(scale * 0.13);	// Размер шрифта текста расширенного режима
-		private const string logoString1 = "RD AAOW Free utilities",				// Тексты лого
+		private const int logoFontSize = (int)(scale * 0.42);   // Размер шрифта лого
+		private const int headerFontSize = (int)(scale * 0.20); // Размер шрифта заголовков расширенного режима
+		private const int textFontSize = (int)(scale * 0.13);   // Размер шрифта текста расширенного режима
+		private const string logoString1 = "RD AAOW Free utilities",                // Тексты лого
 			logoString2 = "production lab";
 
-		private int logoHeight;									// Высота лого
-		private Point[] logo2Form;								// Форма стрелки второго лого
+		private int logoHeight;                                 // Высота лого
+		private Point[] logo2Form;                              // Форма стрелки второго лого
 		private SolidBrush logo2Green, logo2Grey;
 
-		private uint phase1 = 1, phase2 = 1;	// Текущие фазы отрисовки
-		private Point point1, point2,			// Текущие позиции отрисовки
+		private uint phase1 = 1, phase2 = 1;    // Текущие фазы отрисовки
+		private Point point1, point2,           // Текущие позиции отрисовки
 			point3, point4;
-		private double arc1, arc2;				// Переменные для расчёта позиций элементов в полярных координатах
+		private double arc1, arc2;              // Переменные для расчёта позиций элементов в полярных координатах
 
-		private Graphics g, g2;					// Объекты-отрисовщики
+		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
 		private Pen backPen;
 		private Bitmap logo1, logo2a, logo2b, logo4a, logo4b;
 		private Bitmap logo2GreyPart, logo2GreenPart, logo2BackPart;
 		private Font logo1Font, headerFont, textFont;
-		private SizeF logo1Size;				// Графические размеры текста для текущего экрана
+		private SizeF logo1Size;                // Графические размеры текста для текущего экрана
 
-		private uint extended = 0;				// Тип расширенного режима
+		private uint extended = 0;              // Тип расширенного режима
 
-		private uint steps = 0,					// Счётчик шагов
-			moves = 0;							// Счётчик движений мыши (используется для корректной обработки движений)
+		private uint steps = 0,                 // Счётчик шагов
+			moves = 0;                          // Счётчик движений мыши (используется для корректной обработки движений)
 
-		private const int lineFeed = 40;		// Высота строки текста расширенного режима
-		private const int lineLeft = 250;		// Начало строки текста расширенного режима
+		private const int lineFeed = 40;        // Высота строки текста расширенного режима
+		private const int lineLeft = 250;       // Начало строки текста расширенного режима
 
-		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> (),	// Строки текста расширенного режима
+		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> (),    // Строки текста расширенного режима
 			extendedStrings2 = new List<List<LogoDrawerString>> (),
 			extendedStrings3 = new List<List<LogoDrawerString>> (),
 			extendedStrings4 = new List<List<LogoDrawerString>> ();
@@ -67,8 +67,8 @@ namespace RD_AAOW
 
 		private void TriggerRecord ()
 			{
-			keybd_event ((byte)Keys.Add, 0, 0, 0);
-			keybd_event ((byte)Keys.Add, 0, 2, 0);
+			keybd_event ((byte)Keys.Pause, 0, 0, 0);
+			keybd_event ((byte)Keys.Pause, 0, 2, 0);
 			}
 #endif
 
@@ -97,9 +97,9 @@ namespace RD_AAOW
 			// Инициализация
 			Random rnd = new Random ();
 #if LDDEBUG
-			extended = 4;
+			extended = 2;
 #else
-			extended = ((rnd.Next (5) == 0) ? (uint)rnd.Next (1, 5) : 0);
+			extended = ((rnd.Next (5) == 0) ? (uint)rnd.Next (1, 4) : 0);
 #endif
 
 			if (extended == 0)
@@ -135,7 +135,7 @@ namespace RD_AAOW
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
 			g = Graphics.FromHwnd (this.Handle);
-			g.TextRenderingHint = TextRenderingHint.SingleBitPerPixelGridFit;	// Убирает ауру на буквах в Win8
+			g.TextRenderingHint = TextRenderingHint.SingleBitPerPixelGridFit;   // Убирает ауру на буквах в Win8
 
 			logo1Font = new Font ("Lucida Sans Unicode", logoFontSize);
 			logo1Size = g.MeasureString (logoString1, logo1Font);
@@ -195,8 +195,8 @@ namespace RD_AAOW
 				{
 				default:
 				case DrawModes.Mode1:
-					point1 = new Point (-(int)scale, (this.Height - (int)scale) / 2);	// Горизонтальная
-					point2 = new Point (this.Width / 2 - (int)scale, -(int)scale);		// Вертикальная
+					point1 = new Point (-(int)scale, (this.Height - (int)scale) / 2);   // Горизонтальная
+					point2 = new Point (this.Width / 2 - (int)scale, -(int)scale);      // Вертикальная
 					DrawingTimer.Tick += DrawingTimer_Mode1;
 					foreBrush = new SolidBrush (this.ForeColor);
 					break;
@@ -378,7 +378,7 @@ namespace RD_AAOW
 			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
 				"   As  a result,  it's  simple  and unique.  Just" +
-				"what I need ☺", textFont, 150, textLetterWidth));
+				"what we need ☺", textFont, 150, textLetterWidth));
 
 			// Текст расширенного режима, вариант 4
 			extendedStrings4.Add (new List<LogoDrawerString> ());
@@ -554,14 +554,14 @@ namespace RD_AAOW
 				case 2:
 					arc1 += 1.0;
 
-					point1.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 - arc1) * scale / 2.0);		// Нижняя правая
+					point1.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 - arc1) * scale / 2.0);        // Нижняя правая
 					point1.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 - arc1) * scale / 2.0);
-					point2.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 + arc1 * 2.0) * scale / 2.0);	// Верхняя правая
+					point2.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 + arc1 * 2.0) * scale / 2.0);  // Верхняя правая
 					point2.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 + arc1 * 2.0) * scale / 2.0);
 
-					point3.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (-arc1) * scale / 2.0);				// Верхняя левая
+					point3.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (-arc1) * scale / 2.0);               // Верхняя левая
 					point3.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (-arc1) * scale / 2.0);
-					point4.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1 * 2.0) * scale / 2.0);			// Нижняя левая
+					point4.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1 * 2.0) * scale / 2.0);          // Нижняя левая
 					point4.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc1 * 2.0) * scale / 2.0);
 
 					if (arc1 >= 90.0)
@@ -1245,7 +1245,7 @@ namespace RD_AAOW
 			if (steps > 35)
 				{
 				steps = 0;
-				phase1++;	// К отрисовке текста
+				phase1++;   // К отрисовке текста
 				}
 			}
 
@@ -1258,7 +1258,7 @@ namespace RD_AAOW
 			if (steps > 80)
 				{
 				steps = 0;
-				phase1 = phase2;	// К отрисовке текста
+				phase1 = phase2;    // К отрисовке текста
 				}
 			}
 

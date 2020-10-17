@@ -1,10 +1,12 @@
 ﻿Deployment packages module changes log
 
 Version 10:
-• Deployment module now can download packages 
+• Deployment module now can download deployment packages; function available when there are no .dp? files
+  in the same directory with DPModule or with -p key;
 • Deployment module now allows to manually select all packages that are needed to be deployed;
-• Internal text encoding changed to UTF8;
+• Internal text encoding changed to UTF8; russian descriptions for old (.dp9) packages will not be available;
 • Removed support for old package formats (.dpp, .dpm, .dpu, .dpx);
+• Fixed paths bug on x64 platforms
 
 Version 9.6:
 • Application info interface now able to get last release's changes log;

@@ -359,7 +359,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>154</value>
   </data>
   <data name="SelectPackage" xml:space="preserve">
-    <value>Select deployment package</value>
+    <value>Select all packages that you want to deploy</value>
   </data>
   <data name="DisclaimerLink3Length" xml:space="preserve">
     <value>7</value>
@@ -378,5 +378,29 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="HelpText" xml:space="preserve">
     <value>Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
+  </data>
+  <data name="PackageSelectorMessage" xml:space="preserve">
+    <value>Select package for download</value>
+  </data>
+  <data name="DownloadButtonText" xml:space="preserve">
+    <value>%Download</value>
+  </data>
+  <data name="PackagesListUnavailable" xml:space="preserve">
+    <value>Deployment packages list is unavailable. Check your internet connection</value>
+  </data>
+  <data name="PackagesListChecking" xml:space="preserve">
+    <value>Downloading packages list...</value>
+  </data>
+  <data name="PackageDownload" xml:space="preserve">
+    <value>Downloading deployment package...</value>
+  </data>
+  <data name="PackageFailure" xml:space="preserve">
+    <value>Failed to download deployment package. Check your internet connection</value>
+  </data>
+  <data name="PackageSuccess" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="PackageUnzipFailure" xml:space="preserve">
+    <value>Cannot unpack downloaded archive automatically. Open it for manual extracting?</value>
   </data>
 </root>

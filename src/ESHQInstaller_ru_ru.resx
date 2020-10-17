@@ -358,7 +358,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>165</value>
   </data>
   <data name="SelectPackage" xml:space="preserve">
-    <value>Выберите пакет развёртки</value>
+    <value>Выберите все пакеты, которые необходимо развернуть</value>
   </data>
   <data name="DisclaimerLink3Length" xml:space="preserve">
     <value>8</value>
@@ -377,5 +377,29 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="HelpText" xml:space="preserve">
     <value>Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
+  </data>
+  <data name="PackageSelectorMessage" xml:space="preserve">
+    <value>Выберите пакет для загрузки</value>
+  </data>
+  <data name="DownloadButtonText" xml:space="preserve">
+    <value>&amp;Загрузить</value>
+  </data>
+  <data name="PackagesListUnavailable" xml:space="preserve">
+    <value>Список установочных пакетов недоступен. Проверьте ваше интернет-подключение</value>
+  </data>
+  <data name="PackagesListChecking" xml:space="preserve">
+    <value>Загрузка списка пакетов...</value>
+  </data>
+  <data name="PackageDownload" xml:space="preserve">
+    <value>Загрузка установочного пакета...</value>
+  </data>
+  <data name="PackageFailure" xml:space="preserve">
+    <value>Не удалось загрузить установочный пакет. Проверьте ваше интернет-подключение</value>
+  </data>
+  <data name="PackageSuccess" xml:space="preserve">
+    <value>Успешно!</value>
+  </data>
+  <data name="PackageUnzipFailure" xml:space="preserve">
+    <value>Не удалось автоматически распаковать загруженный архив. Открыть его для ручного извлечения?</value>
   </data>
 </root>
