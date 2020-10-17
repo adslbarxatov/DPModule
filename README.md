@@ -1,29 +1,33 @@
 ﻿# DPModule v 10.0
-> CRC32: 65E87ABF
+> CRC32: 8FF185D3
 
-Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products
+Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
 
-Модуль развёртывания для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов
+Модуль развёртывания для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов
 
 
 
 ## Изменения
 
-- Программа, как и ранее, использует стандартные имена пакетов, если они расположены в той же директории, что и она сама. Однако при их отсутствии (т.е. если папка не содержит ни одного пакета) пользователь теперь может самостоятельно выбрать нужный файл пакета в любом удобном расположении. Для этого при запуске будет отображено соответствующее диалоговое окно.
-- Окно ручного выбора пакета развёртки доступно также при вызове утилиты с ключом ```–m```.
-- Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```–l```. Однако при переходе на версию 9 его потребуется задать заново.
-- Также при применении обновлений предыдущих версий (```dpu```) может потребоваться восстановление путей установки соответствующих модов. Для этого следует запустить программу с ключом ```–r```, выбрать пакет, для которого требуется задать путь установки, и указать его в соответствующем диалоговом окне.
-- Значок в трее, отображаемый при запуске приложения, теперь поддерживает все функции, связанные с обновлением обрабатываемого пакета, по щелчку правой кнопкой мыши.
+- Пользователь теперь всегда самостоятельно выбирает нужные пакеты в любом удобном расположении и количестве. Для этого при запуске будет отображено соответствующее диалоговое окно.
+- Приложение теперь может загружать установочные пакеты из нашего репозитория. Для этого приложение должно быть запущено с ключом ```-p```, или в одной с ним директории не должно быть ранее загруженных пакетов.
+- Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```–l```.
+- Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
+- Как и ранее, программу можно запустить с ключом ```–r```, если требуется восстановить путь установки для какого-либо пакета.
+- Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
+- Старые версии установочных пакетов (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) более не поддерживаются.
 
 
 
 ## Changes
 
-- Application, as before, uses standard package names if they are located in the same directory with the executable. However, if they are absent (i.e. if the folder doesn't contain any packages), user can now independently select the needed package file in any convenient location. To do this, at startup, the corresponding dialog box will be displayed.
-- Dialog box for manual selection of deployment package is also available when calling the utility with ```–m``` key.
-- The choice of interface language, as before, is available at the first start and at start with ```–l``` key. However, when upgrading to version 9, you will need to set it again.
-- Also, when applying updates from previous versions (```dpu```), it may be necessary to restore installation paths of corresponding mods. To do this, run the application with ```–r``` key, select the package for which you want to specify an installation path, and specify it in corresponding dialog box.
-- Tray icon that is displayed when the application starts, now supports all functions related to updating the processed package, by right-clicking.
+- User now always independently selects the necessary packages in any convenient location and quantity. To do this, a corresponding dialog box will be displayed at startup.
+- Application can now download deployment packages from our repository. To do this, app must be launched with the ```-p``` key, or there must be no previously downloaded packages in the same directory with DPModule.
+- Choice of the interface language, as before, is available at the first start and at start with the ```-l``` key.
+- Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
+- As before, app can be launched with the key ```-r``` if you want to restore the installation path for a package.
+- Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
+- Old versions of installation packages (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) are no longer supported.
 
 
 

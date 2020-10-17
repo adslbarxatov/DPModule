@@ -1,6 +1,6 @@
 ﻿Deployment packages module changes log
 
-Version 10:
+Version 10.0:
 • Deployment module now can download deployment packages; function available when there are no .dp? files
   in the same directory with DPModule or with -p key;
 • Deployment module now allows to manually select all packages that are needed to be deployed;
