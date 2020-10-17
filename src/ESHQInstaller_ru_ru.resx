@@ -402,4 +402,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="PackageUnzipFailure" xml:space="preserve">
     <value>Не удалось автоматически распаковать загруженный архив. Открыть его для ручного извлечения?</value>
   </data>
+  <data name="IconAbout" xml:space="preserve">
+    <value>О программе {0:S}...</value>
+  </data>
 </root>

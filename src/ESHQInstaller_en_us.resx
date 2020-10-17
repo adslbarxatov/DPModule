@@ -403,4 +403,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="PackageUnzipFailure" xml:space="preserve">
     <value>Cannot unpack downloaded archive automatically. Open it for manual extracting?</value>
   </data>
+  <data name="IconAbout" xml:space="preserve">
+    <value>About {0:S}...</value>
+  </data>
 </root>
