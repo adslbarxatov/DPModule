@@ -340,7 +340,7 @@ namespace RD_AAOW
 			versionDescription = html.Substring (i, j - i);
 			versionDescription = versionDescription.Replace ("<p>", "\r\n\r\n").Replace ("<li>", "\r\n• ").Replace ("</p>", "\r\n");
 			versionDescription = versionDescription.Replace ("</li>", "").Replace ("<ul>", "").Replace ("</ul>", "").
-				Replace ("<em>", "").Replace ("</em>", "");
+				Replace ("<em>", "").Replace ("</em>", "").Replace ("<code>", "").Replace ("</code>", "");
 
 			// Отображение результата
 			switch (al)
