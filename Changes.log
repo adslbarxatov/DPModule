@@ -1,9 +1,10 @@
 ﻿Deployment packages module changes log
 
-Version 10.1 (preparing):
-- Fix buttons names and placements;
-- Fix menu items;
-- Split config sections
+Version 10.0.2:
+• Fixed names of some buttons and menu items;
+• Improved packages downloading interface;
+• Utilities and mods have been moved to different lists;
+• Some code fixes applied
 
 Version 10.0:
 • Deployment module now can download deployment packages; function available when there are no .dp? files
