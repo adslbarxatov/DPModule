@@ -1,7 +1,8 @@
 ﻿Deployment packages module changes log
 
-Version 10.0.2:
+Version 10.1:
 • Fixed names of some buttons and menu items;
+• Fixed incorrect behavior of ModDB download algorithm;
 • Improved packages downloading interface;
 • Utilities and mods have been moved to different lists;
 • Some code fixes applied

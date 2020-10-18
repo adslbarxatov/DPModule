@@ -370,7 +370,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Информация об актуальной версии пакета</value>
   </data>
   <data name="IconMenuUpdate" xml:space="preserve">
-    <value>Открыть страницу обновлений пакета</value>
+    <value>Открыть веб-страницу пакета</value>
   </data>
   <data name="IconMenuDPUpdate" xml:space="preserve">
     <value>Обновить {0:S} до версии {1:S}</value>
@@ -404,5 +404,8 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="IconAbout" xml:space="preserve">
     <value>О программе {0:S}...</value>
+  </data>
+  <data name="NextSkipButtonText" xml:space="preserve">
+    <value>&amp;Далее / Пропустить &gt;</value>
   </data>
 </root>

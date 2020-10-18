@@ -371,7 +371,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Actual package's version info</value>
   </data>
   <data name="IconMenuUpdate" xml:space="preserve">
-    <value>Open package's updates webpage</value>
+    <value>Open package's webpage</value>
   </data>
   <data name="IconMenuDPUpdate" xml:space="preserve">
     <value>Update {0:S} to version {1:S}</value>
@@ -405,5 +405,8 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="IconAbout" xml:space="preserve">
     <value>About {0:S}...</value>
+  </data>
+  <data name="NextSkipButtonText" xml:space="preserve">
+    <value>&amp;Next / Skip &gt;</value>
   </data>
 </root>
