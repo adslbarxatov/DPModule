@@ -1,14 +1,20 @@
 ﻿Deployment packages module changes log
 
 ToDo:
-- Update changes log processing algorithm;
-- Remove old updates checking method;
-- Add language change and directory set intefaces to context menu;
-- Fix 'download' name;
-- Change user manual link;
-- Replace deployed packages;
-- Add link for list of developments;
-- Add name of currently loading package
+- Allow passing package name as start parameter
+
+Version 10.2:
+• Some code fixes applied;
+• Removed old DPModule updates checking method; updates may be found in “about” window;
+• Fixed names of some buttons;
+• Updated user manual link;
+• Application will move successfully deployed packages to “Deployed” subdirectory;
+  it will allow user to organize them and simplify access to downloading mode;
+• Added link for list of projects and developments in packages download interface;
+• Added name of currently downloading package in packages download interface;
+• Packages download mode can now be called from the tray context menu;
+• Interface language can now be changed from the tray context menu;
+• Deployment path can be restored from the tray context menu
 
 Version 10.1:
 • Fixed names of some buttons and menu items;

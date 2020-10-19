@@ -370,7 +370,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Информация об актуальной версии пакета</value>
   </data>
   <data name="IconMenuUpdate" xml:space="preserve">
-    <value>Открыть веб-страницу пакета</value>
+    <value>Открыть веб-страницу пакета...</value>
   </data>
   <data name="IconMenuDPUpdate" xml:space="preserve">
     <value>Обновить {0:S} до версии {1:S}</value>
@@ -381,7 +381,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="PackageSelectorMessage" xml:space="preserve">
     <value>Выберите пакет для загрузки</value>
   </data>
-  <data name="DownloadButtonText" xml:space="preserve">
+  <data name="Download1ButtonText" xml:space="preserve">
     <value>&amp;Загрузить</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
@@ -391,7 +391,8 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Загрузка списка пакетов...</value>
   </data>
   <data name="PackageDownload" xml:space="preserve">
-    <value>Загрузка установочного пакета...</value>
+    <value>Загрузка установочного пакета:
+</value>
   </data>
   <data name="PackageFailure" xml:space="preserve">
     <value>Не удалось загрузить установочный пакет. Проверьте ваше интернет-подключение</value>
@@ -407,5 +408,26 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="NextSkipButtonText" xml:space="preserve">
     <value>&amp;Далее / Пропустить &gt;</value>
+  </data>
+  <data name="Download2ButtonText" xml:space="preserve">
+    <value>З&amp;агрузить</value>
+  </data>
+  <data name="ListOfProjectsButton" xml:space="preserve">
+    <value>&amp;Список пакетов</value>
+  </data>
+  <data name="IconDownloadPackages" xml:space="preserve">
+    <value>Загрузить другие пакеты...</value>
+  </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Язык интерфейса будет изменён при обработке следующего пакета</value>
+  </data>
+  <data name="FunctionReplaced" xml:space="preserve">
+    <value>Данная функция перемещена в контекстное меню значка программы в трее</value>
+  </data>
+  <data name="IconChangeLanguage" xml:space="preserve">
+    <value>Изменить язык интерфейса</value>
+  </data>
+  <data name="IconRestorePath" xml:space="preserve">
+    <value>Изменить/восстановить путь установки</value>
   </data>
 </root>

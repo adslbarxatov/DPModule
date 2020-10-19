@@ -371,7 +371,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Actual package's version info</value>
   </data>
   <data name="IconMenuUpdate" xml:space="preserve">
-    <value>Open package's webpage</value>
+    <value>Open package's webpage...</value>
   </data>
   <data name="IconMenuDPUpdate" xml:space="preserve">
     <value>Update {0:S} to version {1:S}</value>
@@ -382,8 +382,8 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="PackageSelectorMessage" xml:space="preserve">
     <value>Select package for download</value>
   </data>
-  <data name="DownloadButtonText" xml:space="preserve">
-    <value>%Download</value>
+  <data name="Download1ButtonText" xml:space="preserve">
+    <value>&amp;Download</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
     <value>Deployment packages list is unavailable. Check your internet connection</value>
@@ -392,7 +392,8 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Downloading packages list...</value>
   </data>
   <data name="PackageDownload" xml:space="preserve">
-    <value>Downloading deployment package...</value>
+    <value>Downloading deployment package:
+</value>
   </data>
   <data name="PackageFailure" xml:space="preserve">
     <value>Failed to download deployment package. Check your internet connection</value>
@@ -408,5 +409,26 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="NextSkipButtonText" xml:space="preserve">
     <value>&amp;Next / Skip &gt;</value>
+  </data>
+  <data name="Download2ButtonText" xml:space="preserve">
+    <value>D&amp;ownload</value>
+  </data>
+  <data name="ListOfProjectsButton" xml:space="preserve">
+    <value>&amp;Packages list</value>
+  </data>
+  <data name="IconDownloadPackages" xml:space="preserve">
+    <value>Download other packages...</value>
+  </data>
+  <data name="LanguageChanged" xml:space="preserve">
+    <value>Interface language will be changed on the next package's processing</value>
+  </data>
+  <data name="FunctionReplaced" xml:space="preserve">
+    <value>This function has been moved to tray icon's context menu</value>
+  </data>
+  <data name="IconChangeLanguage" xml:space="preserve">
+    <value>Change interface language</value>
+  </data>
+  <data name="IconRestorePath" xml:space="preserve">
+    <value>Change/restore deployment path</value>
   </data>
 </root>

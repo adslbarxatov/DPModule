@@ -1,5 +1,5 @@
-﻿# DPModule v 10.1
-> CRC32: 50F1DE03
+﻿# DPModule v 10.2
+> CRC32: 8A22B866
 
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
 
@@ -10,11 +10,11 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 ## Изменения
 
 - Пользователь теперь всегда самостоятельно выбирает нужные пакеты в любом удобном расположении и количестве. Для этого при запуске будет отображено соответствующее диалоговое окно.
-- Приложение теперь может загружать установочные пакеты из нашего репозитория. Для этого приложение должно быть запущено с ключом ```-p```, или в одной с ним директории не должно быть ранее загруженных пакетов.
-- Выбор языка интерфейса, как и ранее, доступен при первом запуске и при запуске с ключом ```–l```.
-- Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
-- Как и ранее, программу можно запустить с ключом ```–r```, если требуется восстановить путь установки для какого-либо пакета.
 - Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
+- Приложение теперь может загружать установочные пакеты из нашего репозитория. Для этого в одной с ним директории не должно быть ранее загруженных пакетов. Функцию можно запустить вручную из контекстного меню значка в трее.
+- Выбор языка интерфейса доступен при первом запуске и в контекстном меню значка в трее.
+- Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
+- Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
 - Старые версии установочных пакетов (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) более не поддерживаются.
 
 
@@ -22,11 +22,11 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 ## Changes
 
 - User now always independently selects the necessary packages in any convenient location and quantity. To do this, a corresponding dialog box will be displayed at startup.
-- Application can now download deployment packages from our repository. To do this, app must be launched with the ```-p``` key, or there must be no previously downloaded packages in the same directory with DPModule.
-- Choice of the interface language, as before, is available at the first start and at start with the ```-l``` key.
-- Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
-- As before, app can be launched with the key ```-r``` if you want to restore the installation path for a package.
 - Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
+- Application can now download deployment packages from our repository. To do this, there must be no previously downloaded packages in the same directory with DPModule. Function may be started from tray context menu.
+- Choice of the interface language is available at the first start and in tray context menu.
+- If you want to restore the installation path for a package, you can do this from tray context menu.
+- Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
 - Old versions of installation packages (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) are no longer supported.
 
 

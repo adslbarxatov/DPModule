@@ -301,6 +301,20 @@ namespace RD_AAOW
 			}
 
 		// Метод-исполнитель проверки обновлений
+		private string[][] ucReplacements = new string[][] {
+			new string[] { "<p>", "\r\n\r\n" },
+			new string[] { "<li>", "\r\n• " },
+			new string[] { "</p>", "\r\n" },
+
+			new string[] { "</li>", "" },
+			new string[] { "<ul>", "" },
+			new string[] { "</ul>", "" },
+			new string[] { "<em>", "" },
+			new string[] { "</em>", "" },
+			new string[] { "<code>", "" },
+			new string[] { "</code>", "" }
+			};
+
 		private void UpdatesChecker (object sender, DoWorkEventArgs e)
 			{
 			// Запрос обновлений пакета
@@ -338,9 +352,8 @@ namespace RD_AAOW
 				goto htmlError;
 
 			versionDescription = html.Substring (i, j - i);
-			versionDescription = versionDescription.Replace ("<p>", "\r\n\r\n").Replace ("<li>", "\r\n• ").Replace ("</p>", "\r\n");
-			versionDescription = versionDescription.Replace ("</li>", "").Replace ("<ul>", "").Replace ("</ul>", "").
-				Replace ("<em>", "").Replace ("</em>", "").Replace ("<code>", "").Replace ("</code>", "");
+			for (int r = 0; r < ucReplacements.Length; r++)
+				versionDescription = versionDescription.Replace (ucReplacements[r][0], ucReplacements[r][1]);
 
 			// Отображение результата
 			switch (al)
@@ -413,7 +426,7 @@ htmlError:
 
 			// Инициализация полосы загрузки
 			SupportedLanguages al = Localization.CurrentLanguage;
-			string report = Localization.GetText ("PackageDownload", al);
+			string report = Localization.GetText ("PackageDownload", al) + Path.GetFileName (paths[1]);
 			((BackgroundWorker)sender).ReportProgress ((int)HardWorkExecutor.ProgressBarSize, report);
 
 			// Отправка запроса
