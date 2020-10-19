@@ -1,5 +1,15 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Update changes log processing algorithm;
+- Remove old updates checking method;
+- Add language change and directory set intefaces to context menu;
+- Fix 'download' name;
+- Change user manual link;
+- Replace deployed packages;
+- Add link for list of developments;
+- Add name of currently loading package
+
 Version 10.1:
 • Fixed names of some buttons and menu items;
 • Fixed incorrect behavior of ModDB download algorithm;
