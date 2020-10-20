@@ -3,6 +3,9 @@
 ToDo:
 - Allow passing package name as start parameter
 
+Version 10.2.2:
+• Applied some fixes in packages building algorithm
+
 Version 10.2:
 • Some code fixes applied;
 • Removed old DPModule updates checking method; updates may be found in “about” window;
