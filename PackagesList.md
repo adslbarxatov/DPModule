@@ -9,6 +9,7 @@ FontFinder v 2.12.2				https://github.com/adslbarxatov/DPModule/raw/master/Packa
 Geomag data drawer v 4.17		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		1338213
 LangChanger v 1.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
 Make CST v 1.5u					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
+Make decision v 2.5.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			189193
 UniNotifier v 1.13				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				167676
 
 ESHQ 9							https://www.moddb.com/downloads/start/196465?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_9.7z					165444571
