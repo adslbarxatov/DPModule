@@ -1,10 +1,8 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Allow passing package name as start parameter
-
 Version 10.2.2:
-• Applied some fixes in packages building algorithm
+• Applied some fixes in packages building algorithm;
+• Path to the package now can be passed as command line parameter
 
 Version 10.2:
 • Some code fixes applied;

@@ -1,9 +1,13 @@
 ﻿# DPModule v 10.2
 > CRC32: 8A22B866
 
+
+
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
 
 Модуль развёртывания для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов
+
+&nbsp;
 
 
 
@@ -17,7 +21,7 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 - Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
 - Старые версии установочных пакетов (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) более не поддерживаются.
 
-
+#
 
 ## Changes
 
@@ -29,6 +33,8 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 - Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
 - Old versions of installation packages (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) are no longer supported.
 
+&nbsp;
+
 
 
 ## Requirements / Требования
@@ -36,6 +42,8 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 Needs Windows XP and newer, Framework 4.0 and newer. Interface languages: ru_ru, en_us
 
 Требуется ОС Windows XP и новее, Framework 4.0 и новее. Языки интерфейса: ru_ru, en_us
+
+&nbsp;
 
 
 
@@ -46,6 +54,8 @@ describes general rules that we follow in all of our development processes, rele
 ideas.
 **It must be acquainted by participants and users before using any of laboratory's products.
 By downloading them, you agree to this Policy**
+
+#
 
 Данная [Политика (ADP)](https://vk.com/@rdaaow_fupl-adp), её положения, заключение, EULA и способы применения
 описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
