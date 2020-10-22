@@ -379,10 +379,10 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="HelpText" xml:space="preserve">
     <value>Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
   </data>
-  <data name="PackageSelectorMessage" xml:space="preserve">
+  <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Select package for download</value>
   </data>
-  <data name="Download1ButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_Download1Button" xml:space="preserve">
     <value>&amp;Download</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
@@ -407,13 +407,13 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="IconAbout" xml:space="preserve">
     <value>About {0:S}...</value>
   </data>
-  <data name="NextSkipButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
     <value>&amp;Next / Skip &gt;</value>
   </data>
-  <data name="Download2ButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_Download2Button" xml:space="preserve">
     <value>D&amp;ownload</value>
   </data>
-  <data name="ListOfProjectsButton" xml:space="preserve">
+  <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Packages list</value>
   </data>
   <data name="IconDownloadPackages" xml:space="preserve">
@@ -430,5 +430,11 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="IconRestorePath" xml:space="preserve">
     <value>Change/restore deployment path</value>
+  </data>
+  <data name="PackageSelectorForm_Label02" xml:space="preserve">
+    <value>Utilities:</value>
+  </data>
+  <data name="PackageSelectorForm_Label03" xml:space="preserve">
+    <value>Mods:</value>
   </data>
 </root>

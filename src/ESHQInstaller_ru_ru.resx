@@ -378,10 +378,10 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="HelpText" xml:space="preserve">
     <value>Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
   </data>
-  <data name="PackageSelectorMessage" xml:space="preserve">
+  <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Выберите пакет для загрузки</value>
   </data>
-  <data name="Download1ButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_Download1Button" xml:space="preserve">
     <value>&amp;Загрузить</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
@@ -406,13 +406,13 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="IconAbout" xml:space="preserve">
     <value>О программе {0:S}...</value>
   </data>
-  <data name="NextSkipButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
     <value>&amp;Далее / Пропустить &gt;</value>
   </data>
-  <data name="Download2ButtonText" xml:space="preserve">
+  <data name="PackageSelectorForm_Download2Button" xml:space="preserve">
     <value>З&amp;агрузить</value>
   </data>
-  <data name="ListOfProjectsButton" xml:space="preserve">
+  <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Список пакетов</value>
   </data>
   <data name="IconDownloadPackages" xml:space="preserve">
@@ -429,5 +429,11 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="IconRestorePath" xml:space="preserve">
     <value>Изменить/восстановить путь установки</value>
+  </data>
+  <data name="PackageSelectorForm_Label02" xml:space="preserve">
+    <value>Утилиты:</value>
+  </data>
+  <data name="PackageSelectorForm_Label03" xml:space="preserve">
+    <value>Модификации:</value>
   </data>
 </root>
