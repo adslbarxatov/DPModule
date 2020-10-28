@@ -55,7 +55,7 @@ jobs:
           # https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_path: Release/"$env.PROJ".exe
-          asset_name: $"env.PROJ".exe
+          asset_name: "$env.PROJ".exe
           asset_content_type: application/x-msdownload
 
       - name: Cleanup
