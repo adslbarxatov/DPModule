@@ -37,15 +37,21 @@ jobs:
 
       - name: Upload release asset
         id: upload-release-asset 
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/github-script@v2
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: /Release/${{ env.PROJ }}.exe
-          asset_name: ${{ env.PROJ }}.exe
-          asset_content_type: application/x-msdownload
+          github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          const fs = require('fs').promises;
+          const { repo: { owner, repo }, sha } = context;
 
-      - name: Cleanup
-        run: |
+          for (let file of await fs.readdir('./Release')) 
+            {
+            await github.repos.uploadReleaseAsset({
+              owner, repo,
+              release_id: ${{ steps.create_release.outputs.id }},
+              name: file,
+              data: await fs.readFile('./Release/${file}')
+              });
+            }
+
           rm 'Release/${{ env.PROJ }}.exe'
