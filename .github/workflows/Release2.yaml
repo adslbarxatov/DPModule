@@ -7,7 +7,6 @@ env:
 on:
   push:
     branches: [ master ]
-    types: [ created ]    
     paths: 
     - Release/$PROJ.exe
 
