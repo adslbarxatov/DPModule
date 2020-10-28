@@ -4,26 +4,27 @@ name: Release
 on:
   push:
     branches: [ master ]
-    paths: 
-    - Release/*.exe
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  check:
+    name: Project check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check files
+        id: check_files
+        uses: trilom/file-changes-action@v1.2.3
+
   build:
     name: Project release
     runs-on: ubuntu-latest
     env:
       PROJ: DPModule
       TAG: 10.3b
+
+    if: contains (steps.check_files.outputs.files_added, '.exe')
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-#      - name: Build project # This would actually build your project, using zip for an example artifact
-#        run: |
-#        zip --junk-paths my-artifact README.md
-
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
@@ -50,14 +51,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object,
-          # which include a `upload_url`. See this blog post for more info:
-          # https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: Release/"$env.PROJ".exe
-          asset_name: "$env.PROJ".exe
+          asset_path: Release/${{ PROJ }}.exe
+          asset_name: ${{ PROJ }}.exe
           asset_content_type: application/x-msdownload
 
       - name: Cleanup
         run: |
-          rm Release/"$env.PROJ".exe
+          rm 'Release/${{ PROJ }}.exe'
