@@ -1,11 +1,11 @@
-name: Release
+name: Release 2
 
 # Controls when the action will run. Triggers the workflow on push but only for the master branch
 on:
   push:
     branches: [ master ]
     paths: 
-    - Release/$PROJ.exe
+    - Release/*.exe
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
