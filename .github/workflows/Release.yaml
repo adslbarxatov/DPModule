@@ -49,7 +49,7 @@ jobs:
             for (let file of await fs.readdir('./Release')) {
               await github.repos.uploadReleaseAsset({
                 owner, repo,
-                release_id: ${env.RID},
+                release_id: $RID,
                 name: file,
                 data: await fs.readFile('./Release/${file}')
                 });
