@@ -36,8 +36,10 @@ jobs:
           prerelease: false
 
       - name: Upload release asset
-        id: upload-release-asset 
+        id: upload-release-asset
         uses: actions/github-script@v2
+        env:
+          RID: ${{ steps.create_release.outputs.id }}
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
@@ -48,7 +50,7 @@ jobs:
               {
               await github.repos.uploadReleaseAsset({
                 owner, repo,
-                release_id: ${{ steps.create_release.outputs.id }},
+                release_id: ${RID},
                 name: file,
                 data: await fs.readFile('./Release/${file}')
                 });
