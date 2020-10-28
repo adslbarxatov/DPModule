@@ -2,20 +2,11 @@ name: Release
 
 # Controls when the action will run. Triggers the workflow on push but only for the master branch
 on:
-  push:
+  workflow_dispatch:
     branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  check:
-    name: Project check
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check files
-        id: check_files
-        uses: trilom/file-changes-action@v1.2.3
-
   build:
     name: Project release
     runs-on: ubuntu-latest
@@ -23,7 +14,6 @@ jobs:
       PROJ: DPModule
       TAG: 10.3b
 
-    if: contains (steps.check_files.outputs.files_added, '.exe')
     steps:
       - name: Create release
         id: create_release
