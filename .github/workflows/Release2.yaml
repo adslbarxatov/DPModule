@@ -1,7 +1,4 @@
 name: Release
-env:
-  PROJ: DPModule
-  TAG: v10.3b
 
 # Controls when the action will run. Triggers the workflow on push but only for the master branch
 on:
@@ -16,6 +13,9 @@ jobs:
   build:
     name: Project release
     runs-on: ubuntu-latest
+    env:
+      PROJ: DPModule
+      TAG: v10.3b
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
