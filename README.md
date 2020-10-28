@@ -5,7 +5,6 @@
 
 
 
-
 Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
 
 Модуль развёртывания для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов
