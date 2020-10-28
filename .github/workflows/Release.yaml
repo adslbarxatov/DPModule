@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJ: DPModule
-      TAG: 10.3c
+      TAG: 10.3b
 
     steps:
       - name: Create release
@@ -51,5 +51,5 @@ jobs:
                 name: file,
                 data: await fs.readFile('target/Release/${file}')
                 });
-              rm ./targets/Release/${file}
+              rm target/Release/${file}
               }
