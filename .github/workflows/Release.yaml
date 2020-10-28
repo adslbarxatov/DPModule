@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJ: DPModule
-      TAG: 10.3d
+      TAG: 10.3c
 
     steps:
       - name: Create release
@@ -41,16 +41,15 @@ jobs:
         env:
           RID: ${{ steps.create_release.outputs.id }}
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('./Release')) 
-              {
+            for (let file of await fs.readdir('./Release')) {
               await github.repos.uploadReleaseAsset({
                 owner, repo,
-                release_id: ${RID},
+                release_id: ${env.RID},
                 name: file,
                 data: await fs.readFile('./Release/${file}')
                 });
