@@ -44,13 +44,13 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('./Release/')){
+            for (let file of await fs.readdir('/Release')){
               await github.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,
-                data: await fs.readFile('./Release/${file}')
+                data: await fs.readFile('/Release/${file}')
                 });
               }
 
-#            rm Release/${{ env.PROJ }}.exe
+#            rm /Release/${{ env.PROJ }}.exe
