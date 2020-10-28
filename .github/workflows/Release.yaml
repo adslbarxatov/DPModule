@@ -52,10 +52,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: Release/${{ PROJ }}.exe
-          asset_name: ${{ PROJ }}.exe
+          asset_path: Release/${{ env.PROJ }}.exe
+          asset_name: ${{ env.PROJ }}.exe
           asset_content_type: application/x-msdownload
 
       - name: Cleanup
         run: |
-          rm 'Release/${{ PROJ }}.exe'
+          rm 'Release/${{ env.PROJ }}.exe'
