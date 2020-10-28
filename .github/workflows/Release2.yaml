@@ -1,4 +1,4 @@
-name: Release 2
+name: Release
 
 # Controls when the action will run. Triggers the workflow on push but only for the master branch
 on:
@@ -30,10 +30,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $TAG
-          release_name: $PROJ $TAG
+          tag_name: ${{ TAG }}
+          release_name: ${{ PROJ }} ${{ TAG }}
           body: |
-            _Changes for v $TAG_:
+            _Changes for v {{ $TAG }}_:
             - Updates for DPModule now will be processed in stand-alone algorithm; updates for module are required now (downloading of other packages will not be available without them);
             - Some improvements applied to packages download interface;
             - Some improvements applied to building algorithm;
@@ -54,10 +54,10 @@ jobs:
           # which include a `upload_url`. See this blog post for more info:
           # https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: Release/$PROJ.exe
-          asset_name: $PROJ.exe
+          asset_path: Release/${{ PROJ }}.exe
+          asset_name: ${{ PROJ }}.exe
           asset_content_type: application/x-msdownload
 
       - name: Cleanup
         run: |
-          rm Release/$PROJ.exe
+          rm Release/${{ PROJ }}.exe
