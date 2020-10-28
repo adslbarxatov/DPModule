@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJ: DPModule
-      TAG: 10.3b
+      TAG: 10.3c
 
     steps:
       - name: Create release
@@ -44,7 +44,7 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('./Release')) {
+            for (let file of await fs.readdir('./Release')){
               await github.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
@@ -53,4 +53,4 @@ jobs:
                 });
               }
 
-            rm 'Release/${{ env.PROJ }}.exe'
+#            rm Release/${{ env.PROJ }}.exe
