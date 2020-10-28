@@ -23,7 +23,7 @@ jobs:
       PROJ: DPModule
       TAG: 10.3b
 
-    if: contains (steps.check_files.outputs.files_added, '.exe')
+    if: contains (${{ steps.check_files.outputs.files_added }}, '.exe')
     steps:
       - name: Create release
         id: create_release
