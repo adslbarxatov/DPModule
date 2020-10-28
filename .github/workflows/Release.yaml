@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJ: DPModule
-      TAG: v10.3b
+      TAG: 10.3b
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -30,8 +30,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.TAG }}
-          release_name: ${{ env.PROJ }} ${{ env.TAG }}
+          tag_name: v${{ env.TAG }}
+          release_name: ${{ env.PROJ }} v ${{ env.TAG }}
           body: |
             _Changes for v ${{ env.TAG }}_:
             - Updates for DPModule now will be processed in stand-alone algorithm; updates for module are required now (downloading of other packages will not be available without them);
@@ -54,10 +54,10 @@ jobs:
           # which include a `upload_url`. See this blog post for more info:
           # https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: Release/${{ env.PROJ }}.exe
-          asset_name: ${{ env.PROJ }}.exe
+          asset_path: Release/"$env.PROJ".exe
+          asset_name: $"env.PROJ".exe
           asset_content_type: application/x-msdownload
 
       - name: Cleanup
         run: |
-          rm Release/${{ env.PROJ }}.exe
+          rm Release/"$env.PROJ".exe
