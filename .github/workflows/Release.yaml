@@ -51,5 +51,5 @@ jobs:
                 name: file,
                 data: await fs.readFile('target/Release/${file}')
                 });
-#              rm 'target/Release/${file}'
               }
+#              rm 'target/Release/${file}'
