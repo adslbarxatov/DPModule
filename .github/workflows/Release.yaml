@@ -15,7 +15,7 @@ jobs:
 # Константы, используемые далее по тексту
     env:
       PROJ: DPModule
-      TAG: 10.3d
+      TAG: 10.3c
 
     steps:
 # Проверка состава репозитория (без анализа, как может показаться)
@@ -58,7 +58,7 @@ jobs:
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,
-                data: await fs.readFile('${file}')
+                data: await fs.readFile(`${file}`)
                 });
+                rm file
               }
-#                rm '${file}'
