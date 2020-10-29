@@ -31,7 +31,7 @@ jobs:
         with:
           tag_name: v${{ env.TAG }}
           release_name: ${{ env.PROJ }} v ${{ env.TAG }}
-          body_path: Release.md
+          body_path: Release/Release.md
           draft: false
           prerelease: false
 
