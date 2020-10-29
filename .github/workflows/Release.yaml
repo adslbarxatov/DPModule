@@ -15,7 +15,7 @@ jobs:
 # Константы, используемые далее по тексту
     env:
       PROJ: DPModule
-      TAG: 10.3c
+      TAG: 10.3d
 
     steps:
 # Проверка состава репозитория (без анализа, как может показаться)
@@ -60,5 +60,5 @@ jobs:
                 name: file,
                 data: await fs.readFile(`./Release/${file}`)
                 });
-              fs.rm (`./Release/${file}`);
+              await fs.unlink (`./Release/${file}`);
               }
