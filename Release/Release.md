@@ -1,4 +1,4 @@
-_Changes for v ${{ env.TAG }}_:
+_Changes for v 10.3b_:
 - Updates for DPModule now will be processed in stand-alone algorithm; updates for module are required now (downloading of other packages will not be available without them);
 - Some improvements applied to packages download interface;
 - Some improvements applied to building algorithm;

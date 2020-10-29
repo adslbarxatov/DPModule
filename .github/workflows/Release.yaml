@@ -15,7 +15,7 @@ jobs:
 # Константы, используемые далее по тексту
     env:
       PROJ: DPModule
-      TAG: 10.3d
+      TAG: 10.3c
 
     steps:
 # Проверка состава репозитория (без анализа, как может показаться)
@@ -45,6 +45,7 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
+            await fs.unlink (`./Release/Release.md`);
             for (let file of await fs.readdir('./Release')){
               await github.repos.uploadReleaseAsset({
                 owner, repo,
@@ -52,5 +53,4 @@ jobs:
                 name: file,
                 data: await fs.readFile(`./Release/${file}`)
                 });
-              await fs.unlink (`./Release/${file}`);
               }
