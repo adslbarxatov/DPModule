@@ -1,20 +1,28 @@
+# Действие, формирующее релиз
 name: Release
 
-# Controls when the action will run. Triggers the workflow on push but only for the master branch
+# Активация по ручному вызову
 on:
   workflow_dispatch:
     branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Содержит одно задание build с названием Project release с несколькими шагами
 jobs:
   build:
     name: Project release
     runs-on: ubuntu-latest
+    
+# Константы, используемые далее по тексту
     env:
       PROJ: DPModule
-      TAG: 10.3c
+      TAG: 10.3b
 
     steps:
+# Проверка состава репозитория (без анализа, как может показаться)
+      - name: Checkout code
+        uses: actions/checkout@v2
+  
+# Формирование релиза
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
@@ -35,6 +43,7 @@ jobs:
           draft: false
           prerelease: false
 
+# Загрузка бинарных файлов в релиз
       - name: Upload release asset
         id: upload-release-asset
         uses: actions/github-script@v2
@@ -44,12 +53,12 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('target/Release')){
+            for (let file of await fs.readdir('/Release')){
               await github.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,
-                data: await fs.readFile('target/Release/${file}')
+                data: await fs.readFile('/Release/${file}')
                 });
               }
 #              rm 'target/Release/${file}'
