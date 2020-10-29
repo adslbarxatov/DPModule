@@ -15,7 +15,7 @@ jobs:
 # Константы, используемые далее по тексту
     env:
       PROJ: DPModule
-      TAG: 10.3b
+      TAG: 10.3c
 
     steps:
 # Проверка состава репозитория (без анализа, как может показаться)
@@ -53,12 +53,12 @@ jobs:
             const fs = require('fs').promises;
             const { repo: { owner, repo }, sha } = context;
 
-            for (let file of await fs.readdir('/Release')){
+            for (let file of await fs.readdir('./Release')){
               await github.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,
-                data: await fs.readFile('/Release/${file}')
+                data: await fs.readFile('./Release/${file}')
                 });
               }
-#              rm 'target/Release/${file}'
+#              rm './Release/${file}'
