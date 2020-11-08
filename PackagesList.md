@@ -7,7 +7,7 @@ BExplorer v 2.17.2				https://github.com/adslbarxatov/DPModule/raw/master/Packag
 ConcurrentDraw v 1.51			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x00079D32
 FileExtensionsManager v 1.5.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0003855D
 FontFinder v 2.12.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				178424
-Geomag data drawer v 4.17.2		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00147B67
+Geomag data drawer v 4.17.2		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00147D67
 LangChanger v 1.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
 Make CST v 1.5u					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
 Make decision v 2.5.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			189193
