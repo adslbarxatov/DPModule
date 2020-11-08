@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 10.3.2:
+• Added ability to register file associations;
+• Added protection against multiple launch;
+• Some code improvements applied
+
 Version 10.3:
 • Updates for DPModule now will be processed in stand-alone algorithm; updates for module are required now
   (downloading of other packages will not be available without them)

@@ -321,7 +321,7 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
     <value>&lt;недоступна&gt;</value>
   </data>
   <data name="AlreadyStarted" xml:space="preserve">
-    <value> уже запущена</value>
+    <value>Программа {0:S} уже запущена</value>
   </data>
   <data name="PathRestoreText" xml:space="preserve">
     <value>Вас приветствует {0:S}!
@@ -428,12 +428,24 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Изменить язык интерфейса</value>
   </data>
   <data name="IconRestorePath" xml:space="preserve">
-    <value>Изменить/восстановить путь установки</value>
+    <value>Восстановить путь установки пакета</value>
   </data>
   <data name="PackageSelectorForm_Label02" xml:space="preserve">
     <value>Утилиты:</value>
   </data>
   <data name="PackageSelectorForm_Label03" xml:space="preserve">
     <value>Модификации:</value>
+  </data>
+  <data name="dp0file" xml:space="preserve">
+    <value>Пакет развёртки версии 10</value>
+  </data>
+  <data name="dp9file" xml:space="preserve">
+    <value>Пакет развёртки версии 9</value>
+  </data>
+  <data name="DPFilter" xml:space="preserve">
+    <value>Пакеты развёртки версий 9 и 10</value>
+  </data>
+  <data name="IconRegisterExt" xml:space="preserve">
+    <value>Зарегистрировать ассоц. файлов</value>
   </data>
 </root>

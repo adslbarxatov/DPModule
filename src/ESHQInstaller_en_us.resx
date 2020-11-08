@@ -322,7 +322,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>&lt;unavailable&gt;</value>
   </data>
   <data name="AlreadyStarted" xml:space="preserve">
-    <value> already started</value>
+    <value>{0:S} is already started</value>
   </data>
   <data name="PathRestoreText" xml:space="preserve">
     <value>You are welcomed by {0:S}!
@@ -429,12 +429,24 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Change interface language</value>
   </data>
   <data name="IconRestorePath" xml:space="preserve">
-    <value>Change/restore deployment path</value>
+    <value>Restore package's deployment path</value>
   </data>
   <data name="PackageSelectorForm_Label02" xml:space="preserve">
     <value>Utilities:</value>
   </data>
   <data name="PackageSelectorForm_Label03" xml:space="preserve">
     <value>Mods:</value>
+  </data>
+  <data name="dp0file" xml:space="preserve">
+    <value>Deployment package v 10</value>
+  </data>
+  <data name="dp9file" xml:space="preserve">
+    <value>Deployment package v 9</value>
+  </data>
+  <data name="DPFilter" xml:space="preserve">
+    <value>Deployment packages v 9, v 10</value>
+  </data>
+  <data name="IconRegisterExt" xml:space="preserve">
+    <value>Register file associations</value>
   </data>
 </root>
