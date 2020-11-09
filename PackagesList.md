@@ -6,7 +6,7 @@ Batch image convertor v 2.14.2	https://github.com/adslbarxatov/DPModule/raw/mast
 BExplorer v 2.17.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x0017190E
 ConcurrentDraw v 1.51			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x00079D32
 FileExtensionsManager v 1.5.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0003855D
-FontFinder v 2.12.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				178424
+FontFinder v 2.12.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0002C0F8
 Geomag data drawer v 4.17.2		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00147D67
 LangChanger v 1.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
 Make CST v 1.5u					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
