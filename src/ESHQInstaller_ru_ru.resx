@@ -448,4 +448,10 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Зарегистрировать ассоц. файлов</value>
   </data>
+  <data name="NotInstalledMessage" xml:space="preserve">
+    <value> (новое)</value>
+  </data>
+  <data name="UpdatableMessage" xml:space="preserve">
+    <value> (обновление)</value>
+  </data>
 </root>

@@ -449,4 +449,10 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Register file associations</value>
   </data>
+  <data name="NotInstalledMessage" xml:space="preserve">
+    <value> (new)</value>
+  </data>
+  <data name="UpdatableMessage" xml:space="preserve">
+    <value> (update)</value>
+  </data>
 </root>
