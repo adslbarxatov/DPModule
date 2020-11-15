@@ -8,8 +8,8 @@ ConcurrentDraw v 1.51			https://github.com/adslbarxatov/DPModule/raw/master/Pack
 FileExtensionsManager v 1.5.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0003855D
 FontFinder v 2.12.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0002C0F8
 Geomag data drawer v 4.17.2		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00147D67
-LangChanger v 1.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
-Make CST v 1.5u					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
+LangChanger v 1.2!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
+Make CST v 1.5u!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
 Make decision v 2.5.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002ED09
 OS macros executor v 2.6.3		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00031D3E
 Screen shooter v 1.6.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x00028F12
