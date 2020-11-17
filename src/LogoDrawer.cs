@@ -15,7 +15,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс обеспечивает отображение логотипа мода
 	/// </summary>
-	public partial class LogoDrawer:Form
+	public partial class LogoDrawer: Form
 		{
 		// Переменные
 		private const int scale = 130;                          // Главный масштабный множитель
@@ -97,7 +97,7 @@ namespace RD_AAOW
 			// Инициализация
 			Random rnd = new Random ();
 #if LDDEBUG
-			extended = 2;
+			extended = 0;
 #else
 			extended = ((rnd.Next (5) == 0) ? (uint)rnd.Next (1, 4) : 0);
 #endif
@@ -134,6 +134,9 @@ namespace RD_AAOW
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
+			//logo4b = new Bitmap (this.Width, this.Height);
+			//g = Graphics.FromImage (logo4b);
+			//g.FillRectangle (backBrush, 0, 0, this.Width, this.Height);
 			g = Graphics.FromHwnd (this.Handle);
 			g.TextRenderingHint = TextRenderingHint.SingleBitPerPixelGridFit;   // Убирает ауру на буквах в Win8
 
@@ -614,6 +617,7 @@ namespace RD_AAOW
 				g2 = Graphics.FromImage (logo1tmp);
 				g2.CopyFromScreen (0, 0, 0, 0, new Size (this.Width, this.Height), CopyPixelOperation.SourceCopy);
 				g2.Dispose ();
+				//Bitmap logo1tmp = new Bitmap (logo4b);
 
 				// "Фото" лого
 				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (scale + tailsSize), this.Height / 2 - (int)(scale / 2 + tailsSize),
@@ -631,6 +635,7 @@ namespace RD_AAOW
 				// Продолжение
 				MovingTimer.Enabled = true;
 				}
+			//logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
 			}
 
 		// Смещение лого и отрисовка подписи
@@ -664,6 +669,8 @@ namespace RD_AAOW
 				MovingTimer.Enabled = false;
 				PauseTimer.Enabled = true;
 				}
+
+			//logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
 			}
 
 		// Таймер задержки лого на экране
@@ -671,6 +678,7 @@ namespace RD_AAOW
 			{
 			// Остановка основного режима
 			PauseTimer.Enabled = false;
+			//logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
 
 			if (extended == 0)
 				{

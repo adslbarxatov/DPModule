@@ -83,11 +83,14 @@ namespace RD_AAOW
 		/// <param name="Description">Описание программы и/или справочная информация</param>
 		/// <param name="StartupMode">Флаг, указывающий, что справка не должна отображаться, если
 		/// она уже была показана для данной версии приложения</param>
-		public void ShowAbout (SupportedLanguages InterfaceLanguage, string Description, bool StartupMode)
+		/// <returns>Возвращает 1, если справка уже отображалась для данной версии (при StartupMode == true);
+		/// Другое значение, если окно справки было отображено</returns>
+		public int ShowAbout (SupportedLanguages InterfaceLanguage, string Description, bool StartupMode)
 			{
 			al = InterfaceLanguage;
 			description = Description;
-			LaunchForm (StartupMode, false);
+
+			return LaunchForm (StartupMode, false);
 			}
 
 		/// <summary>
