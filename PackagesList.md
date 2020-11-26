@@ -17,7 +17,7 @@ Sudoku solver v 2.2.2			https://github.com/adslbarxatov/DPModule/raw/master/Pack
 Tables merger v 1.5.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0004F109
 Text to KKT v 3.11				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x0005B5B0
 Vector image generator v 1.8.2	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x0002AB54
-UniNotifier v 1.14				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x000298FC
+UniNotifier v 1.15				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x00029EFC
 
 ESHQ 9							https://www.moddb.com/downloads/start/196465?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_9.7z					165444571
 ESHQ update to v 9.4r			https://www.moddb.com/downloads/start/202236?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_9_4r.7z	45725127
