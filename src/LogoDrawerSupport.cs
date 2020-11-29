@@ -9,7 +9,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает отрисовочный слой
 	/// </summary>
-	public class LogoDrawerLayer:IDisposable
+	public class LogoDrawerLayer: IDisposable
 		{
 		// Переменные
 		private bool isInited = false;
@@ -100,7 +100,7 @@ namespace RD_AAOW
 		/// <summary>
 		/// Количество возможных стартовых позиций
 		/// </summary>
-		public const uint ObjectStartupPositionsCount = 14;
+		public const uint ObjectStartupPositionsCount = 11;
 
 		/// <summary>
 		/// Количество возможных типов объектов
@@ -110,7 +110,7 @@ namespace RD_AAOW
 		/// <summary>
 		/// Доля поля текста
 		/// </summary>
-		public const double TextFieldPart = 3.0 / 8.0;				// Часть поля отрисовки, занимаемая текстом
+		public const double TextFieldPart = 3.0 / 8.0;              // Часть поля отрисовки, занимаемая текстом
 
 		/// <summary>
 		/// Метод приводит исходные метрики объекта к допустимым диапазонам
@@ -312,7 +312,7 @@ namespace RD_AAOW
 		/// <param name="OppositeValue">Известная координата требуемой точки</param>
 		/// <param name="IsAbscissa">Тип известной координаты требуемой точки</param>
 		/// <returns>Возвращает вторую координату точки</returns>
-		public static int EvaluateLinearCoordinate (int MasterX, int MasterY, int StepX, int StepY, 
+		public static int EvaluateLinearCoordinate (int MasterX, int MasterY, int StepX, int StepY,
 			int OppositeValue, bool IsAbscissa)
 			{
 			if (IsAbscissa)
@@ -684,17 +684,17 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает визуальный объект 'сфера' для вывода на экран в расширенном режиме
 	/// </summary>
-	public class LogoDrawerSphere:IDisposable, ILogoDrawerObject
+	public class LogoDrawerSphere: IDisposable, ILogoDrawerObject
 		{
 		// Переменные и константы
-		private Random rnd;				// ГПСЧ (обязательно извне)
-		private int maxFluctuation;		// Максимальный дребезг скорости
-		private int endX;				// Конечная позиция по горизонтали
-		private int endY;				// Конечная позиция по вертикали
-		private float speedX, initSpeedX;	// Горизонтальная скорость, начальная скорость
-		private float speedY, initSpeedY;	// Вертикальная скорость, начальная скорость
-		private float ρ;				// Радиус описанной окружности для объекта
-		private SolidBrush objectBrush;	// Кисть для отрисовки объекта
+		private Random rnd;             // ГПСЧ (обязательно извне)
+		private int maxFluctuation;     // Максимальный дребезг скорости
+		private int endX;               // Конечная позиция по горизонтали
+		private int endY;               // Конечная позиция по вертикали
+		private float speedX, initSpeedX;   // Горизонтальная скорость, начальная скорость
+		private float speedY, initSpeedY;   // Вертикальная скорость, начальная скорость
+		private float ρ;                // Радиус описанной окружности для объекта
+		private SolidBrush objectBrush; // Кисть для отрисовки объекта
 
 		/// <summary>
 		/// Статус инициализации объекта
@@ -788,9 +788,7 @@ namespace RD_AAOW
 			switch (metrics.StartupPosition)
 				{
 				case LogoDrawerObjectStartupPositions.Left:
-				//case LogoDrawerObjectStartupPositions.LeftFlat:
 				case LogoDrawerObjectStartupPositions.Right:
-					//case LogoDrawerObjectStartupPositions.RightFlat:
 					speedX = rnd.Next ((int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 					speedY = 0;
 
@@ -806,10 +804,7 @@ namespace RD_AAOW
 						speedX *= -1;
 						}
 
-					/*if (!LogoDrawerSupport.IsFlat (metrics.StartupPosition))*/
 					endY = y = rnd.Next ((int)(ScreenHeight + ρ)) - (int)(ρ / 2);
-					/*else
-						endY = y = (int)(ScreenHeight2 * (1.0 - LogoDrawerSupport.TextFieldPart));*/
 					break;
 
 				case LogoDrawerObjectStartupPositions.Top:
@@ -871,16 +866,11 @@ namespace RD_AAOW
 
 				case LogoDrawerObjectStartupPositions.CenterRandom:
 				case LogoDrawerObjectStartupPositions.Random:
-				//case LogoDrawerObjectStartupPositions.CenterFlat:
 				case LogoDrawerObjectStartupPositions.ToCenterRandom:
 				default:
-					while ((speedX == 0) && (speedY == 0) /*||
-						(metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat) && (speedX == 0)*/)
+					while ((speedX == 0) && (speedY == 0))
 						{
 						speedX = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
-						/*if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat)
-							speedY = -rnd.Next (LogoDrawerSupport.AccelerationBorder + 1);
-						else*/
 						speedY = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 
 						if (metrics.MaxSpeed == 0)
@@ -889,26 +879,23 @@ namespace RD_AAOW
 
 					if (LogoDrawerSupport.IsCenter (metrics.StartupPosition))
 						{
-						x = (int)ScreenCenterX;	// (int)ScreenWidth / 2;
-						/*if (LogoDrawerSupport.IsFlat (metrics.StartupPosition))
-							y = (int)(ScreenHeight2 * (1.0 - LogoDrawerSupport.TextFieldPart));
-						else*/
-						y = (int)ScreenCenterY;	// (int)(ScreenHeight / 2);
+						x = (int)ScreenCenterX;
+						y = (int)ScreenCenterY;
 						}
 					else if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
-						endX = (int)ScreenCenterX;	// (int)ScreenWidth / 2;
-						endY = (int)ScreenCenterY;	// (int)ScreenHeight / 2;
+						endX = (int)ScreenCenterX;
+						endY = (int)ScreenCenterY;
 
 						if (Math.Abs (speedX) > Math.Abs (speedY))
 							{
-							x = (speedX < 0) ? ((int)(ScreenWidth + ρ + speedX) + maxFluctuation) :
+							x = (speedX < 0) ? ((int)(ScreenWidth + ρ - speedX) + maxFluctuation) :
 								(-(int)(ρ + speedX) - maxFluctuation);
 							y = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, x, true);
 							}
 						else
 							{
-							y = (speedY < 0) ? ((int)(ScreenHeight + ρ + speedY) + maxFluctuation) :
+							y = (speedY < 0) ? ((int)(ScreenHeight + ρ - speedY) + maxFluctuation) :
 								(-(int)(ρ + speedY) - maxFluctuation);
 							x = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, y, false);
 							}
@@ -922,9 +909,9 @@ namespace RD_AAOW
 					if (metrics.StartupPosition != LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
 						endX = (speedX > 0) ? ((int)(ScreenWidth + ρ + speedX) + maxFluctuation) :
-							(-(int)(ρ + speedX) - maxFluctuation);		// Фикс против преждевременного
+							(-(int)(ρ - speedX) - maxFluctuation);      // Фикс против преждевременного
 						endY = (speedY > 0) ? ((int)(ScreenHeight + ρ + speedY) + maxFluctuation) :
-							(-(int)(ρ + speedY) - maxFluctuation);		// 'перепрыгивания' порога
+							(-(int)(ρ - speedY) - maxFluctuation);      // 'перепрыгивания' порога
 						}
 
 					break;
@@ -935,7 +922,7 @@ namespace RD_AAOW
 			initSpeedY = (speedX * speedY == 0.0f) ? 1 : (speedY / Math.Abs (speedX));
 
 			isInited = true;
-			Move (0, 0);		// Генерация изображения
+			Move (0, 0);        // Генерация изображения
 			}
 
 		/// <summary>
@@ -954,8 +941,7 @@ namespace RD_AAOW
 			speedX += Acceleration * initSpeedX / 10.0f;
 
 			y += ((int)speedY + rnd.Next (-maxFluctuation, maxFluctuation + 1));
-			//if ((speedY > LogoDrawerSupport.AccelerationBorder) || (speedY < -LogoDrawerSupport.AccelerationBorder))
-			speedY += Acceleration * initSpeedY / 10.0f;	// Пропорциональное смещение
+			speedY += Acceleration * initSpeedY / 10.0f;    // Пропорциональное смещение
 
 			if ((Enlarging > 0) || (Enlarging < 0) && (ρ > -Enlarging + 2))
 				ρ += Enlarging / 10.0f;
@@ -987,22 +973,22 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает визуальный объект 'многоугольник' для вывода на экран в расширенном режиме
 	/// </summary>
-	public class LogoDrawerSquare:IDisposable, ILogoDrawerObject
+	public class LogoDrawerSquare: IDisposable, ILogoDrawerObject
 		{
 		// Переменные и константы
-		private Random rnd;				// ГПСЧ (обязательно извне)
-		private int maxFluctuation;		// Максимальный дребезг скорости
-		private float speedX, initSpeedX;	// Скорость горизонтального смещения, начальная скорость
-		private float speedY, initSpeedY;	// Скорость вертикального смещения, начальная скорость
-		private int speedOfRotation;	// Скорость вращения
-		private uint sidesCount;		// Количество сторон многоугольника
-		private int endX;				// Конечная позиция по горизонтали
-		private int endY;				// Конечная позиция по вертикали
-		private bool star;				// Флаг преобразования многоугольника в звезду
-		private float ρ;				// Радиус описанной окружности для объекта
-		private int φ;					// Угол поворота объекта
-		private SolidBrush objectBrush;	// Кисть для отрисовки объекта
-		private bool rotation;			// Флаг вращения объекта
+		private Random rnd;             // ГПСЧ (обязательно извне)
+		private int maxFluctuation;     // Максимальный дребезг скорости
+		private float speedX, initSpeedX;   // Скорость горизонтального смещения, начальная скорость
+		private float speedY, initSpeedY;   // Скорость вертикального смещения, начальная скорость
+		private int speedOfRotation;    // Скорость вращения
+		private uint sidesCount;        // Количество сторон многоугольника
+		private int endX;               // Конечная позиция по горизонтали
+		private int endY;               // Конечная позиция по вертикали
+		private bool star;              // Флаг преобразования многоугольника в звезду
+		private float ρ;                // Радиус описанной окружности для объекта
+		private int φ;                  // Угол поворота объекта
+		private SolidBrush objectBrush; // Кисть для отрисовки объекта
+		private bool rotation;          // Флаг вращения объекта
 
 		/// <summary>
 		/// Статус инициализации объекта
@@ -1077,7 +1063,7 @@ namespace RD_AAOW
 			Random Randomizer, LogoDrawerObjectMetrics Metrics)
 			{
 			// Контроль
-			LogoDrawerObjectMetrics metrics = Metrics;	// LogoDrawerSupport.AlingMetrics (Metrics);
+			LogoDrawerObjectMetrics metrics = Metrics;  // LogoDrawerSupport.AlingMetrics (Metrics);
 			if (Randomizer == null)
 				return;
 
@@ -1096,7 +1082,7 @@ namespace RD_AAOW
 				}
 			else
 				{
-				φ = (360 * 3) / (metrics.PolygonsSidesCount * 4);	// Ориентация вверх
+				φ = (360 * 3) / (metrics.PolygonsSidesCount * 4);   // Ориентация вверх
 				speedOfRotation = 0;
 				}
 
@@ -1109,9 +1095,7 @@ namespace RD_AAOW
 			switch (metrics.StartupPosition)
 				{
 				case LogoDrawerObjectStartupPositions.Left:
-				//case LogoDrawerObjectStartupPositions.LeftFlat:
 				case LogoDrawerObjectStartupPositions.Right:
-					//case LogoDrawerObjectStartupPositions.RightFlat:
 					speedX = rnd.Next ((int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 					speedY = 0;
 
@@ -1127,10 +1111,7 @@ namespace RD_AAOW
 						speedX *= -1;
 						}
 
-					/*if (!LogoDrawerSupport.IsFlat (metrics.StartupPosition))*/
 					endY = y = rnd.Next ((int)(ScreenHeight + 2 * ρ)) - (int)ρ;
-					/*else
-						endY = y = (int)(ScreenHeight * (1.0 - LogoDrawerSupport.TextFieldPart));*/
 					break;
 
 				case LogoDrawerObjectStartupPositions.Top:
@@ -1192,16 +1173,11 @@ namespace RD_AAOW
 
 				case LogoDrawerObjectStartupPositions.CenterRandom:
 				case LogoDrawerObjectStartupPositions.Random:
-				//case LogoDrawerObjectStartupPositions.CenterFlat:
 				case LogoDrawerObjectStartupPositions.ToCenterRandom:
 				default:
-					while ((speedX == 0) && (speedY == 0) /*||
-						(metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat) && (speedX == 0)*/)
+					while ((speedX == 0) && (speedY == 0))
 						{
 						speedX = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
-						/*if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat)
-							speedY = -rnd.Next (LogoDrawerSupport.AccelerationBorder + 1);
-						else*/
 						speedY = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 
 						if (metrics.MaxSpeed == 0)
@@ -1210,26 +1186,23 @@ namespace RD_AAOW
 
 					if (LogoDrawerSupport.IsCenter (metrics.StartupPosition))
 						{
-						x = (int)ScreenCenterX;	// ScreenWidth / 2;
-						/*if (LogoDrawerSupport.IsFlat (metrics.StartupPosition))
-							y = (int)(ScreenHeight * (1.0 - LogoDrawerSupport.TextFieldPart));
-						else*/
-						y = (int)ScreenCenterY;	// (ScreenHeight / 2);
+						x = (int)ScreenCenterX;
+						y = (int)ScreenCenterY;
 						}
 					else if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
-						endX = (int)ScreenCenterX;	// ScreenWidth / 2;
-						endY = (int)ScreenCenterY;	// ScreenHeight / 2;
+						endX = (int)ScreenCenterX;
+						endY = (int)ScreenCenterY;
 
 						if (Math.Abs (speedX) > Math.Abs (speedY))
 							{
-							x = (speedX < 0) ? ((int)(ScreenWidth + 4 * ρ + speedX) + maxFluctuation) :
+							x = (speedX < 0) ? ((int)(ScreenWidth + 4 * ρ - speedX) + maxFluctuation) :
 								(-4 * (int)(ρ + speedX) - maxFluctuation);
 							y = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, x, true);
 							}
 						else
 							{
-							y = (speedY < 0) ? ((int)(ScreenHeight + 4 * ρ + speedY) + maxFluctuation) :
+							y = (speedY < 0) ? ((int)(ScreenHeight + 4 * ρ - speedY) + maxFluctuation) :
 								(-4 * (int)(ρ + speedY) - maxFluctuation);
 							x = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, y, false);
 							}
@@ -1243,9 +1216,9 @@ namespace RD_AAOW
 					if (metrics.StartupPosition != LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
 						endX = (speedX > 0) ? ((int)(ScreenWidth + 8 * ρ + speedX) + maxFluctuation) :
-							(-8 * (int)(ρ + speedX) - maxFluctuation);
+							(-8 * (int)(ρ - speedX) - maxFluctuation);
 						endY = (speedY > 0) ? ((int)(ScreenHeight + 8 * ρ + speedY) + maxFluctuation) :
-							(-8 * (int)(ρ + speedY) - maxFluctuation);
+							(-8 * (int)(ρ - speedY) - maxFluctuation);
 						}
 					break;
 				}
@@ -1255,7 +1228,7 @@ namespace RD_AAOW
 			initSpeedY = (speedX * speedY == 0.0f) ? 1 : (speedY / Math.Abs (speedX));
 
 			isInited = true;
-			Move (0, 0);			// Инициализация отрисовки
+			Move (0, 0);            // Инициализация отрисовки
 			}
 
 		/// <summary>
@@ -1274,7 +1247,6 @@ namespace RD_AAOW
 			speedX += Acceleration * initSpeedX / 10.0f;
 
 			y += ((int)speedY + rnd.Next (-maxFluctuation, maxFluctuation + 1));
-			//if ((speedY > LogoDrawerSupport.AccelerationBorder) || (speedY < -LogoDrawerSupport.AccelerationBorder))
 			speedY += Acceleration * initSpeedY / 10.0f;
 
 			if (rotation)
@@ -1332,17 +1304,17 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает визуальный объект 'буква' для вывода на экран в расширенном режиме
 	/// </summary>
-	public class LogoDrawerLetter:IDisposable, ILogoDrawerObject
+	public class LogoDrawerLetter: IDisposable, ILogoDrawerObject
 		{
 		// Переменные и константы
-		private Random rnd;				// ГПСЧ (обязательно извне)
-		private int maxFluctuation;		// Максимальный дребезг скорости
-		private float speedX, initSpeedX;	// Скорость горизонтального смещения, начальная скорость
-		private float speedY, initSpeedY;	// Скорость вертикального смещения, начальная скорость
-		private int speedOfRotation;	// Скорость вращения
-		private int endX;				// Конечная позиция по горизонтали
-		private int endY;				// Конечная позиция по вертикали
-		private int φ;					// Угол поворота объекта
+		private Random rnd;             // ГПСЧ (обязательно извне)
+		private int maxFluctuation;     // Максимальный дребезг скорости
+		private float speedX, initSpeedX;   // Скорость горизонтального смещения, начальная скорость
+		private float speedY, initSpeedY;   // Скорость вертикального смещения, начальная скорость
+		private int speedOfRotation;    // Скорость вращения
+		private int endX;               // Конечная позиция по горизонтали
+		private int endY;               // Конечная позиция по вертикали
+		private int φ;                  // Угол поворота объекта
 
 		/// <summary>
 		/// Статус инициализации объекта
@@ -1417,7 +1389,7 @@ namespace RD_AAOW
 			Random Randomizer, LogoDrawerObjectMetrics Metrics)
 			{
 			// Контроль
-			LogoDrawerObjectMetrics metrics = Metrics;	// LogoDrawerSupport.AlingMetrics (Metrics);
+			LogoDrawerObjectMetrics metrics = Metrics;  // LogoDrawerSupport.AlingMetrics (Metrics);
 			if (Randomizer == null)
 				return;
 
@@ -1458,9 +1430,7 @@ namespace RD_AAOW
 			switch (metrics.StartupPosition)
 				{
 				case LogoDrawerObjectStartupPositions.Left:
-				//case LogoDrawerObjectStartupPositions.LeftFlat:
 				case LogoDrawerObjectStartupPositions.Right:
-					//case LogoDrawerObjectStartupPositions.RightFlat:
 					speedX = rnd.Next ((int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 					speedY = 0;
 
@@ -1476,10 +1446,7 @@ namespace RD_AAOW
 						speedX *= -1;
 						}
 
-					/*if (!LogoDrawerSupport.IsFlat (metrics.StartupPosition))*/
 					endY = y = rnd.Next ((int)ScreenHeight + sourceImage.Height) - sourceImage.Height / 2;
-					/*else
-						endY = y = (int)(ScreenHeight * (1.0 - LogoDrawerSupport.TextFieldPart));*/
 					break;
 
 				case LogoDrawerObjectStartupPositions.Top:
@@ -1541,16 +1508,11 @@ namespace RD_AAOW
 
 				case LogoDrawerObjectStartupPositions.CenterRandom:
 				case LogoDrawerObjectStartupPositions.Random:
-				//case LogoDrawerObjectStartupPositions.CenterFlat:
 				case LogoDrawerObjectStartupPositions.ToCenterRandom:
 				default:
-					while ((speedX == 0) && (speedY == 0) /*||
-						(metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat) && (speedX == 0)*/)
+					while ((speedX == 0) && (speedY == 0))
 						{
 						speedX = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
-						/*if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.CenterFlat)
-							speedY = -rnd.Next (LogoDrawerSupport.AccelerationBorder + 1);
-						else*/
 						speedY = rnd.Next (-(int)metrics.MinSpeed, (int)metrics.MaxSpeed + 1);
 
 						if (metrics.MaxSpeed == 0)
@@ -1559,26 +1521,23 @@ namespace RD_AAOW
 
 					if (LogoDrawerSupport.IsCenter (metrics.StartupPosition))
 						{
-						x = (int)ScreenCenterX;	// ScreenWidth / 2;
-						/*if (LogoDrawerSupport.IsFlat (metrics.StartupPosition))
-							y = (int)(ScreenHeight * (1.0 - LogoDrawerSupport.TextFieldPart));
-						else*/
-						y = (int)ScreenCenterY;	// (ScreenHeight / 2);
+						x = (int)ScreenCenterX;
+						y = (int)ScreenCenterY;
 						}
 					else if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
-						endX = (int)ScreenCenterX;	// ScreenWidth / 2;
-						endY = (int)ScreenCenterY;	// ScreenHeight / 2;
+						endX = (int)ScreenCenterX;
+						endY = (int)ScreenCenterY;
 
 						if (Math.Abs (speedX) > Math.Abs (speedY))
 							{
-							x = (speedX < 0) ? ((int)(ScreenWidth + speedX) + sourceImage.Width + maxFluctuation) :
+							x = (speedX < 0) ? ((int)(ScreenWidth - speedX) + sourceImage.Width + maxFluctuation) :
 								(-sourceImage.Width + (int)speedX - maxFluctuation);
 							y = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, x, true);
 							}
 						else
 							{
-							y = (speedY < 0) ? ((int)(ScreenHeight + speedY) + sourceImage.Height + maxFluctuation) :
+							y = (speedY < 0) ? ((int)(ScreenHeight - speedY) + sourceImage.Height + maxFluctuation) :
 								(-sourceImage.Height + (int)speedY - maxFluctuation);
 							x = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, y, false);
 							}
@@ -1592,9 +1551,9 @@ namespace RD_AAOW
 					if (metrics.StartupPosition != LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
 						endX = (speedX > 0) ? ((int)(ScreenWidth + speedX) + sourceImage.Width + maxFluctuation) :
-							(-sourceImage.Width + (int)speedX - maxFluctuation);
+							(-sourceImage.Width - (int)speedX - maxFluctuation);
 						endY = (speedY > 0) ? ((int)(ScreenHeight + speedY) + sourceImage.Height + maxFluctuation) :
-							(-sourceImage.Height + (int)speedY - maxFluctuation);
+							(-sourceImage.Height - (int)speedY - maxFluctuation);
 						}
 
 					break;
@@ -1605,7 +1564,7 @@ namespace RD_AAOW
 			initSpeedY = (speedX * speedY == 0.0f) ? 1 : (speedY / Math.Abs (speedX));
 
 			isInited = true;
-			Move (0, 0);			// Инициализация отрисовки
+			Move (0, 0);            // Инициализация отрисовки
 			}
 
 		/// <summary>
@@ -1624,7 +1583,6 @@ namespace RD_AAOW
 			speedX += Acceleration * initSpeedX / 10.0f;
 
 			y += ((int)speedY + rnd.Next (-maxFluctuation, maxFluctuation + 1));
-			//if ((speedY > LogoDrawerSupport.AccelerationBorder) || (speedY < -LogoDrawerSupport.AccelerationBorder))
 			speedY += Acceleration * initSpeedY / 10.0f;
 
 			φ += speedOfRotation;
@@ -1640,7 +1598,7 @@ namespace RD_AAOW
 			resultImage = new Bitmap (sourceImage.Width, sourceImage.Height);
 			Graphics g = Graphics.FromImage (resultImage);
 
-			g.TranslateTransform (sourceImage.Width / 2, sourceImage.Height / 2);			// Центровка поворота
+			g.TranslateTransform (sourceImage.Width / 2, sourceImage.Height / 2);           // Центровка поворота
 			g.RotateTransform (φ);
 			g.DrawImage (sourceImage, -sourceImage.Width / 2, -sourceImage.Height / 2);
 			g.Dispose ();
@@ -1655,17 +1613,17 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс описывает визуальный объект 'картинка' для вывода на экран в расширенном режиме
 	/// </summary>
-	public class LogoDrawerPicture:IDisposable, ILogoDrawerObject
+	public class LogoDrawerPicture: IDisposable, ILogoDrawerObject
 		{
 		// Переменные и константы
-		private Random rnd;				// ГПСЧ (обязательно извне)
-		private int maxFluctuation;		// Максимальный дребезг скорости
-		private float speedX, initSpeedX;	// Скорость горизонтального смещения, начальная скорость
-		private float speedY, initSpeedY;	// Скорость вертикального смещения, начальная скорость
-		private int speedOfRotation;	// Скорость вращения
-		private int endX;				// Конечная позиция по горизонтали
-		private int endY;				// Конечная позиция по вертикали
-		private int φ;					// Угол поворота объекта
+		private Random rnd;             // ГПСЧ (обязательно извне)
+		private int maxFluctuation;     // Максимальный дребезг скорости
+		private float speedX, initSpeedX;   // Скорость горизонтального смещения, начальная скорость
+		private float speedY, initSpeedY;   // Скорость вертикального смещения, начальная скорость
+		private int speedOfRotation;    // Скорость вращения
+		private int endX;               // Конечная позиция по горизонтали
+		private int endY;               // Конечная позиция по вертикали
+		private int φ;                  // Угол поворота объекта
 
 		/// <summary>
 		/// Статус инициализации объекта
@@ -1741,7 +1699,7 @@ namespace RD_AAOW
 			Random Randomizer, LogoDrawerObjectMetrics Metrics, string PicturesPath)
 			{
 			// Контроль
-			LogoDrawerObjectMetrics metrics = Metrics;	// LogoDrawerSupport.AlingMetrics (Metrics);
+			LogoDrawerObjectMetrics metrics = Metrics;  // LogoDrawerSupport.AlingMetrics (Metrics);
 			if (Randomizer == null)
 				return;
 
@@ -1879,23 +1837,23 @@ namespace RD_AAOW
 
 					if (LogoDrawerSupport.IsCenter (metrics.StartupPosition))
 						{
-						x = (int)ScreenCenterX;	
-						y = (int)ScreenCenterY;	
+						x = (int)ScreenCenterX;
+						y = (int)ScreenCenterY;
 						}
 					else if (metrics.StartupPosition == LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
-						endX = (int)ScreenCenterX;	
-						endY = (int)ScreenCenterY;	
+						endX = (int)ScreenCenterX;
+						endY = (int)ScreenCenterY;
 
 						if (Math.Abs (speedX) > Math.Abs (speedY))
 							{
-							x = (speedX < 0) ? ((int)(ScreenWidth + speedX) + sourceImage.Width + maxFluctuation) :
+							x = (speedX < 0) ? ((int)(ScreenWidth - speedX) + sourceImage.Width + maxFluctuation) :
 								(-sourceImage.Width + (int)speedX - maxFluctuation);
 							y = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, x, true);
 							}
 						else
 							{
-							y = (speedY < 0) ? ((int)(ScreenHeight + speedY) + sourceImage.Height + maxFluctuation) :
+							y = (speedY < 0) ? ((int)(ScreenHeight - speedY) + sourceImage.Height + maxFluctuation) :
 								(-sourceImage.Height + (int)speedY - maxFluctuation);
 							x = LogoDrawerSupport.EvaluateLinearCoordinate (endX, endY, (int)speedX, (int)speedY, y, false);
 							}
@@ -1909,9 +1867,9 @@ namespace RD_AAOW
 					if (metrics.StartupPosition != LogoDrawerObjectStartupPositions.ToCenterRandom)
 						{
 						endX = (speedX > 0) ? ((int)(ScreenWidth + speedX) + sourceImage.Width + maxFluctuation) :
-							(-sourceImage.Width + (int)speedX - maxFluctuation);
+							(-sourceImage.Width - (int)speedX - maxFluctuation);
 						endY = (speedY > 0) ? ((int)(ScreenHeight + speedY) + sourceImage.Height + maxFluctuation) :
-							(-sourceImage.Height + (int)speedY - maxFluctuation);
+							(-sourceImage.Height - (int)speedY - maxFluctuation);
 						}
 
 					break;
@@ -1922,7 +1880,7 @@ namespace RD_AAOW
 			initSpeedY = (speedX * speedY == 0.0f) ? 1 : (speedY / Math.Abs (speedX));
 
 			isInited = true;
-			Move (0, 0);			// Инициализация отрисовки
+			Move (0, 0);            // Инициализация отрисовки
 			}
 
 		/// <summary>
@@ -1956,7 +1914,7 @@ namespace RD_AAOW
 			resultImage = new Bitmap (sourceImage.Width, sourceImage.Height);
 			Graphics g = Graphics.FromImage (resultImage);
 
-			g.TranslateTransform (sourceImage.Width / 2, sourceImage.Height / 2);			// Центровка поворота
+			g.TranslateTransform (sourceImage.Width / 2, sourceImage.Height / 2);   // Центровка поворота
 			g.RotateTransform (φ);
 
 			g.DrawImage (sourceImage, -sourceImage.Width / 2, -sourceImage.Height / 2);
