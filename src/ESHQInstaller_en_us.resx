@@ -435,7 +435,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Utilities:</value>
   </data>
   <data name="PackageSelectorForm_Label03" xml:space="preserve">
-    <value>Mods:</value>
+    <value>Games and mods:</value>
   </data>
   <data name="dp0file" xml:space="preserve">
     <value>Deployment package v 10</value>

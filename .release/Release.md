@@ -1,4 +1,5 @@
-_Changes for v 10.4.3_:
+_Changes for v 10.4.4_:
+- Fixed hidden bug in paths processing algorithm;
 - Fixed bug in Policy acception interface that disallowed to accept it in offline mode at first start;
 - Fixed bug that disallowed old deployed packages overwriting;
 - Packages will be now downloaded into 'Downloaded' subdirectory;
