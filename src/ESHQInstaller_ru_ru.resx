@@ -454,4 +454,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="UpdatableMessage" xml:space="preserve">
     <value> (обновление)</value>
   </data>
+  <data name="AdditionalMessage" xml:space="preserve">
+    <value>Это приложение использует {0:S}. Вы хотите открыть его веб-страницу для просмотра дополнительной информации / загрузки необходимых установочных файлов?</value>
+  </data>
 </root>

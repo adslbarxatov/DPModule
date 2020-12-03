@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 10.5:
+• Added ability to display post-deployment messages and starting links for external installations;
+• Updated laboratory links
+
 Version 10.4.4:
 • Fixed hidden bug in paths processing algorithm
 

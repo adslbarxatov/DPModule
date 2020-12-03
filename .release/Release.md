@@ -1,16 +1,3 @@
-_Changes for v 10.4.4_:
-- Fixed hidden bug in paths processing algorithm;
-- Fixed bug in Policy acception interface that disallowed to accept it in offline mode at first start;
-- Fixed bug that disallowed old deployed packages overwriting;
-- Packages will be now downloaded into 'Downloaded' subdirectory;
-- Successfully deployed packages will be moved from 'Downloaded' to 'Deployed' subdirectory;
-- Packages extensions will be re-registered on every DPModule update to avoid side effects;
-- Added stand-alone icon for .dp9 packages;
-- Added ability to check installed versions of utilities:
-    - 'new' will be added to packages names that have never been installed;
-    - 'update' will be added to packages names that are newer than installed;
-- ADP loader has been rebuilt:
-    - Policy accepting will not be requested for every utility;
-    - Policy accepting will be requested only once at fisrt start of some utility or on new Policy review;
-    - Policy text now formatted properly;
-- App about and Policy windows are now fully expandaple
+_Changes for v 10.5_:
+- Added ability to display post-deployment messages and starting links for external installations;
+- Updated laboratory links
