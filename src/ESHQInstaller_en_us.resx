@@ -455,7 +455,10 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="UpdatableMessage" xml:space="preserve">
     <value> (update)</value>
   </data>
-  <data name="AdditionalMessage" xml:space="preserve">
-    <value>This application uses {0:S}. Do you want to open its webpage to view additional info / download required installations?</value>
+  <data name="AdditionalMessage0" xml:space="preserve">
+    <value>This application uses {0:S}. Do you want to open its webpage to view additional info?</value>
+  </data>
+  <data name="AdditionalMessage1" xml:space="preserve">
+    <value>This application requires installation of {0:S}. Do you want to open its webpage for manual downloading?</value>
   </data>
 </root>
