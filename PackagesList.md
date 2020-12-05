@@ -25,4 +25,6 @@ ESHQ update to v 9.4r			https://www.moddb.com/downloads/start/202236?referer=htt
 Crazy cheater's mod v 1.1		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1.7z				165279341
 Counter strike 1.6 maps			https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
 Races v 1.6						https://github.com/adslbarxatov/DPModule/raw/master/Packages/Races.dp0							Races.dp0					0x008DC376
+Snake v 1.16					https://github.com/adslbarxatov/DPModule/raw/master/Packages/Snake.dp0							Snake.dp0					0x00A3F4BA
+Turtle v 1.7					https://github.com/adslbarxatov/DPModule/raw/master/Packages/Turtle.dp0							Turtle.dp0					0x00A934E9
 ```
