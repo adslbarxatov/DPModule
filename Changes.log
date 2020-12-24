@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 10.5.3 (preparing):
+• Improved packages building algorithm
+
 Version 10.5.2:
 • Updated video manual and link to it;
 • Removed stub for old command line keys;
