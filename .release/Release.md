@@ -1,7 +1,5 @@
-_Changes for v 10.5.2_:
-- Updated video manual and link to it;
-- Removed stub for old command line keys;
-- Fixed previously downloaded packages detection sign;
-- Fixed some tool windows' background colors;
-- Added ability to display post-deployment messages and starting links for external installations;
-- Updated laboratory links
+_Changes for v 10.5.3_:
+- Improved packages building algorithm;
+- Some tips has been replaced / updated;
+- Removed unnecessary message about directory creation;
+- Added ability to display post-deployment messages and starting links for external installations

@@ -4,8 +4,8 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 #if LDDEBUG
-	using System.Runtime.InteropServices;
-	using System.Threading;
+using System.Runtime.InteropServices;
+using System.Threading;
 #endif
 using System.Windows.Forms;
 
@@ -55,7 +55,8 @@ namespace RD_AAOW
 		private const int lineFeed = 40;        // Высота строки текста расширенного режима
 		private const int lineLeft = 250;       // Начало строки текста расширенного режима
 
-		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> (),    // Строки текста расширенного режима
+		// Строки текста расширенного режима
+		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> (),
 			extendedStrings2 = new List<List<LogoDrawerString>> (),
 			extendedStrings3 = new List<List<LogoDrawerString>> (),
 			extendedStrings4 = new List<List<LogoDrawerString>> ();
@@ -134,10 +135,10 @@ namespace RD_AAOW
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
-			//logo4b = new Bitmap (this.Width, this.Height);
-			//g = Graphics.FromImage (logo4b);
-			//g.FillRectangle (backBrush, 0, 0, this.Width, this.Height);
-			g = Graphics.FromHwnd (this.Handle);
+			/*logo4b = new Bitmap (this.Width, this.Height);
+			g = Graphics.FromImage (logo4b);
+			g.FillRectangle (backBrush, 0, 0, this.Width, this.Height);/**/
+			g = Graphics.FromHwnd (this.Handle);/**/
 			g.TextRenderingHint = TextRenderingHint.SingleBitPerPixelGridFit;   // Убирает ауру на буквах в Win8
 
 			logo1Font = new Font ("Lucida Sans Unicode", logoFontSize);
@@ -616,11 +617,12 @@ namespace RD_AAOW
 				Bitmap logo1tmp = new Bitmap (this.Width, this.Height);
 				g2 = Graphics.FromImage (logo1tmp);
 				g2.CopyFromScreen (0, 0, 0, 0, new Size (this.Width, this.Height), CopyPixelOperation.SourceCopy);
-				g2.Dispose ();
-				//Bitmap logo1tmp = new Bitmap (logo4b);
+				g2.Dispose ();/**/
+				/*Bitmap logo1tmp = new Bitmap (logo4b);/**/
 
 				// "Фото" лого
-				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (scale + tailsSize), this.Height / 2 - (int)(scale / 2 + tailsSize),
+				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (scale + tailsSize),
+					this.Height / 2 - (int)(scale / 2 + tailsSize),
 					(scale + tailsSize) * 2, scale + tailsSize * 2), PixelFormat.Format32bppArgb);
 				logo1tmp.Dispose ();
 
@@ -660,9 +662,9 @@ namespace RD_AAOW
 				{
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2 - logo1Size.Height * 0.7f);
+					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2 - logo1Size.Height * 0.8f);
 				g.DrawString (logoString2.Substring (0, (int)(logoString2.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2);
+					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2 - logo1Size.Height * 0.1f);
 				}
 			else
 				{

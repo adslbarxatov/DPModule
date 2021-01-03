@@ -171,7 +171,7 @@
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Your deployment package is not original! We strongly recommend against using it!
 
-Download original package: right-click on this icon and open updates webpage</value>
+Download original package: double-click on this icon, get needed one and restart DPModule</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Install: allows application setup or recover</value>
@@ -179,8 +179,8 @@ Download original package: right-click on this icon and open updates webpage</va
   <data name="InstallRadioText_Update" xml:space="preserve">
     <value>Install: allows update package applying</value>
   </data>
-  <data name="InterruptInstallation" xml:space="preserve">
-    <value>Do you want to interrupt installation?</value>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Do you want to interrupt operation?</value>
   </data>
   <data name="LogCreationError" xml:space="preserve">
     <value>Failed to create installation log</value>
@@ -248,25 +248,25 @@ Continue with specified path?</value>
   </data>
   <data name="ReadyMessage2_Install" xml:space="preserve">
     <value>application installation at
-"{0:S}"</value>
+“{0:S}”</value>
   </data>
   <data name="ReadyMessage2_Rebuild" xml:space="preserve">
     <value>package rebuilding.</value>
   </data>
   <data name="ReadyMessage2_Uninstall" xml:space="preserve">
     <value>application removing from
-"{0:S}"</value>
+“{0:S}”</value>
   </data>
   <data name="ReadyMessage2_Update" xml:space="preserve">
     <value>updating installation at
-"{0:S}"</value>
+“{0:S}”</value>
   </data>
   <data name="ReadyMessage3" xml:space="preserve">
     <value>
-Press "Next" to continue. Operation can take about 5 minutes</value>
+Press “Next” to continue. Operation can take about 5 minutes</value>
   </data>
   <data name="RegistryKeyNotFound" xml:space="preserve">
-    <value>Application's installation path not found in registry. Use /r command line key to restore it.
+    <value>Application's installation path not found in registry. Use “Restore package's deployment path” option of tray icon's menu to restore it.
 
 NOTE: if you'll set incorrect path, application may damage valuable files!</value>
   </data>
@@ -282,7 +282,7 @@ NOTE: if you'll set incorrect path, application may damage valuable files!</valu
   <data name="UpdateMessage2" xml:space="preserve">
     <value> available for download.
 
-Right-click on this icon and open updates webpage for continue</value>
+Double-click on this icon for continue</value>
   </data>
   <data name="UpdateModeHelpLinkLength" xml:space="preserve">
     <value>15</value>
@@ -295,7 +295,7 @@ Right-click on this icon and open updates webpage for continue</value>
 
 This application will update mod's content to version {1:S}. Right-click tray icon for details.
 
-For continue setup press "Next"; otherwise press "Cancel"</value>
+For continue setup press “Next”; otherwise press “Cancel”</value>
   </data>
   <data name="UpdateModeMasterLinkLength" xml:space="preserve">
     <value>10</value>

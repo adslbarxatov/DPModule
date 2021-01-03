@@ -171,7 +171,7 @@
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Ваш установочный пакет не является оригинальным! Мы настоятельно не рекомендуем его использование!
 
-Загрузите оригинальный установочный пакет: щёлкните правой кнопкой мыши по этому значку и откройте страницу обновлений</value>
+Загрузите оригинальный пакет: дважды щёлкните по этому значку, получите нужный пакет и перезапустите DPModule</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Установка: развёртка / восстановление программы</value>
@@ -179,8 +179,8 @@
   <data name="InstallRadioText_Update" xml:space="preserve">
     <value>Установка: применение пакета обновлений</value>
   </data>
-  <data name="InterruptInstallation" xml:space="preserve">
-    <value>Вы действительно хотите прервать установку?</value>
+  <data name="ExitMessage" xml:space="preserve">
+    <value>Прервать операцию?</value>
   </data>
   <data name="LogCreationError" xml:space="preserve">
     <value>Не удалось создать лог установки</value>
@@ -265,7 +265,7 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
 Нажмите «Далее» для продолжения. Операция может занять до 5 минут</value>
   </data>
   <data name="RegistryKeyNotFound" xml:space="preserve">
-    <value>Путь установки программы не найден в реестре. Используйте ключ командной строки /r для его восстановления.
+    <value>Путь установки программы не найден в реестре. Используйте пункт «Восстановить путь установки пакета» из контекстного меню значка в трее для его восстановления.
 
 ВНИМАНИЕ: указание некорректного пути может привести к повреждению важных файлов!</value>
   </data>
@@ -281,7 +281,7 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
   <data name="UpdateMessage2" xml:space="preserve">
     <value> для загрузки.
 
-Щёлкните правой кнопкой мыши по этому значку и откройте страницу обновлений для продолжения</value>
+Дважды щёлкните по этому значку для продолжения</value>
   </data>
   <data name="UpdateModeHelpLinkLength" xml:space="preserve">
     <value>8</value>

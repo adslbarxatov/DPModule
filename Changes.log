@@ -1,7 +1,9 @@
 ﻿Deployment packages module changes log
 
-Version 10.5.3 (preparing):
-• Improved packages building algorithm
+Version 10.5.3:
+• Improved packages building algorithm;
+• Some tips has been replaced / updated;
+• Removed unnecessary message about directory creation
 
 Version 10.5.2:
 • Updated video manual and link to it;
