@@ -147,14 +147,11 @@
   <data name="CorrectPackage" xml:space="preserve">
     <value>Your deployment package is correct and up to date</value>
   </data>
-  <data name="DisclaimerLink1Length" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="DisclaimerLink1Offset" xml:space="preserve">
-    <value>146</value>
-  </data>
   <data name="DisclaimerMainText" xml:space="preserve">
-    <value>You can improve the application or view our other projects (just click the banner of interest). If you have troubles with this utility, remind us here or here</value>
+    <value>You can improve the app or view our other projects
+(just click the banner of interest).
+If you have any wishes, advices or troubles with this utility, remind us, using “Ask developer” button in the “About” window
+(available in tray icon's menu)</value>
   </data>
   <data name="ExitButtonText" xml:space="preserve">
     <value>E&amp;xit</value>
@@ -185,24 +182,12 @@ Download original package: double-click on this icon, get needed one and restart
   <data name="LogCreationError" xml:space="preserve">
     <value>Failed to create installation log</value>
   </data>
-  <data name="MainModeHelpLinkOffset" xml:space="preserve">
-    <value>289</value>
-  </data>
   <data name="MainModeMainText" xml:space="preserve">
     <value>You are welcomed by {0:S} and ESHQ mod v {1:S}!
 
 ESHQ is a stand-alone modification for Half-Life 1 (by Valve software) based on stabilized and adapted Xash3D engine v43/0.91 (3737). Right-click tray icon for details.
 
 For continue setup press "Next"; otherwise press "Cancel"</value>
-  </data>
-  <data name="MainModeMasterLinkOffset" xml:space="preserve">
-    <value>189</value>
-  </data>
-  <data name="MainModeOtherLink1Offset" xml:space="preserve">
-    <value>318</value>
-  </data>
-  <data name="MainModeOtherLink2Offset" xml:space="preserve">
-    <value>324</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
     <value>Project webpage is not fully available for now. Try again later</value>
@@ -284,36 +269,12 @@ NOTE: if you'll set incorrect path, application may damage valuable files!</valu
 
 Double-click on this icon for continue</value>
   </data>
-  <data name="UpdateModeHelpLinkLength" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="UpdateModeHelpLinkOffset" xml:space="preserve">
-    <value>207</value>
-  </data>
   <data name="UpdateModeMainText" xml:space="preserve">
     <value>You are welcomed by {0:S} and ESHQ mod!
 
 This application will update mod's content to version {1:S}. Right-click tray icon for details.
 
 For continue setup press “Next”; otherwise press “Cancel”</value>
-  </data>
-  <data name="UpdateModeMasterLinkLength" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="UpdateModeMasterLinkOffset" xml:space="preserve">
-    <value>108</value>
-  </data>
-  <data name="UpdateModeOtherLink1Length" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="UpdateModeOtherLink1Offset" xml:space="preserve">
-    <value>236</value>
-  </data>
-  <data name="UpdateModeOtherLink2Length" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="UpdateModeOtherLink2Offset" xml:space="preserve">
-    <value>242</value>
   </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Checking for updates...</value>
@@ -335,9 +296,6 @@ NOTE: if you'll set incorrect path, updater and installer may damage valuable fi
     <value>Current interface language is {0:S}.
 Select new language:</value>
   </data>
-  <data name="ExtModeHelpLinkOffset" xml:space="preserve">
-    <value>281</value>
-  </data>
   <data name="ExtModeMainText" xml:space="preserve">
     <value>You are welcomed by {0:S} and Crazy cheater's mod
 v {1:S}!
@@ -346,26 +304,8 @@ CCM is a mod for GTA Vice City that saves original story, but fixes some trouble
 
 For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
-  <data name="ExtModeMasterLinkOffset" xml:space="preserve">
-    <value>181</value>
-  </data>
-  <data name="ExtModeOtherLink1Offset" xml:space="preserve">
-    <value>310</value>
-  </data>
-  <data name="ExtModeOtherLink2Offset" xml:space="preserve">
-    <value>316</value>
-  </data>
-  <data name="DisclaimerLink2Offset" xml:space="preserve">
-    <value>154</value>
-  </data>
   <data name="SelectPackage" xml:space="preserve">
     <value>Select all packages that you want to deploy</value>
-  </data>
-  <data name="DisclaimerLink3Length" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="DisclaimerLink3Offset" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="IconMenuShowAbout" xml:space="preserve">
     <value>Actual package's version info</value>
@@ -460,5 +400,14 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="AdditionalMessage1" xml:space="preserve">
     <value>This application requires installation of {0:S}. Do you want to open its webpage for manual downloading?</value>
+  </data>
+  <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
+    <value>Clear cac&amp;he</value>
+  </data>
+  <data name="ClearCacheMessage" xml:space="preserve">
+    <value>All previously downloaded package files will be removed. Installed apps will not be affected. Continue?</value>
+  </data>
+  <data name="UninstScriptNotCreated" xml:space="preserve">
+    <value>Failed to create a script to remove the product. In case of uninstallation, the deployment package is required</value>
   </data>
 </root>

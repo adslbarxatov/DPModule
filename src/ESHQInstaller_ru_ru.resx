@@ -147,14 +147,10 @@
   <data name="CorrectPackage" xml:space="preserve">
     <value>Ваш установочный пакет корректен и актуален</value>
   </data>
-  <data name="DisclaimerLink1Length" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="DisclaimerLink1Offset" xml:space="preserve">
-    <value>155</value>
-  </data>
   <data name="DisclaimerMainText" xml:space="preserve">
-    <value>Вы можете улучшить программу и ознакомиться с другими проектами (просто нажмите на интересующий баннер). При возникновении проблем с утилитой сообщите нам здесь или здесь</value>
+    <value>Вы можете улучшить программу или ознакомиться с другими проектами (нажмите на интересующий баннер).
+При возникновении проблем с утилитой сообщите нам, используя кнопку «Разработчик» окна «О приложении»
+(доступно из меню иконки в трее)</value>
   </data>
   <data name="ExitButtonText" xml:space="preserve">
     <value>В&amp;ыход</value>
@@ -185,23 +181,11 @@
   <data name="LogCreationError" xml:space="preserve">
     <value>Не удалось создать лог установки</value>
   </data>
-  <data name="MainModeHelpLinkOffset" xml:space="preserve">
-    <value>286</value>
-  </data>
   <data name="MainModeMainText" xml:space="preserve">
     <value>Вас приветствует {0:S} и мод ESHQ v {1:S}!
 
 ESHQ – автономный мод для Half-Life 1 (Valve software) на базе адаптированного и стабилизированного движка Xash3D v43/0.91 (3737). Щёлкните правой кнопкой значок в трее для получения описания.
 Для продолжения установки нажмите «Далее»; иначе нажмите «Отмена»</value>
-  </data>
-  <data name="MainModeMasterLinkOffset" xml:space="preserve">
-    <value>189</value>
-  </data>
-  <data name="MainModeOtherLink1Offset" xml:space="preserve">
-    <value>316</value>
-  </data>
-  <data name="MainModeOtherLink2Offset" xml:space="preserve">
-    <value>324</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
     <value>Сайт проекта в настоящий момент доступен неполностью. Повторите попытку позже</value>
@@ -283,36 +267,12 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
 
 Дважды щёлкните по этому значку для продолжения</value>
   </data>
-  <data name="UpdateModeHelpLinkLength" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="UpdateModeHelpLinkOffset" xml:space="preserve">
-    <value>213</value>
-  </data>
   <data name="UpdateModeMainText" xml:space="preserve">
     <value>Вас приветствует {0:S} и мод ESHQ!
 
 Эта программа обновит контент мода до версии {1:S}. Щёлкните правой кнопкой значок в трее для получения описания.
 
 Для продолжения нажмите «Далее»; иначе нажмите «Отмена»</value>
-  </data>
-  <data name="UpdateModeMasterLinkLength" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="UpdateModeMasterLinkOffset" xml:space="preserve">
-    <value>127</value>
-  </data>
-  <data name="UpdateModeOtherLink1Length" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="UpdateModeOtherLink1Offset" xml:space="preserve">
-    <value>243</value>
-  </data>
-  <data name="UpdateModeOtherLink2Length" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="UpdateModeOtherLink2Offset" xml:space="preserve">
-    <value>251</value>
   </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Проверка обновлений...</value>
@@ -334,9 +294,6 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
     <value>Текущий язык интерфейса – {0:S}.
 Выберите новый язык:</value>
   </data>
-  <data name="ExtModeHelpLinkOffset" xml:space="preserve">
-    <value>264</value>
-  </data>
   <data name="ExtModeMainText" xml:space="preserve">
     <value>Вас приветствует {0:S} и Crazy cheater's mod
 v {1:S}!
@@ -345,26 +302,8 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
 
 Для продолжения установки нажмите «Далее»</value>
   </data>
-  <data name="ExtModeMasterLinkOffset" xml:space="preserve">
-    <value>191</value>
-  </data>
-  <data name="ExtModeOtherLink1Offset" xml:space="preserve">
-    <value>318</value>
-  </data>
-  <data name="ExtModeOtherLink2Offset" xml:space="preserve">
-    <value>326</value>
-  </data>
-  <data name="DisclaimerLink2Offset" xml:space="preserve">
-    <value>165</value>
-  </data>
   <data name="SelectPackage" xml:space="preserve">
     <value>Выберите все пакеты, которые необходимо развернуть</value>
-  </data>
-  <data name="DisclaimerLink3Length" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="DisclaimerLink3Offset" xml:space="preserve">
-    <value>10</value>
   </data>
   <data name="IconMenuShowAbout" xml:space="preserve">
     <value>Информация об актуальной версии пакета</value>
@@ -459,5 +398,14 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="AdditionalMessage1" xml:space="preserve">
     <value>Это приложение требует установки {0:S}. Вы хотите открыть его веб-страницу для ручной загрузки?</value>
+  </data>
+  <data name="ClearCacheMessage" xml:space="preserve">
+    <value>Все ранее загруженные файлы пакетов будут удалены. Установленные приложения затронуты не будут. Продолжить?</value>
+  </data>
+  <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
+    <value>О&amp;чистить кэш</value>
+  </data>
+  <data name="UninstScriptNotCreated" xml:space="preserve">
+    <value>Не удалось создать скрипт для удаления продукта. В случае деинсталляции потребуется установочный пакет</value>
   </data>
 </root>
