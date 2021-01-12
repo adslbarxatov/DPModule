@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Isolate file system - make own manager
+
 Version 10.6:
 • Removed some artifacts of old versions;
 • Added ability to 'ask developer' via E-mail for help, or send wish, advice or bug report;
