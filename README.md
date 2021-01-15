@@ -1,7 +1,7 @@
-﻿# DPModule v 10.6
-> PCC: 0012A552E6CA48BA
+﻿# DPModule v 11.0
+> PCC: 0012B550123E7843
 
-> CRC32: 075C286A
+> CRC32: 9A29FEE4
 
 
 
@@ -15,25 +15,23 @@ Deployment packages utility for RD AAOW FUPL projects. This tool performs instal
 
 ## Изменения
 
-- Пользователь теперь всегда самостоятельно выбирает нужные пакеты в любом удобном расположении и количестве. Для этого при запуске будет отображено соответствующее диалоговое окно.
+- Пользователь теперь всегда самостоятельно выбирает нужные пакеты для загрузки и развёртки. Для этого при запуске будет отображено соответствующее диалоговое окно.
 - Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
-- Приложение теперь может загружать установочные пакеты из нашего репозитория. Для этого в одной с ним директории не должно быть ранее загруженных пакетов. Функцию можно запустить вручную из контекстного меню значка в трее.
+- Приложение теперь стабильно работает с нашими репозиториями.
 - Выбор языка интерфейса доступен при первом запуске и в контекстном меню значка в трее.
 - Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
 - Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
-- Старые версии установочных пакетов (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) более не поддерживаются.
 
 #
 
 ## Changes
 
-- User now always independently selects the necessary packages in any convenient location and quantity. To do this, a corresponding dialog box will be displayed at startup.
+- User now always independently selects the needed packages for downloading and deployment. To do this, a corresponding dialog box will be displayed at startup.
 - Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
-- Application can now download deployment packages from our repository. To do this, there must be no previously downloaded packages in the same directory with DPModule. Function may be started from tray context menu.
+- Application is now correctly uses our repositories.
 - Choice of the interface language is available at the first start and in tray context menu.
 - If you want to restore the installation path for a package, you can do this from tray context menu.
 - Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
-- Old versions of installation packages (```.dpp```, ```.dpm```, ```.dpu```, ```.dpx```) are no longer supported.
 
 &nbsp;
 

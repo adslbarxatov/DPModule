@@ -320,7 +320,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
-    <value>Select package for download</value>
+    <value>Deployment packages manager</value>
   </data>
   <data name="PackageSelectorForm_Download1Button" xml:space="preserve">
     <value>&amp;Download</value>
@@ -409,5 +409,25 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
     <value>Failed to create a script to remove the product. In case of uninstallation, the deployment package is required</value>
+  </data>
+  <data name="PackageSelectorForm_Label04" xml:space="preserve">
+    <value>Downloaded packages:</value>
+  </data>
+  <data name="PackageSelectorForm_Label05" xml:space="preserve">
+    <value>Deployed packages:</value>
+  </data>
+  <data name="PSF_Help01" xml:space="preserve">
+    <value>Double click needed package to download it.
+Package statuses:
+▼ – new for this PC;
+▲ – newer version than deployed one;
+◯ – already deployed;
+◇ – unspecified status</value>
+  </data>
+  <data name="PSF_Help03" xml:space="preserve">
+    <value>Double click package to check / uncheck it. Checked packages will be deployed sequentially in the next step</value>
+  </data>
+  <data name="PSF_Help04" xml:space="preserve">
+    <value>Double click package to move it back to downloaded and deploy again</value>
   </data>
 </root>

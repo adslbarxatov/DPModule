@@ -318,7 +318,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
-    <value>Выберите пакет для загрузки</value>
+    <value>Менеджер пакетов развёртки</value>
   </data>
   <data name="PackageSelectorForm_Download1Button" xml:space="preserve">
     <value>&amp;Загрузить</value>
@@ -407,5 +407,25 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
     <value>Не удалось создать скрипт для удаления продукта. В случае деинсталляции потребуется установочный пакет</value>
+  </data>
+  <data name="PackageSelectorForm_Label04" xml:space="preserve">
+    <value>Загруженные пакеты:</value>
+  </data>
+  <data name="PackageSelectorForm_Label05" xml:space="preserve">
+    <value>Развёрнутые пакеты:</value>
+  </data>
+  <data name="PSF_Help01" xml:space="preserve">
+    <value>Дважды щёлкните нужный пакет, чтобы загрузить его.
+Статусы пакетов:
+▼ – новый для данного ПК;
+▲ – более новая версия ранее развёрнутого пакета;
+◯ – уже развёрнут;
+◇ – статус не указан</value>
+  </data>
+  <data name="PSF_Help03" xml:space="preserve">
+    <value>Дважды щёлкните пакет, чтобы выбрать его / снять выбор. Выбранные пакеты будут последовательно развёрнуты на следующем шаге</value>
+  </data>
+  <data name="PSF_Help04" xml:space="preserve">
+    <value>Дважды щёлкните пакет, чтобы вернуть его в загруженные и развернуть снова</value>
   </data>
 </root>

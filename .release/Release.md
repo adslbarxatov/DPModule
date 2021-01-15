@@ -1,7 +1,11 @@
-_Changes for v 10.6_:
+_Changes for v 11.0_:
+- Packages manager's interface has been completely rebuilt; now it's able to:
+    - download packages, as before (packages statuses will be shown by icons);
+    - clearly select packages for deploying (without 'open file' window);
+    - display downloaded and previously deployed packages;
+    - select packages for re-deployment;
+    - clear cache, as before;
+- Removed multiple warnings about custom installation path; only one message will be shown for every app;
 - Removed some artifacts of old versions;
 - Added ability to 'ask developer' via E-mail for help, or send wish, advice or bug report; the same functionality has been removed from the main window;
-- Incorrect behavior of 'always on top' function has been fixed;
-- Fixed bug with dropping deinstalled packages from 'Deployed' subdirectory;
-- Added 'Clear cache' function that removes all files from 'Downloaded' and 'Deployed' subdirectories;
 - Added ability to create deinstallation scripts for installation (not an update) packages; scripts will be placed in 'Uninstallers' subdirectory
