@@ -4,7 +4,7 @@ _Changes for v 11.0_:
     - clearly select packages for deploying (without 'open file' window);
     - display downloaded and previously deployed packages;
     - select packages for re-deployment;
-    - clear cache, as before;
+    - clear cache, as before; 
 - Removed multiple warnings about custom installation path; only one message will be shown for every app;
 - Removed some artifacts of old versions;
 - Added ability to 'ask developer' via E-mail for help, or send wish, advice or bug report; the same functionality has been removed from the main window;
