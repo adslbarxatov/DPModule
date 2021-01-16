@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Fix completion color;
+- Fix tabstop indices;
+- Add keyboard control
+
 Version 11:
 • Packages manager's interface has been completely rebuilt; now it's able to:
   - download packages, as before (packages statuses will be shown by icons);
