@@ -322,9 +322,6 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>
   </data>
-  <data name="PackageSelectorForm_Download1Button" xml:space="preserve">
-    <value>&amp;Download</value>
-  </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
     <value>Deployment packages list is unavailable. Check your internet connection</value>
   </data>
@@ -350,11 +347,8 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
     <value>&amp;Next / Skip &gt;</value>
   </data>
-  <data name="PackageSelectorForm_Download2Button" xml:space="preserve">
-    <value>D&amp;ownload</value>
-  </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
-    <value>&amp;Packages list</value>
+    <value>Packages &amp;list</value>
   </data>
   <data name="IconDownloadPackages" xml:space="preserve">
     <value>Download other packages...</value>
@@ -372,10 +366,10 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Restore package's deployment path</value>
   </data>
   <data name="PackageSelectorForm_Label02" xml:space="preserve">
-    <value>Utilities:</value>
+    <value>&amp;Utilities:</value>
   </data>
   <data name="PackageSelectorForm_Label03" xml:space="preserve">
-    <value>Games and mods:</value>
+    <value>&amp;Games and mods:</value>
   </data>
   <data name="dp0file" xml:space="preserve">
     <value>Deployment package v 10</value>
@@ -411,10 +405,10 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Failed to create a script to remove the product. In case of uninstallation, the deployment package is required</value>
   </data>
   <data name="PackageSelectorForm_Label04" xml:space="preserve">
-    <value>Downloaded packages:</value>
+    <value>&amp;Downloaded packages:</value>
   </data>
   <data name="PackageSelectorForm_Label05" xml:space="preserve">
-    <value>Deployed packages:</value>
+    <value>De&amp;ployed packages:</value>
   </data>
   <data name="PSF_Help01" xml:space="preserve">
     <value>Double click needed package to download it.
@@ -429,5 +423,8 @@ Package statuses:
   </data>
   <data name="PSF_Help04" xml:space="preserve">
     <value>Double click package to move it back to downloaded and deploy again</value>
+  </data>
+  <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
+    <value>Upd&amp;ate lists</value>
   </data>
 </root>

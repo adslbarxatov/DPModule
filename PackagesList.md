@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule v 11.0					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0012B550
+DPModule v 11.0.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0012B75C
 Batch image convertor v 2.15.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0003B73D
 BExplorer v 2.17.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x00191786
 ConcurrentDraw v 2.2.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x00099FF2
@@ -23,7 +23,7 @@ Vector image generator v 1.8.4	https://github.com/adslbarxatov/DPModule/raw/mast
 ESHQ 9							https://www.moddb.com/downloads/start/196465?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq ESHQ_9.7z					165444571
 ESHQ update to v 9.6			https://www.moddb.com/downloads/start/206304?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq ESHQ_update_to_v_9_6.7z		49706077
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
-ESHQ backward comp. for v 10	https://www.moddb.com/downloads/start/207082?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_backward_10.7z			49709520
+ESHQ bkwd. compat. from 9.x		https://www.moddb.com/downloads/start/207082?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_backward_10.7z			49709520
 Crazy cheater's mod v 1.1		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1.7z				165279341
 Counter strike 1.6 maps			https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
 Races v 1.6						https://github.com/adslbarxatov/DPModule/raw/master/Packages/Races.dp0							Races.dp0					0x008DC376

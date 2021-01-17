@@ -1,11 +1,12 @@
-_Changes for v 11.0_:
+_Changes for v 11.0.2_:
 - Packages manager's interface has been completely rebuilt; now it's able to:
     - download packages, as before (packages statuses will be shown by icons);
     - clearly select packages for deploying (without 'open file' window);
     - display downloaded and previously deployed packages;
     - select packages for re-deployment;
-    - clear cache, as before; 
-- Removed multiple warnings about custom installation path; only one message will be shown for every app;
-- Removed some artifacts of old versions;
-- Added ability to 'ask developer' via E-mail for help, or send wish, advice or bug report; the same functionality has been removed from the main window;
-- Added ability to create deinstallation scripts for installation (not an update) packages; scripts will be placed in 'Uninstallers' subdirectory
+    - clear cache, as before;
+- Updated tabstop order in packages manager's interface;
+- Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
+- Application will now wait for finishing unzipper's process (for correct lists updating);
+- Manual lists update has been added;
+- Video presentation for the product has been updated

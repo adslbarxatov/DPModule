@@ -1,9 +1,11 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Fix completion color;
-- Fix tabstop indices;
-- Add keyboard control
+Version 11.0.2:
+• Updated tabstop order in packages manager's interface;
+• Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
+• Application will now wait for finishing unzipper's process (for correct lists updating);
+• Manual lists update has been added;
+• Video presentation for the product has been updated
 
 Version 11:
 • Packages manager's interface has been completely rebuilt; now it's able to:
