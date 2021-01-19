@@ -427,4 +427,7 @@ Package statuses:
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>Upd&amp;ate lists</value>
   </data>
+  <data name="DisclaimerMainTextPre" xml:space="preserve">
+    <value>Right-click tray icon for details and package info. For continue deployment press “Next” button</value>
+  </data>
 </root>

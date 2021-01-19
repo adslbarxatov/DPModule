@@ -1,4 +1,4 @@
-_Changes for v 11.0.2_:
+_Changes for v 11.0.3_:
 - Packages manager's interface has been completely rebuilt; now it's able to:
     - download packages, as before (packages statuses will be shown by icons);
     - clearly select packages for deploying (without 'open file' window);
@@ -9,4 +9,5 @@ _Changes for v 11.0.2_:
 - Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
 - Application will now wait for finishing unzipper's process (for correct lists updating);
 - Manual lists update has been added;
-- Video presentation for the product has been updated
+- Video presentation for the product has been updated;
+- Some fixes applied to application interface

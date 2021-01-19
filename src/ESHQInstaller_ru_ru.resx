@@ -425,4 +425,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>О&amp;бновить списки</value>
   </data>
+  <data name="DisclaimerMainTextPre" xml:space="preserve">
+    <value>Щёлкните правой кнопкой значок в трее для запроса описания. Для продолжения нажмите кнопку «Далее»</value>
+  </data>
 </root>

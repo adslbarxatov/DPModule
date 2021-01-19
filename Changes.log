@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 11.0.3:
+• Some fixes applied to application interface
+
 Version 11.0.2:
 • Updated tabstop order in packages manager's interface;
 • Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
