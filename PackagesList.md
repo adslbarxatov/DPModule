@@ -11,13 +11,13 @@ FontFinder v 2.12.5				https://github.com/adslbarxatov/DPModule/raw/master/Packa
 Geomag data drawer v 4.17.4		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x0014833A
 LangChanger v 1.2!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				127370
 Make CST v 1.5u!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
-Make decision v 2.6.3			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F2DE
+Make decision v 2.6.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F200
 OS macros executor v 2.6.5		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0003250F
 Screen shooter v 1.6.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x000294E6
 Sudoku solver v 2.2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00045AF7
 Tables merger v 1.5.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0004F2DE
-Text to KKT v 3.12.3			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x0005B98A
-UniNotifier v 1.19.3			https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002BED4
+Text to KKT v 3.12.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x0005BA4A
+UniNotifier v 1.20				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002CE0E
 Vector image generator v 1.8.4	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x0002AD21
 
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
