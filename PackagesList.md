@@ -13,7 +13,7 @@ LangChanger v 1.2!				https://github.com/adslbarxatov/DPModule/raw/master/Packag
 Make CST v 1.5u!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
 Make decision v 2.6.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F200
 OS macros executor v 2.6.5		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0003250F
-Screen shooter v 1.6.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x000294E6
+Screen shooter v 1.6.4b			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002941D
 Sudoku solver v 2.2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00045AF7
 Tables merger v 1.5.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0004F2DE
 Text to KKT v 3.12.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x0005BA4A
