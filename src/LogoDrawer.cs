@@ -4,8 +4,8 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 #if LDDEBUG
-using System.Runtime.InteropServices;
-using System.Threading;
+	using System.Runtime.InteropServices;
+	using System.Threading;
 #endif
 using System.Windows.Forms;
 

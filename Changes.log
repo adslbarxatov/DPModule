@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 11.1:
+• Now application will check the activity of executables being updated or deleted. If it's running, DPModule
+  will interrupt deployment process;
+• Some fixes applied to application interface
+
 Version 11.0.3:
 • Some fixes applied to application interface
 

@@ -413,7 +413,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
   <data name="PSF_Help01" xml:space="preserve">
     <value>Double click needed package to download it.
 Package statuses:
-▼ – new for this PC;
+▽ – new for this PC;
 ▲ – newer version than deployed one;
 ◯ – already deployed;
 ◇ – unspecified status</value>
@@ -429,5 +429,8 @@ Package statuses:
   </data>
   <data name="DisclaimerMainTextPre" xml:space="preserve">
     <value>Right-click tray icon for details and package info. For continue deployment press “Next” button</value>
+  </data>
+  <data name="AppIsNotClosed" xml:space="preserve">
+    <value>Application being updated/deleted is not closed. Finish the application and try again</value>
   </data>
 </root>

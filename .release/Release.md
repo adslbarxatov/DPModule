@@ -1,13 +1,3 @@
-_Changes for v 11.0.3_:
-- Packages manager's interface has been completely rebuilt; now it's able to:
-    - download packages, as before (packages statuses will be shown by icons);
-    - clearly select packages for deploying (without 'open file' window);
-    - display downloaded and previously deployed packages;
-    - select packages for re-deployment;
-    - clear cache, as before;
-- Updated tabstop order in packages manager's interface;
-- Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
-- Application will now wait for finishing unzipper's process (for correct lists updating);
-- Manual lists update has been added;
-- Video presentation for the product has been updated;
+_Changes for v 11.1_:
+- Now application will check the activity of executables being updated or deleted. If it's running, DPModule will interrupt deployment process;
 - Some fixes applied to application interface
