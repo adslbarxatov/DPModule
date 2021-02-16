@@ -20,7 +20,7 @@ Text to KKT v 4.2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packa
 UniNotifier v 2.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002D40D
 Vector image generator v 1.8.4	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x0002AD21
 
-ESHQ update to v 10.1b			https://www.moddb.com/downloads/start/208724?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_1b.7z	12314982
+ESHQ update to v 10.1c			https://www.moddb.com/downloads/start/208932?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_1c.7z	18930062
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
 ESHQ bkwd. compat. from 9.x		https://www.moddb.com/downloads/start/207082?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_backward_10.7z			49709520
 Crazy cheater's mod v 1.1b		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1b.7z				165286111
