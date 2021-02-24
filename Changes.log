@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Add finalization option;
+- Add launch option
+
 Version 11.1:
 • Now application will check the activity of executables being updated or deleted. If it's running, DPModule
   will interrupt deployment process;
@@ -46,7 +50,7 @@ Version 10.5.2:
 • Fixed some tool windows' background colors
 
 Version 10.5.1:
-• Splitted messages for info link and required additional installations
+• Split messages for info link and required additional installations
 
 Version 10.5:
 • Added ability to display post-deployment messages and starting links for external installations;
@@ -56,7 +60,7 @@ Version 10.4.4:
 • Fixed hidden bug in paths processing algorithm
 
 Version 10.4.3:
-• Fixed bug in Policy acception interface that disallowed to accept it in offline mode at first start
+• Fixed bug in Policy acceptation interface that disallowed to accept it in offline mode at first start
 
 Version 10.4.2:
 • Fixed bug that disallowed old deployed packages overwriting;
@@ -71,7 +75,7 @@ Version 10.4:
   - 'update' will be added to packages names that are newer than installed;
 • ADP loader has been rebuilt:
   - Policy accepting will not be requested for every utility;
-  - Policy accepting will be requested only once at fisrt start of some utility or on new Policy review;
+  - Policy accepting will be requested only once at first start of some utility or on new Policy review;
   - Policy text now formatted properly;
 • App about and Policy windows are now fully expandaple
 
