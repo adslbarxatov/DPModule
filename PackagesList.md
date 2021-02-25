@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule v 11.1					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0012BC4F
+DPModule v 11.2					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0012C24F
 Batch image convertor v 2.15.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0003B73D
 BExplorer v 2.17.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x00191786
 ConcurrentDraw v 2.2.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x00099FF2

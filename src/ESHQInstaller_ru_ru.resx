@@ -194,10 +194,7 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
     <value>Сайт проекта в настоящий момент недоступен. Повторите попытку позже</value>
   </data>
   <data name="ModeLabelText_Main" xml:space="preserve">
-    <value>Выберите режим установки:</value>
-  </data>
-  <data name="ModeLabelText_Update" xml:space="preserve">
-    <value>Выберите режим обновления:</value>
+    <value>Выберите режим:</value>
   </data>
   <data name="ModPath" xml:space="preserve">
     <value>Путь установки программы:</value>
@@ -254,7 +251,7 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
 ВНИМАНИЕ: указание некорректного пути может привести к повреждению важных файлов!</value>
   </data>
   <data name="SpecifyModPath" xml:space="preserve">
-    <value>Укажите путь установки программы:</value>
+    <value>Укажите путь установки:</value>
   </data>
   <data name="UninstallRadioText" xml:space="preserve">
     <value>Удаление: деинсталляция программы</value>
@@ -430,5 +427,11 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="AppIsNotClosed" xml:space="preserve">
     <value>Обновляемое / удаляемое приложение активно. Завершите работу с приложением и повторите попытку</value>
+  </data>
+  <data name="KillProcessFlagText" xml:space="preserve">
+    <value>Остановить приложение, если оно запущено</value>
+  </data>
+  <data name="StartProcessFlagText" xml:space="preserve">
+    <value>Запустить приложение после завершения</value>
   </data>
 </root>

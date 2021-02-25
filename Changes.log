@@ -1,8 +1,9 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Add finalization option;
-- Add launch option
+Version 11.2:
+• Added ability to finish all processes of the previous app version before its updating / deinstallation;
+• Added ability to start application after installation / update;
+• Some tips have been updated
 
 Version 11.1:
 • Now application will check the activity of executables being updated or deleted. If it's running, DPModule

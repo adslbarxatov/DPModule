@@ -1,3 +1,4 @@
-_Changes for v 11.1_:
-- Now application will check the activity of executables being updated or deleted. If it's running, DPModule will interrupt deployment process;
-- Some fixes applied to application interface
+_Changes for v 11.2_:
+- Added ability to finish all processes of the previous app version before its updating / deinstallation;
+- Added ability to start application after installation / update;
+- Some tips have been updated
