@@ -16,8 +16,8 @@ OS macros executor v 2.6.5		https://github.com/adslbarxatov/DPModule/raw/master/
 Screen shooter v 1.6.4b			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002941D
 Sudoku solver v 2.2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00045AF7
 Tables merger v 1.5.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0004F2DE
-Text to KKT v 4.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00062A47
-UniNotifier v 2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002D80D
+Text to KKT v 4.3.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00062A49
+UniNotifier v 2.4.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002D80F
 Vector image generator v 1.8.4	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x0002AD21
 
 ESHQ update to v 10.2			https://www.moddb.com/downloads/start/210066?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_2.7z	49254445
