@@ -312,7 +312,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
     <value>Обновить {0:S} до версии {1:S}</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>Модуль развёртки для проектов RD AAOW FUPL. Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
+    <value>Модуль развёртки для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Менеджер пакетов развёртки</value>
@@ -433,5 +433,8 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="StartProcessFlagText" xml:space="preserve">
     <value>Запустить приложение после завершения</value>
+  </data>
+  <data name="PackageSelectorForm_BAbout" xml:space="preserve">
+    <value>&amp;О DPModule</value>
   </data>
 </root>

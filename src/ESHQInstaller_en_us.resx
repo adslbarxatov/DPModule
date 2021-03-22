@@ -314,7 +314,7 @@ For continue setup press "Next"; otherwise press "Cancel"</value>
     <value>Update {0:S} to version {1:S}</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>Deployment packages utility for RD AAOW FUPL projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
+    <value>Deployment packages utility for Free development lab's (RD AAOW FDL) projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>
@@ -435,5 +435,8 @@ Package statuses:
   </data>
   <data name="StartProcessFlagText" xml:space="preserve">
     <value>Start application after completion</value>
+  </data>
+  <data name="PackageSelectorForm_BAbout" xml:space="preserve">
+    <value>A&amp;bout DPModule</value>
   </data>
 </root>
