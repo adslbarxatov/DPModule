@@ -437,4 +437,7 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
     <value>&amp;О DPModule</value>
   </data>
+  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+    <value>Выйти при успешном завершении</value>
+  </data>
 </root>

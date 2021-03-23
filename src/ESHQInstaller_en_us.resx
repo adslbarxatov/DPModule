@@ -439,4 +439,7 @@ Package statuses:
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
     <value>A&amp;bout DPModule</value>
   </data>
+  <data name="CloseOnSuccessFlagText" xml:space="preserve">
+    <value>Exit if completed successfully</value>
+  </data>
 </root>

@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 11.3.1:
+• Added new identity for other interfaces;
+• Added 'autoclose on success' flag;
+• DPModule now unable to kill its own process
+
 Version 11.3:
 • New identity applied;
 • New links to RD AAOW FDL added;
