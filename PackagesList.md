@@ -11,7 +11,7 @@ FontFinder v 2.12.5				https://github.com/adslbarxatov/DPModule/raw/master/Packa
 Geomag data drawer v 4.17.4		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x0014833A
 LangChanger v 1.3!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/LangChanger.dp0					LangChanger.dp0				0x0001F033
 Make CST v 1.5u!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
-Make decision v 2.7				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F1FE
+Make decision v 2.7.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F600
 OS macros executor v 2.6.5		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0003250F
 Screen shooter v 1.6.4b			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002941D
 Sudoku solver v 2.2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00045AF7
