@@ -10,15 +10,15 @@ FileExtensionsManager v 1.6		https://github.com/adslbarxatov/DPModule/raw/master
 FontFinder v 2.12.5				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0002C4CF
 Geomag data drawer v 4.17.4		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x0014833A
 KeyboardSwitcher v 1.4!			https://github.com/adslbarxatov/DPModule/raw/master/Packages/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		130185
-Make CST v 1.5u!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					25873
+Make CST v 1.6!					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					0x00009E1A
 Make decision v 2.7.1b			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F601
 OS macros executor v 2.7		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00042450
-Screen shooter v 1.6.4b			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002941D
+Screen shooter v 1.7			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002FE1A
 Sudoku solver v 2.2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00045AF7
-Tables merger v 1.5.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0004F2DE
+Tables merger v 1.6				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F415
 Text to KKT v 4.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00063247
 UniNotifier v 2.4.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0002D80F
-Vector image generator v 1.8.4	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x0002AD21
+Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
 
 ESHQ update to v 10.2			https://www.moddb.com/downloads/start/210066?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_2.7z	49254445
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
