@@ -1,11 +1,11 @@
-﻿# DPModule v 11.3.1
-> PCC: 0012C455ACDCAADF
+﻿# DPModule v 11.3.2
+> PCC: 00130CCE0734E4BC
 
-> CRC32: 5CA7E613
+> CRC32: FAA707C4
 
 
 
-Deployment packages utility for Free development lab's (RD AAOW FDL) projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
+Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
 
 Модуль развёртывания для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов
 

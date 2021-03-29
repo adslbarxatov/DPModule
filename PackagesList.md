@@ -1,13 +1,13 @@
 ```
 Packages, available for download:
 
-DPModule v 11.3.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0012C455
+DPModule v 11.3.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				1248462
 Batch image convertor v 2.16b	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B880
 BExplorer v 2.18				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x001A74E9
 ConcurrentDraw v 2.3			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x000A114A
 DatesDifference v 2.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/DatesDifference.dp0				DatesDifference.dp0			0x0002AE39
 FileExtensionsManager v 1.6		https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0004BA89
-FontFinder v 2.13				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0003C623
+FontFinder v 2.13.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0003C625
 Geomag data drawer v 4.18		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x0017128F
 KeyboardSwitcher v 1.4!			https://github.com/adslbarxatov/DPModule/raw/master/Packages/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		130185
 Make CST v 1.6!					https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					0x00009E1A

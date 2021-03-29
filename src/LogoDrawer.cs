@@ -132,7 +132,7 @@ namespace RD_AAOW
 			this.ForeColor = ProgramDescription.MasterTextColor;
 
 			backBrush = new SolidBrush (this.BackColor);
-			backPen = new Pen (this.BackColor, drawerSize);
+			backPen = new Pen (this.BackColor, scale / 7);	// More than drawerSize
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
