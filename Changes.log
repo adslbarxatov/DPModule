@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 11.4:
+• Some interface adjustments applied;
+• Added support for new ESHQ mod's engine version;
+• Added support for WinRAR utility;
+• Improved downloading algorithm for ModDB
+
 Version 11.3.2:
 • Fixed icons applied;
 • Added keyboard control for “about” interface;
