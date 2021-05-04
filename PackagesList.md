@@ -21,7 +21,7 @@ UniNotifier v 3.0g				https://github.com/adslbarxatov/DPModule/raw/master/Packag
 Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
 
 ESHQ update to v 10.2			https://www.moddb.com/downloads/start/210066?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_2.7z	49254445
-ESHQ update to v 10.3a			https://www.moddb.com/downloads/start/212867?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_3a.7z	55083097
+ESHQ update to v 10.3b			https://www.moddb.com/downloads/start/213428?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_3b.7z	0x07A120B5
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
 ESHQ bkwd. compat. from 9.x     https://www.moddb.com/downloads/start/207082?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_backward_10.7z			49709520
 Crazy cheater’s mod v 1.1b		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1b.7z				165286111
