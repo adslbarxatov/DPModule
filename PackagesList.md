@@ -4,7 +4,7 @@ Packages, available for download:
 DPModule v 11.4					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x00130CC8
 Batch image convertor v 2.16.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B881
 BExplorer v 2.18				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x001A74E9
-ConcurrentDraw v 2.3.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			660300
+ConcurrentDraw v 2.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x000A174A
 DatesDifference v 2.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/DatesDifference.dp0				DatesDifference.dp0			0x0002AE39
 FileExtensionsManager v 1.6		https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0004BA89
 FontFinder v 2.13.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0003C625
@@ -16,7 +16,7 @@ OS macros executor v 2.7		https://github.com/adslbarxatov/DPModule/raw/master/Pa
 Screen shooter v 1.7			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0002FE1A
 Sudoku solver v 2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x0005280E
 Tables merger v 1.6				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F415
-Text to KKT v 4.4.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00063849
+Text to KKT v 4.4.4.4			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x0006384B
 UniNotifier v 3.0g				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003D00E
 Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
 
