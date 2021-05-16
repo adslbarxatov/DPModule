@@ -22,6 +22,7 @@ Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master
 
 ESHQ update to v 10.2			https://www.moddb.com/downloads/start/210066?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_2.7z	49254445
 ESHQ update to v 10.3d			https://www.moddb.com/downloads/start/213941?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_3d.7z	55925667
+ESHQ update to v 10.3e			07E9E18B698D2DC5			19.05.21
 ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
 Crazy cheater’s mod v 1.1b		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1b.7z				165286111
 Counter strike 1.6 maps			https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
