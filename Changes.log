@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 11.5:
+• Uninstallation scripts will now be created in package deployment directories (instead of DPModule's startup path);
+  also shortcuts for these scripts will be created on the desktop
+
 Version 11.4:
 • Some interface adjustments applied;
 • Added support for new ESHQ mod's engine version;
