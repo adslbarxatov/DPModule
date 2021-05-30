@@ -20,10 +20,9 @@ Text to KKT v 4.4.4.4			https://github.com/adslbarxatov/DPModule/raw/master/Pack
 UniNotifier v 3.6f				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003C20E
 Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
 
-ESHQ update to v 10.2			https://www.moddb.com/downloads/start/210066?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_2.7z	49254445
-ESHQ update to v 10.3e			https://www.moddb.com/downloads/start/214007?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_10_3e.7z	56751799
-ESHQ update to v 10.3e			07E9E18B698D2DC5			19.05.21
-ESHQ 10							https://www.moddb.com/downloads/start/207081?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_10.7z					168440853
+ESHQ 11							https://www.moddb.com/downloads/start/2xxxxx?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_11.7z					168440853
+ESHQ update to v 11.0b          https://www.moddb.com/downloads/start/2xxxxx?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_11_0.7z	56751799
+ESHQ backward comp. for v 10	https://www.moddb.com/downloads/start/2xxxxx?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp_for_v_10.7z	58666917
 Crazy cheater’s mod v 1.1b		https://www.moddb.com/downloads/start/189984?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_1b.7z				165286111
 Counter strike 1.6 maps			https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
 Races v 1.6						https://github.com/adslbarxatov/DPModule/raw/master/Packages/Races.dp0							Races.dp0					0x008DC376
