@@ -56,10 +56,10 @@ namespace RD_AAOW
 		private const int lineLeft = 250;		// Начало строки текста расширенного режима
 
 		// Строки текста расширенного режима
-		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> (),
+		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> ()/*,
 			extendedStrings2 = new List<List<LogoDrawerString>> (),
 			extendedStrings3 = new List<List<LogoDrawerString>> (),
-			extendedStrings4 = new List<List<LogoDrawerString>> ();
+			extendedStrings4 = new List<List<LogoDrawerString>> ()*/;
 
 #if LDDEBUG
 		// Эта конструкция имитирует нажатие клавиши, запускающей и останавливающей запись
@@ -100,7 +100,7 @@ namespace RD_AAOW
 #if LDDEBUG
 			extended = 0;
 #else
-			extended = ((rnd.Next (5) == 0) ? (uint)rnd.Next (1, 4) : 0);
+			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0); //(uint)rnd.Next (1, 5) : 0);
 #endif
 
 			/*mode = DrawModes.Mode2;/**/
@@ -223,7 +223,7 @@ namespace RD_AAOW
 					ExtendedTimer.Tick += ExtendedTimer1_Tick;
 					break;
 
-				case 2:
+				/*case 2:
 					ExtendedTimer.Tick += ExtendedTimer2_Tick;
 					break;
 
@@ -233,7 +233,7 @@ namespace RD_AAOW
 
 				case 4:
 					ExtendedTimer.Tick += ExtendedTimer4_Tick;
-					break;
+					break;*/
 				}
 			#endregion
 
@@ -338,7 +338,7 @@ namespace RD_AAOW
 				"- Oh, well done!", textFont, 120, textLetterWidth));
 
 			// Текст расширенного режима, вариант 2
-			extendedStrings2.Add (new List<LogoDrawerString> ());
+			/*extendedStrings2.Add (new List<LogoDrawerString> ());
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
 				"What does our logo mean?", headerFont, 50, headerLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
@@ -403,7 +403,7 @@ namespace RD_AAOW
 			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (
 				"   This  geometry  seems  to  be  partially  used" +
 				"already. But  we  think  that  this  filling  may" +
-				"pretend to be original", textFont, 150, textLetterWidth));
+				"pretend to be original", textFont, 150, textLetterWidth));*/
 
 			#endregion
 
@@ -795,7 +795,7 @@ namespace RD_AAOW
 			}
 
 		// Таймер расширенного режима отображения, вариант 2
-		private void ExtendedTimer2_Tick (object sender, EventArgs e)
+		/*private void ExtendedTimer2_Tick (object sender, EventArgs e)
 			{
 			switch (phase1)
 				{
@@ -1091,7 +1091,7 @@ namespace RD_AAOW
 					LogoDrawer_Shown (null, null);
 					break;
 				}
-			}
+			}*/
 
 		// Обслуживающий функционал
 
