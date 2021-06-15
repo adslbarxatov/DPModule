@@ -17,7 +17,7 @@ Screen shooter v 1.7			https://github.com/adslbarxatov/DPModule/raw/master/Packa
 Sudoku solver v 2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x0005280E
 Tables merger v 1.6				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F415
 Text to KKT v 4.5				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00064647
-UniNotifier v 3.6f				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003C20E
+UniNotifier v 3.6g				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003C20E
 Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
 
 ESHQ 11							https://www.moddb.com/downloads/start/214690?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_11.7z					161340044
