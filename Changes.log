@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 11.6:
+• Updated ADP link and text presenter;
+• Updated banners set
+
 Version 11.5b:
 • Fixed false triggering of some antivirus software;
 • Removed unused logo scenes and images

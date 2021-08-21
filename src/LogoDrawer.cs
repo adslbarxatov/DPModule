@@ -98,7 +98,7 @@ namespace RD_AAOW
 			// Инициализация
 			Random rnd = new Random ();
 #if LDDEBUG
-			extended = 0;
+			extended = 2;
 #else
 			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0); //(uint)rnd.Next (1, 5) : 0);
 #endif
@@ -227,7 +227,7 @@ namespace RD_AAOW
 					ExtendedTimer.Tick += ExtendedTimer2_Tick;
 					break;
 
-				case 3:
+				/*case 3:
 					ExtendedTimer.Tick += ExtendedTimer3_Tick;
 					break;
 
@@ -246,16 +246,16 @@ namespace RD_AAOW
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"What does our logo mean?", headerFont, 50, headerLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from RD_AAOW (creator)", textFont, 80, textLetterWidth));
+				"Some explanations from Nicolay B. aka RD_AAOW", textFont, 80, textLetterWidth));
 
 			extendedStrings1.Add (new List<LogoDrawerString> ());
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- What does 'ESHQ' mean?", textFont, 50, textLetterWidth));
+				"- What does “ESHQ” mean?", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- How d'ya think?", textFont, 80, textLetterWidth));
+				"- How d’ya think?", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- Oh, from arabic it means 'love'. May be...", textFont, 30, textLetterWidth));
+				"- Oh, from arabic it means “love”. May be...", textFont, 30, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Hell no! Oh God!  Have you ever seen Half-Life?" +
 				"  What kind of love do you assumed to see here?", textFont, 80, textLetterWidth));
@@ -263,8 +263,8 @@ namespace RD_AAOW
 				"- Some  love  to machines,  I think.  Technocracy" +
 				"  madness or something...", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- ...I'm shocked.  It's actually an accident. But" +
-				"  you're completely right", textFont, 50, textLetterWidth));
+				"- ...I’m shocked.  It’s actually an accident. But" +
+				"  you’re completely right", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- OK, keep going", textFont, 100, textLetterWidth));
 
@@ -281,15 +281,15 @@ namespace RD_AAOW
 				"• Quarters", headerFont, 40, headerLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- It's a  fake name  for infrastructure  facility" +
+				"- It’s a  fake name  for infrastructure  facility" +
 				"  where  our plot  begins.  Our project  is about" +
-				"  tech.  And about  people's inability  to use it" +
+				"  tech.  And about  people’s inability  to use it" +
 				"  properly.  We just  tried  to create  something" +
-				"  that we haven't in reality. We got it, I think." +
+				"  that we haven’t in reality. We got it, I think." +
 				"  Surrealistic disasters, crushes, mad AI, etc...", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"  But... Hell yeah! We're sharing 'love'! ♥♥♥", textFont, 100, textLetterWidth));
+				"  But... Hell yeah! We’re sharing “love”! ♥♥♥", textFont, 100, textLetterWidth));
 
 			extendedStrings1.Add (new List<LogoDrawerString> ());
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
@@ -302,7 +302,7 @@ namespace RD_AAOW
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- An infinity sign, I think", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- Yes, it is.  But it's  'interrupted'  infinity." +
+				"- Yes, it is.  But it’s  “interrupted”  infinity." +
 				"  Like a life.  It may  be eternal.  But it tends" +
 				"  to break off suddenly... What else?", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
@@ -311,13 +311,13 @@ namespace RD_AAOW
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Yes,  of course.  The  code  of life.  And  the" +
 				"  source code  that we using  just like a painter" +
-				"  uses his brush. It's context dependent", textFont, 80, textLetterWidth));
+				"  uses his brush. It’s context dependent", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Is Large Hadron Collider also here?  Logo looks" +
 				"  like its rays dispersing from center", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- It's  obvious.  LHC is  about life  origin too." +
+				"- It’s  obvious.  LHC is  about life  origin too." +
 				"  And about tech too", textFont, 100, textLetterWidth));
 
 			extendedStrings1.Add (new List<LogoDrawerString> ());
@@ -325,42 +325,42 @@ namespace RD_AAOW
 				"- And how about crossing roads?", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Of course, it is.  An intersection of  ways and" +
-				"  fates is the life itself. It's ESHQ itself", textFont, 80, textLetterWidth));
+				"  fates is the life itself. It’s ESHQ itself", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Did you invented new Ankh?", textFont, 50, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"- No no no.  Don't be  so pretentious.  It's just" +
+				"- No no no.  Don’t be  so pretentious.  It’s just" +
 				"  possible descriptions.  And we just need unique" +
 				"  logo. Here it is", textFont, 80, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Oh, well done!", textFont, 120, textLetterWidth));
 
-			// Текст расширенного режима, вариант 2
-			/*extendedStrings2.Add (new List<LogoDrawerString> ());
+			/*// Текст расширенного режима, вариант 2
+			extendedStrings2.Add (new List<LogoDrawerString> ());
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
 				"What does our logo mean?", headerFont, 50, headerLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from RD_AAOW (creator)", textFont, 80, textLetterWidth));
+				"Some explanations from Nicolay B. aka RD_AAOW", textFont, 80, textLetterWidth));
 
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"   It's  simple.   We  called   our  installation" +
-				"assembly  'Deployment  packages'.  After that  we" +
-				"took  'd' and 'p'  and  merge  them  into  single" +
+				"   It’s  simple.   We  called   our  installation" +
+				"assembly  “Deployment  packages”.  After that  we" +
+				"took  “d” and “p”  and  merge  them  into  single" +
 				"arrow-like logo.", textFont, 80, textLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
 				"   ...Although, to be completely honest:  we took" +
-				"'d' and 'p' and after that we called our assembly" +
-				"'DP'.  We just enjoy the way they merge.  And the" +
+				"“d” and “p” and after that we called our assembly" +
+				"“DP”.  We just enjoy the way they merge.  And the" +
 				"right words was easy to find.", textFont, 70, textLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
 			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
 				"   So it goes", textFont, 150, textLetterWidth));
 
-			// Текст расширенного режима, вариант 3
+			/* // Текст расширенного режима, вариант 3
 			extendedStrings3.Add (new List<LogoDrawerString> ());
 			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
 				"What does our logo mean?", headerFont, 50, headerLetterWidth));
@@ -681,7 +681,9 @@ namespace RD_AAOW
 			{
 			// Остановка основного режима
 			PauseTimer.Enabled = false;
-			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+
+			/*for (int i = 0; i < 120; i++)
+				logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
 
 			if (extended == 0)
 				{
@@ -792,10 +794,12 @@ namespace RD_AAOW
 					LogoDrawer_Shown (null, null);
 					break;
 				}
+
+			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
 			}
 
-		// Таймер расширенного режима отображения, вариант 2
-		/*private void ExtendedTimer2_Tick (object sender, EventArgs e)
+		/*// Таймер расширенного режима отображения, вариант 2
+		private void ExtendedTimer2_Tick (object sender, EventArgs e)
 			{
 			switch (phase1)
 				{
@@ -910,7 +914,9 @@ namespace RD_AAOW
 					LogoDrawer_Shown (null, null);
 					break;
 				}
-			}
+
+			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+		/*	}
 
 		// Таймер расширенного режима отображения, вариант 3
 		private void ExtendedTimer3_Tick (object sender, EventArgs e)
