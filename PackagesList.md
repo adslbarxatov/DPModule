@@ -4,7 +4,7 @@ Packages, available for download:
 DPModule v 11.6					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0007C8C8
 Batch image convertor v 2.17	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B87F
 BExplorer v 2.18.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x001A76EB
-ConcurrentDraw v 2.5r			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x000A194B
+ConcurrentDraw v 2.5.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x000A194C
 DatesDifference v 2.2			https://github.com/adslbarxatov/DPModule/raw/master/Packages/DatesDifference.dp0				DatesDifference.dp0			0x0002AE39
 FileExtensionsManager v 1.6		https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0004BA89
 FontFinder v 2.13.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0003C625
