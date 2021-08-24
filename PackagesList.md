@@ -8,17 +8,17 @@ ConcurrentDraw v 2.5.1			https://github.com/adslbarxatov/DPModule/raw/master/Pac
 DatesDifference v 2.2.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/DatesDifference.dp0				DatesDifference.dp0			0x0002B03B
 FileExtensionsManager v 1.6.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/FileExtensionsManager.dp0			FileExtensionsManager.dp0	0x0004BC8B
 FontFinder v 2.13.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/FontFinder.dp0						FontFinder.dp0				0x0003C625
-Geomag data drawer v 4.18		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x0017128F
+Geomag data drawer v 4.18.1		https://github.com/adslbarxatov/DPModule/raw/master/Packages/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171291
 KeyboardSwitcher v 1.4!			https://github.com/adslbarxatov/DPModule/raw/master/Packages/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA89
 Make CST v 1.6.1!				https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeCST.dp0						MakeCST.dp0					0x00009E1C
 Make decision v 2.8.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F800
 OS macros executor v 2.7.1		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00042452
 Screen shooter v 1.7.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0003001C
 Sudoku solver v 2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x0005280E
-Tables merger v 1.6				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F415
+Tables merger v 1.6.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
 Text to KKT v 5.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00076247
 UniNotifier v 3.8.5				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003C40F
-Vector image generator v 1.9	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034870
+Vector image generator v 1.9.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
 ESHQ 11							https://www.moddb.com/downloads/start/214690?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_11.7z					161340044
 ESHQ backward comp. for v 10	https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp_for_v_10.7z	58666917
