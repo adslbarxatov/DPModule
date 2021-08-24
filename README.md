@@ -54,8 +54,6 @@ describes general rules that we follow in all of our development processes, rele
 **It must be acquainted by participants and users before using any of laboratory’s products.
 By downloading them, you agree and accept this Policy!**
 
-&nbsp;
-
 Данная Политика (ADP), её положения, заключение, EULA и способы применения
 описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
 и реализованных идеях.
