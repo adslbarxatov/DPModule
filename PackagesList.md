@@ -14,7 +14,7 @@ Make CST v 1.6.1!				https://github.com/adslbarxatov/DPModule/raw/master/Package
 Make decision v 2.8.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/MakeDecision.dp0					MakeDecision.dp0			0x0002F800
 OS macros executor v 2.7.1		https://github.com/adslbarxatov/DPModule/raw/master/Packages/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00042452
 Screen shooter v 1.7.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0003001C
-Sudoku solver v 2.3				https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x0005280E
+Sudoku solver v 2.3.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
 Tables merger v 1.6.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
 Text to KKT v 5.4				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00076247
 UniNotifier v 3.8.5				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x0003C40F
