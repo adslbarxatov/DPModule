@@ -70,7 +70,8 @@ and objectives of the laboratory.
 
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
-It also includes video (:film_projector:), presentation playlists (:tv:) and other guides for downloading and installing software products.
+For each, a set of available interface languages is indicated (:gb: and / or :ru:).
+It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://www.moddb.com/members/rd-aaow-fdl/mods).
@@ -78,15 +79,15 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 &nbsp;
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:).
-Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды по загрузке и установке программных продуктов.
+Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
+Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://www.moddb.com/members/rd-aaow-fdl/mods).
 
 #
 
-### DPModule   [:earth_africa:](https://github.com/adslbarxatov/dpmodule)   [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)
+### DPModule   [:earth_africa:](https://github.com/adslbarxatov/dpmodule)   [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)   :gb: :ru:
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
@@ -96,7 +97,7 @@ You can get all Windows-versions of our products through this application. You a
 
 #
 
-### ConcurrentDraw   [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw)   [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE)   [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+### ConcurrentDraw   [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw)   [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE)   [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)   :gb: :ru:
 
 A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
 
@@ -104,15 +105,27 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 #
 
-### UniNotifier   [:earth_africa:](https://github.com/adslbarxatov/uninotifier)   [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)   [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+### UniNotifier   [:earth_africa:](https://github.com/adslbarxatov/uninotifier)   [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)   [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)   :gb: :ru:
 
 A custom notifications (news) service that allows you to request only the needed content
 of sites without extraneous elements. Before starting work, it is recommended that you view
-video presentation. The Android version is also available on AppGallery.
+video presentation. The Android version is also available on AppGallery
 
 Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов
 без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией.
 Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения,
-работающий с ресурсом [tablepedia.com](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) (ru_ru only).
+работающий с ресурсом [tablepedia.com](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) (:ru: only)
+
+#
+
+### EnchantIt   [:earth_africa:](https://github.com/adslbarxatov/enchantit)   [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g)   [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit)   [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)   :gb: :ru:
+
+An “extraordinary” abilities testing tool.
+Before starting the experiment take a look at the project presentation and complete method description.
+Version for Android is also available on AppGallery
+
+Инструмент определения «экстраординарных» способностей.
+Перед началом работы рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода.
+Android-версия доступна также в AppGallery
 
 #
