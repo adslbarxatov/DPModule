@@ -8,7 +8,7 @@
 
 #
 
-### Hello, dear user!
+## Hello, dear user!
 
 We’re glad to welcome you to the start page of Free development lab (RD AAOW FDL).
 
@@ -38,7 +38,7 @@ and objectives of the laboratory.
 
 #
 
-### Здравствуйте, уважаемый пользователь!
+## Здравствуйте, уважаемый пользователь!
 
 Мы рады приветствовать Вас на стартовой странице лаборатории свободных разработок
 (Free development lab, RD AAOW FDL).
@@ -66,11 +66,11 @@ and objectives of the laboratory.
 
 #
 
-### Actual projects and developments | Актуальные проекты и разработки
+## Actual projects and developments | Актуальные проекты и разработки
 
 Current laboratory’s projects are described below.
-Description contains all the necessary links.
-It also includes video guides for downloading and installing software products.
+Description contains all the necessary links (:earth_africa:).
+It also includes video (:film_projector:), presentation playlists (:tv:) and other guides for downloading and installing software products.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://www.moddb.com/members/rd-aaow-fdl/mods).
@@ -78,16 +78,25 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 &nbsp;
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки.
-Также в нём имеются видеогиды по загрузке и установке программных продуктов.
+Описание содержит все необходимые ссылки (:earth_africa:).
+Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды по загрузке и установке программных продуктов.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://www.moddb.com/members/rd-aaow-fdl/mods).
 
-&nbsp;
+#
 
-+---+---+
-|Project|Description|
-+---+---+
-|ААА|1234567890123456789 123456789 123456789 12345678 12345678 1234567|
-+---+---+
+### DPModule   [:earth_africa:](https://github.com/adslbarxatov/dpmodule)   [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)
+
+The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products. You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
+
+Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов. Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на приветственной странице этого приложения
+
+#
+
+### ConcurrentDraw   [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw)   [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE) [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+
+A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output.
+You can see how it works by downloading it or here.
+
+утилита визуализации звука (работает без дополнительных кодеков и драйверов, т.к. использует выбираемый пользователем системный аудиовыход). Как она работает, можно посмотреть, загрузив её, или здесь.
