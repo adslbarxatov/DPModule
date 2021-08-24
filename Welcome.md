@@ -69,7 +69,7 @@ and objectives of the laboratory.
 ## Actual projects and developments | Актуальные проекты и разработки
 
 Current laboratory’s projects are described below.
-Description contains all the necessary links (:earth_africa:).
+Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
 It also includes video (:film_projector:), presentation playlists (:tv:) and other guides for downloading and installing software products.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
@@ -78,7 +78,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 &nbsp;
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки (:earth_africa:).
+Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:).
 Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды по загрузке и установке программных продуктов.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
@@ -88,15 +88,31 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 ### DPModule   [:earth_africa:](https://github.com/adslbarxatov/dpmodule)   [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)
 
-The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products. You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
+The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
+You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
 
-Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов. Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на приветственной странице этого приложения
+Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
+Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на приветственной странице этого приложения
 
 #
 
-### ConcurrentDraw   [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw)   [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE) [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+### ConcurrentDraw   [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw)   [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE)   [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
 
-A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output.
-You can see how it works by downloading it or here.
+A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
 
-утилита визуализации звука (работает без дополнительных кодеков и драйверов, т.к. использует выбираемый пользователем системный аудиовыход). Как она работает, можно посмотреть, загрузив её, или здесь.
+Утилита визуализации звука и музыки. Работает без дополнительных кодеков и драйверов, т. к. использует выбираемый пользователем системный аудиовыход
+
+#
+
+### UniNotifier   [:earth_africa:](https://github.com/adslbarxatov/uninotifier)   [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)   [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+
+A custom notifications (news) service that allows you to request only the needed content
+of sites without extraneous elements. Before starting work, it is recommended that you view
+video presentation. The Android version is also available on AppGallery.
+
+Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов
+без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией.
+Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения,
+работающий с ресурсом [tablepedia.com](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) (ru_ru only).
+
+#
