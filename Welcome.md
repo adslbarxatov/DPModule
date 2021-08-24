@@ -186,11 +186,11 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 
 #
 
-### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
+### BExplorer, MakeCST  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:earth_asia:](https://github.com/adslbarxatov/makecst)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
 
-API for working with save files for GTA Vice City and an application that implements a part of functionality
+**BExplorer** – API for working with save files for GTA Vice City and an application that implements a part of functionality. **MakeCST** – a tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
-API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
+**BExplorer** – API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала. **MakeCST** – инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
 
 #
 
@@ -234,7 +234,7 @@ Small tool that can tell the difference between two dates in different views
 
 #
 
-### SudokuSolver  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/sudokusolver)  &nbsp;  :black_flag:
+### SudokuSolver  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/sudokusolver)  &nbsp;  :gb: :ru:
 
 A tool for solving sudoku
 
@@ -242,7 +242,7 @@ A tool for solving sudoku
 
 #
 
-### TablesMerger, VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
+### TablesMerger, VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  [:earth_asia:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
 
 Byproducts of GDD development. **TablesMerger** performs “gluing” of columns in data tables.
 **VectorImageGenerator** suggests generating vector images using text scripts
@@ -252,3 +252,38 @@ Byproducts of GDD development. **TablesMerger** performs “gluing” of columns
 
 #
 
+### FullSilence, CodeShow  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fullsilence)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)  &nbsp;  :gb: :ru:
+
+Code fragments used in video projects of the same names in text visualization
+
+фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста
+
+#
+
+### Xash3D for ESHQ  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/xash3d-for-eshq)  &nbsp;  :gb:
+
+An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
+
+Адаптация движка Xash3D для мода ESHQ для Half-Life 1
+
+#
+
+### Maps for Counter-Strike 1.6  &nbsp;  [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)  &nbsp;  :gb:
+
+Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
+
+Наши первые карты, выполненные в Hammer editor. Не уверены насчёт баланса, но локации вполне играбельные
+
+#
+
+### Races, Snake, Turtle  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/races)  [:earth_asia:](https://github.com/adslbarxatov/snake)  [:earth_americas:](https://github.com/adslbarxatov/turtle)  &nbsp;  :ru:
+
+Sample games pack for XNA game studion — “Races”, “Snake” and “Turtle”
+
+Учебный набор игр для XNA game studio — «Гонки», «Змейка» и «Черепашка»
+
+#
+
+### GIATester  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/giatester)  &nbsp;  :ru: :no_entry:
+
+Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). Проект остановлен
