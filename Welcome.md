@@ -167,3 +167,27 @@ A tool for automatic processing of groups of images
 A tool for finding a font by its image
 
 Инструмент для поиска шрифта по его изображению
+
+#
+
+### ESHQ  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/eshq)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)  &nbsp;  :gb:
+
+A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
+
+Мод для Half-Life 1 с собственной сюжетной линией (не из вселенной Half-Life). Неизвестный правительственный шпион должен выкрасть секретные файлы из здания, называемого «Evil scientists headquarters». Но его работа окажется немного более сложной, масштабной и длительной... Плейлист приоткрывает суть проекта для тех, кто ещё не успел его попробовать вживую
+
+#
+
+### CCM (Crazy cheater’s mod)  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm)  [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
+
+A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
+
+Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем, а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых дополнений и исправлений
+
+#
+
+### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
+
+API for working with save files for GTA Vice City and an application that implements a part of functionality
+
+API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
