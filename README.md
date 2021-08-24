@@ -1,7 +1,7 @@
 ﻿# DPModule v 11.6
-> PCC: 0007C8C8DAE8CDF0
+> PCC: 0007C8C8BEA8B73A
 
-> CRC32: 9717FF8F
+> CRC32: 6A652846
 
 
 
@@ -17,10 +17,7 @@ Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool p
 
 - Пользователь теперь всегда самостоятельно выбирает нужные пакеты для загрузки и развёртки. Для этого при запуске будет отображено соответствующее диалоговое окно.
 - Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
-- Приложение теперь стабильно работает с нашими репозиториями.
-- Выбор языка интерфейса доступен при первом запуске и в контекстном меню значка в трее.
 - Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
-- Русскоязычные описания пакетов версии ```.dp9``` будут недоступны; вместо них будут отображаться тексты на английском языке.
 
 #
 
@@ -28,10 +25,7 @@ Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool p
 
 - User now always independently selects the needed packages for downloading and deployment. To do this, a corresponding dialog box will be displayed at startup.
 - Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
-- Application is now correctly uses our repositories.
-- Choice of the interface language is available at the first start and in tray context menu.
 - If you want to restore the installation path for a package, you can do this from tray context menu.
-- Russian-language package descriptions of the ```.dp9``` version will not be available; English texts will be displayed instead.
 
 &nbsp;
 
