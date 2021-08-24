@@ -191,3 +191,64 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 API for working with save files for GTA Vice City and an application that implements a part of functionality
 
 API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
+
+#
+
+### OSMacrosExecutor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor)  [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc)  &nbsp;  :gb: :ru:
+
+A tool for automating user actions in operating system
+
+Инструмент автоматизации действий пользователя в операционной системе
+
+#
+
+### FileExtensionsManager  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fileextensionsmanager)  &nbsp;  :gb: :ru:
+
+A tool for managing custom file extensions settings in Windows
+
+Инструмент управления пользовательскими настройками расширений файлов в Windows
+
+#
+
+### KeyboardSwitcher  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/keyboardswitcher)  &nbsp;  :gb:
+
+Quick correction tool for text entered on wrong keyboard layout
+
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры
+
+#
+
+### ScreenShooter  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/screenshooter)  &nbsp;  :gb: :ru:
+
+An utility for creating screenshots (shots of screen, windows and elements of windows)
+
+Утилита для создания скриншотов (снимков экрана, окон и элементов окон приложений)
+
+#
+
+### DatesDifference  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/datesdifference)  &nbsp;  :gb: :ru:
+
+Small tool that can tell the difference between two dates in different views
+
+Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
+
+#
+
+### SudokuSolver  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/sudokusolver)  &nbsp;  :black_flag:
+
+A tool for solving sudoku
+
+Инструмент для решения судоку
+
+#
+
+### TablesMerger, VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
+
+Byproducts of GDD development. **TablesMerger** performs “gluing” of columns in data tables.
+**VectorImageGenerator** suggests generating vector images using text scripts
+
+Побочные продукты разработки GDD. **TablesMerger** выполняет «склеивание» столбцов таблиц данных.
+**VectorImageGenerator** предлагает генерацию векторных изображений с помощью сценариев
+
+#
+
