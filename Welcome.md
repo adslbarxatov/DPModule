@@ -243,21 +243,31 @@ A tool for solving sudoku
 
 #
 
-### TablesMerger, VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  [:earth_asia:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
+### TablesMerger  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  &nbsp;  :gb: :ru:
 
-Byproducts of GDD development. **TablesMerger** performs “gluing” of columns in data tables.
-**VectorImageGenerator** suggests generating vector images using text scripts
+Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
 
-Побочные продукты разработки GDD. **TablesMerger** выполняет «склеивание» столбцов таблиц данных.
-**VectorImageGenerator** предлагает генерацию векторных изображений с помощью сценариев
+Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
+
+#
+
+### VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
+
+Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
+
+Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
 
 #
 
 ### FullSilence, CodeShow  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fullsilence)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)  &nbsp;  :gb: :ru:
 
-Code fragments used in video projects of the same names in text visualization
+Code fragments used in video projects of the same names in text visualization.
+** FullSilence ** is a poems visualizer that uses combinations of graphic primitives.
+** CodeShow ** – video tutorials builder focused on the presentation of source codes
 
-фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста
+Фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста.
+** FullSilence ** – визуализатор стихотворений и песен, использующий комбинации графических примитивов.
+** CodeShow ** – конструктор видеоуроков, ориентированный на представление исходных кодов
 
 #
 
