@@ -16,7 +16,7 @@ OS macros executor v 2.8		https://github.com/adslbarxatov/DPModule/raw/master/Pa
 Screen shooter v 1.7.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0003001C
 Sudoku solver v 2.3.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
 Tables merger v 1.6.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
-Text to KKT v 5.4.6				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00076249
+Text to KKT v 5.4.7				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00076249
 UniNotifier v 4.2.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x00044C0F
 Vector image generator v 1.9.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
