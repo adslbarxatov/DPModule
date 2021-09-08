@@ -72,7 +72,7 @@ and objectives of the laboratory.
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
 For each, a set of available interface languages is indicated (:gb: and / or :ru:).
-It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products.
+It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products. All icons except flags are clickable.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://www.moddb.com/members/rd-aaow-fdl/mods).
@@ -81,7 +81,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 Далее описаны актуальные проекты лаборатории.
 Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
-Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов.
+Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов. Все значки, кроме флагов, кликабельны.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://www.moddb.com/members/rd-aaow-fdl/mods).
