@@ -4,8 +4,8 @@
 
 - [Hello, dear user!](Welcome.md#hello-dear-user)
 - [Здравствуйте, уважаемый пользователь!](Welcome.md#здравствуйте-уважаемый-пользователь)
-- [Actual projects and developments | Актуальные проекты и разработки](Welcome.md#actual-projects-and-developments--актуальные-проекты-и-разработки)
 - [Contacts | Контакты](Welcome.md#contacts--контакты)
+- [Actual projects and developments | Актуальные проекты и разработки](Welcome.md#actual-projects-and-developments--актуальные-проекты-и-разработки)
 
 #
 
@@ -64,6 +64,31 @@ and objectives of the laboratory.
 которая гарантирует их соблюдение для всех публикуемых продуктов и разработок.
 
 Оба документа обязательны к ознакомлению для наиболее полного понимания целей и задач лаборатории.
+
+#
+
+## Contacts | Контакты
+
+You can find us using set of popular platforms listed below. Supported languages are also indicated.
+
+Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые языки также указаны.
+
+&nbsp;
+
+- [Sources hosting | GitHub](https://github.com/adslbarxatov) :gb: :ru:
+- [Mods hosting | ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
+
+- [Master channel | YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
+
+- [Master community | VK](https://vk.com/rd_aaow_fdl) :ru:
+- [Side community | VK](https://vk.com/grammarmustjoy) :ru:
+
+- [Master mirror | Telegram](https://t.me/rd_aaow_fdl) :gb:
+- [Side mirror | Telegram](https://t.me/grammarmustjoy) :ru:
+
+- [Master mirror | Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
+
+- [NFT hosting | Rarible](https://rarible.com/rd_aaow_fdl) :gb:
 
 #
 
@@ -298,22 +323,3 @@ Sample games pack for XNA game studion — “Races”, “Snake” and “Turtl
 ### GIATester  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/giatester)  &nbsp;  :ru: :no_entry:
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). Проект остановлен
-
-#
-
-## Contacts | Контакты
-
-- [Sources hosting | GitHub](https://github.com/adslbarxatov) :gb: :ru:
-- [Mods hosting | ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
-
-- [Master channel | YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
-
-- [Master community | VK](https://vk.com/rd_aaow_fdl) :ru:
-- [Side community | VK](https://vk.com/grammarmustjoy) :ru:
-
-- [Mirror | Telegram](https://t.me/rd_aaow_fdl) :gb:
-- [Mirror | Telegram](https://t.me/grammarmustjoy) :ru:
-
-- [Mirror | Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
-
-- [NFT hosting | Rarible](https://rarible.com/rd_aaow_fdl) :gb:
