@@ -22,7 +22,7 @@ Vector image generator v 1.9.1	https://github.com/adslbarxatov/DPModule/raw/mast
 
 ESHQ 11							https://www.moddb.com/downloads/start/214690?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_11.7z					161340044
 ESHQ backward comp. for v 10    https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp_for_v_10.7z	58666917
-ESHQ update to v 11.2b			https://www.moddb.com/downloads/start/219445?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_11_2b.7z	39440800
+ESHQ update to v 11.3a			https://www.moddb.com/downloads/start/220639?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update_to_v_11_3a.7z	49340074
 Crazy cheater’s mod v 1.2		https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM_v_1_2.7z				165311691
 Counter strike 1.6 maps			https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
 Races v 1.6						https://github.com/adslbarxatov/DPModule/raw/master/Packages/Races.dp0							Races.dp0					0x008DC376
