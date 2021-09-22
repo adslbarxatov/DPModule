@@ -124,7 +124,7 @@
     <value>Cannot create or access package file</value>
   </data>
   <data name="ArchiveDamagedError" xml:space="preserve">
-    <value>Package file is damaged or incorrect</value>
+    <value>Package file is missing, damaged or incorrect</value>
   </data>
   <data name="ArchiveReadError" xml:space="preserve">
     <value>Cannot access package file</value>
@@ -181,13 +181,6 @@ Download original package: double-click on this icon, get needed one and restart
   </data>
   <data name="LogCreationError" xml:space="preserve">
     <value>Failed to create installation log</value>
-  </data>
-  <data name="MainModeMainText" xml:space="preserve">
-    <value>You are welcomed by {0:S} and ESHQ mod v {1:S}!
-
-ESHQ is a stand-alone modification for Half-Life 1 (by Valve software) based on stabilized and adapted Xash3D engine v43/0.91 (3737). Right-click tray icon for details.
-
-For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
     <value>Project webpage is not fully available for now. Try again later</value>
@@ -266,13 +259,6 @@ NOTE: if you'll set incorrect path, application may damage valuable files!</valu
 
 Double-click on this icon for continue</value>
   </data>
-  <data name="UpdateModeMainText" xml:space="preserve">
-    <value>You are welcomed by {0:S} and ESHQ mod!
-
-This application will update mod's content to version {1:S}. Right-click tray icon for details.
-
-For continue setup press “Next”; otherwise press “Cancel”</value>
-  </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Checking for updates...</value>
   </data>
@@ -292,14 +278,6 @@ NOTE: if you'll set incorrect path, updater and installer may damage valuable fi
   <data name="LanguageSelectorMessage" xml:space="preserve">
     <value>Current interface language is {0:S}.
 Select new language:</value>
-  </data>
-  <data name="ExtModeMainText" xml:space="preserve">
-    <value>You are welcomed by {0:S} and Crazy cheater's mod
-v {1:S}!
-
-CCM is a mod for GTA Vice City that saves original story, but fixes some troubles and extends player's abilities. Right-click tray icon for details.
-
-For continue setup press "Next"; otherwise press "Cancel"</value>
   </data>
   <data name="SelectPackage" xml:space="preserve">
     <value>Select all packages that you want to deploy</value>
@@ -441,5 +419,8 @@ Package statuses:
   </data>
   <data name="CloseOnSuccessFlagText" xml:space="preserve">
     <value>Exit if completed successfully</value>
+  </data>
+  <data name="dpdfile" xml:space="preserve">
+    <value>Deinstallation script</value>
   </data>
 </root>

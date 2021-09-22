@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 11.7:
+• Now DPModule has its own type for deinstallation scripts. These files (.dpd) are copies of
+  deployment packages (.dp0) that contain only the header (without product data)
+
 Version 11.6:
 • Updated link and text presenter for ADP;
 • Updated banners set

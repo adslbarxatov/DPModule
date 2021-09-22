@@ -124,7 +124,7 @@
     <value>Не удалось создать или прочитать установочный пакет</value>
   </data>
   <data name="ArchiveDamagedError" xml:space="preserve">
-    <value>Установочный пакет повреждён или некорректен</value>
+    <value>Установочный пакет недоступен, повреждён или некорректен</value>
   </data>
   <data name="ArchiveReadError" xml:space="preserve">
     <value>Не удалось прочитать установочный пакет</value>
@@ -180,12 +180,6 @@
   </data>
   <data name="LogCreationError" xml:space="preserve">
     <value>Не удалось создать лог установки</value>
-  </data>
-  <data name="MainModeMainText" xml:space="preserve">
-    <value>Вас приветствует {0:S} и мод ESHQ v {1:S}!
-
-ESHQ – автономный мод для Half-Life 1 (Valve software) на базе адаптированного и стабилизированного движка Xash3D v43/0.91 (3737). Щёлкните правой кнопкой значок в трее для получения описания.
-Для продолжения установки нажмите «Далее»; иначе нажмите «Отмена»</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
     <value>Сайт проекта в настоящий момент доступен неполностью. Повторите попытку позже</value>
@@ -264,13 +258,6 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
 
 Дважды щёлкните по этому значку для продолжения</value>
   </data>
-  <data name="UpdateModeMainText" xml:space="preserve">
-    <value>Вас приветствует {0:S} и мод ESHQ!
-
-Эта программа обновит контент мода до версии {1:S}. Щёлкните правой кнопкой значок в трее для получения описания.
-
-Для продолжения нажмите «Далее»; иначе нажмите «Отмена»</value>
-  </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Проверка обновлений...</value>
   </data>
@@ -290,14 +277,6 @@ ESHQ – автономный мод для Half-Life 1 (Valve software) на б
   <data name="LanguageSelectorMessage" xml:space="preserve">
     <value>Текущий язык интерфейса – {0:S}.
 Выберите новый язык:</value>
-  </data>
-  <data name="ExtModeMainText" xml:space="preserve">
-    <value>Вас приветствует {0:S} и Crazy cheater's mod
-v {1:S}!
-
-CCM – мод для GTA Vice City, сохраняющий оригинальную историю, но устраняющий проблемы и расширяющий возможности игрока. Щёлкните правой кнопкой значок в трее для получения описания.
-
-Для продолжения установки нажмите «Далее»</value>
   </data>
   <data name="SelectPackage" xml:space="preserve">
     <value>Выберите все пакеты, которые необходимо развернуть</value>
@@ -439,5 +418,8 @@ CCM – мод для GTA Vice City, сохраняющий оригинальн
   </data>
   <data name="CloseOnSuccessFlagText" xml:space="preserve">
     <value>Выйти при успешном завершении</value>
+  </data>
+  <data name="dpdfile" xml:space="preserve">
+    <value>Скрипт удаления</value>
   </data>
 </root>

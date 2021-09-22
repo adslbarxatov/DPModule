@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule v 11.6					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0007C8C8
+DPModule v 11.7					https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0						DPModule.dp0				0x0007F6C8
 Batch image convertor v 2.17	https://github.com/adslbarxatov/DPModule/raw/master/Packages/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B87F
 BExplorer v 2.18.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/BExplorer.dp0						BExplorer.dp0				0x001A76EB
 ConcurrentDraw v 2.5.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ConcurrentDraw.dp0					ConcurrentDraw.dp0			0x000A194C
@@ -16,7 +16,7 @@ OS macros executor v 2.8		https://github.com/adslbarxatov/DPModule/raw/master/Pa
 Screen shooter v 1.7.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/ScreenShooter.dp0					ScreenShooter.dp0			0x0003001C
 Sudoku solver v 2.3.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
 Tables merger v 1.6.1			https://github.com/adslbarxatov/DPModule/raw/master/Packages/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
-Text to KKT v 5.5				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00077847
+Text to KKT v 5.5.1				https://github.com/adslbarxatov/DPModule/raw/master/Packages/TextToKKT.dp0						TextToKKT.dp0				0x00077C49
 UniNotifier v 4.2.2				https://github.com/adslbarxatov/DPModule/raw/master/Packages/UniNotifier.dp0					UniNotifier.dp0				0x00044C0F
 Vector image generator v 1.9.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
