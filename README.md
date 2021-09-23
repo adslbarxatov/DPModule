@@ -1,31 +1,19 @@
-﻿# DPModule v 11.7
-> PCC: 0007F6C8AA911541
+﻿# DPModule v 12.0
+> PCC: 0007F8C877818AA4
 
-> CRC32: BA0C0366
-
-
-
-Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / updates checking / packages loading for our products
-
-Модуль развёртывания для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов
-
-&nbsp;
+> CRC32: 6726FA34
 
 
 
-## Изменения
-
-- Пользователь теперь всегда самостоятельно выбирает нужные пакеты для загрузки и развёртки. Для этого при запуске будет отображено соответствующее диалоговое окно.
-- Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
-- Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
-
-#
-
-## Changes
-
+Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / updates checking / packages loading for our products:
 - User now always independently selects the needed packages for downloading and deployment. To do this, a corresponding dialog box will be displayed at startup.
 - Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
 - If you want to restore the installation path for a package, you can do this from tray context menu.
+
+Модуль развёртывания для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов:
+- Пользователь теперь всегда самостоятельно выбирает нужные пакеты для загрузки и развёртки. Для этого при запуске будет отображено соответствующее диалоговое окно.
+- Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
+- Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
 
 &nbsp;
 

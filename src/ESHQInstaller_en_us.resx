@@ -415,12 +415,36 @@ Package statuses:
     <value>Start application after completion</value>
   </data>
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
-    <value>A&amp;bout DPModule</value>
+    <value>A&amp;bout app</value>
   </data>
   <data name="CloseOnSuccessFlagText" xml:space="preserve">
     <value>Exit if completed successfully</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
     <value>Deinstallation script</value>
+  </data>
+  <data name="PSF_NewPackage" xml:space="preserve">
+    <value>New package</value>
+  </data>
+  <data name="PSF_NoInfo" xml:space="preserve">
+    <value>No info</value>
+  </data>
+  <data name="PSF_TableHeader00" xml:space="preserve">
+    <value>Deploy</value>
+  </data>
+  <data name="PSF_TableHeader01" xml:space="preserve">
+    <value>Package name</value>
+  </data>
+  <data name="PSF_TableHeader02" xml:space="preserve">
+    <value>Act. ver.</value>
+  </data>
+  <data name="PSF_TableHeader03" xml:space="preserve">
+    <value>Inst. ver.</value>
+  </data>
+  <data name="PSF_TableHeader04" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="AllowShortcutsFlagText" xml:space="preserve">
+    <value>Create shortcuts on the desktop</value>
   </data>
 </root>

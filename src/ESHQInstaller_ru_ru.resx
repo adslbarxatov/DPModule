@@ -422,4 +422,28 @@
   <data name="dpdfile" xml:space="preserve">
     <value>Скрипт удаления</value>
   </data>
+  <data name="PSF_NewPackage" xml:space="preserve">
+    <value>Новый пакет</value>
+  </data>
+  <data name="PSF_NoInfo" xml:space="preserve">
+    <value>Не хранится</value>
+  </data>
+  <data name="PSF_TableHeader00" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="PSF_TableHeader01" xml:space="preserve">
+    <value>Название пакета</value>
+  </data>
+  <data name="PSF_TableHeader02" xml:space="preserve">
+    <value>Акт. вер.</value>
+  </data>
+  <data name="PSF_TableHeader03" xml:space="preserve">
+    <value>Уст. вер.</value>
+  </data>
+  <data name="PSF_TableHeader04" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="AllowShortcutsFlagText" xml:space="preserve">
+    <value>Создать ярлыки на рабочем столе</value>
+  </data>
 </root>
