@@ -131,7 +131,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 #
 
-### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier)  [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)  &nbsp;  :gb: :ru:
+### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier)  [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)  &nbsp;  :gb: :ru:
 
 A custom notifications (news) service that allows you to request only the needed content
 of sites without extraneous elements. Before starting work, it is recommended that you view
@@ -140,7 +140,7 @@ video presentation. The Android version is also available on AppGallery
 Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов
 без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией.
 Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения,
-работающий с ресурсом [tablepedia.com](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) (:ru: only)
+работающий с ресурсом tablepedia.com (:ru: only)
 
 #
 
@@ -312,7 +312,7 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 
 #
 
-### Counter-Strike 1.6 maps  &nbsp;  [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)  &nbsp;  :gb:
+### Counter-strike 1.6 maps  &nbsp;  [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)  &nbsp;  :gb:
 
 Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
 
