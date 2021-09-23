@@ -156,7 +156,7 @@ Android-версия доступна также в AppGallery
 
 #
 
-### TextToKKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt)  [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ)  [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
+### Text to KKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt)  [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ)  [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
 
 Утилита сервис-инженера контрольно-кассовой техники.
 Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery).
@@ -164,7 +164,7 @@ Android-версия доступна также в AppGallery
 
 #
 
-### GeomagDataDrawer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/geomagdatadrawer)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)  &nbsp;  :gb: :ru:
+### Geomag data drawer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/geomagdatadrawer)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)  &nbsp;  :gb: :ru:
 
 Stand-alone tool for building and designing data diagrams
 
@@ -172,7 +172,7 @@ Stand-alone tool for building and designing data diagrams
 
 #
 
-### MakeDecision  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makedecision)  [:film_projector:](https://youtube.com/watch?v=40Lvq0Q1we0)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)  &nbsp;  :gb: :ru:
+### Make decision  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makedecision)  [:film_projector:](https://youtube.com/watch?v=40Lvq0Q1we0)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)  &nbsp;  :gb: :ru:
 
 An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
 
@@ -180,7 +180,7 @@ An app that demonstrates the math method used in making complex decisions. It ca
 
 #
 
-### BatchImageConvertor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/batchimageconvertor)  [:film_projector:](https://youtube.com/watch?v=bejx-r1C6j0)  &nbsp;  :gb: :ru:
+### Batch image convertor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/batchimageconvertor)  [:film_projector:](https://youtube.com/watch?v=bejx-r1C6j0)  &nbsp;  :gb: :ru:
 
 A tool for automatic processing of groups of images
 
@@ -188,7 +188,7 @@ A tool for automatic processing of groups of images
 
 #
 
-### FontFinder  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fontfinder)  [:film_projector:](https://youtube.com/watch?v=7Ct-kWmqxu4)  &nbsp;  :gb: :ru:
+### Font finder  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fontfinder)  [:film_projector:](https://youtube.com/watch?v=7Ct-kWmqxu4)  &nbsp;  :gb: :ru:
 
 A tool for finding a font by its image
 
@@ -204,7 +204,7 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 
 #
 
-### CCM (Crazy cheater’s mod)  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm)  [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
+### Crazy cheater’s mod  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm)  [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
 
@@ -212,15 +212,23 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 
 #
 
-### BExplorer, MakeCST  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:earth_asia:](https://github.com/adslbarxatov/makecst)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
+### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
 
-**BExplorer** – API for working with save files for GTA Vice City and an application that implements a part of functionality. **MakeCST** – a tool for converting DFF models and QHullOFF objects to GTA collision scripts
+**BExplorer** – API for working with save files for GTA Vice City and an application that implements a part of functionality
 
-**BExplorer** – API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала. **MakeCST** – инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
+**BExplorer** – API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
 
 #
 
-### OSMacrosExecutor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor)  [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc)  &nbsp;  :gb: :ru:
+### Make CST  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makecst)  &nbsp;  :gb:
+
+**MakeCST** – a tool for converting DFF models and QHullOFF objects to GTA collision scripts
+
+**MakeCST** – инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
+
+#
+
+### OS macros executor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor)  [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc)  &nbsp;  :gb: :ru:
 
 A tool for automating user actions in operating system
 
@@ -228,7 +236,7 @@ A tool for automating user actions in operating system
 
 #
 
-### FileExtensionsManager  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fileextensionsmanager)  &nbsp;  :gb: :ru:
+### File extensions manager  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fileextensionsmanager)  &nbsp;  :gb: :ru:
 
 A tool for managing custom file extensions settings in Windows
 
@@ -236,7 +244,7 @@ A tool for managing custom file extensions settings in Windows
 
 #
 
-### KeyboardSwitcher  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/keyboardswitcher)  &nbsp;  :gb:
+### Keyboard switcher  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/keyboardswitcher)  &nbsp;  :gb:
 
 Quick correction tool for text entered on wrong keyboard layout
 
@@ -244,7 +252,7 @@ Quick correction tool for text entered on wrong keyboard layout
 
 #
 
-### ScreenShooter  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/screenshooter)  &nbsp;  :gb: :ru:
+### Screen shooter  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/screenshooter)  &nbsp;  :gb: :ru:
 
 An utility for creating screenshots (shots of screen, windows and elements of windows)
 
@@ -252,7 +260,7 @@ An utility for creating screenshots (shots of screen, windows and elements of wi
 
 #
 
-### DatesDifference  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/datesdifference)  &nbsp;  :gb: :ru:
+### Dates difference  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/datesdifference)  &nbsp;  :gb: :ru:
 
 Small tool that can tell the difference between two dates in different views
 
@@ -260,7 +268,7 @@ Small tool that can tell the difference between two dates in different views
 
 #
 
-### SudokuSolver  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/sudokusolver)  &nbsp;  :gb: :ru:
+### Sudoku solver  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/sudokusolver)  &nbsp;  :gb: :ru:
 
 A tool for solving sudoku
 
@@ -268,7 +276,7 @@ A tool for solving sudoku
 
 #
 
-### TablesMerger  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  &nbsp;  :gb: :ru:
+### Tables merger  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/tablesmerger)  &nbsp;  :gb: :ru:
 
 Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
 
@@ -276,7 +284,7 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 
 #
 
-### VectorImageGenerator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
+### Vector image generator  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator)  &nbsp;  :gb: :ru:
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
@@ -304,7 +312,7 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 
 #
 
-### Maps for Counter-Strike 1.6  &nbsp;  [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)  &nbsp;  :gb:
+### Counter-Strike 1.6 maps  &nbsp;  [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)  &nbsp;  :gb:
 
 Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
 
