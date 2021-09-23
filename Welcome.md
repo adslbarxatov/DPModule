@@ -133,34 +133,23 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 ### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier)  [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)  &nbsp;  :gb: :ru:
 
-A custom notifications (news) service that allows you to request only the needed content
-of sites without extraneous elements. Before starting work, it is recommended that you view
-video presentation. The Android version is also available on AppGallery
+A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
-Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов
-без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией.
-Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения,
-работающий с ресурсом tablepedia.com (:ru: only)
+Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения, работающий с ресурсом tablepedia.com
 
 #
 
 ### EnchantIt  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/enchantit)  [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g)  [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)  &nbsp;  :gb: :ru:
 
-An “extraordinary” abilities testing tool.
-Before starting the experiment take a look at the project presentation and complete method description.
-Version for Android is also available on AppGallery
+An “extraordinary” abilities testing tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
 
-Инструмент определения «экстраординарных» способностей.
-Перед началом работы рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода.
-Android-версия доступна также в AppGallery
+Инструмент определения «экстраординарных» способностей. Перед началом работы рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода. Android-версия доступна также в AppGallery
 
 #
 
 ### Text to KKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt)  [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ)  [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
 
-Утилита сервис-инженера контрольно-кассовой техники.
-Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery).
-С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
+Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
 
 #
 
@@ -214,17 +203,17 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 
 ### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer)  [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)  [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
 
-**BExplorer** – API for working with save files for GTA Vice City and an application that implements a part of functionality
+An API for working with save files for GTA Vice City and an application that implements a part of functionality
 
-**BExplorer** – API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
+API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
 
 #
 
 ### Make CST  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makecst)  &nbsp;  :gb:
 
-**MakeCST** – a tool for converting DFF models and QHullOFF objects to GTA collision scripts
+A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
-**MakeCST** – инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
+Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
 
 #
 
