@@ -346,13 +346,7 @@
     <value>&amp;Игры и моды:</value>
   </data>
   <data name="dp0file" xml:space="preserve">
-    <value>Пакет развёртки версии 10</value>
-  </data>
-  <data name="dp9file" xml:space="preserve">
-    <value>Пакет развёртки версии 9</value>
-  </data>
-  <data name="DPFilter" xml:space="preserve">
-    <value>Пакеты развёртки версий 9 и 10</value>
+    <value>Пакет развёртки версий 10 – 12</value>
   </data>
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Зарегистрировать ассоц. файлов</value>
@@ -420,7 +414,7 @@
     <value>Выйти при успешном завершении</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
-    <value>Скрипт удаления</value>
+    <value>Скрипт деинсталляции пакета</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
     <value>Новый пакет</value>

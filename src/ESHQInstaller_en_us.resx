@@ -347,13 +347,7 @@ Select new language:</value>
     <value>&amp;Games and mods:</value>
   </data>
   <data name="dp0file" xml:space="preserve">
-    <value>Deployment package v 10</value>
-  </data>
-  <data name="dp9file" xml:space="preserve">
-    <value>Deployment package v 9</value>
-  </data>
-  <data name="DPFilter" xml:space="preserve">
-    <value>Deployment packages v 9, v 10</value>
+    <value>Deployment package v 10 – 12</value>
   </data>
   <data name="IconRegisterExt" xml:space="preserve">
     <value>Register file associations</value>
@@ -421,7 +415,7 @@ Package statuses:
     <value>Exit if completed successfully</value>
   </data>
   <data name="dpdfile" xml:space="preserve">
-    <value>Deinstallation script</value>
+    <value>Package deinstallation script</value>
   </data>
   <data name="PSF_NewPackage" xml:space="preserve">
     <value>New package</value>

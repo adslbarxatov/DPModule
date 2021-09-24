@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 12.0.1:
+• Disabled the post-deployment relocation for packages; “Deployed” directory is no longer used;
+• Disabled support for .dp9 packages format;
+• Fixed some interface bugs
+
 Version 12.0:
 • Interface of packages interface has been completely rebuilt. Now it has obviously display
   actual and installed versions for packages, load project descriptions and correctly process
