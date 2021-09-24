@@ -26,7 +26,7 @@ ESHQ						11.0!	https://www.moddb.com/downloads/start/214690?referer=https%3A%2F
 ESHQ backward comp.			11.0!   https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
 ESHQ update					11.3a!	https://www.moddb.com/downloads/start/220639?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				49340074
 Crazy cheater’s mod			1.2!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165311691
-Counter-strike 1.6 maps		1.0!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28836173
+Counter-strike 1.6 maps		1.0d!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
 
 Races						1.6!	DEFSTORAGE/Races.dp0						Races.dp0					0x008DC376
 Snake						1.16!	DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F4BA
