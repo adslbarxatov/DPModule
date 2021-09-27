@@ -22,13 +22,15 @@ Text to KKT					5.5.2	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x00077E49
 UniNotifier					4.3.4	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00044C0F
 Vector image generator		1.9.1	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
-ESHQ						11.0!	https://www.moddb.com/downloads/start/214690?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						161340044
-ESHQ backward comp.			11.0!   https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
-ESHQ update					11.3a!	https://www.moddb.com/downloads/start/220639?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				49340074
+ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
+ESHQ update					11.4!	https://www.moddb.com/downloads/start/220953?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				53467770
 Crazy cheater’s mod			1.2d!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
 Counter-strike 1.6 maps		1.0d!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
 
 Races						1.6!	DEFSTORAGE/Races.dp0						Races.dp0					0x008DC376
 Snake						1.16!	DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F4BA
 Turtle						1.7!	DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A934E9
+
+ESHQ backward comp.			11.0!   https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
+
 ```
