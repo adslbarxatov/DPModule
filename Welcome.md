@@ -121,7 +121,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 #
 
-### DPModule  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/dpmodule) ¦ [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)  &nbsp;  :gb: :ru:
+### DPModule  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/dpmodule) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)  &nbsp;  :gb: :ru:
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
