@@ -120,7 +120,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 &nbsp;
 
-### DPModule  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/dpmodule)  [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U)  &nbsp;  :gb: :ru:
+### DPModule ¦ [:earth_africa:](https://github.com/adslbarxatov/dpmodule) ¦ [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U) ¦ :gb: :ru:
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
@@ -291,8 +291,8 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 ### FullSilence, CodeShow  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fullsilence)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)  [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)  &nbsp;  :gb: :ru:
 
 Code fragments used in video projects of the same names in text visualization.
-** FullSilence ** is a poems visualizer that uses combinations of graphic primitives.
-** CodeShow ** – video tutorials builder focused on the presentation of source codes
+*FullSilence* is a poems visualizer that uses combinations of graphic primitives.
+*CodeShow* – video tutorials builder focused on the presentation of source codes
 
 Фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста.
 ** FullSilence ** – визуализатор стихотворений и песен, использующий комбинации графических примитивов.
