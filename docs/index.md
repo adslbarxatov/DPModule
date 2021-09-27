@@ -1,15 +1,14 @@
 # Welcome to laboratory!
 # Добро пожаловать в лабораторию!
 
-### Contents
-### Содержание
+### Contents ¦ Содержание
 
-- [Hello, dear user!](Welcome.md#hello-dear-user)
-- [Здравствуйте, уважаемый пользователь!](Welcome.md#здравствуйте-уважаемый-пользователь)
-- [Contacts](Welcome.md#contacts)
-- [Контакты](Welcome.md#контакты)
-- [Actual projects and developments](Welcome.md#actual-projects-and-developments)
-- [Актуальные проекты и разработки](Welcome.md#актуальные-проекты-и-разработки)
+- [Hello, dear user!](#hello-dear-user)
+- [Здравствуйте, уважаемый пользователь!](#здравствуйте-уважаемый-пользователь)
+- [Contacts](#contacts)
+- [Контакты](#контакты)
+- [Actual projects and developments](#actual-projects-and-developments)
+- [Актуальные проекты и разработки](#актуальные-проекты-и-разработки)
 
 &nbsp;
 
@@ -72,9 +71,10 @@ and objectives of the laboratory.
 &nbsp;
 
 ## Contacts
-## Контакты
 
 You can find us using set of popular platforms listed below. Supported languages are also indicated.
+
+## Контакты
 
 Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые языки также указаны.
 
