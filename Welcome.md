@@ -1,6 +1,6 @@
 # Welcome to laboratory! | Добро пожаловать в лабораторию!
 
-### Contents ¦ Содержание
+### Contents | Содержание
 
 - [Hello, dear user!](Welcome.md#hello-dear-user)
 - [Здравствуйте, уважаемый пользователь!](Welcome.md#здравствуйте-уважаемый-пользователь)
@@ -11,7 +11,7 @@
 
 #
 
-## Hello, dear user!
+## Hello, dear user! :gb:
 
 We’re glad to welcome you to the start page of Free development lab (RD AAOW FDL).
 
@@ -41,7 +41,7 @@ and objectives of the laboratory.
 
 #
 
-## Здравствуйте, уважаемый пользователь!
+## Здравствуйте, уважаемый пользователь! :ru:
 
 Мы рады приветствовать Вас на стартовой странице лаборатории свободных разработок
 (Free development lab, RD AAOW FDL).
@@ -69,36 +69,36 @@ and objectives of the laboratory.
 
 #
 
-## Contacts
+## Contacts :gb:
 
 You can find us using set of popular platforms listed below. Supported languages are also indicated.
 
 &nbsp;
 
-## Контакты
+## Контакты :ru:
 
 Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые языки также указаны.
 
 &nbsp;
 
-- [Sources hosting ¦ GitHub](https://github.com/adslbarxatov) :gb: :ru:
-- [Mods hosting ¦ ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
+- [Sources hosting | GitHub](https://github.com/adslbarxatov) :gb: :ru:
+- [Mods hosting | ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
 
-- [Master channel ¦ YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
+- [Master channel | YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
 
-- [Master community ¦ VK](https://vk.com/rd_aaow_fdl) :ru:
-- [Side community ¦ VK](https://vk.com/grammarmustjoy) :ru:
+- [Master community | VK](https://vk.com/rd_aaow_fdl) :ru:
+- [Side community | VK](https://vk.com/grammarmustjoy) :ru:
 
-- [Master mirror ¦ Telegram](https://t.me/rd_aaow_fdl) :gb:
-- [Side mirror ¦ Telegram](https://t.me/grammarmustjoy) :ru:
+- [Master mirror | Telegram](https://t.me/rd_aaow_fdl) :gb:
+- [Side mirror | Telegram](https://t.me/grammarmustjoy) :ru:
 
-- [Master mirror ¦ Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
+- [Master mirror | Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
 
-- [NFT hosting ¦ Rarible](https://rarible.com/rd_aaow_fdl) :gb:
+- [NFT hosting | Rarible](https://rarible.com/rd_aaow_fdl) :gb:
 
 #
 
-## Actual projects and developments
+## Actual projects and developments :gb:
 
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
@@ -110,7 +110,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 &nbsp;
 
-## Актуальные проекты и разработки
+## Актуальные проекты и разработки :ru:
 
 Далее описаны актуальные проекты лаборатории.
 Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
@@ -131,7 +131,7 @@ You can get all Windows-versions of our products through this application. You a
 
 #
 
-### ConcurrentDraw  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw) ¦ [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE) ¦ [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)  &nbsp;  :gb: :ru:
+### ConcurrentDraw  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE) &nbsp; [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)  &nbsp;  :gb: :ru:
 
 A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
 
@@ -139,7 +139,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 #
 
-### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ¦ [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA) ¦ [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ¦ [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)  &nbsp;  :gb: :ru:
+### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA) &nbsp; [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) &nbsp; [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)  &nbsp;  :gb: :ru:
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
@@ -147,7 +147,7 @@ A custom notifications (news) service that allows you to request only the needed
 
 #
 
-### EnchantIt  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/enchantit) ¦ [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g) ¦ [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ¦ [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)  &nbsp;  :gb: :ru:
+### EnchantIt  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/enchantit) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g) &nbsp; [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) &nbsp; [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)  &nbsp;  :gb: :ru:
 
 An “extraordinary” abilities testing tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
 
@@ -155,13 +155,13 @@ An “extraordinary” abilities testing tool. Before starting the experiment ta
 
 #
 
-### Text to KKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt) ¦ [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ) ¦ [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf) ¦ [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
+### Text to KKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt) &nbsp; [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ) &nbsp; [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf) &nbsp; [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
 
 #
 
-### Geomag data drawer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/geomagdatadrawer) ¦ [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)  &nbsp;  :gb: :ru:
+### Geomag data drawer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/geomagdatadrawer) &nbsp; [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)  &nbsp;  :gb: :ru:
 
 Stand-alone tool for building and designing data diagrams
 
@@ -169,7 +169,7 @@ Stand-alone tool for building and designing data diagrams
 
 #
 
-### Make decision  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makedecision) ¦ [:film_projector:](https://youtube.com/watch?v=40Lvq0Q1we0) ¦ [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)  &nbsp;  :gb: :ru:
+### Make decision  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/makedecision) &nbsp; [:film_projector:](https://youtube.com/watch?v=40Lvq0Q1we0) &nbsp; [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)  &nbsp;  :gb: :ru:
 
 An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
 
@@ -177,7 +177,7 @@ An app that demonstrates the math method used in making complex decisions. It ca
 
 #
 
-### Batch image convertor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/batchimageconvertor) ¦ [:film_projector:](https://youtube.com/watch?v=bejx-r1C6j0)  &nbsp;  :gb: :ru:
+### Batch image convertor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/batchimageconvertor) &nbsp; [:film_projector:](https://youtube.com/watch?v=bejx-r1C6j0)  &nbsp;  :gb: :ru:
 
 A tool for automatic processing of groups of images
 
@@ -185,7 +185,7 @@ A tool for automatic processing of groups of images
 
 #
 
-### Font finder  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fontfinder) ¦ [:film_projector:](https://youtube.com/watch?v=7Ct-kWmqxu4)  &nbsp;  :gb: :ru:
+### Font finder  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fontfinder) &nbsp; [:film_projector:](https://youtube.com/watch?v=7Ct-kWmqxu4)  &nbsp;  :gb: :ru:
 
 A tool for finding a font by its image
 
@@ -193,7 +193,7 @@ A tool for finding a font by its image
 
 #
 
-### ESHQ  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/eshq) ¦ [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)  &nbsp;  :gb:
+### ESHQ  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/eshq) &nbsp; [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)  &nbsp;  :gb:
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
 
@@ -201,7 +201,7 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 
 #
 
-### Crazy cheater’s mod  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm) ¦ [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
+### Crazy cheater’s mod  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
 
@@ -209,7 +209,7 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 
 #
 
-### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer) ¦ [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU) ¦ [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf) ¦ [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
+### BExplorer  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/bexplorer) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU) &nbsp; [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf) &nbsp; [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf)  &nbsp;  :gb: :ru:
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
 
@@ -225,7 +225,7 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
 #
 
-### OS macros executor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor) ¦ [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc)  &nbsp;  :gb: :ru:
+### OS macros executor  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc)  &nbsp;  :gb: :ru:
 
 A tool for automating user actions in operating system
 
@@ -289,7 +289,7 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 #
 
-### FullSilence, CodeShow  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fullsilence) ¦ [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) ¦ [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)  &nbsp;  :gb: :ru:
+### FullSilence, CodeShow  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/fullsilence) &nbsp; [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) &nbsp; [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5)  &nbsp;  :gb: :ru:
 
 Code fragments used in video projects of the same names in text visualization.
 ** FullSilence ** is a poems visualizer that uses combinations of graphic primitives.
@@ -317,7 +317,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 
 #
 
-### Races, Snake, Turtle  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/races) ¦ [:earth_asia:](https://github.com/adslbarxatov/snake) ¦ [:earth_americas:](https://github.com/adslbarxatov/turtle)  &nbsp;  :ru:
+### Races, Snake, Turtle  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/races) &nbsp; [:earth_asia:](https://github.com/adslbarxatov/snake) &nbsp; [:earth_americas:](https://github.com/adslbarxatov/turtle)  &nbsp;  :ru:
 
 Sample games pack for XNA game studion — “Races”, “Snake” and “Turtle”
 
