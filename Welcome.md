@@ -203,9 +203,9 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 
 ### Crazy cheater’s mod  &nbsp;  [:earth_africa:](https://www.moddb.com/mods/ccm) &nbsp; [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4)  &nbsp;  :gb:
 
-A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
+A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti
 
-Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем, а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых дополнений и исправлений
+Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем, а также расширяющая и без того большие возможности Томми Версетти
 
 #
 
