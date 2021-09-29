@@ -23,7 +23,7 @@ UniNotifier					4.3.5	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00044E
 Vector image generator		1.9.1	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
-ESHQ update					11.4!	https://www.moddb.com/downloads/start/220953?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				53467770
+ESHQ update					11.4b!	https://www.moddb.com/downloads/start/221047?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				57395923
 Crazy cheater’s mod			1.2d!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
 Counter-strike 1.6 maps		1.0d!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
 
