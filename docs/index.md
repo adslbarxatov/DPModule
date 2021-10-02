@@ -1,18 +1,19 @@
-# Welcome to laboratory!
-# Добро пожаловать в лабораторию!
+# Welcome to laboratory! ¦ Добро пожаловать в лабораторию!
 
-### Contents ¦ Содержание
+### Page contents ¦ Содержание страницы
 
 - [Hello, dear user!](#hello-dear-user)
 - [Здравствуйте, уважаемый пользователь!](#здравствуйте-уважаемый-пользователь)
+
 - [Contacts](#contacts)
 - [Контакты](#контакты)
+
 - [Actual projects and developments](#actual-projects-and-developments)
 - [Актуальные проекты и разработки](#актуальные-проекты-и-разработки)
 
 &nbsp;
 
-## Hello, dear user!
+## :gb: Hello, dear user!
 
 We’re glad to welcome you to the start page of Free development lab (RD AAOW FDL).
 
@@ -42,7 +43,7 @@ and objectives of the laboratory.
 
 &nbsp;
 
-## Здравствуйте, уважаемый пользователь!
+## :ru: Здравствуйте, уважаемый пользователь!
 
 Мы рады приветствовать Вас на стартовой странице лаборатории свободных разработок
 (Free development lab, RD AAOW FDL).
@@ -70,13 +71,13 @@ and objectives of the laboratory.
 
 &nbsp;
 
-## Contacts
+## :gb: Contacts
 
-You can find us using set of popular platforms listed below. Supported languages are also indicated.
+You can find us using set of popular platforms listed below. Languages supported on them are also indicated.
 
-## Контакты
+## :ru: Контакты
 
-Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые языки также указаны.
+Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые на них языки также указаны.
 
 &nbsp;
 
@@ -97,7 +98,7 @@ You can find us using set of popular platforms listed below. Supported languages
 
 &nbsp;
 
-## Actual projects and developments
+## :gb: Actual projects and developments
 
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
@@ -109,7 +110,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 &nbsp;
 
-## Актуальные проекты и разработки
+## :ru: Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
 Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
@@ -120,7 +121,8 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 
 &nbsp;
 
-### DPModule ¦ [:earth_africa:](https://github.com/adslbarxatov/dpmodule) ¦ [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U) ¦ :gb: :ru:
+### DPModule :gb: :ru:
+| [:earth_africa:](https://github.com/adslbarxatov/dpmodule) | [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U) |
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
