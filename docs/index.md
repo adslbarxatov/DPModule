@@ -1,6 +1,6 @@
 # Welcome to laboratory! ● Добро пожаловать в лабораторию!
 
-### Page contents ¦ Содержание страницы
+### Page contents ● Содержание страницы
 
 - [Hello, dear user!](#hello-dear-user)
 - [Здравствуйте, уважаемый пользователь!](#здравствуйте-уважаемый-пользователь)
@@ -31,11 +31,11 @@ We’re looking forward to a long and mutually beneficial cooperation!
 
 A little about the rules:
 
-- We take care of our colleagues. Therefore, a [Social communities policy](https://github.com/adslbarxatov/scp)
+- We take care of our colleagues. Therefore, a [Social communities policy](https://adslbarxatov.github.io/SCP)
 was developed and introduced, which is binding on all participants. Please note that it is of a protective
 and not restrictive nature.
 - We are also concerned about the ideological values of our communities. Therefore, there is an
-[Application development policy](https://github.com/adslbarxatov/adp) that ensures compliance with all
+[Application development policy](https://adslbarxatov.github.io/ADP) that ensures compliance with all
 published products and developments.
 
 Both documents are required for familiarization for the most complete understanding of the goals
@@ -61,10 +61,10 @@ and objectives of the laboratory.
 
 Немного о правилах:
 
-- Мы заботимся о наших коллегах. Поэтому была разработана и введена [Политика социальных сообществ](https://github.com/adslbarxatov/scp),
+- Мы заботимся о наших коллегах. Поэтому была разработана и введена [Политика социальных сообществ](https://adslbarxatov.github.io/SCP),
 обязательная для исполнения всеми участниками. Обращаем внимание, что она носит именно охранительный,
 а не ограничительный характер.
-- Мы также беспокоимся об идейных ценностях наших сообществ. Поэтому существует [Политика разработки приложений](https://github.com/adslbarxatov/adp),
+- Мы также беспокоимся об идейных ценностях наших сообществ. Поэтому существует [Политика разработки приложений](https://adslbarxatov.github.io/ADP),
 которая гарантирует их соблюдение для всех публикуемых продуктов и разработок.
 
 Оба документа обязательны к ознакомлению для наиболее полного понимания целей и задач лаборатории.
