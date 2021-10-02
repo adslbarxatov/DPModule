@@ -1,9 +1,9 @@
 ```
 Packages, available for download:
 
-DPModule v 12.0.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x0007F4CE
+DPModule v 12.0.2	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x0007F4CE
 
-DPModule					12.0.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007F4CE
+DPModule					12.0.2	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007F4CE
 Batch image convertor		2.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B87F
 BExplorer					2.18.2	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A76EB
 ConcurrentDraw				2.5.1	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A194C
