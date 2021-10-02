@@ -141,7 +141,8 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 &nbsp;
 
-### UniNotifier  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/uninotifier)  [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier)  &nbsp;  :gb: :ru:
+### UniNotifier :gb: :ru:
+● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
@@ -149,7 +150,8 @@ A custom notifications (news) service that allows you to request only the needed
 
 &nbsp;
 
-### EnchantIt  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/enchantit)  [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g)  [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)  &nbsp;  :gb: :ru:
+### EnchantIt :gb: :ru:
+● [:earth_africa:](https://github.com/adslbarxatov/enchantit) ● [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g) ● [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
 An “extraordinary” abilities testing tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
 
@@ -157,7 +159,8 @@ An “extraordinary” abilities testing tool. Before starting the experiment ta
 
 &nbsp;
 
-### Text to KKT  &nbsp;  [:earth_africa:](https://github.com/adslbarxatov/texttokkt)  [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ)  [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)  [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)  &nbsp;  :ru:
+### Text to KKT :ru:
+● [:earth_africa:](https://github.com/adslbarxatov/texttokkt) ● [:film_projector:](https://youtube.com/watch?v=OC-jgJ5WBHQ) ● [:page_with_curl:](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
 
