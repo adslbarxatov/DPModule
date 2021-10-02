@@ -378,20 +378,6 @@
   <data name="PackageSelectorForm_Label05" xml:space="preserve">
     <value>&amp;Развёрнутые пакеты:</value>
   </data>
-  <data name="PSF_Help01" xml:space="preserve">
-    <value>Дважды щёлкните нужный пакет, чтобы загрузить его.
-Статусы пакетов:
-▽ – новый для данного ПК;
-▲ – более новая версия ранее развёрнутого пакета;
-◯ – уже развёрнут;
-◇ – статус не указан</value>
-  </data>
-  <data name="PSF_Help03" xml:space="preserve">
-    <value>Дважды щёлкните пакет, чтобы выбрать его / снять выбор. Выбранные пакеты будут последовательно развёрнуты на следующем шаге</value>
-  </data>
-  <data name="PSF_Help04" xml:space="preserve">
-    <value>Дважды щёлкните пакет, чтобы вернуть его в загруженные и развернуть снова</value>
-  </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>О&amp;бновить списки</value>
   </data>

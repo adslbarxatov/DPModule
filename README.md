@@ -1,7 +1,7 @@
-﻿# DPModule v 12.0.1
-> PCC: 0007F4CED08CD92D
+﻿# DPModule v 12.0.2
+> PCC: 0007F0CEFD5C2AF2
 
-> CRC32: 5625EC74
+> CRC32: D59FA9C1
 
 
 
@@ -31,7 +31,7 @@ Needs Windows XP and newer, Framework 4.0 and newer. Interface languages: ru_ru,
 
 
 
-## [Development policy and EULA / Политика разработки и EULA](https://github.com/adslbarxatov/adp)
+## [Development policy and EULA / Политика разработки и EULA](https://adslbarxatov.github.io/ADP)
 
 This Policy (ADP), its positions, conclusion, EULA and application methods
 describes general rules that we follow in all of our development processes, released applications and implemented ideas.

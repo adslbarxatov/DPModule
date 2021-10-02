@@ -1,4 +1,4 @@
-# Welcome to laboratory! | Добро пожаловать в лабораторию!
+# Welcome to laboratory! ● Добро пожаловать в лабораторию!
 
 Now this page has its own address and theme. [Click here](https://adslbarxatov.github.io/DPModule) to go the new version of our Welcome page
 
