@@ -1,4 +1,4 @@
-# Welcome to laboratory! ¦ Добро пожаловать в лабораторию!
+# Welcome to laboratory! ● Добро пожаловать в лабораторию!
 
 ### Page contents ¦ Содержание страницы
 
@@ -81,20 +81,20 @@ You can find us using set of popular platforms listed below. Languages supported
 
 &nbsp;
 
-- [Sources hosting ¦ GitHub](https://github.com/adslbarxatov) :gb: :ru:
-- [Mods hosting ¦ ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
+- [Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru:
+- [Mods hosting ● ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
 
-- [Master channel ¦ YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
+- [Master channel ● YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
 
-- [Master community ¦ VK](https://vk.com/rd_aaow_fdl) :ru:
-- [Side community ¦ VK](https://vk.com/grammarmustjoy) :ru:
+- [Master community ● VK](https://vk.com/rd_aaow_fdl) :ru:
+- [Side community ● VK](https://vk.com/grammarmustjoy) :ru:
 
-- [Master mirror ¦ Telegram](https://t.me/rd_aaow_fdl) :gb:
-- [Side mirror ¦ Telegram](https://t.me/grammarmustjoy) :ru:
+- [Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb:
+- [Side mirror ● Telegram](https://t.me/grammarmustjoy) :ru:
 
-- [Master mirror ¦ Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
+- [Master mirror ● Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
 
-- [NFT hosting ¦ Rarible](https://rarible.com/rd_aaow_fdl) :gb:
+- [NFT hosting ● Rarible](https://rarible.com/rd_aaow_fdl) :gb:
 
 &nbsp;
 
