@@ -141,8 +141,8 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 &nbsp;
 
-### UniNotifier :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=hQHmoMCXCBA) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+### UniNotifier (uNot) :gb: :ru:
+● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=M4MCcXkigJM) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
