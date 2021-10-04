@@ -2,14 +2,14 @@
 
 ### Page contents ● Содержание страницы
 
-- [Hello, dear user!](#hello-dear-user)
-- [Здравствуйте, уважаемый пользователь!](#здравствуйте-уважаемый-пользователь)
+- [Hello, dear user!](#gd-hello-dear-user)
+- [Здравствуйте, уважаемый пользователь!](#ru---)
 
-- [Contacts](#contacts)
-- [Контакты](#контакты)
+- [Contacts](#gb-contacts)
+- [Контакты](#ru-)
 
-- [Actual projects and developments](#actual-projects-and-developments)
-- [Актуальные проекты и разработки](#актуальные-проекты-и-разработки)
+- [Actual projects and developments](#gb-actual-projects-and-developments)
+- [Актуальные проекты и разработки](#ru----)
 
 &nbsp;
 
