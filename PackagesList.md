@@ -13,7 +13,7 @@ Font finder					2.13.2	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003C62
 Geomag data drawer			4.18.1	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171291
 Keyboard switcher			1.4!	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA89
 Make CST					1.6.1!	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
-Make decision				2.8.1	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002F800
+Make decision				2.8.2	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002F800
 OS macros executor			2.8		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00043250
 Screen shooter				1.7.1	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003001C
 Sudoku solver				2.3.1	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
