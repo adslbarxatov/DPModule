@@ -18,8 +18,8 @@ OS macros executor			2.8		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp
 Screen shooter				1.7.1	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003001C
 Sudoku solver				2.3.1	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
 Tables merger				1.6.2	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
-Text to KKT					5.5.3	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x00077E49
-UniNotifier					4.5.2	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00044E18
+Text to KKT					5.5.4	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x00077E49
+UniNotifier					4.5.3	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00044E18
 Vector image generator		1.9.2	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
