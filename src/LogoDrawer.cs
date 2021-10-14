@@ -18,42 +18,42 @@ namespace RD_AAOW
 	public partial class LogoDrawer: Form
 		{
 		// Переменные
-		private const int scale = 130;							// Главный масштабный множитель
-		private const int drawerSize = scale / 8;				// Размер кисти
-		private const int tailsSize = (int)(scale * 0.3);		// Длина "хвостов" лого за границами кругов
+		private const int scale = 130;                          // Главный масштабный множитель
+		private const int drawerSize = scale / 8;               // Размер кисти
+		private const int tailsSize = (int)(scale * 0.3);       // Длина "хвостов" лого за границами кругов
 
-		private const int frameSpeed = 6;						// Частота смены кадров / отступ кисти в пикселях
+		private const int frameSpeed = 6;                       // Частота смены кадров / отступ кисти в пикселях
 
-		private const int logoFontSize = (int)(scale * 0.42);	// Размер шрифта лого
-		private const int headerFontSize = (int)(scale * 0.20);	// Размер шрифта заголовков расширенного режима
-		private const int textFontSize = (int)(scale * 0.13);	// Размер шрифта текста расширенного режима
-		private const string logoString1 = "Free development lab",		// Тексты лого
+		private const int logoFontSize = (int)(scale * 0.42);   // Размер шрифта лого
+		private const int headerFontSize = (int)(scale * 0.20); // Размер шрифта заголовков расширенного режима
+		private const int textFontSize = (int)(scale * 0.13);   // Размер шрифта текста расширенного режима
+		private const string logoString1 = "Free development lab",      // Тексты лого
 			logoString2 = "(RD AAOW FDL)";
 
-		private int logoHeight;									// Высота лого
-		private Point[] logo2Form;								// Форма стрелки второго лого
+		private int logoHeight;                                 // Высота лого
+		private Point[] logo2Form;                              // Форма стрелки второго лого
 		private SolidBrush logo2Green, logo2Grey;
 
-		private uint phase1 = 1, phase2 = 1;	// Текущие фазы отрисовки
-		private Point point1, point2,			// Текущие позиции отрисовки
+		private uint phase1 = 1, phase2 = 1;    // Текущие фазы отрисовки
+		private Point point1, point2,           // Текущие позиции отрисовки
 			point3, point4;
-		private double arc1, arc2;				// Переменные для расчёта позиций элементов в полярных координатах
+		private double arc1, arc2;              // Переменные для расчёта позиций элементов в полярных координатах
 
-		private Graphics g, g2;					// Объекты-отрисовщики
+		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
 		private Pen backPen;
 		private Bitmap logo1, logo2a, logo2b, logo4a, logo4b;
 		private Bitmap logo2GreyPart, logo2GreenPart, logo2BackPart;
 		private Font logo1Font, logo2Font, headerFont, textFont;
-		private SizeF logo1Size, logo2Size;		// Графические размеры текста для текущего экрана
+		private SizeF logo1Size, logo2Size;     // Графические размеры текста для текущего экрана
 
-		private uint extended = 0;				// Тип расширенного режима
+		private uint extended = 0;              // Тип расширенного режима
 
-		private uint steps = 0,					// Счётчик шагов
-			moves = 0;							// Счётчик движений мыши (используется для корректной обработки движений)
+		private uint steps = 0,                 // Счётчик шагов
+			moves = 0;                          // Счётчик движений мыши (используется для корректной обработки движений)
 
-		private const int lineFeed = 40;		// Высота строки текста расширенного режима
-		private const int lineLeft = 250;		// Начало строки текста расширенного режима
+		private const int lineFeed = 40;        // Высота строки текста расширенного режима
+		private const int lineLeft = 250;       // Начало строки текста расширенного режима
 
 		// Строки текста расширенного режима
 		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> ()/*,
@@ -132,7 +132,7 @@ namespace RD_AAOW
 			this.ForeColor = ProgramDescription.MasterTextColor;
 
 			backBrush = new SolidBrush (this.BackColor);
-			backPen = new Pen (this.BackColor, scale / 7);	// More than drawerSize
+			backPen = new Pen (this.BackColor, scale / 7);  // More than drawerSize
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
@@ -223,17 +223,17 @@ namespace RD_AAOW
 					ExtendedTimer.Tick += ExtendedTimer1_Tick;
 					break;
 
-				/*case 2:
-					ExtendedTimer.Tick += ExtendedTimer2_Tick;
-					break;
+					/*case 2:
+						ExtendedTimer.Tick += ExtendedTimer2_Tick;
+						break;
 
-				/*case 3:
-					ExtendedTimer.Tick += ExtendedTimer3_Tick;
-					break;
+					/*case 3:
+						ExtendedTimer.Tick += ExtendedTimer3_Tick;
+						break;
 
-				case 4:
-					ExtendedTimer.Tick += ExtendedTimer4_Tick;
-					break;*/
+					case 4:
+						ExtendedTimer.Tick += ExtendedTimer4_Tick;
+						break;*/
 				}
 			#endregion
 
