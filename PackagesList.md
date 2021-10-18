@@ -1,9 +1,9 @@
 ```
 Packages, available for download:
 
-DPModule v 12.0.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x0007F0CE
+DPModule v 12.1	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x0007EEC8
 
-DPModule					12.0.3	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007F0CE
+DPModule					12.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007EEC8
 Batch image convertor		2.17.1	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B881
 BExplorer					2.18.3	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A76EB
 ConcurrentDraw				2.5.1	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A194C
@@ -24,6 +24,8 @@ Vector image generator		1.9.2	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageG
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
 ESHQ update					11.4b!	https://www.moddb.com/downloads/start/221047?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				57395923
+ESHQ english localization	1.0!	https://www.moddb.com/downloads/start/222087?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				24934
+ESHQ russian localization	1.0!	https://www.moddb.com/downloads/start/222088?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				226471
 Crazy cheater’s mod			1.2d!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
 Counter-strike 1.6 maps		1.0d!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
 

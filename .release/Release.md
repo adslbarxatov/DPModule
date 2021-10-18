@@ -1,6 +1,5 @@
-_Changes for v 12.0.3_:
+_Changes for v 12.1_:
+- Improved tray icon's behavior; improved its context menu;
+- Fixed tips about double-clicking on the tray icon;
 - Fixed self-update failure;
-- Fixed some minor interface bugs;
-- Updated packages and ADP links;
-- Disabled the post-deployment relocation for packages; “Deployed” directory is no longer used;
-- Disabled support for .dp9 packages format
+- Fixed some minor interface bugs

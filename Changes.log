@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 12.1:
+• Improved tray icon's behavior; improved its context menu;
+• Fixed tips about double-clicking on the tray icon
+
 Version 12.0.3:
 • Fixed self-update failure;
 • Fixed some minor interface bugs

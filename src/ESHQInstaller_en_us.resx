@@ -151,7 +151,7 @@
     <value>You can improve the app or view our other projects
 (just click the banner of interest).
 If you have any wishes, advices or troubles with this utility, remind us, using “Ask developer” button in the “About” window
-(available in tray icon's menu)</value>
+(available in tray icon’s menu)</value>
   </data>
   <data name="ExitButtonText" xml:space="preserve">
     <value>E&amp;xit</value>
@@ -168,7 +168,7 @@ If you have any wishes, advices or troubles with this utility, remind us, using 
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Your deployment package is not original! We strongly recommend against using it!
 
-Download original package: double-click on this icon, get needed one and restart DPModule</value>
+Launch DPModule again and download the original deployment package</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Install: allows application setup or recover</value>
@@ -192,7 +192,7 @@ Download original package: double-click on this icon, get needed one and restart
     <value>Select mode:</value>
   </data>
   <data name="ModPath" xml:space="preserve">
-    <value>Application's installation path:</value>
+    <value>Application’s installation path:</value>
   </data>
   <data name="NextButtonText" xml:space="preserve">
     <value>&amp;Next &gt;</value>
@@ -208,7 +208,7 @@ Download original package: double-click on this icon, get needed one and restart
 
 Therefore, it is strongly recommended to keep the suggested installation path.
 
-If possible, don't overwrite or supplement existing installations. Deployment module can handle this case (backup and restore original files). But it cannot deal with unforeseen consequences.
+If possible, don’t overwrite or supplement existing installations. Deployment module can handle this case (backup and restore original files). But it cannot deal with unforeseen consequences.
 
 Continue with specified path?</value>
   </data>
@@ -241,9 +241,9 @@ Continue with specified path?</value>
 Press “Next” to continue. Operation can take about 5 minutes</value>
   </data>
   <data name="RegistryKeyNotFound" xml:space="preserve">
-    <value>Application's installation path not found in registry. Use “Restore package's deployment path” option of tray icon's menu to restore it.
+    <value>Application’s installation path not found in registry. Use “Restore package’s deployment path” option in tray icon’s menu to restore it.
 
-NOTE: if you'll set incorrect path, application may damage valuable files!</value>
+NOTE: if you’ll set incorrect path, application may damage valuable files!</value>
   </data>
   <data name="SpecifyModPath" xml:space="preserve">
     <value>Specify installation path:</value>
@@ -257,7 +257,7 @@ NOTE: if you'll set incorrect path, application may damage valuable files!</valu
   <data name="UpdateMessage2" xml:space="preserve">
     <value> available for download.
 
-Double-click on this icon for continue</value>
+Launch DPModule again to download it</value>
   </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Checking for updates...</value>
@@ -271,9 +271,9 @@ Double-click on this icon for continue</value>
   <data name="PathRestoreText" xml:space="preserve">
     <value>You are welcomed by {0:S}!
 
-This function will restore registry entry required by deployment module. You must specify correct path to application's installation directory in the next window (f. e., {1:S}\{2:S}\).
+This function will restore registry entry required by deployment module. You must specify correct path to application’s installation directory in the next window (f. e., {1:S}\{2:S}\).
 
-NOTE: if you'll set incorrect path, updater and installer may damage valuable files!</value>
+NOTE: if you’ll set incorrect path, updater and installer may damage valuable files!</value>
   </data>
   <data name="LanguageSelectorMessage" xml:space="preserve">
     <value>Current interface language is {0:S}.
@@ -283,22 +283,19 @@ Select new language:</value>
     <value>Select all packages that you want to deploy</value>
   </data>
   <data name="IconMenuShowAbout" xml:space="preserve">
-    <value>Actual package's version info</value>
+    <value>Actual package’s version info</value>
   </data>
-  <data name="IconMenuUpdate" xml:space="preserve">
-    <value>Open package's webpage...</value>
-  </data>
-  <data name="IconMenuDPUpdate" xml:space="preserve">
-    <value>Update {0:S} to version {1:S}</value>
+  <data name="IconMenuWebpage" xml:space="preserve">
+    <value>Open package’s webpage...</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>Deployment packages utility for Free development lab's (RD AAOW FDL) projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
+    <value>Deployment packages utility for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>Deployment packages list is unavailable. Check your internet connection</value>
+    <value>Deployment packages list is unavailable. Check the internet connection</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
     <value>Downloading packages list...</value>
@@ -325,20 +322,17 @@ Select new language:</value>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>Packages &amp;list</value>
   </data>
-  <data name="IconDownloadPackages" xml:space="preserve">
-    <value>Download other packages...</value>
-  </data>
   <data name="LanguageChanged" xml:space="preserve">
-    <value>Interface language will be changed on the next package's processing</value>
+    <value>Interface language will be changed on the next package’s processing</value>
   </data>
   <data name="FunctionReplaced" xml:space="preserve">
-    <value>This function has been moved to tray icon's context menu</value>
+    <value>This function has been moved to tray icon’s context menu</value>
   </data>
   <data name="IconChangeLanguage" xml:space="preserve">
     <value>Change interface language</value>
   </data>
   <data name="IconRestorePath" xml:space="preserve">
-    <value>Restore package's deployment path</value>
+    <value>Restore package’s deployment path</value>
   </data>
   <data name="PackageSelectorForm_Label02" xml:space="preserve">
     <value>&amp;Utilities:</value>
@@ -371,13 +365,10 @@ Select new language:</value>
     <value>All previously downloaded package files will be removed. Installed apps will not be affected. Continue?</value>
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
-    <value>Failed to create a script to remove the product. In case of uninstallation, the deployment package is required</value>
+    <value>Failed to create a script to remove the product.The deployment package is required for product deinstallation</value>
   </data>
   <data name="PackageSelectorForm_Label04" xml:space="preserve">
     <value>&amp;Downloaded packages:</value>
-  </data>
-  <data name="PackageSelectorForm_Label05" xml:space="preserve">
-    <value>De&amp;ployed packages:</value>
   </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>Upd&amp;ate lists</value>
@@ -389,7 +380,7 @@ Select new language:</value>
     <value>Application being updated/deleted is not closed. Finish the application and try again</value>
   </data>
   <data name="KillProcessFlagText" xml:space="preserve">
-    <value>Stop application if it's running</value>
+    <value>Stop application if it’s running</value>
   </data>
   <data name="StartProcessFlagText" xml:space="preserve">
     <value>Start application after completion</value>

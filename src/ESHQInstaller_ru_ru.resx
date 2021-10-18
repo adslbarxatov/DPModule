@@ -165,9 +165,9 @@
     <value>Один или несколько исходных файлов слишком велики</value>
   </data>
   <data name="IncorrectPackage" xml:space="preserve">
-    <value>Ваш установочный пакет не является оригинальным! Мы настоятельно не рекомендуем его использование!
+    <value>Ваш установочный пакет не является оригинальным! Мы настоятельно не рекомендуем использовать его!
 
-Загрузите оригинальный пакет: дважды щёлкните по этому значку, получите нужный пакет и перезапустите DPModule</value>
+Запустите DPModule ещё раз и загрузите оригинальный пакет развёртки</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Установка: развёртка / восстановление программы</value>
@@ -256,7 +256,7 @@
   <data name="UpdateMessage2" xml:space="preserve">
     <value> для загрузки.
 
-Дважды щёлкните по этому значку для продолжения</value>
+Запустите DPModule ещё раз, чтобы загрузить его</value>
   </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Проверка обновлений...</value>
@@ -284,11 +284,8 @@
   <data name="IconMenuShowAbout" xml:space="preserve">
     <value>Информация об актуальной версии пакета</value>
   </data>
-  <data name="IconMenuUpdate" xml:space="preserve">
+  <data name="IconMenuWebpage" xml:space="preserve">
     <value>Открыть веб-страницу пакета...</value>
-  </data>
-  <data name="IconMenuDPUpdate" xml:space="preserve">
-    <value>Обновить {0:S} до версии {1:S}</value>
   </data>
   <data name="HelpText" xml:space="preserve">
     <value>Модуль развёртки для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
@@ -297,7 +294,7 @@
     <value>Менеджер пакетов развёртки</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>Список установочных пакетов недоступен. Проверьте ваше интернет-подключение</value>
+    <value>Список установочных пакетов недоступен. Проверьте интернет-подключение</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
     <value>Загрузка списка пакетов...</value>
@@ -323,9 +320,6 @@
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Список пакетов</value>
-  </data>
-  <data name="IconDownloadPackages" xml:space="preserve">
-    <value>Загрузить другие пакеты...</value>
   </data>
   <data name="LanguageChanged" xml:space="preserve">
     <value>Язык интерфейса будет изменён при обработке следующего пакета</value>
@@ -370,13 +364,10 @@
     <value>О&amp;чистить кэш</value>
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
-    <value>Не удалось создать скрипт для удаления продукта. В случае деинсталляции потребуется установочный пакет</value>
+    <value>Не удалось создать скрипт для удаления продукта. Для деинсталляции продукта потребуется установочный пакет</value>
   </data>
   <data name="PackageSelectorForm_Label04" xml:space="preserve">
     <value>&amp;Загруженные пакеты:</value>
-  </data>
-  <data name="PackageSelectorForm_Label05" xml:space="preserve">
-    <value>&amp;Развёрнутые пакеты:</value>
   </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>О&amp;бновить списки</value>
