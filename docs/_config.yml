@@ -9,5 +9,3 @@ defaults:
       path: ""
     values:
       image: /img/DP.png
-
-favicon: /favicon.ico
