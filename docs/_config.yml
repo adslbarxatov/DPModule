@@ -4,4 +4,4 @@ plugins:
   - jekyll-seo-tag
 
 image:
-  path: https://repository-images.githubusercontent.com/257330542/19477d1c-a361-41a9-b1ab-180323fdf0e5
+  path: url('https://repository-images.githubusercontent.com/257330542/19477d1c-a361-41a9-b1ab-180323fdf0e5')
