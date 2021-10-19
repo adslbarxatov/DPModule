@@ -1,3 +1,10 @@
 markdown: GFM
 plugins:
   - jemoji
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-card.png
