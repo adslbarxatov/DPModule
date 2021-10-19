@@ -1,3 +1,4 @@
+# theme: jekyll-theme-cayman
 markdown: GFM
 plugins:
   - jemoji
@@ -9,4 +10,4 @@ defaults:
     values:
       image: /img/DP.png
 
-favicon: favicon.ico
+favicon: /favicon.ico
