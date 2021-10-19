@@ -5,3 +5,9 @@ plugins:
 
 image:
   path: /img/DP.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/DP.png
