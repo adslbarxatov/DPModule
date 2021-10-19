@@ -8,3 +8,4 @@ defaults:
       path: ""
     values:
       image: /img/DP.png
+      site_favicon: favicon.ico
