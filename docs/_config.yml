@@ -4,4 +4,4 @@ plugins:
   - jekyll-seo-tag
 
 image:
-  path: DP.png
+  path: /img/DP.png
