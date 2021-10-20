@@ -9,7 +9,7 @@ BExplorer					2.18.3	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A76EB
 ConcurrentDraw				2.5.1	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A194C
 Dates difference			2.2.2	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B03B
 File extensions manager		1.6.1	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004BC8B
-Font finder					2.13.2	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003C625
+Font finder					2.13.10	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003C626
 Geomag data drawer			4.18.1	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171291
 Keyboard switcher			1.4.1!	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8B
 Make CST					1.6.1!	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
