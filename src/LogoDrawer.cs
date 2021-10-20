@@ -42,7 +42,7 @@ namespace RD_AAOW
 		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
 		private Pen backPen;
-		private Bitmap logo1, logo2a, logo2b, logo4a, logo4b;
+		private Bitmap logo1, logo2a, logo2b;	//, logo4a, logo4b;
 		private Bitmap logo2GreyPart, logo2GreenPart, logo2BackPart;
 		private Font logo1Font, logo2Font, headerFont, textFont;
 		private SizeF logo1Size, logo2Size;     // Графические размеры текста для текущего экрана
@@ -1133,10 +1133,10 @@ namespace RD_AAOW
 				}
 			else if (extended == 4)
 				{
-				if (logo4a != null)
+				/*if (logo4a != null)
 					logo4a.Dispose ();
 				if (logo4b != null)
-					logo4b.Dispose ();
+					logo4b.Dispose ();*/
 				}
 
 			if (logo1 != null)

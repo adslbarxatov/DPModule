@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 12.2:
+• AboutForm and HardWorkExecutor universal classes have been upgraded and improved;
+• Fixed some interface bugs
+
 Version 12.1:
 • Improved tray icon's behavior; improved its context menu;
 • Fixed tips about double-clicking on the tray icon

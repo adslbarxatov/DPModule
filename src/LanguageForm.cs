@@ -7,7 +7,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Форма обеспечивает возможность изменения языка интерфейса
 	/// </summary>
-	public partial class LanguageForm: Form
+	public partial class LanguageForm:Form
 		{
 		/// <summary>
 		/// Конструктор. Запускает форму выбора размера
@@ -33,7 +33,7 @@ namespace RD_AAOW
 			OKButton.Text = Localization.GetText ("NextButtonText", CurrentInterfaceLanguage);
 			AbortButton.Text = Localization.GetText ("AbortButtonText", CurrentInterfaceLanguage);
 
-#if SIMPLE_HWE
+#if !DPMODULE
 			this.BackColor = Color.FromKnownColor (KnownColor.Control);
 			Label01.ForeColor = LanguagesCombo.ForeColor = OKButton.ForeColor = AbortButton.ForeColor = Color.FromArgb (0, 0, 0);
 			LanguagesCombo.BackColor = OKButton.BackColor = AbortButton.BackColor = Color.FromKnownColor (KnownColor.Control);
