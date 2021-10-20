@@ -142,7 +142,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 &nbsp;
 
 ### UniNotifier (uNot) :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=M4MCcXkigJM) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=M4MCcXkigJM) ● [:film_projector:](https://www.youtube.com/watch?v=BzGnL0yUYhY) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
@@ -151,7 +151,7 @@ A custom notifications (news) service that allows you to request only the needed
 &nbsp;
 
 ### EnchantIt :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/enchantit) ● [:film_projector:](https://www.youtube.com/watch?v=wSYtWe0xW4g) ● [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
+● [:earth_africa:](https://github.com/adslbarxatov/enchantit) ● [:film_projector:](https://www.youtube.com/watch?v=2t9iZDTnWg4) ● [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
 An “extraordinary” abilities testing tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
 
