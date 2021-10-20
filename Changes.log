@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Add registry checker;
+- Update guide link
+
 Version 12.2:
 • AboutForm and HardWorkExecutor universal classes have been upgraded and improved;
 • Fixed some interface bugs

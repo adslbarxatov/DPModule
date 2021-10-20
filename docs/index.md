@@ -122,7 +122,7 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 &nbsp;
 
 ### DPModule :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/dpmodule) ● [:film_projector:](https://www.youtube.com/watch?v=iLZ_c0gkR5U) ●
+● [:earth_africa:](https://github.com/adslbarxatov/dpmodule) ● [:film_projector:](https://youtube.com/watch?v=m7CqXvUrbc8) ●
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
@@ -133,7 +133,7 @@ You can get all Windows-versions of our products through this application. You a
 &nbsp;
 
 ### ConcurrentDraw :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw) ● [:film_projector:](https://www.youtube.com/watch?v=MMsf7CA5cSE) ● [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) ●
+● [:earth_africa:](https://github.com/adslbarxatov/concurrentdraw) ● [:film_projector:](https://youtube.com/watch?v=MMsf7CA5cSE) ● [:tv:](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) ●
 
 A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
 
@@ -142,7 +142,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 &nbsp;
 
 ### UniNotifier (uNot) :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://www.youtube.com/watch?v=M4MCcXkigJM) ● [:film_projector:](https://www.youtube.com/watch?v=BzGnL0yUYhY) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+● [:earth_africa:](https://github.com/adslbarxatov/uninotifier) ● [:film_projector:](https://youtube.com/watch?v=M4MCcXkigJM) ● [:film_projector:](https://youtube.com/watch?v=BzGnL0yUYhY) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
 
@@ -151,7 +151,7 @@ A custom notifications (news) service that allows you to request only the needed
 &nbsp;
 
 ### EnchantIt :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/enchantit) ● [:film_projector:](https://www.youtube.com/watch?v=2t9iZDTnWg4) ● [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
+● [:earth_africa:](https://github.com/adslbarxatov/enchantit) ● [:film_projector:](https://youtube.com/watch?v=2t9iZDTnWg4) ● [:page_with_curl:](https://vk.com/@rd_aaow_fdl-enchantit) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
 An “extraordinary” abilities testing tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
 
