@@ -6,7 +6,7 @@ DPModule v 12.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPM
 DPModule					12.3	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007F6C7
 Batch image convertor		2.17.1	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004B881
 BExplorer					2.18.3	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A76EB
-ConcurrentDraw				2.5.1	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A194C
+ConcurrentDraw				2.5.5	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A1F4B
 Dates difference			2.2.2	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B03B
 File extensions manager		1.6.1	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004BC8B
 Font finder					2.13.10	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003C626
@@ -18,8 +18,8 @@ OS macros executor			2.8		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp
 Screen shooter				1.7.1	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003001C
 Sudoku solver				2.3.1	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x00052A10
 Tables merger				1.6.2	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005F417
-Text to KKT					5.5.10	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x0007824A
-UniNotifier					4.5.10	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00044E19
+Text to KKT					5.5.15	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x0007885A
+UniNotifier					4.5.15	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00045418
 Vector image generator		1.9.2	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034872
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
