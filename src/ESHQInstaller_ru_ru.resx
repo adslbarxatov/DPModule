@@ -417,4 +417,7 @@
   <data name="AllowShortcutsFlagText" xml:space="preserve">
     <value>Создать ярлыки на рабочем столе</value>
   </data>
+  <data name="RequiredUpdate" xml:space="preserve">
+    <value>Необходимое обновление для модуля развёртки</value>
+  </data>
 </root>
