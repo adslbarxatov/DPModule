@@ -8,9 +8,9 @@ Batch image convertor		2.17.15	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageCo
 BExplorer					2.18.15	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A7CEB
 ConcurrentDraw				2.5.5	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A1F4B
 Dates difference			2.2.15	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B63B
-File extensions manager		1.6.1	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004BC8B
-Font finder					2.13.10	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003C626
-Geomag data drawer			4.18.1	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171291
+File extensions manager		1.6.15	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
+Font finder					2.13.15	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC25
+Geomag data drawer			4.18.15	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
 Keyboard switcher			1.4.1!	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8B
 Make CST					1.6.1!	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
 Make decision				2.8.15	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002FE00
