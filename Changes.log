@@ -12,7 +12,7 @@ Version 12.2:
 • Fixed some interface bugs
 
 Version 12.1:
-• Improved tray icon's behavior; improved its context menu;
+• Improved tray icon’s behavior; improved its context menu;
 • Fixed tips about double-clicking on the tray icon
 
 Version 12.0.3:
@@ -47,12 +47,12 @@ Version 11.5b:
 • Removed unused logo scenes and images
 
 Version 11.5:
-• Uninstallation scripts will now be created in package deployment directories (instead of DPModule's startup path);
+• Uninstallation scripts will now be created in package deployment directories (instead of DPModule’s startup path);
   also shortcuts for these scripts will be created on the desktop
 
 Version 11.4:
 • Some interface adjustments applied;
-• Added support for new ESHQ mod's engine version;
+• Added support for new ESHQ mod’s engine version;
 • Added support for WinRAR utility;
 • Improved downloading algorithm for ModDB
 
@@ -64,7 +64,7 @@ Version 11.3.2:
 
 Version 11.3.1:
 • Added new identity for other interfaces;
-• Added 'autoclose on success' flag;
+• Added “autoclose on success” flag;
 • DPModule now unable to kill its own process
 
 Version 11.3:
@@ -83,7 +83,7 @@ Version 11.2:
 • Some tips have been updated
 
 Version 11.1:
-• Now application will check the activity of executables being updated or deleted. If it's running, DPModule
+• Now application will check the activity of executables being updated or deleted. If it’s running, DPModule
   will interrupt deployment process;
 • Some fixes applied to application interface
 
@@ -91,16 +91,16 @@ Version 11.0.3:
 • Some fixes applied to application interface
 
 Version 11.0.2:
-• Updated tabstop order in packages manager's interface;
+• Updated tabstop order in packages manager’s interface;
 • Downloading, checking and re-deployment are now available with double clicking and Enter key pressing;
-• Application will now wait for finishing unzipper's process (for correct lists updating);
+• Application will now wait for finishing unzipper’s process (for correct lists updating);
 • Manual lists update has been added;
 • Video presentation for the product has been updated
 
 Version 11:
-• Packages manager's interface has been completely rebuilt; now it's able to:
+• Packages manager’s interface has been completely rebuilt; now it’s able to:
   - download packages, as before (packages statuses will be shown by icons);
-  - clearly select packages for deploying (without 'open file' window);
+  - clearly select packages for deploying (without “open file” window);
   - display downloaded and previously deployed packages;
   - select packages for re-deployment;
   - clear cache, as before;
@@ -108,13 +108,13 @@ Version 11:
 
 Version 10.6:
 • Removed some artifacts of old versions;
-• Added ability to 'ask developer' via E-mail for help, or send wish, advice or bug report;
+• Added ability to “ask developer” via E-mail for help, or send wish, advice or bug report;
   the same functionality has been removed from the main window;
-• Incorrect behavior of 'always on top' function has been fixed;
-• Fixed bug with dropping deinstalled packages from 'Deployed' subdirectory;
-• Added 'Clear cache' function that removes all files from 'Downloaded' and 'Deployed' subdirectories;
+• Incorrect behavior of “always on top” function has been fixed;
+• Fixed bug with dropping deinstalled packages from “Deployed” subdirectory;
+• Added “Clear cache” function that removes all files from “Downloaded” and “Deployed” subdirectories;
 • Added ability to create deinstallation scripts for installation (not an update) packages;
-  scripts will be placed in 'Uninstallers' subdirectory
+  scripts will be placed in “Uninstallers” subdirectory
 
 Version 10.5.3:
 • Improved packages building algorithm;
@@ -125,7 +125,7 @@ Version 10.5.2:
 • Updated video manual and link to it;
 • Removed stub for old command line keys;
 • Fixed previously downloaded packages detection sign;
-• Fixed some tool windows' background colors
+• Fixed some background colors of tool windows
 
 Version 10.5.1:
 • Split messages for info link and required additional installations
@@ -142,15 +142,15 @@ Version 10.4.3:
 
 Version 10.4.2:
 • Fixed bug that disallowed old deployed packages overwriting;
-• Packages will be now downloaded into 'Downloaded' subdirectory;
-• Successfully deployed packages will be moved from 'Downloaded' to 'Deployed' subdirectory;
+• Packages will be now downloaded into “Downloaded” subdirectory;
+• Successfully deployed packages will be moved from “Downloaded” to “Deployed” subdirectory;
 • Packages extensions will be re-registered on every DPModule update to avoid side effects;
 • Added stand-alone icon for .dp9 packages
 
 Version 10.4:
 • Added ability to check installed versions of utilities:
-  - 'new' will be added to packages names that have never been installed;
-  - 'update' will be added to packages names that are newer than installed;
+  - “new” will be added to packages names that have never been installed;
+  - “update” will be added to packages names that are newer than installed;
 • ADP loader has been rebuilt:
   - Policy accepting will not be requested for every utility;
   - Policy accepting will be requested only once at first start of some utility or on new Policy review;
@@ -174,7 +174,7 @@ Version 10.2.3:
 Version 10.2.2:
 • Applied some fixes in packages building algorithm;
 • Path to the package now can be passed as command line parameter;
-• 'Improve' link has been removed from the first page
+• “Improve” link has been removed from the first page
 
 Version 10.2:
 • Some code fixes applied;
@@ -205,10 +205,10 @@ Version 10.0:
 • Fixed paths bug on x64 platforms
 
 Version 9.6:
-• Application info interface now able to get last release's changes log;
+• Application info interface now able to get last release’s changes log;
 • Added precaution for existing files overwriting;
 • Some code artifacts removed;
-• Fixed 'only C:\' bug in path suggestion code
+• Fixed “only C:\” bug in path suggestion code
 
 Version 9.5i:
 • Found and fixed hidden bug that caused an error when starting the application from local network;
