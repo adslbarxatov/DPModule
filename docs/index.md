@@ -173,9 +173,9 @@ An extraordinary abilities search tool. Before starting the experiment take a lo
 
 ### Text to KKT :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
-● [:film_projector: Guide](https://youtube.com/watch?v=OC-jgJ5WBHQ)
+● [:film_projector: Guide](https://youtube.com/watch?v=3J-pLCXhSKI)
 ● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)
-● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release) ●
+● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
@@ -193,7 +193,9 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 &nbsp;
 
 ### Make decision :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/makedecision) ● [:film_projector:](https://youtube.com/watch?v=40Lvq0Q1we0) ● [:iphone:](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
+● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
+● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
 
 An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
 
@@ -202,7 +204,8 @@ An app that demonstrates the math method used in making complex decisions. It ca
 &nbsp;
 
 ### Batch image convertor :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/batchimageconvertor) ● [:film_projector:](https://youtube.com/watch?v=bejx-r1C6j0) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/batchimageconvertor)
+● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0) ●
 
 A tool for automatic processing of groups of images
 
@@ -211,7 +214,8 @@ A tool for automatic processing of groups of images
 &nbsp;
 
 ### Font finder :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/fontfinder) ● [:film_projector:](https://youtube.com/watch?v=7Ct-kWmqxu4) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
+● [:film_projector: Guide](https://youtube.com/watch?v=7Ct-kWmqxu4) ●
 
 A tool for finding a font by its image
 
@@ -220,7 +224,8 @@ A tool for finding a font by its image
 &nbsp;
 
 ### ESHQ :gb:
-● [:earth_africa:](https://www.moddb.com/mods/eshq) ● [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) ●
+● [:earth_africa: Summary](https://www.moddb.com/mods/eshq)
+● [:tv: Demos](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) ●
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
 
@@ -229,7 +234,8 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 &nbsp;
 
 ### Crazy cheater’s mod :gb:
-● [:earth_africa:](https://www.moddb.com/mods/ccm) ● [:film_projector:](https://www.youtube.com/watch?v=tpgKd91QYP4) ●
+● [:earth_africa: Summary](https://www.moddb.com/mods/ccm)
+● [:film_projector: Demo](https://www.youtube.com/watch?v=tpgKd91QYP4) ●
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
 
@@ -238,7 +244,10 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 &nbsp;
 
 ### BExplorer :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/bexplorer) ● [:film_projector:](https://www.youtube.com/watch?v=RdLt-dTz8vU) ● [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf) ● [:page_with_curl:](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
+● [:film_projector: Demo](https://www.youtube.com/watch?v=RdLt-dTz8vU)
+● [:page_with_curl: Guide (en)](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)
+● [:page_with_curl: Guide (ru)](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf) ●
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
 
@@ -247,7 +256,7 @@ API для работы с файлами сохранений GTA Vice City и 
 &nbsp;
 
 ### Make CST :gb:
-● [:earth_africa:](https://github.com/adslbarxatov/makecst) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/makecst) ●
 
 A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
@@ -256,7 +265,8 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 &nbsp;
 
 ### OS macros executor :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/osmacrosexecutor) ● [:film_projector:](https://www.youtube.com/watch?v=CoY6NJBmuHc) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
+● [:film_projector: Guide](https://www.youtube.com/watch?v=a9yjvx7Cy3M) ●
 
 A tool for automating user actions in operating system
 
@@ -265,7 +275,7 @@ A tool for automating user actions in operating system
 &nbsp;
 
 ### File extensions manager :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/fileextensionsmanager) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager) ●
 
 A tool for managing custom file extensions settings in Windows
 
@@ -274,7 +284,7 @@ A tool for managing custom file extensions settings in Windows
 &nbsp;
 
 ### Keyboard switcher :gb:
-● [:earth_africa:](https://github.com/adslbarxatov/keyboardswitcher) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher) ●
 
 Quick correction tool for text entered on wrong keyboard layout
 
@@ -283,7 +293,7 @@ Quick correction tool for text entered on wrong keyboard layout
 &nbsp;
 
 ### Screen shooter :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/screenshooter) ●
+● [:earth_africa:About](https://github.com/adslbarxatov/screenshooter) ●
 
 An utility for creating screenshots (shots of screen, windows and elements of windows)
 
@@ -292,7 +302,7 @@ An utility for creating screenshots (shots of screen, windows and elements of wi
 &nbsp;
 
 ### Dates difference :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/datesdifference) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference) ●
 
 Small tool that can tell the difference between two dates in different views
 
@@ -301,7 +311,7 @@ Small tool that can tell the difference between two dates in different views
 &nbsp;
 
 ### Sudoku solver :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/sudokusolver) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver) ●
 
 A tool for solving sudoku
 
@@ -310,7 +320,7 @@ A tool for solving sudoku
 &nbsp;
 
 ### Tables merger :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/tablesmerger) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger) ●
 
 Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
 
@@ -319,7 +329,7 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 &nbsp;
 
 ### Vector image generator :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/vectorimagegenerator) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator) ●
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
@@ -328,7 +338,9 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 &nbsp;
 
 ### FullSilence, CodeShow :gb: :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/fullsilence) ● [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA) ● [:tv:](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
+● [:tv: FullSilence live](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
+● [:tv: CodeShow live](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
 
 Code fragments used in video projects of the same names in text visualization.
 *FullSilence* is a poems visualizer that uses combinations of graphic primitives.
@@ -341,7 +353,7 @@ Code fragments used in video projects of the same names in text visualization.
 &nbsp;
 
 ### Xash3D for ESHQ :gb:
-● [:earth_africa:](https://github.com/adslbarxatov/xash3d-for-eshq) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
 
 An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 
@@ -350,7 +362,7 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 &nbsp;
 
 ### Counter-strike 1.6 maps :gb:
-● [:earth_africa:](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) ●
+● [:earth_africa: Summary](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) ●
 
 Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
 
@@ -359,7 +371,9 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 &nbsp;
 
 ### Races, Snake, Turtle :ru:
-● [:earth_africa:](https://github.com/adslbarxatov/races) ● [:earth_asia:](https://github.com/adslbarxatov/snake) ● [:earth_americas:](https://github.com/adslbarxatov/turtle) ●
+● [:earth_africa: Races](https://github.com/adslbarxatov/races)
+● [:earth_asia: Snake](https://github.com/adslbarxatov/snake)
+● [:earth_americas: Turtle](https://github.com/adslbarxatov/turtle) ●
 
 Sample games pack for XNA game studion — “Races”, “Snake” and “Turtle”
 
@@ -368,6 +382,6 @@ Sample games pack for XNA game studion — “Races”, “Snake” and “Turtl
 &nbsp;
 
 ### GIATester :ru: :no_entry:
-● [:earth_africa:](https://github.com/adslbarxatov/giatester) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). Проект остановлен
