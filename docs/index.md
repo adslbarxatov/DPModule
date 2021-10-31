@@ -370,14 +370,30 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 
 &nbsp;
 
-### Races, Snake, Turtle :ru:
-● [:earth_africa: Races](https://github.com/adslbarxatov/races)
-● [:earth_asia: Snake](https://github.com/adslbarxatov/snake)
-● [:earth_americas: Turtle](https://github.com/adslbarxatov/turtle) ●
+### Races :ru:
+● [:earth_africa: Races](https://github.com/adslbarxatov/races) ●
 
-Sample games pack for XNA game studion — “Races”, “Snake” and “Turtle”
+“Races”, the classic Tetris game. From sample games pack for XNA game studio
 
-Учебный набор игр для XNA game studio — «Гонки», «Змейка» и «Черепашка»
+«Гонки» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
+
+&nbsp;
+
+### Snake :ru:
+● [:earth_africa: Snake](https://github.com/adslbarxatov/snake) ●
+
+“Snake”, the classic Tetris game. From sample games pack for XNA game studio
+
+«Змейка» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
+
+&nbsp;
+
+### Turtle :ru:
+● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle) ●
+
+“Turtle”, the classic Tetris game. From sample games pack for XNA game studio
+
+«Черепашка» – классическая игра для Тетриса. Из учебного набора игр для XNA game studio
 
 &nbsp;
 
