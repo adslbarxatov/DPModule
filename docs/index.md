@@ -144,7 +144,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 &nbsp;
 
-### UniNotifier (uNot) :gb: :ru:
+### uNot (UniNotifier) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
 ● [:film_projector: Full guide](https://youtube.com/watch?v=BzGnL0yUYhY)
@@ -192,7 +192,7 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 
 &nbsp;
 
-### Make decision :gb: :ru:
+### Decide it (Make decision) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
@@ -268,7 +268,7 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 ● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
 ● [:film_projector: Guide](https://www.youtube.com/watch?v=a9yjvx7Cy3M) ●
 
-A tool for automating user actions in operating system
+A tool for automation of user actions in operating system
 
 Инструмент автоматизации действий пользователя в операционной системе
 
