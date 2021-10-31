@@ -7,20 +7,20 @@ DPModule					12.3.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0007F6CD
 Batch image convertor		2.17.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004BE81
 BExplorer					2.18.17	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A7CEB
 ConcurrentDraw				2.5.17	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A1F4C
-Dates difference			2.2.15	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B63B
+Dates difference			2.2.17	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B63B
 Decide it					2.8.17	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002FE00
-File extensions manager		1.6.15	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
-Font finder					2.13.15	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC25
-Geomag data drawer			4.18.15	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
+File extensions manager		1.6.17	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
+Font finder					2.13.17	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC25
+Geomag data drawer			4.18.17	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
 Keyboard switcher			1.4.1!	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8B
 Make CST					1.6.1!	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
 OS macros executor			2.8.17	DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00043852
-Screen shooter				1.7.15	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003061C
-Sudoku solver				2.3.15	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
-Tables merger				1.6.15	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005FA17
+Screen shooter				1.7.17	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003061C
+Sudoku solver				2.3.17	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
+Tables merger				1.6.17	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005FA17
 Text to KKT					5.5.17	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x0007885A
 uNot						4.5.17	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00045618
-Vector image generator		1.9.15	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
+Vector image generator		1.9.17	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
 ESHQ update					11.4b!	https://www.moddb.com/downloads/start/221047?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				57395923
