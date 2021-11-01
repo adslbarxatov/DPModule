@@ -12,8 +12,8 @@ Decide it					2.8.17	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002FE
 File extensions manager		1.6.17	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
 Font finder					2.13.17	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC25
 Geomag data drawer			4.18.17	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
-Keyboard switcher			1.4.1!	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8B
-Make CST					1.6.1!	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
+Keyboard switcher			1.4.1	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8B
+Make CST					1.6.1	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1C
 OS macros executor			2.8.17	DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00043852
 Screen shooter				1.7.17	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003061C
 Sudoku solver				2.3.17	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
