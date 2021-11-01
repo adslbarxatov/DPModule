@@ -420,4 +420,13 @@
   <data name="RequiredUpdate" xml:space="preserve">
     <value>Необходимое обновление для модуля развёртки</value>
   </data>
+  <data name="PackageSelectorForm_AllPackagesRadio" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="PackageSelectorForm_NewPackagesRadio" xml:space="preserve">
+    <value>Только новые</value>
+  </data>
+  <data name="PackageSelectorForm_UpdatablePackagesRadio" xml:space="preserve">
+    <value>Только обновления</value>
+  </data>
 </root>

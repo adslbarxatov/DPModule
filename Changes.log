@@ -5,6 +5,7 @@ Version 12.4:
   skip deployment package in the next DPModule start without starting the deployed project (was required
   in previous version). Also, this option allows you to track versions of those projects that cannot
   check them on their own (KeyboardSwitcher, ESHQ, etc.);
+• DPModule now able to filter packages with “only new” and “only updates” flags
 
 Version 12.3.1:
 • Updated internal mechanism of checking for updates (applied compatibility with new GitHub theme);
