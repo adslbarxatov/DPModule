@@ -23,15 +23,15 @@ uNot						4.5.17	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00045618
 Vector image generator		1.9.17	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
-ESHQ update					11.4b!	https://www.moddb.com/downloads/start/221047?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				57395923
+ESHQ update					11.4b	https://www.moddb.com/downloads/start/221047?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_update.7z				57395923
 ESHQ english localization	2!		https://www.moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				224778
 ESHQ russian localization	2!		https://www.moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				226914
-Crazy cheater’s mod			1.2d!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
-Counter-strike 1.6 maps		1.0d!	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
+Crazy cheater’s mod			1.2d	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
+Counter-strike 1.6 maps		1.0d	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237
 
-Races						1.6.15!		DEFSTORAGE/Races.dp0						Races.dp0					0x008DC27F
-Snake						1.16.15!	DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C3
-Turtle						1.7.15!		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F2
+Races						1.6.15		DEFSTORAGE/Races.dp0						Races.dp0					0x008DC27F
+Snake						1.16.15		DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C3
+Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F2
 
 ESHQ backward comp.			11.0!   https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
 

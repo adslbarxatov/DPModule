@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 12.4:
+• App now able to add versions of successfully deployed packages to the registry. It allows you to
+  skip deployment package in the next DPModule start without starting the deployed project (was required
+  in previous version). Also, this option allows you to track versions of those projects that cannot
+  check them on their own (KeyboardSwitcher, ESHQ, etc.);
+
 Version 12.3.1:
 • Updated internal mechanism of checking for updates (applied compatibility with new GitHub theme);
 • Removed obsolete code fragments
