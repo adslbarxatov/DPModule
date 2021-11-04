@@ -216,7 +216,7 @@ A tool for automatic processing of groups of images
 
 ### Font finder :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
-● [:film_projector: Guide](https://youtube.com/watch?v=7Ct-kWmqxu4) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA) ●
 
 A tool for finding a font by its image
 
