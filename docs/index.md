@@ -195,7 +195,7 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ### Decide it (Make decision) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:iphone: GitHub](https://github.com/adslbarxatov/MakeDecision/tree/master/.release) ●
+● [:iphone: GitHub](https://github.com/adslbarxatov/MakeDecision/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
 
 An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
