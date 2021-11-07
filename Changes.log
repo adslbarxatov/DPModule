@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 12.5:
+• Implemented ability to save specified deployment flags (creating shortcuts, kill process, etc.);
+• Implemented package flags that allow to properly update deployed versions in registry;
+• Some interface adjustments applied;
+• Added new links for FDL
+
 Version 12.4:
 • App now able to add versions of successfully deployed packages to the registry. It allows you to
   skip deployment package in the next DPModule start without starting the deployed project (was required
