@@ -126,10 +126,12 @@ A general list of mods is available [here](https://www.moddb.com/members/rd-aaow
 ● [:film_projector: Guide](https://youtube.com/watch?v=m7CqXvUrbc8) ●
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
-You can get all Windows-versions of our products through this application. You are now on the welcome page of this application
+You can get all Windows-versions of our products through this application. You are now on the welcome page of it.
 
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
-Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на приветственной странице этого приложения
+Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
+
+[***Direct download link ● Прямая ссылка для загрузки***](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.exe)
 
 &nbsp;
 
