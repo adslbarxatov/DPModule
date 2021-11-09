@@ -131,7 +131,7 @@ You can get all Windows-versions of our products through this application. You a
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
 Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
 
-[***Direct download link ● Прямая ссылка для загрузки***](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.exe)
+[**Direct download link ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.exe)
 
 &nbsp;
 
@@ -180,7 +180,7 @@ An extraordinary abilities search tool. Before starting the experiment take a lo
 ● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
 
-Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, утилита чтения и анализа данных из фискального накопителя (54-ФЗ), входит в состав TextToKKT. FNReader предоставляется по запросу
+Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
 
 &nbsp;
 
