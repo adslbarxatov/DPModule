@@ -93,6 +93,7 @@ You can find us using set of popular platforms listed below. Languages supported
 - [Side community ● VK](https://vk.com/grammarmustjoy) :ru:
 - [Side mirror ● Telegram](https://t.me/grammarmustjoy) :ru:
 
+- RD AAOW FDL#6304 ● Discord
 - [NFT hosting ● Rarible](https://rarible.com/rd_aaow_fdl) :gb:
 
 &nbsp;
