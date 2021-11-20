@@ -150,7 +150,6 @@ A sound and music visualization tool. It works without additional codecs and dri
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
 ● [:film_projector: Full guide](https://youtube.com/watch?v=BzGnL0yUYhY)
-● [:iphone: GitHub](https://github.com/adslbarxatov/UniNotifier/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:iphone: Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
@@ -164,7 +163,6 @@ A custom notifications (news) service that allows you to request only the needed
 ● [:earth_africa: About](https://github.com/adslbarxatov/enchantit)
 ● [:film_projector: Guide](https://youtube.com/watch?v=2t9iZDTnWg4)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-enchantit)
-● [:iphone: GitHub](https://github.com/adslbarxatov/EnchantIt/tree/main/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
 An extraordinary abilities search tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
@@ -197,7 +195,6 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ### Decide it (Make decision) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:iphone: GitHub](https://github.com/adslbarxatov/MakeDecision/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
 
 An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
