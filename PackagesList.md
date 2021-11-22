@@ -23,7 +23,7 @@ uNot						4.6		DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00045615
 Vector image generator		1.9.17	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
 
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
-ESHQ update					11.5c	https://www.moddb.com/downloads/start/223743?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						61126541
+ESHQ update					11.5d	https://www.moddb.com/downloads/start/223888?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						62720312
 ESHQ english localization	6!		https://www.moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				680052
 ESHQ russian localization	6!		https://www.moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				566645
 Crazy cheater’s mod			1.2d!	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673
