@@ -3,6 +3,11 @@
 ToDo:
 - add protection against interrupted downloads
 
+Version 12.6:
+• App will now automatically override deployment path in case of its absence (instead of blocking the deployment);
+• Fixed some interface inconveniences and tips;
+
+
 Version 12.5:
 • Implemented ability to save specified deployment flags (creating shortcuts, kill process, etc.);
 • Implemented package flags that allow to properly update deployed versions in registry;
