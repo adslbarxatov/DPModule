@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule v 12.5	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x000802C7
+DPModule v 12.6	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x000802C7
 
 DPModule					12.6	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x000802C7
 Batch image convertor		2.17.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004BE81

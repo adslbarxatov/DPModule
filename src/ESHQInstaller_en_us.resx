@@ -203,8 +203,8 @@ Launch DPModule again and download the original deployment package</value>
   <data name="PackageChecking" xml:space="preserve">
     <value>Checking deployment package. Please, wait...</value>
   </data>
-  <data name="PathAlreadyExists" xml:space="preserve">
-    <value>This is a stand-alone application. No pre-installed software is required to work.
+  <data name="PathChanged" xml:space="preserve">
+    <value>This is a stand-alone application. No pre-installed software is required for work.
 
 Therefore, it is strongly recommended to keep the suggested installation path.
 
@@ -213,10 +213,9 @@ If possible, don’t overwrite or supplement existing installations. Deployment 
 Continue with specified path?</value>
   </data>
   <data name="PathDoesntExist" xml:space="preserve">
-    <value>Specified directory does not exist</value>
-  </data>
-  <data name="PathDoesntExistButMust" xml:space="preserve">
-    <value>Specified directory does not exist. Create it?</value>
+    <value>The specified directory doesn’t exist.
+
+You may be trying to update or uninstall a product that has never been installed or has already been removed</value>
   </data>
   <data name="ReadyMessage1" xml:space="preserve">
     <value>We are ready for </value>
@@ -241,9 +240,9 @@ Continue with specified path?</value>
 Press “Next” to continue. Operation can take about 5 minutes</value>
   </data>
   <data name="RegistryKeyNotFound" xml:space="preserve">
-    <value>Application’s installation path not found in registry. Use “Restore package’s deployment path” option in tray icon’s menu to restore it.
+    <value>Application’s installation path not found in registry.
 
-NOTE: if you’ll set incorrect path, application may damage valuable files!</value>
+Most likely this product has not been installed on this PC before. If this is not the case, use “Restore package’s deployment path” option in tray icon’s menu</value>
   </data>
   <data name="SpecifyModPath" xml:space="preserve">
     <value>Specify installation path:</value>
@@ -269,9 +268,7 @@ Launch DPModule again to download it</value>
     <value>{0:S} is already started</value>
   </data>
   <data name="PathRestoreText" xml:space="preserve">
-    <value>You are welcomed by {0:S}!
-
-This function will restore registry entry required by deployment module. You must specify correct path to application’s installation directory in the next window (f. e., {1:S}\{2:S}\).
+    <value>This function will restore registry entry required by deployment module. You must specify correct path to application’s installation directory in the next window (f. e., {0:S}\{1:S}\).
 
 NOTE: if you’ll set incorrect path, updater and installer may damage valuable files!</value>
   </data>
@@ -324,9 +321,6 @@ Select new language:</value>
   </data>
   <data name="LanguageChanged" xml:space="preserve">
     <value>Interface language will be changed on the next package’s processing</value>
-  </data>
-  <data name="FunctionReplaced" xml:space="preserve">
-    <value>This function has been moved to tray icon’s context menu</value>
   </data>
   <data name="IconChangeLanguage" xml:space="preserve">
     <value>Change interface language</value>
@@ -429,5 +423,10 @@ Select new language:</value>
   </data>
   <data name="PackageSelectorForm_UpdatablePackagesRadio" xml:space="preserve">
     <value>Only updates</value>
+  </data>
+  <data name="RegistryKeyNotFoundAllow" xml:space="preserve">
+    <value>Application’s installation path not found in registry.
+
+The app will use default deployment path for this product. If it’s not correct, use “Restore package’s deployment path” option in tray icon’s menu</value>
   </data>
 </root>
