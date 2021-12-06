@@ -328,12 +328,6 @@ Select new language:</value>
   <data name="IconRestorePath" xml:space="preserve">
     <value>Restore package’s deployment path</value>
   </data>
-  <data name="PackageSelectorForm_Label02" xml:space="preserve">
-    <value>&amp;Utilities:</value>
-  </data>
-  <data name="PackageSelectorForm_Label03" xml:space="preserve">
-    <value>&amp;Games and mods:</value>
-  </data>
   <data name="dp0file" xml:space="preserve">
     <value>Deployment package v 10 – 12</value>
   </data>
@@ -360,9 +354,6 @@ Select new language:</value>
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
     <value>Failed to create a script to remove the product.The deployment package is required for product deinstallation</value>
-  </data>
-  <data name="PackageSelectorForm_Label04" xml:space="preserve">
-    <value>&amp;Downloaded packages:</value>
   </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>Upd&amp;ate lists</value>

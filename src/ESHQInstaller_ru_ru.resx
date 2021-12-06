@@ -327,12 +327,6 @@
   <data name="IconRestorePath" xml:space="preserve">
     <value>Восстановить путь установки пакета</value>
   </data>
-  <data name="PackageSelectorForm_Label02" xml:space="preserve">
-    <value>&amp;Утилиты:</value>
-  </data>
-  <data name="PackageSelectorForm_Label03" xml:space="preserve">
-    <value>&amp;Игры и моды:</value>
-  </data>
   <data name="dp0file" xml:space="preserve">
     <value>Пакет развёртки версий 10 – 12</value>
   </data>
@@ -359,9 +353,6 @@
   </data>
   <data name="UninstScriptNotCreated" xml:space="preserve">
     <value>Не удалось создать скрипт для удаления продукта. Для деинсталляции продукта потребуется установочный пакет</value>
-  </data>
-  <data name="PackageSelectorForm_Label04" xml:space="preserve">
-    <value>&amp;Загруженные пакеты:</value>
   </data>
   <data name="PackageSelectorForm_UpdateLists" xml:space="preserve">
     <value>О&amp;бновить списки</value>

@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 12.7:
+• App now able to filter packages by “all – new – update” and “all – apps – mods – games” attributes
+
 Version 12.6:
 • App will now automatically override deployment path in case of its absence (instead of blocking the deployment);
 • Fixed some interface inconveniences and tips;
