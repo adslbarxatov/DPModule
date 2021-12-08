@@ -131,7 +131,7 @@ You can get all Windows-versions of our products through this application. You a
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
 Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
 
-[**Direct download link ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.exe)
+[**Direct download link ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
 &nbsp;
 

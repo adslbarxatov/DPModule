@@ -1,5 +1,11 @@
 ﻿Deployment packages module changes log
 
+Version 12.8:
+• Downloadable version of DPModule now presented as an SFX-archive. It will properly configure app
+  for the first start;
+• DPModule got the scalable icon and the digital signature (only self-signed for now);
+• Fixed some minor bugs
+
 Version 12.7:
 • App now able to filter packages by “all – new – update” and “all – apps – mods – games” attributes
 

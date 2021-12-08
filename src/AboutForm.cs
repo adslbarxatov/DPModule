@@ -23,6 +23,16 @@ namespace RD_AAOW
 			registryFail = "";
 
 		/// <summary>
+		/// Стандартное название компании
+		/// </summary>
+		public const string DefaultAssemblyCompany = "RD AAOW Free development lab";
+
+		/// <summary>
+		/// Стандартное авторство
+		/// </summary>
+		public const string DefaultAssemblyCopyright = "Nicolay B. aka RD_AAOW";
+
+		/// <summary>
 		/// Ссылка на Политику разработки приложений
 		/// </summary>
 		public const string ADPLink = "https://adslbarxatov.github.io/ADP";
