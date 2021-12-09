@@ -313,7 +313,7 @@
     <value>О программе {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Далее / Пропустить &gt;</value>
+    <value>&amp;Далее / Выход &gt;</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Список пакетов</value>

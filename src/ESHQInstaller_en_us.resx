@@ -314,7 +314,7 @@ Select new language:</value>
     <value>About {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Next / Skip &gt;</value>
+    <value>&amp;Next / Exit &gt;</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>Packages &amp;list</value>

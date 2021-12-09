@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 12.8.1:
+• Updated users videoguide;
+• App will now remove its old versions during the update;
+• Fixed appearance of some buttons
+
 Version 12.8:
 • Downloadable version of DPModule now presented as an SFX-archive. It will properly configure app
   for the first start;
