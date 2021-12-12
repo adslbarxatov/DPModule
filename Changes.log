@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 12.8.2:
+• Updated the rest icons;
+• Fixed bug in the self-cleaning algorithm
+
 Version 12.8.1:
 • Updated users videoguide;
 • App will now remove its old versions during the update;
