@@ -9,7 +9,7 @@ Batch image convertor		2.17.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageCo
 BExplorer					2.18.17	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A7CEB
 ConcurrentDraw				2.5.17	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A1F4C
 Dates difference			2.2.17	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B63B
-Decide it					2.9		DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0002FDFD
+Decide it					2.9.1	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0003AB97
 File extensions manager		1.6.17	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
 Font finder					2.13.18	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC25
 Geomag data drawer			4.18.17	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
