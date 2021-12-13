@@ -5,17 +5,15 @@
 
 
 
-Deployment tool for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / updates checking / packages loading for our products:
-- User now always independently selects the needed packages for downloading and deployment. To do this, a corresponding dialog box will be displayed at startup.
-- Tray icon displayed when starting the app supports all functions related to updating the package being processed and the module itself, by right-clicking.
-- If you want to restore the installation path for a package, you can do this from tray context menu.
+DPModule – deployment packages module for RD AAOW Free development lab’s projects.
+The tool performs installation, uninstallation, updates checking and packages downloading for our products.
+Since v 10, this tool is the only thing you need to start working with our developments
 
 #
 
-Модуль развёртывания для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов:
-- Пользователь теперь всегда самостоятельно выбирает нужные пакеты для загрузки и развёртки. Для этого при запуске будет отображено соответствующее диалоговое окно.
-- Значок в трее, отображаемый при запуске приложения, поддерживает все функции, связанные с обновлением обрабатываемого пакета и самого модуля, по щелчку правой кнопкой мыши.
-- Если требуется восстановить путь установки для какого-либо пакета, теперь это можно сделать из контекстного меню значка в трее.
+DPModule – модуль deployment packages для проектов RD AAOW Free development lab.
+Инструмент выполняет установку, удаление, проверку обновлений и загрузку установочных пакетов для наших продуктов.
+Начиная с версии 10, этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки
 
 &nbsp;
 

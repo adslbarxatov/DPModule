@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 12.8.3 (preparing):
+• Some progress bars are now not “always on top”
+
 Version 12.8.2:
 • Updated the rest icons;
 • Fixed bug in the self-cleaning algorithm
