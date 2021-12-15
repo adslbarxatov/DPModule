@@ -286,7 +286,10 @@ Select new language:</value>
     <value>Open package’s webpage...</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>Deployment packages utility for Free development lab’s (RD AAOW FDL) projects. This tool performs installation / uninstallation / building / updates checking for our products</value>
+    <value>DPModule – deployment packages module for RD AAOW Free development lab’s projects
+
+The tool performs installation, uninstallation, updates checking and packages downloading for our products.
+Since v 10, this tool is the only thing you need to start working with our developments</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>

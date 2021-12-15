@@ -1,8 +1,8 @@
 ```
 Packages, available for download:
 
-DPModule v 12.8.2	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x000A586D
-DPModule					12.8.2		DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x000A586D
+DPModule v 12.8.3	https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x000A586D
+DPModule					12.8.3		DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x000A586D
 
 #Apps
 Batch image convertor		2.17.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004BE81
@@ -20,7 +20,7 @@ Screen shooter				1.7.17	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0
 Sudoku solver				2.3.17	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
 Tables merger				1.6.17	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005FA17
 Text to KKT					5.7.4	DEFSTORAGE/TextToKKT.dp0					TextToKKT.dp0				0x00184A64
-uNot						4.6.1	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00045817
+uNot						4.6.2	DEFSTORAGE/UniNotifier.dp0					UniNotifier.dp0				0x00064FAF
 Vector image generator		1.9.17	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
 
 #Mods

@@ -285,7 +285,10 @@
     <value>Открыть веб-страницу пакета...</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>Модуль развёртки для проектов Free development lab (RD AAOW FDL). Инструмент выполняет установку / удаление / сборку / проверку обновлений для наших продуктов</value>
+    <value>DPModule – модуль deployment packages для проектов RD AAOW Free development lab.
+
+Инструмент выполняет установку, удаление, проверку обновлений и загрузку установочных пакетов для наших продуктов.
+Начиная с версии 10, этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Менеджер пакетов развёртки</value>

@@ -15,7 +15,7 @@ namespace RD_AAOW
 	/// <summary>
 	/// Класс обеспечивает отображение логотипа мода
 	/// </summary>
-	public partial class LogoDrawer: Form
+	public partial class LogoDrawer:Form
 		{
 		// Переменные
 		private const int scale = 130;                          // Главный масштабный множитель
@@ -42,7 +42,10 @@ namespace RD_AAOW
 		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
 		private Pen backPen;
-		private Bitmap logo1, logo2a, logo2b;	//, logo4a, logo4b;
+		private Bitmap logo1, logo2a, logo2b;
+#if LDDEXPORT
+		private Bitmap logo4b;
+#endif
 		private Bitmap logo2GreyPart, logo2GreenPart, logo2BackPart;
 		private Font logo1Font, logo2Font, headerFont, textFont;
 		private SizeF logo1Size, logo2Size;     // Графические размеры текста для текущего экрана
@@ -55,23 +58,25 @@ namespace RD_AAOW
 		private const int lineFeed = 40;        // Высота строки текста расширенного режима
 		private const int lineLeft = 250;       // Начало строки текста расширенного режима
 
+		private Random rnd = new Random ();     // ГПСЧ
+
 		// Строки текста расширенного режима
 		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> ()/*,
 			extendedStrings2 = new List<List<LogoDrawerString>> (),
 			extendedStrings3 = new List<List<LogoDrawerString>> (),
 			extendedStrings4 = new List<List<LogoDrawerString>> ()*/;
 
-#if LDDEBUG
-		// Эта конструкция имитирует нажатие клавиши, запускающей и останавливающей запись
-		[DllImport ("user32.dll")]
-		private static extern void keybd_event (byte vk, byte scan, int flags, int extrainfo);
+		/*#if LDDEBUG
+				// Эта конструкция имитирует нажатие клавиши, запускающей и останавливающей запись
+				[DllImport ("user32.dll")]
+				private static extern void keybd_event (byte vk, byte scan, int flags, int extrainfo);
 
-		private void TriggerRecord ()
-			{
-			keybd_event ((byte)Keys.Pause, 0, 0, 0);
-			keybd_event ((byte)Keys.Pause, 0, 2, 0);
-			}
-#endif
+				private void TriggerRecord ()
+					{
+					keybd_event ((byte)Keys.Pause, 0, 0, 0);
+					keybd_event ((byte)Keys.Pause, 0, 2, 0);
+					}
+		#endif*/
 
 		/// <summary>
 		/// Доступные режимы отрисовки основного лого
@@ -96,18 +101,20 @@ namespace RD_AAOW
 		public LogoDrawer ()
 			{
 			// Инициализация
-			Random rnd = new Random ();
 #if LDDEBUG
-			extended = 2;
+			extended = 0;
 #else
 			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0); //(uint)rnd.Next (1, 5) : 0);
 #endif
 
-			/*mode = DrawModes.Mode2;/**/
+#if LDDEXPORT
+			mode = DrawModes.Mode2;
+#else
 			if (extended == 0)
 				mode = (DrawModes)rnd.Next (2);
 			else
-				mode = DrawModes.Mode1;/**/
+				mode = DrawModes.Mode1;
+#endif
 
 			InitializeComponent ();
 			}
@@ -128,18 +135,21 @@ namespace RD_AAOW
 				}
 
 			// Настройка окна
-			this.BackColor = ProgramDescription.MasterBackColor;
-			this.ForeColor = ProgramDescription.MasterTextColor;
+			this.BackColor = ProgramDescription.MasterBackColor;    // Color.FromArgb (192, 255, 224);
+			this.ForeColor = ProgramDescription.MasterTextColor;    // Color.FromArgb (32, 32, 32);
 
 			backBrush = new SolidBrush (this.BackColor);
 			backPen = new Pen (this.BackColor, scale / 7);  // More than drawerSize
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
-			/*logo4b = new Bitmap (this.Width, this.Height);
+#if LDDEXPORT
+			logo4b = new Bitmap (this.Width, this.Height);
 			g = Graphics.FromImage (logo4b);
-			g.FillRectangle (backBrush, 0, 0, this.Width, this.Height);/**/
-			g = Graphics.FromHwnd (this.Handle);/**/
+			g.FillRectangle (backBrush, 0, 0, this.Width, this.Height);
+#else
+			g = Graphics.FromHwnd (this.Handle);
+#endif
 			g.TextRenderingHint = TextRenderingHint.SingleBitPerPixelGridFit;   // Убирает ауру на буквах в Win8
 
 			logo1Font = new Font ("Lucida Sans Unicode", logoFontSize);
@@ -148,6 +158,7 @@ namespace RD_AAOW
 			logo2Size = g.MeasureString (logoString2, logo2Font);
 
 			#region Сборка компонентов изображений
+
 			if (extended == 2)
 				{
 				logoHeight = (int)(this.Height / 4.5);
@@ -189,12 +200,14 @@ namespace RD_AAOW
 				{
 				logoHeight = (int)(this.Height / 1.5);
 				}
+
 			#endregion
 
 			headerFont = new Font ("Lucida Console", headerFontSize, FontStyle.Bold);
 			textFont = new Font ("Lucida Console", textFontSize);
 
 			#region Установка начальных позиций и методов отрисовки
+
 			switch (mode)
 				{
 				default:
@@ -235,9 +248,11 @@ namespace RD_AAOW
 						ExtendedTimer.Tick += ExtendedTimer4_Tick;
 						break;*/
 				}
+
 			#endregion
 
 			#region Тексты расширенного режима
+
 			// Текст расширенного режима, вариант 1
 			uint headerLetterWidth = (uint)(g.MeasureString ("A", headerFont).Width * 0.8f);
 			uint textLetterWidth = (uint)(g.MeasureString ("A", textFont).Width * 0.8f);
@@ -415,10 +430,10 @@ namespace RD_AAOW
 			PauseTimer.Interval = 2500;
 			ExtendedTimer.Interval = 20;
 
-#if LDDEBUG
-			if (mode == DrawModes.Mode1)
-				TriggerRecord ();
-#endif
+			/*#if LDDEBUG
+						if (mode == DrawModes.Mode1)
+							TriggerRecord ();
+			#endif*/
 			DrawingTimer.Enabled = true;
 			}
 
@@ -538,6 +553,10 @@ namespace RD_AAOW
 		// Основное лого, вариант 2
 		private void DrawingTimer_Mode2 (object sender, EventArgs e)
 			{
+#if LDDEXPORT
+			foreBrush.Color = Color.FromArgb (160, rnd.Next (64, 256), rnd.Next (64, 256), rnd.Next (64, 256));
+#endif
+
 			// Определение следующей позиции
 			switch (phase1)
 				{
@@ -614,11 +633,14 @@ namespace RD_AAOW
 				DrawingTimer.Enabled = false;
 
 				// "Фото" экрана
+#if !LDDEXPORT
 				Bitmap logo1tmp = new Bitmap (this.Width, this.Height);
 				g2 = Graphics.FromImage (logo1tmp);
 				g2.CopyFromScreen (0, 0, 0, 0, new Size (this.Width, this.Height), CopyPixelOperation.SourceCopy);
-				g2.Dispose ();/**/
-				/*Bitmap logo1tmp = new Bitmap (logo4b);/**/
+				g2.Dispose ();
+#else
+				Bitmap logo1tmp = new Bitmap (logo4b);
+#endif
 
 				// "Фото" лого
 				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (scale + tailsSize),
@@ -638,7 +660,9 @@ namespace RD_AAOW
 				MovingTimer.Enabled = true;
 				}
 
-			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+#if LDDEXPORT
+			logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
+#endif
 			}
 
 		// Смещение лого и отрисовка подписи
@@ -661,6 +685,10 @@ namespace RD_AAOW
 				}
 			else if (arc1 >= -90.0)
 				{
+#if LDDEXPORT
+				foreBrush.Color = Color.FromArgb (0, -3 * (int)arc1 / 2, -3 * (int)arc1 / 4);
+#endif
+
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
 					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2 - logo1Size.Height * 0.7f);
@@ -673,7 +701,9 @@ namespace RD_AAOW
 				PauseTimer.Enabled = true;
 				}
 
-			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+#if LDDEXPORT
+			logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
+#endif
 			}
 
 		// Таймер задержки лого на экране
@@ -682,8 +712,10 @@ namespace RD_AAOW
 			// Остановка основного режима
 			PauseTimer.Enabled = false;
 
-			/*for (int i = 0; i < 120; i++)
-				logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+#if LDDEXPORT
+			for (int i = 0; i < 120; i++)
+				logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
+#endif
 
 			if (extended == 0)
 				{
@@ -795,7 +827,9 @@ namespace RD_AAOW
 					break;
 				}
 
-			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
+#if LDDEXPORT
+			logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
+#endif
 			}
 
 		/*// Таймер расширенного режима отображения, вариант 2
@@ -1106,10 +1140,10 @@ namespace RD_AAOW
 			{
 			// Остановка всех отрисовок
 			DrawingTimer.Enabled = MovingTimer.Enabled = PauseTimer.Enabled = ExtendedTimer.Enabled = false;
-#if LDDEBUG
-			TriggerRecord ();
-			Thread.Sleep (1000);
-#endif
+			/*#if LDDEBUG
+						TriggerRecord ();
+						Thread.Sleep (1000);
+			#endif*/
 
 			// Сброс всех ресурсов
 			foreBrush.Dispose ();
@@ -1131,13 +1165,13 @@ namespace RD_AAOW
 				logo2GreenPart.Dispose ();
 				logo2GreyPart.Dispose ();
 				}
+#if LDDEXPORT
 			else if (extended == 4)
 				{
-				/*if (logo4a != null)
-					logo4a.Dispose ();
 				if (logo4b != null)
-					logo4b.Dispose ();*/
+					logo4b.Dispose ();
 				}
+#endif
 
 			if (logo1 != null)
 				logo1.Dispose ();

@@ -1,7 +1,8 @@
 ﻿Deployment packages module changes log
 
-Version 12.8.3 (preparing):
-• Some progress bars are now not “always on top”
+Version 12.8.3:
+• When progress bars are not required to be “always on top”, they will not use this feature anymore;
+• Updated some interface tips
 
 Version 12.8.2:
 • Updated the rest icons;

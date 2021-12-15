@@ -212,14 +212,22 @@ namespace RD_AAOW
 			HardWorkExecutor hwe;
 			if (!AcceptMode)
 				{
+#if DPMODULE
+				hwe = new HardWorkExecutor (UpdatesChecker, null, null, false, false, false);
+#else
 				hwe = new HardWorkExecutor (UpdatesChecker, null, null, false, false);
+#endif
 				UpdatesTimer.Enabled = true;
 				}
 
 			// Получение Политики
 			else
 				{
+#if DPMODULE
+				hwe = new HardWorkExecutor (PolicyLoader, null, policyLoaderCaption, true, false, true);
+#else
 				hwe = new HardWorkExecutor (PolicyLoader, null, policyLoaderCaption, true, false);
+#endif
 
 				string html = hwe.Result.ToString ();
 				if (html != "")
