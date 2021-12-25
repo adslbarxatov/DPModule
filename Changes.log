@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 12.8.4:
+• Applied some updates for core assemblies
+
 Version 12.8.3:
 • When progress bars are not required to be “always on top”, they will not use this feature anymore;
 • Updated some interface tips
