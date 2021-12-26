@@ -5,9 +5,9 @@ DPModule v 12.8.4     https://github.com/adslbarxatov/DPModule/raw/master/Packag
 DPModule					12.8.4	DEFSTORAGE/DPModule.dp0						DPModule.dp0					0x000A5A6D
 
 #Apps
-Batch image convertor		2.17.17	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x0004BE81
-BExplorer					2.18.17	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x001A7CEB
-ConcurrentDraw				2.5.17	DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000A1F4C
+Batch image convertor		2.18	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x000687B6
+BExplorer					2.19	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x0017757D
+ConcurrentDraw				2.6		DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000B8279
 Dates difference			2.2.17	DEFSTORAGE/DatesDifference.dp0				DatesDifference.dp0			0x0002B63B
 Decide it					2.9.1	DEFSTORAGE/MakeDecision.dp0					MakeDecision.dp0			0x0003AB97
 File extensions manager		1.6.17	DEFSTORAGE/FileExtensionsManager.dp0		FileExtensionsManager.dp0	0x0004C28B
@@ -15,7 +15,7 @@ Font finder					2.13.18	DEFSTORAGE/FontFinder.dp0					FontFinder.dp0				0x0003CC
 Geomag data drawer			4.18.17	DEFSTORAGE/GeomagDataDrawer.dp0				GeomagDataDrawer.dp0		0x00171C91
 Keyboard switcher			1.4.1	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8A
 Make CST					1.6.1	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1B
-OS macros executor			2.8.17	DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x00043852
+OS macros executor			2.9		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0006D187
 Screen shooter				1.7.17	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003061C
 Sudoku solver				2.3.17	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
 Tables merger				1.6.17	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005FA17
