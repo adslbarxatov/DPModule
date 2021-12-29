@@ -1,7 +1,13 @@
 ﻿Deployment packages module changes log
 
+Version 12.9:
+• ToDo: apply new alerts style (without MessageBox);
+• Added .dp - the unified packages format with internal versioning;
+• Removed some potential bugs in the packages downloader;
+
 Version 12.8.4:
-• Applied some updates for core assemblies
+• Applied some updates for core assemblies;
+• Stopped support for versions older than 12.0
 
 Version 12.8.3:
 • When progress bars are not required to be “always on top”, they will not use this feature anymore;
@@ -76,7 +82,7 @@ Version 12.0.1:
 • Fixed some interface bugs
 
 Version 12.0:
-• Interface of packages interface has been completely rebuilt. Now it has obviously display
+• Interface of the packages manager has been completely rebuilt. Now it has obviously display
   actual and installed versions for packages, load project descriptions and correctly process
   user selection for further deployment;
 • DPModule now allows users to skip creation of desktop shortcuts
