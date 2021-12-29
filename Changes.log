@@ -1,9 +1,11 @@
 ﻿Deployment packages module changes log
 
 Version 12.9:
-• ToDo: apply new alerts style (without MessageBox);
-• Added .dp - the unified packages format with internal versioning;
+• Added non-system message boxes for emergency alerts;
+• Implemented .dp – the unified packages format with internal versioning;
 • Removed some potential bugs in the packages downloader;
+• Fixed some other interface bugs;
+• App will now fix the missing registry entries properly
 
 Version 12.8.4:
 • Applied some updates for core assemblies;

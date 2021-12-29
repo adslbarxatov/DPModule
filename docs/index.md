@@ -268,8 +268,7 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 ### BExplorer :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
 ● [:film_projector: Demo](https://www.youtube.com/watch?v=RdLt-dTz8vU)
-● [:page_with_curl: Guide (en)](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(en-us).pdf)
-● [:page_with_curl: Guide (ru)](https://github.com/adslbarxatov/BExplorer/blob/master/BExplorer%20-%20User%20manual%20(ru).pdf) ●
+● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) ●
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
 

@@ -295,7 +295,7 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value>Deployment packages manager</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>Deployment packages list is unavailable. Check the internet connection</value>
+    <value>Deployment packages list is unavailable. Check your internet connection</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
     <value>Downloading packages list...</value>
@@ -323,7 +323,7 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value>Packages &amp;list</value>
   </data>
   <data name="LanguageChanged" xml:space="preserve">
-    <value>Interface language will be changed on the next package’s processing</value>
+    <value>Interface language will be changed when processing the next package</value>
   </data>
   <data name="IconChangeLanguage" xml:space="preserve">
     <value>Change interface language</value>
@@ -422,5 +422,8 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value>Application’s installation path not found in registry.
 
 The app will use default deployment path for this product. If it’s not correct, use “Restore package’s deployment path” option in tray icon’s menu</value>
+  </data>
+  <data name="dpfile" xml:space="preserve">
+    <value>Unified deployment package</value>
   </data>
 </root>
