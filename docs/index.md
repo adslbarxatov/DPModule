@@ -196,7 +196,7 @@ An extraordinary abilities search tool. Before starting the experiment take a lo
 ### Text to KKT :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
 ● [:film_projector: Guide](https://youtube.com/watch?v=3J-pLCXhSKI)
-● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.pdf)
+● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
 ● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
 
@@ -206,6 +206,7 @@ An extraordinary abilities search tool. Before starting the experiment take a lo
 
 ### Geomag data drawer :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/geomagdatadrawer)
+● [:page_with_curl: Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md)
 ● [:tv: Guide](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) ●
 
 Stand-alone tool for building and designing data diagrams based on tabular data

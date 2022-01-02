@@ -13,15 +13,15 @@ Decide it					2.9.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x0003B7A4
 File extensions manager		1.7		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007DC2D
 Font finder					2.14	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00069DC7
 Geomag data drawer			4.19.1	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00191C50
-Keyboard switcher			1.4.1	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8A
-Make CST					1.6.1	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1B
+Keyboard switcher			1.4.2	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00029427
+Make CST					1.6.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000127B8
 OS macros executor			2.9		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0006D187
-Screen shooter				1.7.17	DEFSTORAGE/ScreenShooter.dp0				ScreenShooter.dp0			0x0003061C
-Sudoku solver				2.3.17	DEFSTORAGE/SudokuSolver.dp0					SudokuSolver.dp0			0x000291F7
-Tables merger				1.6.17	DEFSTORAGE/TablesMerger.dp0					TablesMerger.dp0			0x0005FA17
+Screen shooter				1.8		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056DB6
+Sudoku solver				2.4		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x00043799
+Tables merger				1.7		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00087BB9
 Text to KKT					5.8		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x00110C0F
 uNot						4.7.3	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00066DBC
-Vector image generator		1.9.17	DEFSTORAGE/VectorImageGenerator.dp0			VectorImageGenerator.dp0	0x00034E72
+Vector image generator		1.10	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x00050A0D
 
 #Mods
 ESHQ						11.4!	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736
