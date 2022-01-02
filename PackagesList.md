@@ -12,7 +12,7 @@ Dates difference			2.3		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x
 Decide it					2.9.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x0003B7A4
 File extensions manager		1.7		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007DC2D
 Font finder					2.14	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00069DC7
-Geomag data drawer			4.19	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001DFE2B
+Geomag data drawer			4.19.1	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00191C50
 Keyboard switcher			1.4.1	DEFSTORAGE/KeyboardSwitcher.dp0				KeyboardSwitcher.dp0		0x0001FA8A
 Make CST					1.6.1	DEFSTORAGE/MakeCST.dp0						MakeCST.dp0					0x00009E1B
 OS macros executor			2.9		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0006D187
