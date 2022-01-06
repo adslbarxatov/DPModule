@@ -195,7 +195,7 @@ An extraordinary abilities search tool. Before starting the experiment take a lo
 
 ### Text to KKT :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
-● [:film_projector: Guide](https://youtube.com/watch?v=3J-pLCXhSKI)
+● [:film_projector: Guide](https://youtube.com/watch?v=akcWsDnyWcQ)
 ● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
 ● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
