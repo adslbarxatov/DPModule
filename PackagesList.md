@@ -9,12 +9,12 @@ Batch image convertor		2.18	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConve
 BExplorer					2.19	DEFSTORAGE/BExplorer.dp0					BExplorer.dp0				0x0017757D
 ConcurrentDraw				2.6		DEFSTORAGE/ConcurrentDraw.dp0				ConcurrentDraw.dp0			0x000B8279
 Dates difference			2.3		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x000447D5
-Decide it					2.9.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x0003B7A4
 File extensions manager		1.7		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007DC2D
 Font finder					2.14	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00069DC7
 Geomag data drawer			4.19.1	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x00191C50
 Keyboard switcher			1.4.2	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00029427
 Make CST					1.6.2	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000127B8
+Make decision				2.10	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00042DA3
 OS macros executor			2.9		DEFSTORAGE/OSMacrosExecutor.dp0				OSMacrosExecutor.dp0		0x0006D187
 Screen shooter				1.8		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056DB6
 Sudoku solver				2.4		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x00043799
