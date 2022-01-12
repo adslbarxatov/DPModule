@@ -1,5 +1,12 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Test at registry access checking required;
+- Redistributables requirements must be highlighted;
+- New logo required;
+- New banners interface required;
+
+
 Version 12.9:
 • Added non-system message boxes for emergency alerts;
 • Implemented .dp – the unified packages format with internal versioning;
