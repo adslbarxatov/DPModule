@@ -2,10 +2,16 @@
 
 ToDo:
 - Test at registry access checking required;
-- Redistributables requirements must be highlighted;
-- New logo required;
 - New banners interface required;
+- Implement the fast deployment;
+- Move additional link to its own page;
 
+Version 12.10:
+• Required redistributables will now be highlighted on the last page of the app;
+• Added more remarkable reminder about the list of changes for the new or current app version;
+• Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
+• 
+• Implemented new splash screen
 
 Version 12.9:
 • Added non-system message boxes for emergency alerts;
