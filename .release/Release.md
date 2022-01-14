@@ -1,4 +1,4 @@
-_Changes for v 12.10_: 
+_Changes for v 12.10_:
 - Required redistributables will now be highlighted on the last page of the app;
 - Added more remarkable reminder about the list of changes for the new or current app version;
 - Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
