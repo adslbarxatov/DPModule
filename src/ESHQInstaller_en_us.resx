@@ -344,10 +344,14 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value> (update)</value>
   </data>
   <data name="AdditionalMessage0" xml:space="preserve">
-    <value>This application uses {0:S}. Do you want to open its webpage to view additional info?</value>
+    <value>This application uses {0:S}.
+
+Do you want to open its webpage to view additional info?</value>
   </data>
   <data name="AdditionalMessage1" xml:space="preserve">
-    <value>This application requires installation of {0:S}. Do you want to open its webpage for manual downloading?</value>
+    <value>This application requires installation of {0:S}. If the product is already installed, no further action is required. Otherwise, the app may not work properly.
+
+Do you want to open its webpage for manual downloading?</value>
   </data>
   <data name="PackageSelectorForm_ClearCache" xml:space="preserve">
     <value>Clear cac&amp;he</value>
@@ -425,5 +429,8 @@ The app will use default deployment path for this product. If it’s not correct
   </data>
   <data name="dpfile" xml:space="preserve">
     <value>Unified deployment package</value>
+  </data>
+  <data name="AdditionalButton" xml:space="preserve">
+    <value>&amp;Go to</value>
   </data>
 </root>

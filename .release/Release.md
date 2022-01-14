@@ -1,8 +1,9 @@
-_Changes for v 12.9_:
+_Changes for v 12.10_:
+- Required redistributables will now be highlighted on the last page of the app;
+- Added more remarkable reminder about the list of changes for the new or current app version;
+- Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
+- Changed appearance of locked buttons in the main interface;
+- Banners have been updates;
+- New identity has been applied, new splash screen implemented;
 - Added non-system message boxes for emergency alerts;
-- Implemented .dp – the unified packages format with internal versioning;
-- Removed some potential bugs in the packages downloader;
-- Fixed some other interface bugs;
-- App will now fix the missing registry entries properly;
-- Applied some updates for core assemblies;
-- App will now remove its old versions during the update
+- Implemented .dp – the unified packages format with internal versioning

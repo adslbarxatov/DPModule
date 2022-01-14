@@ -2,7 +2,7 @@
 Packages, available for download:
 
 DPModule v 12.8.4     https://github.com/adslbarxatov/DPModule/raw/master/Packages/DPModule.dp0	DPModule.dp0	0x000A5A6D
-DPModule					12.10	DEFSTORAGE/DPModule.dp0						DPModule.dp0					0x000BAA67
+DPModule					12.10	DEFSTORAGE/DPModule.dp0						DPModule.dp0					0x000BF069
 
 #Apps
 Batch image convertor		2.18	DEFSTORAGE/BatchImageConvertor.dp0			BatchImageConvertor.dp0		0x000687B6

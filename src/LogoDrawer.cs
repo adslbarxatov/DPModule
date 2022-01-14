@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
-#if LDDEBUG
-	using System.Runtime.InteropServices;
-	using System.Threading;
-#endif
 using System.Windows.Forms;
 
 // Классы
@@ -28,16 +24,14 @@ namespace RD_AAOW
 		private const int headerFontSize = (int)(scale * 0.20); // Размер шрифта заголовков расширенного режима
 		private const int textFontSize = (int)(scale * 0.13);   // Размер шрифта текста расширенного режима
 		private const string logoString1 = "Free development lab",      // Тексты лого
-			logoString2 = "(RD AAOW FDL)";
+			logoString2 = "RD AAOW";
 
-		private int logoHeight;                                 // Высота лого
-		private Point[] logo2Form;                              // Форма стрелки второго лого
 		private SolidBrush logo2Green, logo2Grey;
 
 		private uint phase1 = 1, phase2 = 1;    // Текущие фазы отрисовки
 		private Point point1, point2,           // Текущие позиции отрисовки
 			point3, point4;
-		private double arc1, arc2;              // Переменные для расчёта позиций элементов в полярных координатах
+		private double arc1;                    // Переменные для расчёта позиций элементов в полярных координатах
 
 		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
@@ -52,8 +46,7 @@ namespace RD_AAOW
 
 		private uint extended = 0;              // Тип расширенного режима
 
-		private uint steps = 0,                 // Счётчик шагов
-			moves = 0;                          // Счётчик движений мыши (используется для корректной обработки движений)
+		private uint steps = 0, moves = 0;      // Счётчик шагов
 
 		private const int lineFeed = 40;        // Высота строки текста расширенного режима
 		private const int lineLeft = 250;       // Начало строки текста расширенного режима
@@ -61,22 +54,7 @@ namespace RD_AAOW
 		private Random rnd = new Random ();     // ГПСЧ
 
 		// Строки текста расширенного режима
-		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> ()/*,
-			extendedStrings2 = new List<List<LogoDrawerString>> (),
-			extendedStrings3 = new List<List<LogoDrawerString>> (),
-			extendedStrings4 = new List<List<LogoDrawerString>> ()*/;
-
-		/*#if LDDEBUG
-				// Эта конструкция имитирует нажатие клавиши, запускающей и останавливающей запись
-				[DllImport ("user32.dll")]
-				private static extern void keybd_event (byte vk, byte scan, int flags, int extrainfo);
-
-				private void TriggerRecord ()
-					{
-					keybd_event ((byte)Keys.Pause, 0, 0, 0);
-					keybd_event ((byte)Keys.Pause, 0, 2, 0);
-					}
-		#endif*/
+		private List<List<LogoDrawerString>> extendedStrings1 = new List<List<LogoDrawerString>> ();
 
 		/// <summary>
 		/// Доступные режимы отрисовки основного лого
@@ -104,17 +82,9 @@ namespace RD_AAOW
 #if LDDEBUG
 			extended = 0;
 #else
-			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0); //(uint)rnd.Next (1, 5) : 0);
+			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0);
 #endif
-
-#if LDDEXPORT
-			mode = DrawModes.Mode2;
-#else
-			if (extended == 0)
-				mode = (DrawModes)rnd.Next (2);
-			else
-				mode = DrawModes.Mode1;
-#endif
+			mode = DrawModes.Mode1;
 
 			InitializeComponent ();
 			}
@@ -140,7 +110,7 @@ namespace RD_AAOW
 
 			backBrush = new SolidBrush (this.BackColor);
 			backPen = new Pen (this.BackColor, scale / 7);  // More than drawerSize
-			backHidingBrush1 = new SolidBrush (Color.FromArgb (10, this.BackColor.R, this.BackColor.G, this.BackColor.B));
+			backHidingBrush1 = new SolidBrush (Color.FromArgb (15, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
 #if LDDEXPORT
@@ -157,52 +127,6 @@ namespace RD_AAOW
 			logo2Font = new Font ("Lucida Sans Unicode", logoFontSize * 0.7f);
 			logo2Size = g.MeasureString (logoString2, logo2Font);
 
-			#region Сборка компонентов изображений
-
-			if (extended == 2)
-				{
-				logoHeight = (int)(this.Height / 4.5);
-
-				// Создание формы стрелки
-				logo2Form = new Point[] {
-					new Point (0, 0),
-					new Point (0, 6 * logoHeight / 7),
-					new Point (logoHeight / 7, logoHeight),
-					new Point (2 * logoHeight / 7, 6 * logoHeight / 7),
-					new Point (2 * logoHeight / 7, 0),
-					new Point (logoHeight / 7, logoHeight / 7)
-					};
-
-				// Формирование стрелок
-				logo2Green = new SolidBrush (Color.FromArgb (0, 160, 80));
-				logo2Grey = new SolidBrush (Color.FromArgb (160, 160, 160));
-
-				logo2BackPart = new Bitmap (2 * logoHeight / 7, logoHeight);
-				g2 = Graphics.FromImage (logo2BackPart);
-				g2.FillRectangle (new SolidBrush (Color.FromArgb (0, 0, 0, 0)), 0, 0, logo2BackPart.Width, logo2BackPart.Height);
-				g2.FillPolygon (backBrush, logo2Form);
-				g2.Dispose ();
-
-				logo2GreyPart = new Bitmap (logo2BackPart);
-				g2 = Graphics.FromImage (logo2GreyPart);
-				g2.FillPolygon (logo2Grey, logo2Form);
-				g2.Dispose ();
-
-				logo2GreenPart = new Bitmap (logo2BackPart);
-				g2 = Graphics.FromImage (logo2GreenPart);
-				g2.FillPolygon (logo2Green, logo2Form);
-				g2.Dispose ();
-
-				logo2a = new Bitmap (2 * logoHeight / 7, this.Height);
-				logo2b = new Bitmap (2 * logoHeight, this.Height);
-				}
-			else if (extended == 4)
-				{
-				logoHeight = (int)(this.Height / 1.5);
-				}
-
-			#endregion
-
 			headerFont = new Font ("Lucida Console", headerFontSize, FontStyle.Bold);
 			textFont = new Font ("Lucida Console", textFontSize);
 
@@ -212,10 +136,11 @@ namespace RD_AAOW
 				{
 				default:
 				case DrawModes.Mode1:
-					point1 = new Point (-(int)scale, (this.Height - (int)scale) / 2);   // Горизонтальная
-					point2 = new Point (this.Width / 2 - (int)scale, -(int)scale);      // Вертикальная
+					point1 = new Point (this.Width / 6, this.Height / 2);
+					point2 = new Point (this.Width / 6, this.Height / 2);
+					point3 = new Point (this.Width / 6, this.Height / 2);
+					point4 = new Point (this.Width / 6, this.Height / 2);
 					DrawingTimer.Tick += DrawingTimer_Mode1;
-					foreBrush = new SolidBrush (this.ForeColor);
 					break;
 
 				case DrawModes.Mode2:
@@ -223,31 +148,15 @@ namespace RD_AAOW
 					point2 = new Point (this.Width / 2, this.Height / 2);
 					point3 = new Point (this.Width / 2, this.Height / 2);
 					point4 = new Point (this.Width / 2, this.Height / 2);
-					arc1 = 0.0;
 					DrawingTimer.Tick += DrawingTimer_Mode2;
-					foreBrush = new SolidBrush (Color.FromArgb (1, this.ForeColor.R, this.ForeColor.G, this.ForeColor.B));
 					break;
 				}
 
-			switch (extended)
-				{
-				default:
-				case 1:
-					ExtendedTimer.Tick += ExtendedTimer1_Tick;
-					break;
+			arc1 = 0.0;
+			foreBrush = new SolidBrush (Color.FromArgb (3, this.ForeColor.R, this.ForeColor.G, this.ForeColor.B));
 
-					/*case 2:
-						ExtendedTimer.Tick += ExtendedTimer2_Tick;
-						break;
-
-					/*case 3:
-						ExtendedTimer.Tick += ExtendedTimer3_Tick;
-						break;
-
-					case 4:
-						ExtendedTimer.Tick += ExtendedTimer4_Tick;
-						break;*/
-				}
+			if (extended == 1)
+				ExtendedTimer.Tick += ExtendedTimer1_Tick;
 
 			#endregion
 
@@ -352,74 +261,6 @@ namespace RD_AAOW
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"- Oh, well done!", textFont, 120, textLetterWidth));
 
-			/*// Текст расширенного режима, вариант 2
-			extendedStrings2.Add (new List<LogoDrawerString> ());
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"What does our logo mean?", headerFont, 50, headerLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from Nicolay B. aka RD_AAOW", textFont, 80, textLetterWidth));
-
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"   It’s  simple.   We  called   our  installation" +
-				"assembly  “Deployment  packages”.  After that  we" +
-				"took  “d” and “p”  and  merge  them  into  single" +
-				"arrow-like logo.", textFont, 80, textLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"   ...Although, to be completely honest:  we took" +
-				"“d” and “p” and after that we called our assembly" +
-				"“DP”.  We just enjoy the way they merge.  And the" +
-				"right words was easy to find.", textFont, 70, textLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings2[extendedStrings2.Count - 1].Add (new LogoDrawerString (
-				"   So it goes", textFont, 150, textLetterWidth));
-
-			/* // Текст расширенного режима, вариант 3
-			extendedStrings3.Add (new List<LogoDrawerString> ());
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
-				"What does our logo mean?", headerFont, 50, headerLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from RD_AAOW (creator)", textFont, 80, textLetterWidth));
-
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
-				"   This is the  oldest one.  When it was born its" +
-				"text (abbreviation) was a name for pre- pre- pre-" +
-				"prototype of SampiHQ from our mod.  Proto got new" +
-				"life with new name. And I have a nick.", textFont, 80, textLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
-				"   Emerald  green  stone-like  shield  also comes" +
-				"from  there.  It's  was an  integrated  symbol of" +
-				"stability,   strength,   protection   and  power." +
-				"In general, it stays so.", textFont, 80, textLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings3[extendedStrings3.Count - 1].Add (new LogoDrawerString (
-				"   As  a result,  it's  simple  and unique.  Just" +
-				"what we need ☺", textFont, 150, textLetterWidth));
-
-			// Текст расширенного режима, вариант 4
-			extendedStrings4.Add (new List<LogoDrawerString> ());
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (
-				"What does our logo mean?", headerFont, 50, headerLetterWidth));
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from RD_AAOW (creator)", textFont, 80, textLetterWidth));
-
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (
-				"   Here  are two  opposite  stylized letters  'c'" +
-				"whose 'dance'  generates new ideas  and solutions" +
-				"(marked by  the word  'on').  All these  elements" +
-				"are in the beginning of word 'concurrent' that is" +
-				"also   about    coordination,    coherence    and" +
-				"composition of scattered parts.", textFont, 150, textLetterWidth));
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
-			extendedStrings4[extendedStrings4.Count - 1].Add (new LogoDrawerString (
-				"   This  geometry  seems  to  be  partially  used" +
-				"already. But  we  think  that  this  filling  may" +
-				"pretend to be original", textFont, 150, textLetterWidth));*/
-
 			#endregion
 
 			// Сброс настроек
@@ -430,10 +271,6 @@ namespace RD_AAOW
 			PauseTimer.Interval = 2500;
 			ExtendedTimer.Interval = 20;
 
-			/*#if LDDEBUG
-						if (mode == DrawModes.Mode1)
-							TriggerRecord ();
-			#endif*/
 			DrawingTimer.Enabled = true;
 			}
 
@@ -445,117 +282,90 @@ namespace RD_AAOW
 			// Определение следующей позиции
 			switch (phase1)
 				{
-				// Горизонтально вправо
+				// Пауза в центре
 				case 1:
-					point1.X += frameSpeed;
+					arc1 += 1.0;
 
-					if (point1.X >= (this.Width - scale) / 2)
+					if (arc1 >= 60.0)
 						{
-						arc1 = -90.0;
+						arc1 = 0.0;
+						foreBrush = new SolidBrush (this.ForeColor);
 						phase1++;
 						}
+
 					break;
 
-				// Вниз по выпуклой вверх четвертьдуге
+				// Во всех направлениях от центра
 				case 2:
-					arc1 += 2.0;
+					arc1 += 1.3;
 
-					point1.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1) * scale / 2.0);
-					point1.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc1) * scale / 2.0);
+					point1.X = this.Width / 6 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 - arc1) *
+						scale / 2.0);        // Нижняя правая
+					point1.Y = this.Height / 2 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 - arc1) *
+						scale / 2.0);
+					point2.X = this.Width / 6 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 + arc1 * 2.0) *
+						scale / 2.0);       // Верхняя правая
+					point2.Y = this.Height / 2 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 + arc1 * 2.0) *
+						scale / 2.0);
 
-					if (arc1 >= 0.0)
+					point3.X = this.Width / 6 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 - arc1) *
+						scale / 2.0);       // Верхняя левая
+					point3.Y = this.Height / 2 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 - arc1) *
+						scale / 2.0);
+					point4.X = this.Width / 6 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 + arc1 * 2.0) *
+						scale / 2.0);       // Нижняя левая
+					point4.Y = this.Height / 2 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 + arc1 * 2.0) *
+						scale / 2.0);
+
+					if (arc1 >= 90.0)
 						{
-						arc1 = -180.0;
+						arc1 = 0.0;
 						phase1++;
 						}
 					break;
 
-				// Вниз по выпуклой вниз четвертьдуге
+				// К краям экрана
 				case 3:
-					arc1 -= 2.0;
+					int delta = (int)(2.3 - arc1 / 50.0);
+					point1.X += delta;
+					point1.Y -= delta;
+					point2.X += delta;
+					point2.Y += delta;
+					point3.X -= delta;
+					point3.Y += delta;
+					point4.X -= delta;
+					point4.Y -= delta;
 
-					point1.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1) * scale / 2.0);
-					point1.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc1) * scale / 2.0);
-
-					if (arc1 <= -270.0)
-						{
+					arc1 += 1.0;
+					if (arc1 >= 2 * scale / 5)
 						phase1++;
-						}
 					break;
 
-				// Горизонтально вправо
 				case 4:
-					point1.X += frameSpeed;
-					break;
-				}
-
-			switch (phase2)
-				{
-				// Вертикально вниз
-				case 1:
-					point2.Y += frameSpeed;
-
-					if (point2.Y >= this.Height / 2)
-						{
-						arc2 = 180.0;
-						phase2++;
-						}
-					break;
-
-				// Выпуклая вниз полудуга
-				case 2:
-					arc2 -= 2.0;
-
-					point2.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc2) * scale / 2.0);
-					point2.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc2) * scale / 2.0);
-
-					if (arc2 <= 0.0)
-						{
-						arc2 = 180.0;
-						phase2++;
-						}
-					break;
-
-				// Выпуклая вверх полудуга
-				case 3:
-					arc2 += 2.0;
-
-					point2.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc2) * scale / 2.0);
-					point2.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc2) * scale / 2.0);
-
-					if (arc2 >= 360.0)
-						{
-						phase2++;
-						}
-					break;
-
-				// Вертикально вниз
-				case 4:
-					point2.Y += frameSpeed;
+					arc1 = 0.0;
+					DrawingTimer.Enabled = false;
+					MovingTimer.Enabled = true;
 					break;
 				}
 
 			// Отрисовка
-			if ((phase1 == 1) || (phase1 == 4))
-				g.FillRectangle (foreBrush, point1.X - drawerSize / 2, point1.Y - drawerSize / 2, drawerSize, drawerSize);
-			else
-				g.FillEllipse (foreBrush, point1.X - drawerSize / 2, point1.Y - drawerSize / 2, drawerSize, drawerSize);
+			g.FillEllipse (foreBrush, point1.X - drawerSize / 2, point1.Y - drawerSize / 2, drawerSize, drawerSize);
+			g.FillEllipse (foreBrush, point2.X - drawerSize / 2, point2.Y - drawerSize / 2, drawerSize, drawerSize);
+			g.FillEllipse (foreBrush, point3.X - drawerSize / 2, point3.Y - drawerSize / 2, drawerSize, drawerSize);
+			g.FillEllipse (foreBrush, point4.X - drawerSize / 2, point4.Y - drawerSize / 2, drawerSize, drawerSize);
 
-			if ((phase2 == 1) || (phase2 == 4))
-				g.FillRectangle (foreBrush, point2.X - drawerSize / 2, point2.Y - drawerSize / 2, drawerSize, drawerSize);
-			else
-				g.FillEllipse (foreBrush, point2.X - drawerSize / 2, point2.Y - drawerSize / 2, drawerSize, drawerSize);
-
-			// Отрисовка и финальный контроль
-			CheckTransition ();
+			// Вместо CheckTransition
+#if LDDEXPORT
+			logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);
+#endif
 			}
 
 		// Основное лого, вариант 2
 		private void DrawingTimer_Mode2 (object sender, EventArgs e)
 			{
-#if LDDEXPORT
+			/*#if LDDEXPORT
 			foreBrush.Color = Color.FromArgb (160, rnd.Next (64, 256), rnd.Next (64, 256), rnd.Next (64, 256));
-#endif
+			#endif*/
 
 			// Определение следующей позиции
 			switch (phase1)
@@ -670,7 +480,7 @@ namespace RD_AAOW
 			{
 			arc1 -= 2.0;
 
-			if (arc1 >= 0.0)
+			if ((arc1 >= 0.0) && (mode == DrawModes.Mode2))
 				{
 				// Расходящаяся от центра рамка, стирающая лишние линии
 				g.DrawRectangle (backPen,
@@ -685,18 +495,32 @@ namespace RD_AAOW
 				}
 			else if (arc1 >= -90.0)
 				{
-#if LDDEXPORT
+				/*#if LDDEXPORT
 				foreBrush.Color = Color.FromArgb (0, -3 * (int)arc1 / 2, -3 * (int)arc1 / 4);
-#endif
+				#endif*/
 
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo1Font, foreBrush, this.Width / 10 + logo1.Width, this.Height / 2 - logo1Size.Height * 0.7f);
+					logo1Font, foreBrush, this.Width / 10 + (scale + tailsSize) * 2, this.Height / 2);
 				g.DrawString (logoString2.Substring (0, (int)(logoString2.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo2Font, foreBrush, 92 * this.Width / 100 - logo2Size.Width, this.Height / 2);
+					logo2Font, foreBrush, 92 * this.Width / 100 - logo2Size.Width, this.Height / 2 -
+					logo1Size.Height * 0.4f);
 				}
 			else
 				{
+				if (mode == DrawModes.Mode1)
+					{
+					Bitmap logo1tmp = new Bitmap (this.Width, this.Height);
+					g2 = Graphics.FromImage (logo1tmp);
+					g2.CopyFromScreen (0, 0, 0, 0, new Size (this.Width, this.Height), CopyPixelOperation.SourceCopy);
+					g2.Dispose ();
+
+					logo1 = logo1tmp.Clone (new Rectangle (this.Width / 6 - 6 * scale / 5,
+						this.Height / 2 - 6 * scale / 5,
+						12 * scale / 5, 12 * scale / 5), PixelFormat.Format32bppArgb);
+					logo1tmp.Dispose ();
+					}
+
 				MovingTimer.Enabled = false;
 				PauseTimer.Enabled = true;
 				}
@@ -832,307 +656,6 @@ namespace RD_AAOW
 #endif
 			}
 
-		/*// Таймер расширенного режима отображения, вариант 2
-		private void ExtendedTimer2_Tick (object sender, EventArgs e)
-			{
-			switch (phase1)
-				{
-				// Начальное затенение
-				case 1:
-					HideScreen (true);
-					break;
-
-				// Запуск стрелок
-				case 2:
-					g2 = Graphics.FromImage (logo2a);
-					phase1++;
-					break;
-
-				case 3:
-					steps += 6;
-
-					for (int i = -10; i < -2; i++)
-						{
-						g2.DrawImage ((i % 2 == 0) ? logo2GreyPart : logo2GreenPart, 0,
-							this.Height / 2 + i * 6 * logoHeight / 7 + steps);
-						}
-					g2.DrawImage (logo2BackPart, 0, this.Height / 2 - 3 * 6 * logoHeight / 7);
-					g2.DrawImage (logo2BackPart, 0, this.Height / 2 + 2 * 6 * logoHeight / 7);
-
-					g.DrawImage (logo2a, this.Width / 2 - logoHeight / 7, 0);
-
-					if (steps >= 6 * logoHeight)
-						{
-						g2.Dispose ();
-						g2 = Graphics.FromImage (logo2b);
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Запуск круга
-				case 4:
-					steps += 2;
-
-					g2.FillPie (logo2Grey, 2 * logoHeight / 7, this.Height / 2 - (6 * logoHeight / 7),
-						12 * logoHeight / 7, 12 * logoHeight / 7,
-						270, (int)(180 * LogoDrawerSupport.Sinus (steps)));
-					g2.FillEllipse (backBrush, 4 * logoHeight / 7, this.Height / 2 - (4 * logoHeight / 7),
-						8 * logoHeight / 7, 8 * logoHeight / 7);
-					g2.FillPie (logo2Green, 0, this.Height / 2 - (6 * logoHeight / 7),
-						12 * logoHeight / 7, 12 * logoHeight / 7,
-						90, (int)(180 * LogoDrawerSupport.Sinus (steps)));
-					g2.FillEllipse (backBrush, 2 * logoHeight / 7, this.Height / 2 - (4 * logoHeight / 7),
-						8 * logoHeight / 7, 8 * logoHeight / 7);
-					g2.DrawImage (logo2a, 6 * logoHeight / 7, 0);
-
-					g.DrawImage (logo2b, this.Width / 2 - logoHeight, 0);
-
-					if (steps > 90)
-						{
-						g2.Dispose ();
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				case 5:
-					if (steps++ > 100)
-						{
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Затемнение
-				case 6:
-					HideScreen (false);
-					break;
-
-				// Отрисовка начальных элементов
-				case 7:
-					DrawMarker (1);
-					break;
-
-				case 8:
-					if (steps++ == 0)
-						g.DrawString ("DP", headerFont, foreBrush, 80, lineFeed);
-					else if (steps > 20)
-						{
-						steps = 0;
-						point1.X = lineLeft;
-						point1.Y = lineFeed;
-						phase1++;
-						}
-					break;
-
-				case 9:
-					DrawSplitter ();
-					break;
-
-				// Отрисовка текста
-				case 10:
-					DrawText (extendedStrings2);
-					break;
-
-				// Завершение
-				case 11:
-					HideScreen (true);
-					break;
-
-				case 12:
-					ExtendedTimer.Enabled = false;
-					extended = 0;
-					mode = DrawModes.Mode2;
-					DrawingTimer.Tick -= DrawingTimer_Mode1;
-					LogoDrawer_Shown (null, null);
-					break;
-				}
-
-			/*logo4b.Save ("C:\\1\\" + (moves++).ToString ("D8") + ".png", ImageFormat.Png);/**/
-		/*	}
-
-		// Таймер расширенного режима отображения, вариант 3
-		private void ExtendedTimer3_Tick (object sender, EventArgs e)
-			{
-			switch (phase1)
-				{
-				// Начальное затенение
-				case 1:
-					HideScreen (true);
-					break;
-
-				// Отрисовка лого
-				case 2:
-					if (steps++ == 0)
-						{
-						Bitmap b = new Bitmap (RD_AAOW.Properties.Resources.RDAAOW,
-							RD_AAOW.Properties.Resources.RDAAOW.Width / 2, RD_AAOW.Properties.Resources.RDAAOW.Height / 2);
-						g.DrawImage (b, (this.Width - b.Width) / 2, (this.Height - b.Height) / 2);
-						}
-					else if (steps >= 120)
-						{
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Затемнение
-				case 3:
-					HideScreen (false);
-					break;
-
-				// Отрисовка начальных элементов
-				case 4:
-					if (steps++ == 0)
-						g.DrawString ("RD AAOW", headerFont, foreBrush, 30, lineFeed);
-					else if (steps > 20)
-						{
-						steps = 0;
-						point1.X = lineLeft;
-						point1.Y = lineFeed;
-						phase1++;
-						}
-					break;
-
-				case 5:
-					DrawSplitter ();
-					break;
-
-				// Отрисовка текста
-				case 6:
-					DrawText (extendedStrings3);
-					break;
-
-				// Завершение
-				case 7:
-					HideScreen (true);
-					break;
-
-				case 8:
-					ExtendedTimer.Enabled = false;
-					extended = 0;
-					mode = DrawModes.Mode2;
-					DrawingTimer.Tick -= DrawingTimer_Mode1;
-					LogoDrawer_Shown (null, null);
-					break;
-				}
-			}
-
-		// Таймер расширенного режима отображения, вариант 4
-		private void ExtendedTimer4_Tick (object sender, EventArgs e)
-			{
-			switch (phase1)
-				{
-				// Начальное затенение
-				case 1:
-					HideScreen (true);
-					break;
-
-				// Создание объекта
-				case 2:
-					logo4a = new Bitmap ((int)(logoHeight * 1.2), (int)(logoHeight * 1.2));
-					g2 = Graphics.FromImage (logo4a);
-
-					phase1++;
-					break;
-
-				// Вход скобок
-				case 3:
-					// Задний круг
-					g2.FillEllipse (foreBrush, (int)(logoHeight * 0.1), (int)(logoHeight * 0.1), logoHeight, logoHeight);
-
-					// Передний круг
-					g2.FillEllipse (backBrush, (int)(logoHeight * 0.1) + steps, (int)(logoHeight * 0.1) - steps,
-						logoHeight - 2 * steps, logoHeight + 2 * steps);
-
-					// Отрисовка
-					g.DrawImage (logo4a, (this.Width - logo4a.Width) / 2, (this.Height - logo4a.Height) / 2);
-
-					steps++;
-					if (steps >= 0.03 * logoHeight)
-						{
-						g2.Dispose ();
-						logo4b = new Bitmap ((int)(logoHeight * 1.2), (int)(logoHeight * 1.2));
-						g2 = Graphics.FromImage (logo4b);
-
-						g2.TranslateTransform ((int)(logoHeight * 0.6), (int)(logoHeight * 0.6));
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Вращение
-				case 4:
-					// Отрисовка
-					steps++;
-					g2.RotateTransform (steps);
-
-					g2.DrawImage (logo4a, -(int)(logoHeight * 0.6), -(int)(logoHeight * 0.6));
-					g.DrawImage (logo4b, (this.Width - logo4b.Width) / 2, (this.Height - logo4b.Height) / 2);
-
-					if (steps >= 170)
-						{
-						g.DrawImage (Properties.Resources.ON, (this.Width - Properties.Resources.ON.Width) / 2,
-							(this.Height - Properties.Resources.ON.Height) / 2);
-
-						g2.Dispose ();
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Пауза
-				case 5:
-					if (steps++ > 100)
-						{
-						steps = 0;
-						phase1++;
-						}
-					break;
-
-				// Затемнение
-				case 6:
-					HideScreen (false);
-					break;
-
-				// Отрисовка начальных элементов
-				case 7:
-					if (steps++ == 0)
-						g.DrawString ("Concurrent", textFont, foreBrush, 50, lineFeed);
-					else if (steps > 20)
-						{
-						steps = 0;
-						point1.X = lineLeft;
-						point1.Y = lineFeed;
-						phase1++;
-						}
-					break;
-
-				case 8:
-					DrawSplitter ();
-					break;
-
-				// Отрисовка текста
-				case 9:
-					DrawText (extendedStrings4);
-					break;
-
-				// Завершение
-				case 10:
-					HideScreen (true);
-					break;
-
-				case 11:
-					ExtendedTimer.Enabled = false;
-					extended = 0;
-					mode = DrawModes.Mode2;
-					DrawingTimer.Tick -= DrawingTimer_Mode1;
-					LogoDrawer_Shown (null, null);
-					break;
-				}
-			}*/
-
 		// Обслуживающий функционал
 
 		// Закрытие окна
@@ -1140,10 +663,6 @@ namespace RD_AAOW
 			{
 			// Остановка всех отрисовок
 			DrawingTimer.Enabled = MovingTimer.Enabled = PauseTimer.Enabled = ExtendedTimer.Enabled = false;
-			/*#if LDDEBUG
-						TriggerRecord ();
-						Thread.Sleep (1000);
-			#endif*/
 
 			// Сброс всех ресурсов
 			foreBrush.Dispose ();
@@ -1184,9 +703,7 @@ namespace RD_AAOW
 		// Принудительный выход (по любой клавише)
 		private void LogoDrawer_KeyDown (object sender, KeyEventArgs e)
 			{
-#if !LDDEBUG
 			this.Close ();
-#endif
 			}
 
 		private void LogoDrawer_MouseMove (object sender, MouseEventArgs e)
