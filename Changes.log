@@ -1,17 +1,18 @@
 ﻿Deployment packages module changes log
 
 ToDo:
-- Test at registry access checking required;
-- New banners interface required;
-- Implement the fast deployment;
-- Move additional link to its own page;
+- Implement the fast deployment:
+  - 'Fast' flag at the main list;
+  - Flag must be locked for packages with additional links;
+  - Collect the list of 'fast' packages and deploy them directly from Program class
 
 Version 12.10:
 • Required redistributables will now be highlighted on the last page of the app;
 • Added more remarkable reminder about the list of changes for the new or current app version;
 • Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
-• 
-• Implemented new splash screen
+• Changed appearance of locked buttons in the main interface;
+• Banners have been updates;
+• New identity has been applied, new splash screen implemented
 
 Version 12.9:
 • Added non-system message boxes for emergency alerts;
