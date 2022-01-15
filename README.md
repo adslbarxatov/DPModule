@@ -1,19 +1,19 @@
-﻿# DPModule v 12.10
-> PCC: 000BF069A0A7F661
+﻿# DPModule v 13.0
+> PCC: 000BFE762F4690BA
 
-> CRC32: D2FDE136
+> CRC32: 8309F63F
 
 
 
 DPModule – deployment packages module for RD AAOW Free development lab’s projects.
 The tool performs installation, uninstallation, updates checking and packages downloading for our products.
-Since v 10, this tool is the only thing you need to start working with our developments
+This tool is the only thing you need to start working with our developments
 
 #
 
 DPModule – модуль deployment packages для проектов RD AAOW Free development lab.
 Инструмент выполняет установку, удаление, проверку обновлений и загрузку установочных пакетов для наших продуктов.
-Начиная с версии 10, этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки
+Этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки
 
 &nbsp;
 

@@ -395,16 +395,16 @@ Do you want to open its webpage for manual downloading?</value>
   <data name="PSF_TableHeader00" xml:space="preserve">
     <value>Deploy</value>
   </data>
-  <data name="PSF_TableHeader01" xml:space="preserve">
+  <data name="PSF_TableHeader02" xml:space="preserve">
     <value>Package name</value>
   </data>
-  <data name="PSF_TableHeader02" xml:space="preserve">
+  <data name="PSF_TableHeader03" xml:space="preserve">
     <value>Act. ver.</value>
   </data>
-  <data name="PSF_TableHeader03" xml:space="preserve">
+  <data name="PSF_TableHeader04" xml:space="preserve">
     <value>Inst. ver.</value>
   </data>
-  <data name="PSF_TableHeader04" xml:space="preserve">
+  <data name="PSF_TableHeader05" xml:space="preserve">
     <value>Description</value>
   </data>
   <data name="AllowShortcutsFlagText" xml:space="preserve">
@@ -432,5 +432,8 @@ The app will use default deployment path for this product. If it’s not correct
   </data>
   <data name="AdditionalButton" xml:space="preserve">
     <value>&amp;Go to</value>
+  </data>
+  <data name="PSF_TableHeader01" xml:space="preserve">
+    <value>Fast</value>
   </data>
 </root>

@@ -20,13 +20,13 @@ namespace RD_AAOW
 
 		private const int frameSpeed = 6;                       // Частота смены кадров / отступ кисти в пикселях
 
-		private const int logoFontSize = (int)(scale * 0.42);   // Размер шрифта лого
+		private const int logoFontSize = (int)(scale * 0.43);   // Размер шрифта лого
 		private const int headerFontSize = (int)(scale * 0.20); // Размер шрифта заголовков расширенного режима
 		private const int textFontSize = (int)(scale * 0.13);   // Размер шрифта текста расширенного режима
 		private const string logoString1 = "Free development lab",      // Тексты лого
 			logoString2 = "RD AAOW";
 
-		private SolidBrush logo2Green, logo2Grey;
+		/*private SolidBrush logo2Green, logo2Grey;*/
 
 		private uint phase1 = 1, phase2 = 1;    // Текущие фазы отрисовки
 		private Point point1, point2,           // Текущие позиции отрисовки
@@ -36,11 +36,10 @@ namespace RD_AAOW
 		private Graphics g, g2;                 // Объекты-отрисовщики
 		private SolidBrush foreBrush, backBrush, backHidingBrush1, backHidingBrush2;
 		private Pen backPen;
-		private Bitmap logo1, logo2a, logo2b;
+		private Bitmap logo1;
 #if LDDEXPORT
 		private Bitmap logo4b;
 #endif
-		private Bitmap logo2GreyPart, logo2GreenPart, logo2BackPart;
 		private Font logo1Font, logo2Font, headerFont, textFont;
 		private SizeF logo1Size, logo2Size;     // Графические размеры текста для текущего экрана
 
@@ -286,7 +285,7 @@ namespace RD_AAOW
 				case 1:
 					arc1 += 1.0;
 
-					if (arc1 >= 60.0)
+					if (arc1 >= 50.0)
 						{
 						arc1 = 0.0;
 						foreBrush = new SolidBrush (this.ForeColor);
@@ -501,9 +500,9 @@ namespace RD_AAOW
 
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo1Font, foreBrush, this.Width / 10 + (scale + tailsSize) * 2, this.Height / 2);
+					logo1Font, foreBrush, 91 * this.Width / 100 - logo1Size.Width, this.Height / 2);
 				g.DrawString (logoString2.Substring (0, (int)(logoString2.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo2Font, foreBrush, 92 * this.Width / 100 - logo2Size.Width, this.Height / 2 -
+					logo2Font, foreBrush, 9 * this.Width / 10 - logo2Size.Width, this.Height / 2 -
 					logo1Size.Height * 0.4f);
 				}
 			else
@@ -676,7 +675,7 @@ namespace RD_AAOW
 			textFont.Dispose ();
 			g.Dispose ();
 
-			if (extended == 2)
+			/*if (extended == 2)
 				{
 				logo2Green.Dispose ();
 				logo2Grey.Dispose ();
@@ -690,14 +689,14 @@ namespace RD_AAOW
 				if (logo4b != null)
 					logo4b.Dispose ();
 				}
-#endif
+#endif*/
 
 			if (logo1 != null)
 				logo1.Dispose ();
-			if (logo2a != null)
+			/*if (logo2a != null)
 				logo2a.Dispose ();
 			if (logo2b != null)
-				logo2b.Dispose ();
+				logo2b.Dispose ();*/
 			}
 
 		// Принудительный выход (по любой клавише)

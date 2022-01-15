@@ -1,9 +1,12 @@
-_Changes for v 12.10_:
+_Changes for v 13.0_:
+- Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously specified path and flags by default (or set default values for new packages). Mode may be useful for current updates. Some packages don’t support it;
+- Request for changelogs about GitHub-based projects now works properly;
+- Some text tips have been updated;
+- Some interface and core improvements applied;
 - Required redistributables will now be highlighted on the last page of the app;
 - Added more remarkable reminder about the list of changes for the new or current app version;
 - Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
 - Changed appearance of locked buttons in the main interface;
-- Banners have been updates;
+- Banners have been updated;
 - New identity has been applied, new splash screen implemented;
-- Added non-system message boxes for emergency alerts;
 - Implemented .dp – the unified packages format with internal versioning

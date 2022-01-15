@@ -23,7 +23,6 @@ namespace RD_AAOW
 		private string updatesMessage = "", updatesMessageForText = "", description = "",
 			policyLoaderCaption = "", registryFail = "";
 
-		private const string gitUpdatesSublink = "/releases";                       // Часть пути для перехода к релизам
 		private string versionDescription = "";
 
 		private bool accepted = false;                                              // Флаг принятия Политики
@@ -55,7 +54,7 @@ namespace RD_AAOW
 			userManualLink = (UserManualLink == null) ? "" : UserManualLink;
 
 			projectLink = RDGenerics.AssemblyGitLink + ProgramDescription.AssemblyMainName;
-			updatesLink = RDGenerics.AssemblyGitLink + ProgramDescription.AssemblyMainName + gitUpdatesSublink;
+			updatesLink = RDGenerics.AssemblyGitLink + ProgramDescription.AssemblyMainName + RDGenerics.GitUpdatesSublink;
 
 			// Загрузка окружения
 			AboutLabel.Text = ProgramDescription.AssemblyTitle + "\n" + ProgramDescription.AssemblyDescription + "\n\n" +
@@ -314,8 +313,9 @@ namespace RD_AAOW
 			{
 			try
 				{
-				if (Link == null)
-					Process.Start (RDGenerics.AssemblyGitLink + ProgramDescription.AssemblyMainName + gitUpdatesSublink);
+				if (string.IsNullOrWhiteSpace (Link))
+					Process.Start (RDGenerics.AssemblyGitLink + ProgramDescription.AssemblyMainName +
+						RDGenerics.GitUpdatesSublink);
 				else
 					Process.Start (Link);
 				}
@@ -436,6 +436,16 @@ namespace RD_AAOW
 			new string[] { "</code>", "" }
 			};
 
+		/// <summary>
+		/// Левый маркер лога изменений
+		/// </summary>
+		public const string ChangeLogMarkerLeft = "markdown-body my-3\">";
+
+		/// <summary>
+		/// Правый маркер лога изменений
+		/// </summary>
+		public const string ChangeLogMarkerRight = "</div>";
+
 		private void UpdatesChecker (object sender, DoWorkEventArgs e)
 			{
 			// Запрос обновлений пакета
@@ -444,7 +454,7 @@ namespace RD_AAOW
 
 			// Разбор ответа (извлечение версии)
 			string[] htmlMarkers = { "</a>" + ProgramDescription.AssemblyMainName, "</h1>",
-								   "markdown-body my-3\">", "</div>" };
+								   ChangeLogMarkerLeft, ChangeLogMarkerRight };
 
 			int i = html.IndexOf (htmlMarkers[0]);
 			if (i < 0)
