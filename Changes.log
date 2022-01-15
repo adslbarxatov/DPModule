@@ -2,9 +2,9 @@
 
 ToDo:
 - Implement the fast deployment:
-  - 'Fast' flag at the main list;
-  - Flag must be locked for packages with additional links;
-  - Collect the list of 'fast' packages and deploy them directly from Program class
+  
+Version 13.0:
+• Some interface improvements applied
 
 Version 12.10:
 • Required redistributables will now be highlighted on the last page of the app;
