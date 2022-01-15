@@ -3,7 +3,8 @@
 Version 13.0:
 • Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously
   specified path and flags by default (or set default values for new packages). Mode may be useful
-  for updates. Some packages don’t support it;
+  for current updates. Some packages don’t support it;
+• Request for changelogs about GitHub-based projects now works properly;
 • Some text tips have been updated;
 • Some interface and core improvements applied
 
