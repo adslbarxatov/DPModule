@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Add 'requirements have been accepted' flag with overriding the 'no fast deployment' restriction
+
 Version 13.0:
 • Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously
   specified path and flags by default (or set default values for new packages). Mode may be useful

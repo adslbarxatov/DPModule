@@ -19,7 +19,7 @@ Screen shooter				1.8		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x0005
 Sudoku solver				2.4		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x00043799	0
 Tables merger				1.7		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00087BB9	0
 Text to KKT					8.1.2	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011D811	1
-uNot						4.8		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000693BA	0
+uNot						4.8.1	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000699C7	0
 Vector image generator		1.10	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x00050A0D	0
 
 #Mods
