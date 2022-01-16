@@ -1,7 +1,7 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Add 'requirements have been accepted' flag with overriding the 'no fast deployment' restriction
+Version 13.0.5:
+• Fast deployment is allowed for all project that have been previously deployed
 
 Version 13.0:
 • Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously
