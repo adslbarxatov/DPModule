@@ -14,19 +14,17 @@ namespace RD_AAOW
 	public partial class LogoDrawer:Form
 		{
 		// Переменные
-		private const int scale = 130;                          // Главный масштабный множитель
-		private const int drawerSize = scale / 8;               // Размер кисти
-		private const int tailsSize = (int)(scale * 0.3);       // Длина "хвостов" лого за границами кругов
+		private int mainScale, logoScale;       // Главный масштабный множитель
+		private int drawerSize;                 // Размер кисти
+		private int tailsSize;                  // Длина "хвостов" лого за границами кругов
 
-		private const int frameSpeed = 6;                       // Частота смены кадров / отступ кисти в пикселях
+		private const int frameSpeed = 6;       // Частота смены кадров / отступ кисти в пикселях
 
-		private const int logoFontSize = (int)(scale * 0.43);   // Размер шрифта лого
-		private const int headerFontSize = (int)(scale * 0.20); // Размер шрифта заголовков расширенного режима
-		private const int textFontSize = (int)(scale * 0.13);   // Размер шрифта текста расширенного режима
+		private int logoFontSize;               // Размер шрифта лого
+		private int headerFontSize;             // Размер шрифта заголовков расширенного режима
+		private int textFontSize;               // Размер шрифта текста расширенного режима
 		private const string logoString1 = "Free development lab",      // Тексты лого
 			logoString2 = "RD AAOW";
-
-		/*private SolidBrush logo2Green, logo2Grey;*/
 
 		private uint phase1 = 1, phase2 = 1;    // Текущие фазы отрисовки
 		private Point point1, point2,           // Текущие позиции отрисовки
@@ -79,7 +77,7 @@ namespace RD_AAOW
 			{
 			// Инициализация
 #if LDDEBUG
-			extended = 0;
+			extended = 1;
 #else
 			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0);
 #endif
@@ -107,8 +105,17 @@ namespace RD_AAOW
 			this.BackColor = ProgramDescription.MasterBackColor;    // Color.FromArgb (192, 255, 224);
 			this.ForeColor = ProgramDescription.MasterTextColor;    // Color.FromArgb (32, 32, 32);
 
+			// Инициализация
+			mainScale = this.Width / 10;
+			logoScale = 85 * mainScale / 100;
+			drawerSize = 10 * mainScale / 95;
+			tailsSize = 3 * mainScale / 10;
+			logoFontSize = 43 * mainScale / 100;
+			headerFontSize = 20 * mainScale / 100;
+			textFontSize = 13 * mainScale / 100;
+
 			backBrush = new SolidBrush (this.BackColor);
-			backPen = new Pen (this.BackColor, scale / 7);  // More than drawerSize
+			backPen = new Pen (this.BackColor, mainScale / 7);  // More than drawerSize
 			backHidingBrush1 = new SolidBrush (Color.FromArgb (15, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 			backHidingBrush2 = new SolidBrush (Color.FromArgb (50, this.BackColor.R, this.BackColor.G, this.BackColor.B));
 
@@ -169,7 +176,7 @@ namespace RD_AAOW
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
 				"What does our logo mean?", headerFont, 50, headerLetterWidth));
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (
-				"Some explanations from Nicolay B. aka RD_AAOW", textFont, 80, textLetterWidth));
+				"Some explanations from " + RDGenerics.AssemblyCopyright, textFont, 80, textLetterWidth));
 
 			extendedStrings1.Add (new List<LogoDrawerString> ());
 			extendedStrings1[extendedStrings1.Count - 1].Add (new LogoDrawerString (" ", textFont, 0, textLetterWidth));
@@ -298,23 +305,23 @@ namespace RD_AAOW
 				case 2:
 					arc1 += 1.3;
 
-					point1.X = this.Width / 6 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 - arc1) *
-						scale / 2.0);        // Нижняя правая
-					point1.Y = this.Height / 2 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 - arc1) *
-						scale / 2.0);
-					point2.X = this.Width / 6 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 + arc1 * 2.0) *
-						scale / 2.0);       // Верхняя правая
-					point2.Y = this.Height / 2 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 + arc1 * 2.0) *
-						scale / 2.0);
+					point1.X = this.Width / 6 + 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 - arc1) *
+						logoScale / 2.0);        // Нижняя правая
+					point1.Y = this.Height / 2 - 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 - arc1) *
+						logoScale / 2.0);
+					point2.X = this.Width / 6 + 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Cosinus (135.0 + arc1 * 2.0) *
+						logoScale / 2.0);       // Верхняя правая
+					point2.Y = this.Height / 2 - 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Sinus (135.0 + arc1 * 2.0) *
+						logoScale / 2.0);
 
-					point3.X = this.Width / 6 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 - arc1) *
-						scale / 2.0);       // Верхняя левая
-					point3.Y = this.Height / 2 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 - arc1) *
-						scale / 2.0);
-					point4.X = this.Width / 6 - 707 * scale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 + arc1 * 2.0) *
-						scale / 2.0);       // Нижняя левая
-					point4.Y = this.Height / 2 + 707 * scale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 + arc1 * 2.0) *
-						scale / 2.0);
+					point3.X = this.Width / 6 - 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 - arc1) *
+						logoScale / 2.0);       // Верхняя левая
+					point3.Y = this.Height / 2 + 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 - arc1) *
+						logoScale / 2.0);
+					point4.X = this.Width / 6 - 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Cosinus (315.0 + arc1 * 2.0) *
+						logoScale / 2.0);       // Нижняя левая
+					point4.Y = this.Height / 2 + 707 * logoScale / 2000 + (int)(LogoDrawerSupport.Sinus (315.0 + arc1 * 2.0) *
+						logoScale / 2.0);
 
 					if (arc1 >= 90.0)
 						{
@@ -336,7 +343,7 @@ namespace RD_AAOW
 					point4.Y -= delta;
 
 					arc1 += 1.0;
-					if (arc1 >= 2 * scale / 5)
+					if (arc1 >= 2 * logoScale / 5)
 						phase1++;
 					break;
 
@@ -386,15 +393,19 @@ namespace RD_AAOW
 				case 2:
 					arc1 += 1.0;
 
-					point1.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 - arc1) * scale / 2.0);        // Нижняя правая
-					point1.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 - arc1) * scale / 2.0);
-					point2.X = (this.Width + scale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 + arc1 * 2.0) * scale / 2.0);  // Верхняя правая
-					point2.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 + arc1 * 2.0) * scale / 2.0);
+					point1.X = (this.Width + logoScale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 - arc1) *
+						logoScale / 2.0);        // Нижняя правая
+					point1.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 - arc1) * logoScale / 2.0);
+					point2.X = (this.Width + logoScale) / 2 + (int)(LogoDrawerSupport.Cosinus (180.0 + arc1 * 2.0) *
+						logoScale / 2.0);  // Верхняя правая
+					point2.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (180.0 + arc1 * 2.0) * logoScale / 2.0);
 
-					point3.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (-arc1) * scale / 2.0);               // Верхняя левая
-					point3.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (-arc1) * scale / 2.0);
-					point4.X = (this.Width - scale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1 * 2.0) * scale / 2.0);          // Нижняя левая
-					point4.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc1 * 2.0) * scale / 2.0);
+					point3.X = (this.Width - logoScale) / 2 + (int)(LogoDrawerSupport.Cosinus (-arc1) *
+						logoScale / 2.0);               // Верхняя левая
+					point3.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (-arc1) * logoScale / 2.0);
+					point4.X = (this.Width - logoScale) / 2 + (int)(LogoDrawerSupport.Cosinus (arc1 * 2.0) *
+						logoScale / 2.0);          // Нижняя левая
+					point4.Y = this.Height / 2 + (int)(LogoDrawerSupport.Sinus (arc1 * 2.0) * logoScale / 2.0);
 
 					if (arc1 >= 90.0)
 						{
@@ -435,8 +446,8 @@ namespace RD_AAOW
 		private void CheckTransition ()
 			{
 			// Остановка таймера по завершению, запуск следующей фазы
-			if ((point1.X > this.Width + scale / 10) && (point2.Y > this.Height + scale / 10) ||
-				(point3.X < -scale / 10) && (point4.Y < -scale / 10))
+			if ((point1.X > this.Width + logoScale / 10) && (point2.Y > this.Height + logoScale / 10) ||
+				(point3.X < -logoScale / 10) && (point4.Y < -logoScale / 10))
 				{
 				// Остановка
 				DrawingTimer.Enabled = false;
@@ -452,9 +463,9 @@ namespace RD_AAOW
 #endif
 
 				// "Фото" лого
-				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (scale + tailsSize),
-					this.Height / 2 - (int)(scale / 2 + tailsSize),
-					(scale + tailsSize) * 2, scale + tailsSize * 2), PixelFormat.Format32bppArgb);
+				logo1 = logo1tmp.Clone (new Rectangle (this.Width / 2 - (logoScale + tailsSize),
+					this.Height / 2 - (int)(logoScale / 2 + tailsSize),
+					(logoScale + tailsSize) * 2, logoScale + tailsSize * 2), PixelFormat.Format32bppArgb);
 				logo1tmp.Dispose ();
 
 				// В рамочке
@@ -483,14 +494,23 @@ namespace RD_AAOW
 				{
 				// Расходящаяся от центра рамка, стирающая лишние линии
 				g.DrawRectangle (backPen,
-					(int)((this.Width / 2 - (scale + tailsSize)) * ((1 + LogoDrawerSupport.Cosinus (arc1 + 180.0)) / 2.0)),
-					(int)((this.Height / 2 - (int)(scale / 2 + tailsSize)) * ((1 + LogoDrawerSupport.Cosinus (arc1 + 180.0)) / 2.0)),
+					(int)((this.Width / 2 - (logoScale + tailsSize)) *
+					((1 + LogoDrawerSupport.Cosinus (arc1 + 180.0)) / 2.0)),
+
+					(int)((this.Height / 2 - (int)(logoScale / 2 + tailsSize)) *
+					((1 + LogoDrawerSupport.Cosinus (arc1 + 180.0)) / 2.0)),
+
 					(int)(logo1.Width + (this.Width - logo1.Width) * ((1 + LogoDrawerSupport.Cosinus (arc1)) / 2.0)),
+
 					(int)(logo1.Height + (this.Height - logo1.Height) * ((1 + LogoDrawerSupport.Cosinus (arc1)) / 2.0)));
 
 				// Смещающееся влево лого
-				g.DrawImage (logo1, (this.Width - logo1.Width) / 2 - (int)(((1 + LogoDrawerSupport.Cosinus (arc1)) / 2.0) *
-					(9 * this.Width / 10 - logo1.Width) / 2), (int)((this.Height - (scale + 2 * tailsSize)) / 2));
+				g.DrawImage (logo1,
+
+					(this.Width - logo1.Width) / 2 - (int)(((1 + LogoDrawerSupport.Cosinus (arc1)) / 2.0) *
+					(9 * this.Width / 10 - logo1.Width) / 2),
+
+					(int)((this.Height - (logoScale + 2 * tailsSize)) / 2));
 				}
 			else if (arc1 >= -90.0)
 				{
@@ -500,9 +520,9 @@ namespace RD_AAOW
 
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo1Font, foreBrush, 91 * this.Width / 100 - logo1Size.Width, this.Height / 2);
+					logo1Font, foreBrush, 94 * this.Width / 100 - logo1Size.Width, this.Height / 2);
 				g.DrawString (logoString2.Substring (0, (int)(logoString2.Length * LogoDrawerSupport.Sinus (-arc1))),
-					logo2Font, foreBrush, 9 * this.Width / 10 - logo2Size.Width, this.Height / 2 -
+					logo2Font, foreBrush, 93 * this.Width / 100 - logo2Size.Width, this.Height / 2 -
 					logo1Size.Height * 0.4f);
 				}
 			else
@@ -514,9 +534,9 @@ namespace RD_AAOW
 					g2.CopyFromScreen (0, 0, 0, 0, new Size (this.Width, this.Height), CopyPixelOperation.SourceCopy);
 					g2.Dispose ();
 
-					logo1 = logo1tmp.Clone (new Rectangle (this.Width / 6 - 6 * scale / 5,
-						this.Height / 2 - 6 * scale / 5,
-						12 * scale / 5, 12 * scale / 5), PixelFormat.Format32bppArgb);
+					logo1 = logo1tmp.Clone (new Rectangle (this.Width / 6 - 7 * logoScale / 5,
+						this.Height / 2 - 7 * logoScale / 5,
+						14 * logoScale / 5, 14 * logoScale / 5), PixelFormat.Format32bppArgb);
 					logo1tmp.Dispose ();
 					}
 
@@ -764,7 +784,7 @@ namespace RD_AAOW
 				point1.X += (int)StringsSet[0][0].LetterSize;
 
 				// Конец строки, перевод "каретки"
-				if (point1.X > 1024)
+				if (point1.X > this.Width * 0.79)
 					{
 					point1.X = lineLeft;
 					point1.Y += lineFeed;

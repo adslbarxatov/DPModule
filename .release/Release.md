@@ -1,4 +1,7 @@
-_Changes for v 13.0.5_:
+_Changes for v 13.0.7_:
+- Fixed some bugs in the “App about” interface;
+- Fixed some bugs in the splash screen;
+- Restored links support for older versions;
 - Fast deployment is allowed for all project that have been previously deployed;
 - Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously specified path and flags by default (or set default values for new packages). Mode may be useful for current updates. Some packages don’t support it;
 - Request for changelogs about GitHub-based projects now works properly;
@@ -6,7 +9,4 @@ _Changes for v 13.0.5_:
 - Some interface and core improvements applied;
 - Required redistributables will now be highlighted on the last page of the app;
 - Added more remarkable reminder about the list of changes for the new or current app version;
-- Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable;
-- Changed appearance of locked buttons in the main interface;
-- Banners have been updated;
-- New identity has been applied, new splash screen has been implemented
+- Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable
