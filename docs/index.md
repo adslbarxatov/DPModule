@@ -133,7 +133,7 @@ The deployment module for laboratory projects. The tool installs / removes / che
 You can get all Windows-versions of our products through this application. You are now on the welcome page of it.
 
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
-Через это приложение можно получить все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
+Через это приложение доступны все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
 
 [**Direct download link ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
@@ -157,9 +157,9 @@ A sound and music visualization tool. It works without additional codecs and dri
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:iphone: Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
-A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view video presentation. The Android version is also available on AppGallery
+A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view its video presentation. Just to understand how to configure and use it
 
-Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Android-версия также доступна на AppGallery. Для Android доступен и спин-офф приложения, работающий с ресурсом tablepedia.com
+Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
 
 &nbsp;
 
@@ -181,15 +181,15 @@ A custom notifications (news) service that allows you to request only the needed
 
 &nbsp;
 
-### Enchant it :gb: :ru:
+### PA detector (Enchant it) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/enchantit)
 ● [:film_projector: Guide](https://youtube.com/watch?v=2t9iZDTnWg4)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-enchantit)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
-An extraordinary abilities search tool. Before starting the experiment take a look at the project presentation and complete method description. Version for Android is also available on AppGallery
+The paranormal abilities search tool. Allows you to find your power with almost scientific method. Before starting the experiment take a look at the project presentation and complete method description
 
-Инструмент поиска экстраординарных способностей. Перед началом работы рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода. Android-версия доступна также в AppGallery
+Инструмент поиска экстраординарных способностей. Позволяет найти свою силу почти научным методом. Перед началом эксперимента рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
 
 &nbsp;
 
@@ -220,9 +220,9 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
 
-An app that demonstrates the math method used in making complex decisions. It can be used to solve real problems
+An app that demonstrates the math method used in making complex decisions. Allows you to find an exact answer between some variants
 
-Программа, демонстрирующая математический метод, используемый при принятии сложных решений. Может быть использована для решения реальных задач
+Программа, демонстрирующая математический метод, используемый при принятии сложных решений. Позволяет найти точный ответ среди нескольких вариантов
 
 &nbsp;
 
@@ -290,16 +290,16 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 ● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
 ● [:film_projector: Guide](https://www.youtube.com/watch?v=a9yjvx7Cy3M) ●
 
-A tool for automation of user actions in operating system
+A tool for automation of user actions in Windows operating system
 
-Инструмент автоматизации действий пользователя в операционной системе
+Инструмент автоматизации действий пользователя в операционной системе Windows
 
 &nbsp;
 
 ### File extensions manager :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager) ●
 
-A tool for managing custom file extensions settings in Windows
+A tool for managing the custom file extensions in Windows
 
 Инструмент управления пользовательскими настройками расширений файлов в Windows
 
@@ -308,25 +308,25 @@ A tool for managing custom file extensions settings in Windows
 ### Keyboard switcher :gb:
 ● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher) ●
 
-Quick correction tool for text entered on wrong keyboard layout
+Quick correction tool for text entered on wrong keyboard layout (RU and EN keyboards). Also allows you to translate HEX data to binary and backward
 
-Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU и EN). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
 ### Screen shooter :gb: :ru:
 ● [:earth_africa:About](https://github.com/adslbarxatov/screenshooter) ●
 
-An utility for creating screenshots (shots of screen, windows and elements of windows)
+An utility for creating screenshots: screen, windows and elements of applications
 
-Утилита для создания скриншотов (снимков экрана, окон и элементов окон приложений)
+Утилита для создания скриншотов: снимков экрана, окон и элементов приложений
 
 &nbsp;
 
 ### Dates difference :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference) ●
 
-Small tool that can tell the difference between two dates in different views
+A small tool that can tell the difference between two dates in different views
 
 Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
 
