@@ -1,4 +1,4 @@
-_Changes for v 13.0.7_:
+_Changes for v 13.0.7_:  
 - Fixed some bugs in the “App about” interface;
 - Fixed some bugs in the splash screen;
 - Restored links support for older versions;
