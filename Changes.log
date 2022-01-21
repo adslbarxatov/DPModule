@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 13.1:
+• Fixed some automation bugs in the fast deployment mode
+
 Version 13.0.7:
 • Fixed some bugs in the “App about” interface;
 • Splash screen now is definitely scalable;
