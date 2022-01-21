@@ -1,12 +1,9 @@
-_Changes for v 13.0.7_:  
+_Changes for v 13.1_:
+- Fixed some automation bugs in the fast deployment mode;
 - Fixed some bugs in the “App about” interface;
 - Fixed some bugs in the splash screen;
-- Restored links support for older versions;
-- Fast deployment is allowed for all project that have been previously deployed;
-- Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously specified path and flags by default (or set default values for new packages). Mode may be useful for current updates. Some packages don’t support it;
+- Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously specified path and flags by default (or set default values for new packages);
 - Request for changelogs about GitHub-based projects now works properly;
-- Some text tips have been updated;
-- Some interface and core improvements applied;
 - Required redistributables will now be highlighted on the last page of the app;
 - Added more remarkable reminder about the list of changes for the new or current app version;
 - Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable

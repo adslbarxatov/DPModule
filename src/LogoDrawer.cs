@@ -79,7 +79,7 @@ namespace RD_AAOW
 #if LDDEBUG
 			extended = 1;
 #else
-			extended = (uint)((rnd.Next (5) == 0) ? 1 : 0);
+			extended = (uint)((rnd.Next (10) == 0) ? 1 : 0);
 #endif
 			mode = DrawModes.Mode1;
 
