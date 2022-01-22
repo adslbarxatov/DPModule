@@ -15,8 +15,8 @@ Keyboard switcher			1.4.3	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp	
 Make CST					1.6.4	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000115CB	0
 Make decision				2.10.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x000433D2	0
 OS macros executor			2.9.3	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0007D408	1
-Screen shooter				1.8		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056DB6	0
-Sudoku solver				2.4		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x00043799	0
+Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
+Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
 Tables merger				1.7.3	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0008CBD9	0
 Text to KKT					8.2		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x0011EE81	1
 uNot						4.8.3	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000699BF	0
