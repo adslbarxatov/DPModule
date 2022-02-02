@@ -378,7 +378,7 @@ Do you want to open its webpage for manual downloading?</value>
     <value>Start application after completion</value>
   </data>
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
-    <value>A&amp;bout app</value>
+    <value>A&amp;bout the DPModule</value>
   </data>
   <data name="CloseOnSuccessFlagText" xml:space="preserve">
     <value>Exit if completed successfully</value>
