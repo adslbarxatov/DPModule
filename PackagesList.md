@@ -10,17 +10,17 @@ ConcurrentDraw				2.6.3	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x00
 Dates difference			2.4		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00049DE8	0
 File extensions manager		1.7.3	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00088E3B	0
 Font finder					2.14.3	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000703EA	0
-Geomag data drawer			4.19.3	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x001A16B0	1
+Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
 Keyboard switcher			1.4.3	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA6	1
 Make CST					1.6.4	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000115CB	0
 Make decision				2.10.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x000433D2	0
 OS macros executor			2.9.3	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0007D408	1
 Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
 Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
-Tables merger				1.7.3	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0008CBD9	0
+Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
 Text to KKT					8.4.37	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F0484	1
 UniNotifier					4.10.37	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439BB	0
-Vector image generator		1.10.3	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x00053A41	0
+Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
 #Mods
 ESHQ						11.4	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3

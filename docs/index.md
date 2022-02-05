@@ -150,10 +150,10 @@ A sound and music visualization tool. It works without additional codecs and dri
 
 &nbsp;
 
-### uNot (UniNotifier) :gb: :ru:
+### UniNotifier :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
-● [:film_projector: Full guide](https://youtube.com/watch?v=BzGnL0yUYhY)
+● [:film_projector: Complete guide](https://youtube.com/watch?v=BzGnL0yUYhY)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:iphone: Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
@@ -315,7 +315,7 @@ Quick correction tool for text entered on wrong keyboard layout (RU and EN keybo
 &nbsp;
 
 ### Screen shooter :gb: :ru:
-● [:earth_africa:About](https://github.com/adslbarxatov/screenshooter) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter) ●
 
 An utility for creating screenshots: screen, windows and elements of applications
 
