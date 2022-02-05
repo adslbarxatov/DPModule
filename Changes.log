@@ -1,7 +1,7 @@
 ﻿Deployment packages module changes log
 
 Version 13.1.37:
-• Implemented downloading updates directly from the “About the app” interface (for other projects). This function
+• Implemented the updates downloading directly from the “About the app” interface (for other projects). This function
   requires DPModule. It allows you to download DPModule if it was not previously installed;
 • Removed self-update function from the “About the app” interface
 
