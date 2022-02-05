@@ -695,28 +695,8 @@ namespace RD_AAOW
 			textFont.Dispose ();
 			g.Dispose ();
 
-			/*if (extended == 2)
-				{
-				logo2Green.Dispose ();
-				logo2Grey.Dispose ();
-				logo2BackPart.Dispose ();
-				logo2GreenPart.Dispose ();
-				logo2GreyPart.Dispose ();
-				}
-#if LDDEXPORT
-			else if (extended == 4)
-				{
-				if (logo4b != null)
-					logo4b.Dispose ();
-				}
-#endif*/
-
 			if (logo1 != null)
 				logo1.Dispose ();
-			/*if (logo2a != null)
-				logo2a.Dispose ();
-			if (logo2b != null)
-				logo2b.Dispose ();*/
 			}
 
 		// Принудительный выход (по любой клавише)

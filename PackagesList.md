@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.1.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00094A69	0
+DPModule					13.1.37	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
 
 #Apps
 Batch image convertor		2.18.3	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00077A27	1
@@ -18,7 +18,7 @@ OS macros executor			2.9.3	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp
 Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
 Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
 Tables merger				1.7.3	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0008CBD9	0
-Text to KKT					8.4.2	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000EE083	1
+Text to KKT					8.4.37	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F0484	1
 uNot						4.9.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000427BF	0
 Vector image generator		1.10.3	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x00053A41	0
 
