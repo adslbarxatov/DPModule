@@ -24,9 +24,9 @@ Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImage
 
 #Mods
 ESHQ						11.4	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3
-ESHQ, actual update			11.7a	https://www.moddb.com/downloads/start/227083?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						69849114	0
-ESHQ, english localization	10		https://www.moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				707741		2
-ESHQ, russian localization	10		https://www.moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				567043		2
+ESHQ, actual update			11.7b	https://www.moddb.com/downloads/start/227083?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						70092743	0
+ESHQ, english localization	11		https://www.moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709026		2
+ESHQ, russian localization	11		https://www.moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595258		2
 Crazy cheater’s mod			1.2d	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
 Counter-strike 1.6 maps		1.0d	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237	2
 
