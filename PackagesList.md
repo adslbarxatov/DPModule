@@ -18,7 +18,7 @@ OS macros executor			2.9.3	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp
 Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
 Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
-Text to KKT					8.4.37	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F0484	1
+Text to KKT					8.5		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F4881	1
 UniNotifier					4.10.37	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439BB	0
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
