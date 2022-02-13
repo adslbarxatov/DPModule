@@ -23,18 +23,18 @@ UniNotifier					4.10.37	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
 #Mods
-ESHQ						11.4	https://www.moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3
-ESHQ, actual update			11.7b	https://www.moddb.com/downloads/start/227758?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						70092743	0
-ESHQ, english localization	11		https://www.moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709026		2
-ESHQ, russian localization	11		https://www.moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595258		2
-Crazy cheater’s mod			1.2d	https://www.moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
-Counter-strike 1.6 maps		1.0d	https://www.moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237	2
+ESHQ						11.4	https://moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3
+ESHQ, actual update			11.7c	https://moddb.com/downloads/start/227758?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						70218168	0
+ESHQ, english localization	12		https://moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709210		2
+ESHQ, russian localization	12		https://moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595342		2
+Crazy cheater’s mod			1.2d	https://moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
+Counter-strike 1.6 maps		1.0d	https://moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237	2
 
 #Games
 Races						1.6.15		DEFSTORAGE/Races.dp0						Races.dp0					0x008DC27E	1
 Snake						1.16.15		DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C2	1
 Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
-ESHQ backward comp.			11.0!   https://www.moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
+ESHQ backward comp.			11.0!   https://moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
 
 ```
