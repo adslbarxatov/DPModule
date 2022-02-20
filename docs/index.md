@@ -86,7 +86,7 @@ You can find us using set of popular platforms listed below. Languages supported
 &nbsp;
 
 - [Master community ● VK](https://vk.com/rd_aaow_fdl) :ru:
-- [Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb:
+- [Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb: :ru:
 - [Master mirror ● Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
 
 - [Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru:
@@ -187,9 +187,9 @@ A custom notifications (news) service that allows you to request only the needed
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-enchantit)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
-The paranormal abilities search tool. Allows you to find your power with almost scientific method. Before starting the experiment take a look at the project presentation and complete method description
+The paranormal activity search tool. Before starting the experiment take a look at the project presentation and complete method description
 
-Инструмент поиска экстраординарных способностей. Позволяет найти свою силу почти научным методом. Перед началом эксперимента рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
+Инструмент поиска паранормальной активности. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
 
 &nbsp;
 
