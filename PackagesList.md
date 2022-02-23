@@ -6,15 +6,15 @@ DPModule					13.1.37	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
 BExplorer					2.19.37	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016A9F8	1
-ConcurrentDraw				2.6.37	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C6A90	1
+ConcurrentDraw				2.6.37	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C6A98	1
 Dates difference			2.4		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00049DE8	0
 File extensions manager		1.7.3	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00088E3B	0
 Font finder					2.14.3	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000703EA	0
 Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
 Keyboard switcher			1.4.3	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA6	1
 Make CST					1.6.4	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000115CB	0
-Make decision				2.10.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x000433D2	0
-OS macros executor			2.9.3	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0007D408	1
+Make decision				2.10.37	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00034DD3	0
+OS macros executor			2.9.37	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0006EE05	1
 Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
 Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
