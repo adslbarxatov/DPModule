@@ -4,9 +4,9 @@ Packages, available for download:
 DPModule					13.1.37	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
 
 #Apps
-Batch image convertor		2.18.3	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00077A27	1
-BExplorer					2.19.3	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0018C80B	1
-ConcurrentDraw				2.6.3	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000D4E8B	1
+Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
+BExplorer					2.19.37	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016A9F8	1
+ConcurrentDraw				2.6.37	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C6A90	1
 Dates difference			2.4		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00049DE8	0
 File extensions manager		1.7.3	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00088E3B	0
 Font finder					2.14.3	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000703EA	0
