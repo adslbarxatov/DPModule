@@ -7,9 +7,9 @@ DPModule					13.1.37	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
 BExplorer					2.19.37	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016A9F8	1
 ConcurrentDraw				2.6.37	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C6A98	1
-Dates difference			2.4		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x00049DE8	0
-File extensions manager		1.7.3	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x00088E3B	0
-Font finder					2.14.3	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000703EA	0
+Dates difference			2.4.37	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x0003B7E3	0
+File extensions manager		1.7.37	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007A83C	0
+Font finder					2.14.37	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00061DEB	0
 Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
 Keyboard switcher			1.4.3	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA6	1
 Make CST					1.6.4	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000115CB	0
