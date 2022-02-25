@@ -11,12 +11,12 @@ Dates difference			2.4.37	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			
 File extensions manager		1.7.37	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007A83C	0
 Font finder					2.14.37	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00061DEB	0
 Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
-Keyboard switcher			1.4.3	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA6	1
-Make CST					1.6.4	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000115CB	0
+Keyboard switcher			1.4.37	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA3	1
+Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
 Make decision				2.10.37	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00034DD3	0
 OS macros executor			2.9.37	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0006EE05	1
-Screen shooter				1.8.3	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00056BCE	0
-Sudoku solver				2.4.3	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0004ADA6	0
+Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000409CF	0
+Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
 Text to KKT					8.5.2	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F488B	1
 UniNotifier					4.10.37	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439BB	0
