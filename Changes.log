@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 13.2:
+- Protocol processing for 'dp' alias;
+- Processing for non-first start of packages with external requirements;
+- Processing for non-package files
+
 Version 13.1.37:
 • Implemented the updates downloading directly from the “About the app” interface (for other projects). This function
   requires DPModule. It allows you to download DPModule if it was not previously installed;

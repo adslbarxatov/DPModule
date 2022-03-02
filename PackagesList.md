@@ -18,7 +18,7 @@ OS macros executor			2.9.37	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.d
 Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000409CF	0
 Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
-Text to KKT					8.5.3	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F487F	1
+Text to KKT					8.5.4	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F4A7F	1
 UniNotifier					4.11.1	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439B2	0
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
@@ -34,6 +34,9 @@ Counter-strike 1.6 maps		1.0d	https://moddb.com/addons/start/193826?referer=http
 Races						1.6.15		DEFSTORAGE/Races.dp0						Races.dp0					0x008DC27E	1
 Snake						1.16.15		DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C2	1
 Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
+
+#APKs
+Text to KKT					8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
 
 ESHQ backward comp.			11.0!   https://moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
 
