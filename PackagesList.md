@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.1.37	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
+DPModule					13.2	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009566D	0
 
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
@@ -36,7 +36,8 @@ Snake						1.16.15		DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C2	1
 Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #APKs
-Text to KKT					8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
+Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
+
 
 ESHQ backward comp.			11.0!   https://moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
 

@@ -1,9 +1,11 @@
 ﻿Deployment packages module changes log
 
 Version 13.2:
-- Protocol processing for 'dp' alias;
-- Processing for non-first start of packages with external requirements;
-- Processing for non-package files
+• Exit and deploy actions now have different buttons;
+• Implemented the protocol processing for “dp://” alias. F.e., the call “dp://TextToKKT” will start downloading
+  of the corresponding package. Association for this alias will be added to OS settings automatically;
+• Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): .exe, .apk, etc.;
+• App will not show requirements window on second, third and later deployments
 
 Version 13.1.37:
 • Implemented the updates downloading directly from the “About the app” interface (for other projects). This function
