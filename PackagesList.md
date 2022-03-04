@@ -40,7 +40,7 @@ Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/relea
 
 
 
-#ALERT: We’ve updated our Social communities policy. It is available at the top of the Packages list (use this ↓ button)
+#ALERT: We’ve updated our Social communities policy. It is available at the top of the Packages list (use this ↙ button)
 
 
 
