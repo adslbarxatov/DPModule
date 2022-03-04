@@ -5,7 +5,8 @@ Version 13.2:
 • Implemented the protocol processing for “dp://” alias. F.e., the call “dp://TextToKKT” will start downloading
   of the corresponding package. Association for this alias will be added to OS settings automatically;
 • Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): .exe, .apk, etc.;
-• App will not show requirements window on second, third and later deployments
+• App will not show requirements window on second, third and subsequent deployments, if “close on success” flag is set;
+• App now able to display alerts if they described in the packages list
 
 Version 13.1.37:
 • Implemented the updates downloading directly from the “About the app” interface (for other projects). This function
