@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Merge packages loading threads or skip their pauses
+
 Version 13.2:
 • Exit and deploy actions now have different buttons;
 • Implemented the protocol processing for “dp://” alias. F.e., the call “dp://TextToKKT” will start downloading
