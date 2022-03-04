@@ -988,5 +988,64 @@ policy:
 
 			return true;
 			}
+
+		/// <summary>
+		/// Метод выполняет регистрацию указанного протокола и привязывает его к текущему приложению
+		/// </summary>
+		/// <param name="ProtocolCode">Имя протокола; если передаётся расширение, точка отсекается</param>
+		/// <param name="ProtocolName">Название протокола</param>
+		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение перед регистрацией</param>
+		/// <param name="FileIcon">Ресурс, хранящий значок формата файла</param>
+		/// <returns>Возвращает true в случае успеха</returns>
+		public static bool RegisterProtocol (string ProtocolCode, string ProtocolName, Icon FileIcon, bool ShowWarning)
+			{
+			// Подготовка
+			string protocol = ProtocolCode.ToLower ().Replace (".", "");
+
+			// Контроль
+			if (ShowWarning)
+				{
+				string msg = "Warning: required protocols will be registered using current app location.\n\n" +
+					"Make sure you will not change location of this application before using this feature.\n\n" +
+					"Do you want to continue?";
+
+				if (Localization.CurrentLanguage == SupportedLanguages.ru_ru)
+					msg = "Предупреждение: необходимые протоколы будут зарегистрированы с использованием " +
+						"текущего местоположения приложения.\n\nУбедитесь, что вы не будете менять расположение " +
+						"этого приложения перед использованием этой функции.\n\nВы хотите продолжить?";
+
+				if (MessageBox.Show (msg, ProgramDescription.AssemblyTitle, MessageBoxButtons.YesNo,
+					MessageBoxIcon.Exclamation) == DialogResult.No)
+					return false;
+				}
+
+			// Выполнение
+			try
+				{
+				// Запись значка
+				FileStream FS = new FileStream (protocol + ".ico", FileMode.Create);
+				FileIcon.Save (FS);
+				FS.Close ();
+
+				// Запись значений реестра
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "", ProtocolName);
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "URL Protocol", "");
+
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon", "", RDGenerics.AppStartupPath +
+					protocol + ".ico");
+
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell", "", "open");
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open", "Icon",
+					RDGenerics.AppStartupPath + protocol + ".ico");
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command", "",
+					"\"" + Application.ExecutablePath + "\" \"%1\"");
+				}
+			catch
+				{
+				return false;
+				}
+
+			return true;
+			}
 		}
 	}

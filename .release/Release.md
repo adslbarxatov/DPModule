@@ -1,6 +1,7 @@
-_Changes for v 13.1.37_:
-- Implemented downloading updates directly from the “About the app” interface (for other projects). This function requires DPModule. It allows you to download DPModule if it was not previously installed;
-- Removed self-update function from the “About the app” interface;
-- Upgraded Policy and Version info loaders;
-- Implemented the fast deployment mode. It allows you to skip manual deployment steps and use previously specified path and flags by default (or set default values for new packages);
-- Added new mechanism of access rights checking: it will display warnings when Windows registry is unavailable
+_Changes for v 13.2_:
+- Exit and deploy actions now have different buttons;
+- Implemented the protocol processing for ```dp://``` alias. F.e., the call ```dp://TextToKKT``` will start downloading of the corresponding package. Association for this alias will be added to OS settings automatically;
+- Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): ```.exe```, ```.apk```, etc.;
+- App will not show requirements window on second, third and subsequent deployments, if “close on success” flag is set;
+- App now able to display alerts if they described in the packages list;
+- Removed self-update function from the “About the app” interface

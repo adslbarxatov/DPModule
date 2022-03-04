@@ -316,7 +316,7 @@
     <value>О программе {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Далее / Выход &gt;</value>
+    <value>&amp;Развернуть</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>&amp;Список пакетов</value>
@@ -434,5 +434,17 @@
   </data>
   <data name="PSF_TableHeader01" xml:space="preserve">
     <value>Быстро</value>
+  </data>
+  <data name="ProtocolCallFailure" xml:space="preserve">
+    <value>Указанный пакет ({0:S}) не найден</value>
+  </data>
+  <data name="PackageSelectorForm_ExitButton" xml:space="preserve">
+    <value>В&amp;ыход</value>
+  </data>
+  <data name="dpprotocol" xml:space="preserve">
+    <value>URL: Протокол обработки пакетов развёртки</value>
+  </data>
+  <data name="NoPackagesSelected" xml:space="preserve">
+    <value>Не выбраны пакеты для развёртки</value>
   </data>
 </root>

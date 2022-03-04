@@ -317,7 +317,7 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value>About {0:S}...</value>
   </data>
   <data name="PackageSelectorForm_AbortButton" xml:space="preserve">
-    <value>&amp;Next / Exit &gt;</value>
+    <value>&amp;Deploy</value>
   </data>
   <data name="PackageSelectorForm_ListOfProjects" xml:space="preserve">
     <value>Packages &amp;list</value>
@@ -435,5 +435,17 @@ The app will use default deployment path for this product. If it’s not correct
   </data>
   <data name="PSF_TableHeader01" xml:space="preserve">
     <value>Fast</value>
+  </data>
+  <data name="ProtocolCallFailure" xml:space="preserve">
+    <value>Specified package ({0:S}) not found</value>
+  </data>
+  <data name="PackageSelectorForm_ExitButton" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="dpprotocol" xml:space="preserve">
+    <value>URL: Deployment packages processing protocol</value>
+  </data>
+  <data name="NoPackagesSelected" xml:space="preserve">
+    <value>No packages selected for deployment</value>
   </data>
 </root>
