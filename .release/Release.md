@@ -1,4 +1,7 @@
-_Changes for v 13.2_:
+_Changes for v 13.2.1_:
+- Adjusted notifications appearance;
+- Updated “App about” interface;
+- Adjusted packages downloading method;
 - Exit and deploy actions now have different buttons;
 - Implemented the protocol processing for ```dp://``` alias. F.e., the call ```dp://TextToKKT``` will start downloading of the corresponding package. Association for this alias will be added to OS settings automatically;
 - Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): ```.exe```, ```.apk```, etc.;

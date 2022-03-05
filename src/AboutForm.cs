@@ -7,7 +7,6 @@ using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Security.Principal;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace RD_AAOW
@@ -172,7 +171,13 @@ namespace RD_AAOW
 						"Также Вы можете ознакомиться с презентацией DPModule на YouTube, нажав кнопку «Нет»";
 					packageFail = "Не удалось загрузить пакет развёртки. Проверьте Ваше подключение к Интернету";
 					fileWriteFail = "Не удалось сохранить пакет развёртки. Проверьте Ваши права доступа";
-					startDownload = "Начать загрузку пакета?\n\nПакет развёртки будет сохранён на Рабочем столе";
+					startDownload = "Начать загрузку пакета?\n\nПакет развёртки будет сохранён на Рабочем столе " +
+						"и запущен автоматически";
+
+					ToLaboratoryCombo.Items.Add ("Начальная страница FDL");
+					ToLaboratoryCombo.Items.Add ("FDL в Telegram");
+					ToLaboratoryCombo.Items.Add ("FDL ВКонтакте");
+					ToLaboratoryCombo.SelectedIndex = 0;
 
 					this.Text = AcceptMode ? "Политика разработки и соглашение пользователя" : "О приложении";
 					break;
@@ -203,12 +208,17 @@ namespace RD_AAOW
 						"after installing it. Also you can view the DPModule presentation on YouTube by pressing “No” button";
 					packageFail = "Failed to download deployment package. Check your internet connection";
 					fileWriteFail = "Failed to save deployment package. Check your user access rights";
-					startDownload = "Download the package?\n\nThe deployment package will be saved on the Desktop";
+					startDownload = "Download the package?\n\nThe deployment package will be saved on the Desktop " +
+						"and started automatically";
+
+					ToLaboratoryCombo.Items.Add ("FDL’s welcome page");
+					ToLaboratoryCombo.Items.Add ("FDL on VK.com");
+					ToLaboratoryCombo.Items.Add ("FDL on Telegram");
+					ToLaboratoryCombo.SelectedIndex = 0;
 
 					this.Text = AcceptMode ? "Development policy and user agreement" : "About the application";
 					break;
 				}
-			ToLaboratory.Text = RDGenerics.AssemblyCompany;
 
 			// Запуск проверки обновлений
 			HardWorkExecutor hwe;
@@ -379,28 +389,20 @@ namespace RD_AAOW
 
 		private void ToLaboratory_Click (object sender, EventArgs e)
 			{
-			string msg;
-			if (al == SupportedLanguages.ru_ru)
-				msg = "• «Да» – перейти на страницу Лаборатории в ВКонтакте;\n" +
-					"• «Нет» – перейти на начальную страницу Лаборатории";
-			else
-				msg = "• “Yes” – go to Laboratory’s page in Telegram;\n" +
-					"• “No” – go to Laboratory’s welcome page";
-
 			string link;
-			switch (MessageBox.Show (msg, ProgramDescription.AssemblyTitle, MessageBoxButtons.YesNoCancel,
-				MessageBoxIcon.Question))
+			switch (ToLaboratoryCombo.SelectedIndex)
 				{
-				case DialogResult.Yes:
-					link = (al == SupportedLanguages.ru_ru) ? RDGenerics.LabVKLink : RDGenerics.LabTGLink;
-					break;
-
-				case DialogResult.No:
+				default:
 					link = RDGenerics.DPModuleLink;
 					break;
 
-				default:
-					return;
+				case 1:
+					link = RDGenerics.LabTGLink;
+					break;
+
+				case 2:
+					link = RDGenerics.LabVKLink;
+					break;
 				}
 
 			try
@@ -797,7 +799,7 @@ policy:
 
 			// Завершено. Отображение сообщения
 			((BackgroundWorker)sender).ReportProgress (-1, downloadSuccess);
-			Thread.Sleep (500);
+			/*Thread.Sleep (500);*/
 
 			e.Result = 0;
 			return;

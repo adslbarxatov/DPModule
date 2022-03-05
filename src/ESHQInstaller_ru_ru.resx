@@ -179,7 +179,7 @@
     <value>Прервать операцию?</value>
   </data>
   <data name="LogCreationError" xml:space="preserve">
-    <value>Не удалось создать лог установки</value>
+    <value>Не удалось создать журнал установки</value>
   </data>
   <data name="ModDBIsNotFullyAvailable" xml:space="preserve">
     <value>Сайт проекта в настоящий момент доступен неполностью. Повторите попытку позже</value>
@@ -294,7 +294,10 @@
     <value>Менеджер пакетов развёртки</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>Список установочных пакетов недоступен. Проверьте интернет-подключение</value>
+    <value>Список установочных пакетов недоступен. Проверьте интернет-подключение.
+
+Если причиной является блокировка платформы GitHub в Вашей стране, обратитесь к официальным каналам Лаборатории для получения дополнительной информации
+(в разделе «О DPModule» выберите удобный канал и нажмите «▶»)</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
     <value>Загрузка списка пакетов...</value>

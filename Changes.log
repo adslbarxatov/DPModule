@@ -1,7 +1,9 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Merge packages loading threads or skip their pauses
+Version 13.2.1:
+• Adjusted notifications appearance;
+• Updated “App about” interface;
+• Adjusted packages downloading method
 
 Version 13.2:
 • Exit and deploy actions now have different buttons;
