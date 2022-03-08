@@ -451,4 +451,7 @@ The app will use default deployment path for this product. If it’s not correct
   <data name="NoPackagesSelected" xml:space="preserve">
     <value>No packages selected for deployment</value>
   </data>
+  <data name="PackagesListAlternative" xml:space="preserve">
+    <value>Downloading alternative packages list...</value>
+  </data>
 </root>

@@ -450,4 +450,7 @@
   <data name="NoPackagesSelected" xml:space="preserve">
     <value>Не выбраны пакеты для развёртки</value>
   </data>
+  <data name="PackagesListAlternative" xml:space="preserve">
+    <value>Загрузка альтернативного списка пакетов...</value>
+  </data>
 </root>

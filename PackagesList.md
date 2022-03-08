@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.2.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00096A69	0
+DPModule					13.3	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00096E6B	0
 
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
@@ -37,10 +37,10 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #APKs
 Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
-Test						1.1 https://vk.com/doc64181577_627475244	TextTest.txt	0x0000000A	3
+Test						1.1         https://vk.com/doc64181577_627475244	TextTest.txt	0x0000000A	3
 
 
-#ALERT: We’ve updated our Social communities policy.||It is available at the top of the Packages list (use this ⇙ button)
+#ALERT: We’ve updated our Social communities policy. It is available at the top of the Packages list (use corresponding button)||Мы обновили Политику социальных сообществ. Она доступна в начале Списка пакетов (используйте соответствующую кнопку)
 
 
 

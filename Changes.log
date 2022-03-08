@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 13.3:
+• Implemented the support for reserve list of packages on VK.com (for urgent cases);
+• Improved the algorithm of an unzipper selection
+
 Version 13.2.1:
 • Adjusted notifications appearance;
 • Updated “App about” interface;
