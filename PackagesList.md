@@ -24,7 +24,7 @@ Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImage
 
 #Mods
 ESHQ						11.4	https://moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3
-ESHQ, actual update			11.7d	https://moddb.com/downloads/start/228806?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						70467506	0
+ESHQ, actual update			11.7e	https://moddb.com/downloads/start/229163?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						102357974	0
 ESHQ, english localization	12		https://moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709210		2
 ESHQ, russian localization	12		https://moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595342		2
 Crazy cheater’s mod			1.2d	https://moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
@@ -37,7 +37,7 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #APKs
 Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
-Test						1.1			https://vk.com/doc64181577_627475244	TextTest.txt	0x0000000A	3
+Test						1.1 https://vk.com/doc64181577_627475244	TextTest.txt	0x0000000A	3
 
 
 #ALERT: We’ve updated our Social communities policy.||It is available at the top of the Packages list (use this ⇙ button)
