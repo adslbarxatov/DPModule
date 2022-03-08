@@ -37,12 +37,9 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #APKs
 Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
-Test						1.1         https://vk.com/doc64181577_627475244	TextTest.txt	0x0000000A	3
 
-#Docs
-Welcome page					13.0		https://vk.com/doc64181577_627599444		Welcome.pdf			529753	3
-ADP						10.0		https://vk.com/doc64181577_627599380		ADP.pdf				249168	3
-SCP						9.0		https://vk.com/doc64181577_627599399		SCP.pdf				183923	3
+
+
 #ALERT: We’ve updated our Social communities policy. It is available at the top of the Packages list (use corresponding button)||Мы обновили Политику социальных сообществ. Она доступна в начале Списка пакетов (используйте соответствующую кнопку)
 
 
