@@ -19,7 +19,7 @@ Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x00
 Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
 Text to KKT					8.5.4	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F4A7F	1
-UniNotifier					4.11.1	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000439B2	0
+UniNotifier					4.11.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000443BA	0
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
 #Mods
@@ -37,6 +37,7 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #APKs
 Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	2
+UniNotifier (for Android)	4.11.2		https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier_4B2.apk		UniNotifier.apk		28124020	2
 
 
 
