@@ -37,9 +37,9 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
 
 #Android apps
 Make decision (for Android)	2.11		https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision_2B0.apk		MakeDecision.apk	31081495	3
-PA detector (for Android)	2.0.2		https://github.com/adslbarxatov/EnchantIt/raw/main/release/PADetector_202.apk					PADetector.apk		37732573	3
+PA detector (for Android)	2.0.3		https://github.com/adslbarxatov/EnchantIt/raw/main/release/PADetector_203.apk					PADetector.apk		37732573	3
 Text to KKT (for Android)	8.5.4		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_854_KitKat.apk		TextToKKT.apk		28900017	3
-UniNotifier (for Android)	4.11.3		https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier_4B2.apk		UniNotifier.apk		28124020	3
+UniNotifier (for Android)	4.11.3		https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier_4B3.apk		UniNotifier.apk		28124020	3
 
 
 
