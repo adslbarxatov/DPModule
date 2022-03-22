@@ -87,7 +87,7 @@ You can find us using set of popular platforms listed below. Languages supported
 
 - [Master community ● VK](https://vk.com/rd_aaow_fdl) :ru:
 - [Master mirror ● Telegram](https://t.me/rd_aaow_fdl) :gb: :ru:
-- [Master mirror ● Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
+// - [Master mirror ● Instagram](https://instagram.com/rd_aaow_fdl) :gb: :ru:
 
 - [Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru:
 - [Mods hosting ● ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
