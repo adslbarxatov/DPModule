@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.3	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00096E6B	0
+DPModule					13.3.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00097271	0
 
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
@@ -23,8 +23,9 @@ UniNotifier					4.11.3	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000443B
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
 #Mods
-ESHQ						11.4	https://moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						165820736	3
-ESHQ, actual update			11.7e	https://moddb.com/downloads/start/229163?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						102357974	0
+ESHQ						12.0	https://moddb.com/downloads/start/220951?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						204583673	3
+ESHQ, actual update			12.0a	https://moddb.com/downloads/start/229163?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						931			0
+ESHQ, backward comp.		12.0	https://moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						107657633	2
 ESHQ, english localization	12		https://moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709210		2
 ESHQ, russian localization	12		https://moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595342		2
 Crazy cheater’s mod			1.2d	https://moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
@@ -43,10 +44,7 @@ UniNotifier (for Android)	4.11.3		https://github.com/adslbarxatov/UniNotifier/re
 
 
 
-#ALERT: ESHQ v 12 is almost ready! Watch the trailer on our YouTube channel (while it’s still alive)!||ESHQ v 12 почти готов! Смотрите трейлер на нашем YouTube-канале (пока он ещё жив)!
-
-
-
-ESHQ backward comp.			11.0!   https://moddb.com/downloads/start/214688?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_bkwd_comp.7z			58666917
+#ALERT: ESHQ v 12 is ready! Watch the trailer on our YouTube channel|(while it’s still alive)!||ESHQ v 12 готов! Смотрите трейлер на нашем YouTube-канале|(пока он ещё жив)!
+Flags: 1 = disallowed fast deployment, 2 = version control
 
 ```

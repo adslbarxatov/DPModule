@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 13.3.1:
+• Some improvements applied to the user interface
+
 Version 13.3:
 • Implemented the support for reserve list of packages on VK.com (for urgent cases);
 • Improved the algorithm of an unzipper selection

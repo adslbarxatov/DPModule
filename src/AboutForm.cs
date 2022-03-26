@@ -174,9 +174,7 @@ namespace RD_AAOW
 					startDownload = "Начать загрузку пакета?\n\nПакет развёртки будет сохранён на Рабочем столе " +
 						"и запущен автоматически";
 
-					ToLaboratoryCombo.Items.Add ("Начальная страница FDL");
-					ToLaboratoryCombo.Items.Add ("FDL в Telegram");
-					ToLaboratoryCombo.Items.Add ("FDL ВКонтакте");
+					ToLaboratoryCombo.Items.AddRange (RDGenerics.GetCommunitiesNames (false));
 					ToLaboratoryCombo.SelectedIndex = 0;
 
 					this.Text = AcceptMode ? "Политика разработки и соглашение пользователя" : "О приложении";
@@ -188,7 +186,7 @@ namespace RD_AAOW
 					UpdatesPageButton.Text = "Checking updates...";
 					ADPButton.Text = AcceptMode ? "Open in &browser" : "&Policy and EULA";
 					ExitButton.Text = AcceptMode ? "&Accept" : "&OK";
-					AskDeveloper.Text = "Ask &developer";
+					AskDeveloper.Text = "Ask the &developer";
 					MisacceptButton.Text = "&Decline";
 
 					if (!desciptionHasBeenUpdated)
@@ -211,9 +209,7 @@ namespace RD_AAOW
 					startDownload = "Download the package?\n\nThe deployment package will be saved on the Desktop " +
 						"and started automatically";
 
-					ToLaboratoryCombo.Items.Add ("FDL’s welcome page");
-					ToLaboratoryCombo.Items.Add ("FDL on VK.com");
-					ToLaboratoryCombo.Items.Add ("FDL on Telegram");
+					ToLaboratoryCombo.Items.AddRange (RDGenerics.GetCommunitiesNames (true));
 					ToLaboratoryCombo.SelectedIndex = 0;
 
 					this.Text = AcceptMode ? "Development policy and user agreement" : "About the application";

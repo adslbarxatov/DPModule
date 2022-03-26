@@ -369,10 +369,6 @@ namespace RD_AAOW
 		// Основное лого, вариант 2
 		private void DrawingTimer_Mode2 (object sender, EventArgs e)
 			{
-			/*#if LDDEXPORT
-			foreBrush.Color = Color.FromArgb (160, rnd.Next (64, 256), rnd.Next (64, 256), rnd.Next (64, 256));
-			#endif*/
-
 			// Определение следующей позиции
 			switch (phase1)
 				{
@@ -514,10 +510,6 @@ namespace RD_AAOW
 				}
 			else if (arc1 >= -90.0)
 				{
-				/*#if LDDEXPORT
-				foreBrush.Color = Color.FromArgb (0, -3 * (int)arc1 / 2, -3 * (int)arc1 / 4);
-				#endif*/
-
 				// Отображение текста
 				g.DrawString (logoString1.Substring (0, (int)(logoString1.Length * LogoDrawerSupport.Sinus (-arc1))),
 					logo1Font, foreBrush, 94 * this.Width / 100 - logo1Size.Width, this.Height / 2);
