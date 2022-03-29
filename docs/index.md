@@ -158,6 +158,7 @@ A sound and music visualization tool. It works without additional codecs and dri
 ● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
 ● [:film_projector: Complete guide](https://youtube.com/watch?v=BzGnL0yUYhY)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:iphone: GitHub](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:iphone: Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view its video presentation. Just to understand how to configure and use it
@@ -200,7 +201,7 @@ The paranormal activity search tool. Before starting the experiment take a look 
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
 ● [:film_projector: Guide](https://youtube.com/watch?v=akcWsDnyWcQ)
 ● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
-● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/tree/master/.release)
+● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk)
 ● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
