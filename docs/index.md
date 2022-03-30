@@ -91,9 +91,9 @@ You can find us using set of popular platforms listed below. Languages supported
 
 - [Sources hosting ● GitHub](https://github.com/adslbarxatov) :gb: :ru:
 
-- [Mods hosting ● ModDB](https://www.moddb.com/members/rd-aaow-fdl) :gb:
+- [Mods hosting ● ModDB](https://moddb.com/members/rd-aaow-fdl) :gb:
 
-- [Master channel ● YouTube](https://www.youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
+- [Master channel ● YouTube](https://youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
 
 - [Side community ● VK](https://vk.com/grammarmustjoy) :ru:
 
@@ -108,23 +108,23 @@ You can find us using set of popular platforms listed below. Languages supported
 ## :gb: Actual projects and developments
 
 Current laboratory’s projects are described below.
-Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone:).
+Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone: and / or :package:).
 For each, a set of available interface languages is indicated (:gb: and / or :ru:).
 It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products. All icons except flags are clickable.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
-A general list of mods is available [here](https://www.moddb.com/members/rd-aaow-fdl/mods).
+A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods).
 
 &nbsp;
 
 ## :ru: Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
+Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone: и / или :package:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
 Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов. Все значки, кроме флагов, кликабельны.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
-Общий список модов доступен [здесь](https://www.moddb.com/members/rd-aaow-fdl/mods).
+Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods).
 
 &nbsp;
 
@@ -261,8 +261,10 @@ A tool for finding a font by its image
 &nbsp;
 
 ### ESHQ :gb:
-● [:earth_africa: Summary](https://www.moddb.com/mods/eshq)
-● [:tv: Demos](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_) ●
+● [:earth_africa: Summary](https://moddb.com/mods/eshq)
+● [:tv: Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)
+● [:package: Get on DPModule](dp://ESHQ)
+● [:package: Get the last update](dp://ESHQupdate) ●
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
 
@@ -271,8 +273,9 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 &nbsp;
 
 ### Crazy cheater’s mod :gb:
-● [:earth_africa: Summary](https://www.moddb.com/mods/ccm)
-● [:film_projector: Demo](https://www.youtube.com/watch?v=tpgKd91QYP4) ●
+● [:earth_africa: Summary](https://moddb.com/mods/ccm)
+● [:film_projector: Demo](https://youtube.com/watch?v=tpgKd91QYP4)
+● [:package: Get on DPModule](dp://CCM) ●
 
 A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
 
@@ -282,8 +285,9 @@ A modification for GTA Vice City, preserving the original plot and gameplay, but
 
 ### BExplorer :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
-● [:film_projector: Demo](https://www.youtube.com/watch?v=RdLt-dTz8vU)
-● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md) ●
+● [:film_projector: Demo](https://youtube.com/watch?v=RdLt-dTz8vU)
+● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md)
+● [:package: Get on DPModule](dp://BExplorer) ●
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
 
@@ -292,7 +296,8 @@ API для работы с файлами сохранений GTA Vice City и 
 &nbsp;
 
 ### Make CST :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/makecst) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/makecst)
+● [:package: Get on DPModule](dp://MakeCST) ●
 
 A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
@@ -302,7 +307,8 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 
 ### OS macros executor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
-● [:film_projector: Guide](https://www.youtube.com/watch?v=a9yjvx7Cy3M) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=a9yjvx7Cy3M)
+● [:package: Get on DPModule](dp://OSMacrosExecutor) ●
 
 A tool for automation of user actions in Windows operating system
 
@@ -311,7 +317,8 @@ A tool for automation of user actions in Windows operating system
 &nbsp;
 
 ### File extensions manager :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager)
+● [:package: Get on DPModule](dp://FileExtensionsManager) ●
 
 A tool for managing the custom file extensions in Windows
 
@@ -320,7 +327,8 @@ A tool for managing the custom file extensions in Windows
 &nbsp;
 
 ### Keyboard switcher :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
+● [:package: Get on DPModule](dp://KeyboardSwitcher) ●
 
 Quick correction tool for text entered on wrong keyboard layout (RU and EN keyboards). Also allows you to translate HEX data to binary and backward
 
@@ -329,7 +337,8 @@ Quick correction tool for text entered on wrong keyboard layout (RU and EN keybo
 &nbsp;
 
 ### Screen shooter :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter)
+● [:package: Get on DPModule](dp://ScreenShooter) ●
 
 An utility for creating screenshots: screen, windows and elements of applications
 
@@ -338,7 +347,8 @@ An utility for creating screenshots: screen, windows and elements of application
 &nbsp;
 
 ### Dates difference :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference)
+● [:package: Get on DPModule](dp://DatesDifference) ●
 
 A small tool that can tell the difference between two dates in different views
 
@@ -347,7 +357,8 @@ A small tool that can tell the difference between two dates in different views
 &nbsp;
 
 ### Sudoku solver :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver)
+● [:package: Get on DPModule](dp://SudokuSolver) ●
 
 A tool for solving sudoku
 
@@ -356,7 +367,8 @@ A tool for solving sudoku
 &nbsp;
 
 ### Tables merger :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
+● [:package: Get on DPModule](dp://TablesMerger) ●
 
 Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
 
@@ -365,7 +377,8 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 &nbsp;
 
 ### Vector image generator :gb: :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator) ●
+● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
+● [:package: Get on DPModule](dp://VectorImagesGenerator) ●
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
@@ -398,7 +411,8 @@ An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
 &nbsp;
 
 ### Counter-strike 1.6 maps :gb:
-● [:earth_africa: Summary](https://www.moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps) ●
+● [:earth_africa: Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)
+● [:package: Get on DPModule](dp://CSMaps) ●
 
 Our first maps done in the Hammer editor. Not sure about the balance, but locations are quite playable
 
@@ -407,7 +421,8 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 &nbsp;
 
 ### Races :ru:
-● [:earth_africa: Races](https://github.com/adslbarxatov/races) ●
+● [:earth_africa: Races](https://github.com/adslbarxatov/races)
+● [:package: Get on DPModule](dp://Races) ●
 
 “Races”, the classic Tetris game. From sample games pack for XNA game studio
 
@@ -416,7 +431,8 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 &nbsp;
 
 ### Snake :ru:
-● [:earth_africa: Snake](https://github.com/adslbarxatov/snake) ●
+● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
+● [:package: Get on DPModule](dp://Snake) ●
 
 “Snake”, the classic Tetris game. From sample games pack for XNA game studio
 
@@ -425,7 +441,8 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 &nbsp;
 
 ### Turtle :ru:
-● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle) ●
+● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
+● [:package: Get on DPModule](dp://Turtle) ●
 
 “Turtle”, the classic Tetris game. From sample games pack for XNA game studio
 
