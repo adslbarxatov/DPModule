@@ -158,19 +158,21 @@ A sound and music visualization tool. It works without additional codecs and dri
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
 ● [:film_projector: Complete guide](https://youtube.com/watch?v=BzGnL0yUYhY)
-● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
-● [:iphone: GitHub](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
-● [:iphone: Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
+● [:package: Get on DPModule](dp://UniNotifier)
+● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view its video presentation. Just to understand how to configure and use it
 
-Служба настраиваемых оповещений (новостей), позволяющая запрашивать только требуемый контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
+Служба настраиваемых оповещений (новостей), позволяющая запрашивать только нужный контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
 
 &nbsp;
 
 ### Grammar must joy :ru:
 ● [:earth_africa: ВК](https://vk.com/grammarmustjoy)
-● [:earth_asia: Telegram](https://t.me/grammarmustjoy) ●
+● [:earth_asia: Telegram](https://t.me/grammarmustjoy)
+● [:iphone: Get GMJ client](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ●
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки. И это может быть даже не их вина – при огромном количестве скриншотов вместо обычных записей этого в принципе сложно добиться.
 
@@ -190,7 +192,8 @@ A custom notifications (news) service that allows you to request only the needed
 ● [:earth_africa: About](https://github.com/adslbarxatov/enchantit)
 ● [:film_projector: Guide](https://youtube.com/watch?v=hTnDR89VR8w)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-pad)
-● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
+● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector_203.apk)
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
 
 The paranormal activity search tool. Before starting the experiment take a look at the project presentation and complete method description
 
@@ -202,8 +205,9 @@ The paranormal activity search tool. Before starting the experiment take a look 
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
 ● [:film_projector: Guide](https://youtube.com/watch?v=akcWsDnyWcQ)
 ● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
-● [:iphone: GitHub](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk)
-● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT) ●
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
+● [:package: Get on DPModule](dp://TextToKKT)
+● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
 
@@ -212,7 +216,8 @@ The paranormal activity search tool. Before starting the experiment take a look 
 ### Geomag data drawer :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/geomagdatadrawer)
 ● [:page_with_curl: Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md)
-● [:tv: Guide](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO) ●
+● [:tv: Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)
+● [:package: Get on DPModule](dp://GeomagDataDrawer) ●
 
 Stand-alone tool for building and designing data diagrams based on tabular data
 
@@ -223,7 +228,9 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ### Make decision :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:iphone: Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision) ●
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
+● [:package: Get on DPModule](dp://MakeDecision)
+● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision_2B1.apk) ●
 
 An app that demonstrates the math method used in making complex decisions. Allows you to find an exact answer between some variants
 
@@ -233,7 +240,8 @@ An app that demonstrates the math method used in making complex decisions. Allow
 
 ### Batch image convertor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/batchimageconvertor)
-● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0)
+● [:package: Get on DPModule](dp://BatchImageConvertor) ●
 
 A tool for automatic processing of groups of images
 
@@ -243,7 +251,8 @@ A tool for automatic processing of groups of images
 
 ### Font finder :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
-● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA)
+● [:package: Get on DPModule](dp://FontFinder) ●
 
 A tool for finding a font by its image
 
