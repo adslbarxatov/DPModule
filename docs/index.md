@@ -108,7 +108,7 @@ You can find us using set of popular platforms listed below. Languages supported
 ## :gb: Actual projects and developments
 
 Current laboratory’s projects are described below.
-Description contains all the necessary links (:earth_africa:) as well as Android releases (:iphone: and / or :package:).
+Description contains all the necessary links (:earth_africa:) as well as project releases (:iphone: and / or :package:).
 For each, a set of available interface languages is indicated (:gb: and / or :ru:).
 It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products. All icons except flags are clickable.
 
@@ -120,7 +120,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 ## :ru: Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки (:earth_africa:), а также Android-релизы (:iphone: и / или :package:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
+Описание содержит все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
 Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов. Все значки, кроме флагов, кликабельны.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
@@ -192,8 +192,8 @@ A custom notifications (news) service that allows you to request only the needed
 ● [:earth_africa: About](https://github.com/adslbarxatov/enchantit)
 ● [:film_projector: Guide](https://youtube.com/watch?v=hTnDR89VR8w)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-pad)
-● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector_203.apk)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt) ●
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)
+● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector_203.apk) ●
 
 The paranormal activity search tool. Before starting the experiment take a look at the project presentation and complete method description
 
@@ -378,7 +378,7 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 
 ### Vector image generator :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
-● [:package: Get on DPModule](dp://VectorImagesGenerator) ●
+● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
@@ -388,8 +388,8 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 ### FullSilence, CodeShow :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
-● [:tv: FullSilence live](https://www.youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
-● [:tv: CodeShow live](https://www.youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
+● [:tv: FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
+● [:tv: CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
 
 Code fragments used in video projects of the same names in text visualization.
 *FullSilence* is a poems visualizer that uses combinations of graphic primitives.
