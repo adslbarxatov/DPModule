@@ -145,7 +145,8 @@ You can get all Windows-versions of our products through this application. You a
 ### ConcurrentDraw :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/concurrentdraw)
 ● [:film_projector: Guide](https://youtube.com/watch?v=MMsf7CA5cSE)
-● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc) ●
+● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+● [:package: Get on DPModule](dp://ConcurrentDraw) ●
 
 A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
 
