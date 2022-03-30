@@ -453,4 +453,7 @@
   <data name="PackagesListAlternative" xml:space="preserve">
     <value>Загрузка альтернативного списка пакетов...</value>
   </data>
+  <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
+    <value>Только развёрнутые</value>
+  </data>
 </root>

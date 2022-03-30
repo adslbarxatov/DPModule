@@ -454,4 +454,7 @@ The app will use default deployment path for this product. If it’s not correct
   <data name="PackagesListAlternative" xml:space="preserve">
     <value>Downloading alternative packages list...</value>
   </data>
+  <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
+    <value>Only deployed</value>
+  </data>
 </root>

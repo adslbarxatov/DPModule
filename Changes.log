@@ -1,5 +1,10 @@
 ﻿Deployment packages module changes log
 
+Version 13.4:
+• Fixed extraction bug for 7z archives when using dp:// call;
+• Previously deployed (up-to-date) packages will not be grayed anymore;
+• Added filter for deployed (up-to-date) packages
+
 Version 13.3.1:
 • Some improvements applied to the user interface
 
