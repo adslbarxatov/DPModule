@@ -1,4 +1,6 @@
-_Changes for v 13.4_:
+_Changes for v 13.4.1_:
+- DPModule will ingore its own updates when using ```dp://``` call;
+- Packages list has been eased;
 - Fixed extraction bug for 7z archives when using ```dp://``` call;
 - Previously deployed (up-to-date) packages will not be grayed anymore;
 - Added filter for deployed (up-to-date) packages

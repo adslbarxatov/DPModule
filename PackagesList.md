@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.4	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00099A9B	0
+DPModule					13.4.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00099871	0
 
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
@@ -23,24 +23,24 @@ UniNotifier					4.12	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00044BB8	
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
 #Mods
-ESHQ						12.0	https://moddb.com/downloads/start/230085?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						204583673	3
-ESHQ, actual update			12.0a	https://moddb.com/downloads/start/230086?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						931			0
-ESHQ, backward comp.		12.0	https://moddb.com/downloads/start/230083?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ.7z						107657633	2
-ESHQ, english localization	12		https://moddb.com/downloads/start/222521?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_en.7z				709210		2
-ESHQ, russian localization	12		https://moddb.com/downloads/start/222522?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Feshq	ESHQ_x_ru.7z				595342		2
-Crazy cheater’s mod			1.2d	https://moddb.com/downloads/start/220117?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fccm	CCM.7z						165320673	2
-Counter-strike 1.6 maps		1.0d	https://moddb.com/addons/start/193826?referer=https%3A%2F%2Fwww.moddb.com%2F				CSMaps.7z					28781237	2
+ESHQ						12.0	MODSTORAGE/230085?MOD_REFmods%2Feshq		ESHQ.7z						204583673	3
+ESHQ, actual update			12.0a	MODSTORAGE/230086?MOD_REFmods%2Feshq		ESHQ.7z						931			0
+ESHQ, backward comp.		12.0	MODSTORAGE/230083?MOD_REFmods%2Feshq		ESHQ.7z						107657633	2
+ESHQ, english localization	12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z				709210		2
+ESHQ, russian localization	12		MODSTORAGE/222522?MOD_REFmods%2Feshq		ESHQ_x_ru.7z				595342		2
+Crazy cheater’s mod			1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z						165320673	2
+Counter-strike 1.6 maps		1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z				28781237	2
 
 #Games
-Races						1.6.15		DEFSTORAGE/Races.dp0						Races.dp0					0x008DC27E	1
-Snake						1.16.15		DEFSTORAGE/Snake.dp0						Snake.dp0					0x00A3F3C2	1
-Turtle						1.7.15		DEFSTORAGE/Turtle.dp0						Turtle.dp0					0x00A933F1	1
+Races						1.6.15		DEFSTORAGE/Races.dp0					Races.dp0					0x008DC27E	1
+Snake						1.16.15		DEFSTORAGE/Snake.dp0					Snake.dp0					0x00A3F3C2	1
+Turtle						1.7.15		DEFSTORAGE/Turtle.dp0					Turtle.dp0					0x00A933F1	1
 
 #Android apps
-Make decision for Android	2.11.1		https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision_2B1.apk		MakeDecision.apk	31081495	3
-PA detector for Android		2.0.3		https://github.com/adslbarxatov/EnchantIt/raw/main/release/PADetector_203.apk					PADetector.apk		37732573	3
-Text to KKT for Android		8.5.6		https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk			TextToKKT.apk		28347935	3
-UniNotifier for Android		4.12		https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		28128116	3
+Make decision for Android	2.11.1		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision_2B1.apk		MakeDecision.apk	31081495	3
+PA detector for Android		2.0.3		GIT_LINK/EnchantIt/raw/main/release/PADetector_203.apk					PADetector.apk		37732573	3
+Text to KKT for Android		8.5.6		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		28347935	3
+UniNotifier for Android		4.12		GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		28128116	3
 
 
 

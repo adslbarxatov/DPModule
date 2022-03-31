@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 13.4.1:
+• DPModule will ingore its own updates when using dp:// call;
+• Packages list has been eased
+
 Version 13.4:
 • Fixed extraction bug for 7z archives when using dp:// call;
 • Previously deployed (up-to-date) packages will not be grayed anymore;
