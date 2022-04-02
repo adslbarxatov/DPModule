@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.4.1	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00099871	0
+DPModule					13.4.2	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x00099CA1	0
 
 #Apps
 Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
@@ -24,7 +24,7 @@ Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImage
 
 #Mods
 ESHQ						12.0	MODSTORAGE/230085?MOD_REFmods%2Feshq		ESHQ.7z						204583673	3
-ESHQ, actual update			12.0a	MODSTORAGE/230086?MOD_REFmods%2Feshq		ESHQ_update.7z				931			0
+ESHQ, actual update			12.0b	MODSTORAGE/230086?MOD_REFmods%2Feshq		ESHQ_update.7z				931			0
 ESHQ, backward comp.		12.0	MODSTORAGE/230083?MOD_REFmods%2Feshq		ESHQ_bkwd.7z				107657633	2
 ESHQ, english localization  12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z				709210		2
 ESHQ, russian localization  12		MODSTORAGE/222522?MOD_REFmods%2Feshq		ESHQ_x_ru.7z				595342		2

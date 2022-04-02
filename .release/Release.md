@@ -1,4 +1,5 @@
-_Changes for v 13.4.1_:
+_Changes for v 13.4.2_:
+- DPModule now supports different types of packages versioning;
 - DPModule will ingore its own updates when using ```dp://``` call;
 - Packages list has been eased;
 - Fixed extraction bug for 7z archives when using ```dp://``` call;
