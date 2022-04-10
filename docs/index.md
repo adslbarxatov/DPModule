@@ -77,11 +77,11 @@ and objectives of the laboratory.
 
 ## :gb: Contacts
 
-You can find us using set of popular platforms listed below. Languages supported on them are also indicated.
+You can find us using set of popular platforms listed below (supported languages are also indicated):
 
 ## :ru: Контакты
 
-Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже. Поддерживаемые на них языки также указаны.
+Вы можете найти нас, используя перечень популярных платформ, перечисленных ниже (вместе с поддерживаемыми языками):
 
 &nbsp;
 
@@ -110,7 +110,8 @@ You can find us using set of popular platforms listed below. Languages supported
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as project releases (:iphone: and / or :package:).
 For each, a set of available interface languages is indicated (:gb: and / or :ru:).
-It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products. All icons except flags are clickable.
+It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products.
+All icons except flags are clickable.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods).
@@ -120,8 +121,10 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 ## :ru: Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
-Описание содержит все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:). Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
-Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие гиды (:page_with_curl:) для программных продуктов. Все значки, кроме флагов, кликабельны.
+Описания содержат все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:).
+Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
+Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие инструкции (:page_with_curl:) для программных продуктов.
+Все значки, кроме флагов, кликабельны.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods).
@@ -133,10 +136,10 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 ● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk) ●
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
-You can get all Windows-versions of our products through this application. You are now on the welcome page of it.
+You can get all our products through this application (including APKs for Android). You are now on the welcome page of it.
 
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
-Через это приложение доступны все остальные Windows-версии продуктов лаборатории. Вы сейчас находитесь на его приветственной странице.
+Через это приложение доступны все остальные продукты лаборатории (включая APK для Андроид). Вы сейчас находитесь на его приветственной странице.
 
 [**Direct download link ● Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
@@ -148,9 +151,9 @@ You can get all Windows-versions of our products through this application. You a
 ● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
 ● [:package: Get on DPModule](dp://ConcurrentDraw) ●
 
-A sound and music visualization tool. It works without additional codecs and drivers, since it uses a user-selected system audio output
+A sound and music visualization tool (stand-alone cover for WMP). It works without additional codecs and drivers, since it uses a user-selected system audio output
 
-Утилита визуализации звука и музыки. Работает без дополнительных кодеков и драйверов, т. к. использует выбираемый пользователем системный аудиовыход
+Инструмент визуализации звука и музыки (самостоятельная обложка для WMP). Работает без дополнительных кодеков и драйверов, т. к. использует выбираемый пользователем системный аудиовыход
 
 &nbsp;
 
@@ -163,16 +166,16 @@ A sound and music visualization tool. It works without additional codecs and dri
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
-A custom notifications (news) service that allows you to request only the needed content of sites without extraneous elements. Before starting work, it is recommended that you view its video presentation. Just to understand how to configure and use it
+This utility provides the ability to receive notifications about changes in the state of user-specified sites and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user specified is loaded – all other objects (including advertising) are ignored. Before starting work, it is recommended that you view its video presentation
 
-Служба настраиваемых оповещений (новостей), позволяющая запрашивать только нужный контент сайтов без посторонних элементов. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
+Эта утилита предоставляет возможность получать уведомления об изменении состояния заданных пользователем сайтов и их веб-страниц (иными словами – об обновлениях и новостях) в виде текстового журнала. При этом загружается только то, что указал пользователь – все остальные объекты (включая рекламу) игнорируются. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
 
 &nbsp;
 
 ### Grammar must joy :ru:
 ● [:earth_africa: ВК](https://vk.com/grammarmustjoy)
 ● [:earth_asia: Telegram](https://t.me/grammarmustjoy)
-● [:iphone: Get GMJ client](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier) ●
+● [:iphone: Get GMJ client](https://adslbarxatov.github.io/DPModule/#uninotifier-gb-ru) ●
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки. И это может быть даже не их вина – при огромном количестве скриншотов вместо обычных записей этого в принципе сложно добиться.
 
@@ -180,7 +183,7 @@ A custom notifications (news) service that allows you to request only the needed
 
 Казалось бы, зачем это нужно? И всё-таки результат того сто́ит. Контент от этих манипуляций становится только лучше. Но при этом возвращаются возможность текстового поиска по знакомым словам и скорость загрузки на особо медленных девайсах. В общем-то, неплохое достижение. К тому же, благодаря долгому отбору в моей коллекции остались лишь самые «стойкие» экспонаты.
 
-Кстати, именно благодаря текстовому поиску в нашей службе настраиваемых новостей (собственная разработка, не реклама) появилась функция отображения случайно выбранной записи со стены GMJ. То есть, теперь Вы можете поднять себе настроение без лишних манипуляций, используя простое приложение для Android (uNot, см. выше).
+Кстати, именно благодаря текстовому поиску в нашей службе настраиваемых новостей (собственная разработка, не реклама) появилась функция отображения случайно выбранной записи со стены GMJ. То есть, теперь Вы можете поднять себе настроение без лишних манипуляций, используя простое приложение для Android (UniNotifier, см. выше).
 
 Кроме того, вещание сообщества теперь дублируется в Telegram: контент тот же, но старые и новые записи следуют вперемешку.
 
@@ -193,11 +196,11 @@ A custom notifications (news) service that allows you to request only the needed
 ● [:film_projector: Guide](https://youtube.com/watch?v=hTnDR89VR8w)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-pad)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)
-● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector_203.apk) ●
+● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk) ●
 
-The paranormal activity search tool. Before starting the experiment take a look at the project presentation and complete method description
+The paranormal activity search tool. Its task is to discover and mathematically confirm some paranormal activity. Before starting the experiment take a look at the project presentation and complete method description
 
-Инструмент поиска паранормальной активности. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
+Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
 
 &nbsp;
 
@@ -230,11 +233,11 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get on DPModule](dp://MakeDecision)
-● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision_2B1.apk) ●
+● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
-An app that demonstrates the math method used in making complex decisions. Allows you to find an exact answer between some variants
+This application illustrates a math method that allows comparing some objects or events based on a set of criteria and choosing the most “correct” one. User is invited to independently select variants and criteria for their comparison, as well as specify significance of each criterion and each element. As a result, you’ll get the answer for the next question: “what way is the best”
 
-Программа, демонстрирующая математический метод, используемый при принятии сложных решений. Позволяет найти точный ответ среди нескольких вариантов
+Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается самостоятельно задать варианты и критерии для их сравнения, а также оценить значимость каждого критерия и варианта. Результатом будет ответ на вопрос: «какой выбор наиболее удачный»
 
 &nbsp;
 
@@ -243,9 +246,9 @@ An app that demonstrates the math method used in making complex decisions. Allow
 ● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0)
 ● [:package: Get on DPModule](dp://BatchImageConvertor) ●
 
-A tool for automatic processing of groups of images
+A small tool for batch images processing
 
-Инструмент для автоматической обработки групп изображений
+Небольшой инструмент для автоматической обработки групп изображений
 
 &nbsp;
 
@@ -264,7 +267,7 @@ A tool for finding a font by its image
 ● [:earth_africa: Summary](https://moddb.com/mods/eshq)
 ● [:tv: Demos](https://youtube.com/playlist?list=PLe7qKwHNkZTuYevg6QyszASeD7S1XgpG_)
 ● [:package: Get on DPModule](dp://ESHQ)
-● [:package: Get the last update](dp://ESHQupdate) ●
+● [:package: Get the last update](dp://ESHQ_update) ●
 
 A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
 
@@ -320,9 +323,9 @@ A tool for automation of user actions in Windows operating system
 ● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager)
 ● [:package: Get on DPModule](dp://FileExtensionsManager) ●
 
-A tool for managing the custom file extensions in Windows
+A tool for managing the custom file extensions in Windows operating system
 
-Инструмент управления пользовательскими настройками расширений файлов в Windows
+Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
 
 &nbsp;
 
@@ -330,9 +333,9 @@ A tool for managing the custom file extensions in Windows
 ● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
 ● [:package: Get on DPModule](dp://KeyboardSwitcher) ●
 
-Quick correction tool for text entered on wrong keyboard layout (RU and EN keyboards). Also allows you to translate HEX data to binary and backward
+Quick correction tool for text entered on wrong keyboard layout (```RU_ru``` and ```EN_us``` keyboards). Also allows you to translate HEX data to binary and backward
 
-Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU и EN). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
+Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры ```RU_ru``` и ```EN_us```). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
 
 &nbsp;
 
@@ -340,9 +343,9 @@ Quick correction tool for text entered on wrong keyboard layout (RU and EN keybo
 ● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter)
 ● [:package: Get on DPModule](dp://ScreenShooter) ●
 
-An utility for creating screenshots: screen, windows and elements of applications
+An utility for creating screenshots. Supports shooting of screen, windows and elements of applications
 
-Утилита для создания скриншотов: снимков экрана, окон и элементов приложений
+Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
 
 &nbsp;
 
@@ -370,9 +373,9 @@ A tool for solving sudoku
 ● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
 ● [:package: Get on DPModule](dp://TablesMerger) ●
 
-Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
+Byproduct of [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru) project. This tool performs “gluing” of data tables with equal and different rows quantities
 
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
+Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru). Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
 
 &nbsp;
 
@@ -380,9 +383,9 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
 ● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
-Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
+Byproduct of [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru) project. This tool performs generation of vector images using text scripts
 
-Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
+Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru). Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
 
 &nbsp;
 
@@ -393,7 +396,7 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 Code fragments used in video projects of the same names in text visualization.
 *FullSilence* is a poems visualizer that uses combinations of graphic primitives.
-*CodeShow* – video tutorials builder focused on the presentation of source codes
+*CodeShow* is a video tutorials builder focused on the presentation of source codes
 
 Фрагменты кода, используемые в рамках одноимённых проектов при визуализации текста.
 *FullSilence* – визуализатор стихотворений и песен, использующий комбинации графических примитивов.
@@ -453,4 +456,4 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ### GIATester :ru: :no_entry:
 ● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
-Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). Проект остановлен
+Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). *Проект остановлен*
