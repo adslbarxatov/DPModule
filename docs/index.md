@@ -159,8 +159,7 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 
 ### UniNotifier :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
-● [:film_projector: Short guide](https://youtube.com/watch?v=M4MCcXkigJM)
-● [:film_projector: Complete guide](https://youtube.com/watch?v=BzGnL0yUYhY)
+● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:package: Get on DPModule](dp://UniNotifier)
