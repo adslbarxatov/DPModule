@@ -1,4 +1,5 @@
-_Changes for v 13.4.2_:
+_Changes for v 13.4.3_:
+- Updated the formatting of packages list;
 - DPModule now supports different types of packages versioning;
 - DPModule will ingore its own updates when using ```dp://``` call;
 - Packages list has been eased;
@@ -6,7 +7,4 @@ _Changes for v 13.4.2_:
 - Previously deployed (up-to-date) packages will not be grayed anymore;
 - Added filter for deployed (up-to-date) packages
 - Some improvements applied to the user interface;
-- Implemented the support for reserve list of packages on VK.com (for urgent cases);
-- Exit and deploy actions now have different buttons;
-- Implemented the protocol processing for ```dp://``` alias. F.e., the call ```dp://TextToKKT``` will start downloading of the corresponding package. Association for this alias will be added to OS settings automatically;
-- Implemented the ability to download non-deployable files (i.e., the ability to skip deployment): ```.exe```, ```.apk```, etc.
+- Implemented the support for reserve list of packages on VK.com (for urgent cases)

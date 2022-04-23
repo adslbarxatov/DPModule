@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+Version 13.4.3:
+• Updated the formatting of packages list
+
 Version 13.4.2:
 • DPModule now supports different types of packages versioning
 
