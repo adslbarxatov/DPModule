@@ -165,7 +165,7 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
-This utility provides the ability to receive notifications about changes in the state of user-specified sites and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user specified is loaded – all other objects (including advertising) are ignored. Before starting work, it is recommended that you view its video presentation
+This utility provides the ability to receive notifications about changes in the state of user-specified sites and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user specified is loaded – all other objects (including advertisement) are ignored. Before starting work, it is recommended that you view its video presentation
 
 Эта утилита предоставляет возможность получать уведомления об изменении состояния заданных пользователем сайтов и их веб-страниц (иными словами – об обновлениях и новостях) в виде текстового журнала. При этом загружается только то, что указал пользователь – все остальные объекты (включая рекламу) игнорируются. Перед началом работы рекомендуется ознакомиться с видеопрезентацией. Просто, чтобы разобраться, как его настроить и использовать
 
