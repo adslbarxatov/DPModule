@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Tray icon into the packages manager;
+- Text line instead of the green box?
+
 Version 13.4.3:
 • Updated the formatting of packages list
 
@@ -7,7 +11,7 @@ Version 13.4.2:
 • DPModule now supports different types of packages versioning
 
 Version 13.4.1:
-• DPModule will ingore its own updates when using dp:// call;
+• DPModule will ignore its own updates when using dp:// call;
 • Packages list has been eased
 
 Version 13.4:
