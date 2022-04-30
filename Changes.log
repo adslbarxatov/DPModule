@@ -1,8 +1,9 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Tray icon into the packages manager;
-- Text line instead of the green box?
+Version 13.5:
+• The packages manager now has its tray icon. Its menu now contains “App about”, “Change UI language” and “Last server
+  messages” options. The last one replaces the green rectangle used earlier for our alert messages;
+• Some fixes applied to the “App about” interface
 
 Version 13.4.3:
 • Updated the formatting of packages list

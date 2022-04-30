@@ -456,4 +456,7 @@
   <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
     <value>Только развёрнутые</value>
   </data>
+  <data name="IconLastServerMessages" xml:space="preserve">
+    <value>Посмотреть последние сообщения сервера</value>
+  </data>
 </root>

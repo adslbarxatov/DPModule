@@ -457,4 +457,7 @@ The app will use default deployment path for this product. If it’s not correct
   <data name="PackageSelectorForm_DeployedPackagesRadio" xml:space="preserve">
     <value>Only deployed</value>
   </data>
+  <data name="IconLastServerMessages" xml:space="preserve">
+    <value>View last server messages</value>
+  </data>
 </root>
