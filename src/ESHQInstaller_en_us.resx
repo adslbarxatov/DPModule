@@ -298,7 +298,8 @@ Since v 10, this tool is the only thing you need to start working with our devel
     <value>Deployment packages list is unavailable. Check your internet connection
 
 If the reason is the blocking of the GitHub platform in your country, please contact the official channels of the Lab for more information
-(in the “About DPModule” section, select a convenient channel and click “▶”)</value>
+(activate tray icon’s menu, click “About DPModule”,
+select a convenient channel and click “▶”)</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
     <value>Downloading packages list...</value>
