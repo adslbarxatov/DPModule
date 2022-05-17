@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- App must show updates availability, if no server messages have been received;
+- ADP link requires upgrade
+
 Version 13.5.1:
 • The “App about” interface has been updated
 
