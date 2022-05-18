@@ -461,4 +461,12 @@ The app will use default deployment path for this product. If it’s not correct
   <data name="IconLastServerMessages" xml:space="preserve">
     <value>View last server messages</value>
   </data>
+  <data name="HasNoUpdates" xml:space="preserve">
+    <value>All previously deployed packages are up to date</value>
+  </data>
+  <data name="HasUpdates" xml:space="preserve">
+    <value>Updates are available for previously deployed packages.
+
+Updates are highlighted in yellow in the list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+  </data>
 </root>

@@ -1,8 +1,8 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- App must show updates availability, if no server messages have been received;
-- ADP link requires upgrade
+Version 13.5.2:
+• App will show updates availability (or “all packages are up to date” status), if no server messages have been received;
+• Parsing methods for ADP and projects descriptions have been upgraded
 
 Version 13.5.1:
 • The “App about” interface has been updated

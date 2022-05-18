@@ -197,7 +197,7 @@ A tool for managing the custom file extensions in Windows operating system
 ● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
 ● [:package: Get on DPModule](dp://KeyboardSwitcher) ●
 
-Quick correction tool for text entered on wrong keyboard layout (```RU_ru``` and ```EN_us``` keyboards). Also allows you to translate HEX data to binary and backward
+Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards). Also allows you to translate HEX data to binary and backward
 
 &nbsp;
 
@@ -229,7 +229,7 @@ A tool for solving sudoku
 ● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
 ● [:package: Get on DPModule](dp://TablesMerger) ●
 
-Byproduct of [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru) project. This tool performs “gluing” of data tables with equal and different rows quantities
+Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
 
 &nbsp;
 
@@ -237,7 +237,7 @@ Byproduct of [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geoma
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
 ● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
-Byproduct of [Geomag data drawer](https://adslbarxatov.github.io/DPModule/#geomag-data-drawer-gb-ru) project. This tool performs generation of vector images using text scripts
+Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
 
 &nbsp;
 
@@ -288,3 +288,5 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ● [:package: Get on DPModule](dp://Turtle) ●
 
 “Turtle”, the classic Tetris game. From sample games pack for XNA game studio
+
+&nbsp;
