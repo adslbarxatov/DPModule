@@ -1,4 +1,4 @@
-# Welcome to laboratory! ● Добро пожаловать в лабораторию!
+# Welcome to laboratory!
 
 # :gb: Contacts
 

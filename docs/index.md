@@ -1,4 +1,4 @@
-# Welcome to laboratory! ● Добро пожаловать в лабораторию!
+# Welcome to laboratory!
 
 [**DPModule ● Direct download link**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
@@ -6,7 +6,7 @@
 
 ### Page contents
 
-- [Hello, dear user!](#gd-hello-dear-user)
+- [Hello, dear user!](#gb-hello-dear-user)
 - [Contacts](https://adslbarxatov.github.io/DPModule/contacts)
 - [Actual projects and developments](#gb-actual-projects-and-developments)
 - [Русская версия :ru:](https://adslbarxatov.github.io/DPModule/ru)

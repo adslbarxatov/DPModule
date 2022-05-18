@@ -258,7 +258,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
 ● [:package: Get on DPModule](dp://TablesMerger) ●
 
-Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/ru/#geomag-data-drawer-gb-ru). Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
+Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/ru#geomag-data-drawer-gb-ru). Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
 
 &nbsp;
 
@@ -266,7 +266,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
 ● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
-Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/ru/#geomag-data-drawer-gb-ru). Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
+Побочный продукт проекта [Geomag data drawer](https://adslbarxatov.github.io/DPModule/ru#geomag-data-drawer-gb-ru). Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
 
 &nbsp;
 
