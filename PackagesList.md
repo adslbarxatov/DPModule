@@ -18,7 +18,7 @@ OS macros executor			2.9.37	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.d
 Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000409CF	0
 Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
-Text to KKT					8.7.4	DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F891F	1
+Text to KKT					8.8		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F8B1D	1
 UniNotifier					4.14.1	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000467EA	0
 Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
 
@@ -39,7 +39,7 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0					Turtle.dp0					0x00A933F1	1
 #Android apps
 Make decision for Android	2.11.2		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31307772	3
 PA detector for Android		2.5			GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		37962946	3
-Text to KKT for Android		8.7.3		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		31949814	3
+Text to KKT for Android		8.8			GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		31949814	3
 UniNotifier for Android		4.14		GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		31848779	3
 
 
