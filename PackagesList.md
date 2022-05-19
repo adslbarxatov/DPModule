@@ -4,17 +4,17 @@ Packages, available for download:
 DPModule					13.5.3	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009A4A5	0
 
 #Apps
-Batch image convertor		2.18.37	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x0006942C	1
-BExplorer					2.19.37	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016A9F8	1
-ConcurrentDraw				2.6.37	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C6A98	1
+Batch image convertor		2.19	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00057891	1
+BExplorer					2.20	DEFSTORAGE/BExplorer.dp						BExplorer.dp				0x0016BC65	1
+ConcurrentDraw				2.7		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000C7EF5	1
 Dates difference			2.4.37	DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x0003B7E3	0
 File extensions manager		1.7.37	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007A83C	0
 Font finder					2.14.37	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00061DEB	0
 Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
 Keyboard switcher			1.4.37	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA3	1
 Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
-Make decision				2.11.2	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00035C02	0
-OS macros executor			2.9.37	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x0006EE05	1
+Make decision				2.11.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00035E02	0
+OS macros executor			2.10	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00070263	1
 Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000409CF	0
 Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
 Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
