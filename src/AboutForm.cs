@@ -360,6 +360,7 @@ namespace RD_AAOW
 
 				// Формирование
 				html = ApplyReplacements (html);
+				html = html.Replace ("\r\n\n\r\n", "\r\n");
 				html = html.Substring (0, html.Length - 12);
 				}
 			else
@@ -587,7 +588,7 @@ namespace RD_AAOW
 				res = res.Replace (htmlReplacements[i][0], htmlReplacements[i][1]);
 
 			// Удаление вложенных тегов
-			int textLeft = 0, textRight = 0;
+			int textLeft, textRight;
 			while (((textLeft = res.IndexOf ("<")) >= 0) && ((textRight = res.IndexOf (">", textLeft)) >= 0))
 				res = res.Replace (res.Substring (textLeft, textRight - textLeft + 1), "");
 

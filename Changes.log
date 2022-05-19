@@ -1,6 +1,6 @@
 ﻿Deployment packages module changes log
 
-Version 13.5.2:
+Version 13.5.3:
 • App will show updates availability (or “all packages are up to date” status), if no server messages have been received;
 • Parsing methods for ADP and projects descriptions have been upgraded
 

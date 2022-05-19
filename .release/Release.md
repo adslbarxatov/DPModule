@@ -1,4 +1,4 @@
-_Changes for v 13.5.2_:
+_Changes for v 13.5.3_:
 - App will show updates availability (or “all packages are up to date” status), if no server messages have been received;
 - Parsing methods for ADP and projects descriptions have been upgraded;
 - The “App about” interface has been updated;
