@@ -10,17 +10,17 @@ ConcurrentDraw				2.7		DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x000
 Dates difference			2.5		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x0003C818	0
 File extensions manager		1.8		DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007B871	0
 Font finder					2.15	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x00062C18	0
-Geomag data drawer			4.19.37	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012B6A9	1
+Geomag data drawer			4.20	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012C6DE	1
 Keyboard switcher			1.4.37	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA3	1
 Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
 Make decision				2.11.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.dp				0x00035E02	0
 OS macros executor			2.10	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00070263	1
-Screen shooter				1.8.37	DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000409CF	0
-Sudoku solver				2.4.37	DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003C79F	0
-Tables merger				1.7.37	DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x0005FDD2	0
+Screen shooter				1.9		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x000419FC	0
+Sudoku solver				2.5		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003D7D4	0
+Tables merger				1.8		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00060E07	0
 Text to KKT					8.8		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x000F8B1D	1
 UniNotifier					4.14.2	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x000467EA	0
-Vector image generator		1.10.37	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003B842	0
+Vector image generator		1.11	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003C86F	0
 
 #Mods
 ESHQ						12.0	MODSTORAGE/230085?MOD_REFmods%2Feshq		ESHQ.7z						204583673	3
