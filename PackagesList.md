@@ -24,7 +24,7 @@ Vector image generator		1.11	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGen
 
 #Mods
 ESHQ						12.0	MODSTORAGE/230085?MOD_REFmods%2Feshq		ESHQ.7z						204583673	3
-ESHQ, actual update			12.1e	MODSTORAGE/233080?MOD_REFmods%2Feshq		ESHQ_update.7z				63859103	0
+ESHQ, actual update			12.2	MODSTORAGE/233124?MOD_REFmods%2Feshq		ESHQ_update.7z				67647092	0
 ESHQ, backward comp.		12.0	MODSTORAGE/230083?MOD_REFmods%2Feshq		ESHQ.7z						107657633	2
 ESHQ, english localization  12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z				709210		2
 ESHQ, russian localization  12		MODSTORAGE/222522?MOD_REFmods%2Feshq		ESHQ_x_ru.7z				595342		2
