@@ -85,7 +85,38 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
-This utility provides the ability to receive notifications about changes in the state of user-specified sites and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user specified is loaded – all other objects (including advertisement) are ignored. Before starting work, it is recommended that you view its video presentation
+This utility provides the ability to receive notifications about changes in the state of user-specified sites
+and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user
+specified is loaded – all other objects (including advertisement) are ignored. Before starting work, it is recommended that you view its video presentation
+
+&nbsp;
+
+### Upsilon one :ru: :gb:
+● [:earth_africa: VK](https://vk.com/upsilon_one)
+● [:iphone: Get &#X03A5;1 client](https://adslbarxatov.github.io/DPModule/#uninotifier-gb-ru) ●
+
+The **&#X03A5;1 community** is a conditional city (in the future, maybe something more). Each post in it is an independent resident
+(character, entity) or object (building). Not necessarily completely unique, but very likely to have some unique features.
+
+Each post is expected to have:
+- Names, nicknames or titles. It is not a fact that all the inhabitants will be alive or even material, and the objects will be terrestrial.
+- At least two universal characteristics – belonging (in games it is called a race; for objects it is called a class)
+and specialization (profession, ability, task being solved). Being two text lines at the beginning of the description,
+they can be filled with anything, depending on the nature of the description.
+- Actually, descriptions: as concise as possible, but including the most striking features.
+
+Universal characteristics are needed to enable text search in the city if it becomes large enough. In addition,
+they can be useful when migrating to the second-level community in Telegram.
+
+The third level, by the way, will be the ability to “walk along the street, meeting residents and passing by random buildings”.
+For this, a special version of the UniNotifier application has already been created, ready to accept characters from
+Upsilon one. Each press of a special button will allow you to familiarize yourself with a randomly selected description.
+
+We assume that this idea will be of value primarily to writers and copywriters. But it can also be useful for game designers,
+artists, and ordinary players and readers.
+
+We hope that by joint efforts (we accept user publications) we will be able to create a fairly voluminous and interesting
+project! And welcome to Upsilon one!
 
 &nbsp;
 

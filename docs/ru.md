@@ -94,7 +94,7 @@
 ### Grammar must joy :ru:
 ● [:earth_africa: VK](https://vk.com/grammarmustjoy)
 ● [:earth_asia: Telegram](https://t.me/grammarmustjoy)
-● [:iphone: Get GMJ client](https://adslbarxatov.github.io/DPModule/#uninotifier-gb-ru) ●
+● [:iphone: Get GMJ client](https://adslbarxatov.github.io/DPModule/ru#uninotifier-gb-ru) ●
 
 Существует огромное количество групп и сообществ, коллекционирующих юмор во всех его формах. Но вряд ли многие из них могут
 похвастаться грамотностью текстов и подписей. И речь не о случаях, когда именно её отсутствие есть основа для шутки.
@@ -120,9 +120,9 @@
 
 ### Upsilon one :ru: :gb:
 ● [:earth_africa: VK](https://vk.com/upsilon_one)
-● [:iphone: Get GMJ client](https://adslbarxatov.github.io/DPModule/#uninotifier-gb-ru) ●
+● [:iphone: Get &#X03A5;1 client](https://adslbarxatov.github.io/DPModule/ru#uninotifier-gb-ru) ●
 
-Сообщество &#X03A5;1 – это условный город (в будущем – может быть, и что-то бо́льшее). Каждый пост в нём – самостоятельный житель
+**Сообщество &#X03A5;1** – это условный город (в будущем – может быть, и что-то бо́льшее). Каждый пост в нём – самостоятельный житель
 (персонаж, сущность, entity) или объект (постройка, building). Необязательно абсолютно уникальный, но весьма вероятно имеющий
 какие-либо неповторимые особенности.
 
