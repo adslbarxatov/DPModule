@@ -185,6 +185,7 @@ for those who have not yet had time to try it live
 
 ### ES: Randomaze :gb:
 ● [:earth_africa: Summary](https://moddb.com/mods/eshq)
+● [:earth_asia: Parent project](https://github.com/adslbarxatov/randomaze)
 ● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
 
 ES: Randomaze is the maps generator for the sub-mod with the same name.

@@ -225,6 +225,7 @@
 
 ### ES: Randomaze :gb:
 ● [:earth_africa: Summary](https://moddb.com/mods/eshq)
+● [:earth_asia: Parent project](https://github.com/adslbarxatov/randomaze)
 ● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
 
 ES: Randomaze – генератор карт для одноимённого субмода.
