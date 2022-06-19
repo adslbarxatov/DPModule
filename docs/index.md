@@ -176,7 +176,19 @@ A tool for finding a font by its image
 ● [:package: Get on DPModule](dp://ESHQ)
 ● [:package: Get the last update](dp://ESHQ_update) ●
 
-A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out to be a little more complex and long in time and space... Playlist reveals the essence of the project for those who have not yet had time to try it live
+A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). An unknown government spy must
+steal classified files from a building called the “Evil scientists headquarters”. But his work will turn out
+to be a little more complex and long in time and space... Playlist reveals the essence of the project
+for those who have not yet had time to try it live
+
+&nbsp;
+
+### ES: Randomaze :gb:
+● [:earth_africa: Summary](https://moddb.com/mods/eshq)
+● [:tv: Demo](https://youtube.com/watch?v=pUTJrnyPRm8) ●
+
+ES: Randomaze is the maps generator for the sub-mod with the same name.
+This tool is the part of the ESHQ mod for Half-Life part 1.
 
 &nbsp;
 
@@ -185,7 +197,9 @@ A mod for Half-Life 1 with its own storyline (not from the Half-Life universe). 
 ● [:film_projector: Demo](https://youtube.com/watch?v=tpgKd91QYP4)
 ● [:package: Get on DPModule](dp://CCM) ●
 
-A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems, as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections is available here
+A modification for GTA Vice City, preserving the original plot and gameplay, but fixing a number of known problems,
+as well as expanding the already great capabilities of Tommy Vercetti. A short presentation of additions and corrections
+is available here
 
 &nbsp;
 
