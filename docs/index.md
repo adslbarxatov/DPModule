@@ -6,14 +6,17 @@
 
 ### Page contents
 
-- [Hello, dear user!](#gb-hello-dear-user)
+- [Hello, dear user!](#hello-dear-user)
 - [Contacts](https://adslbarxatov.github.io/DPModule/contacts)
-- [Actual projects and developments](#gb-actual-projects-and-developments)
+- [Actual projects and developments](#actual-projects-and-developments)
+- [Links cloud](#links-cloud)
 - [Русская версия :ru:](https://adslbarxatov.github.io/DPModule/ru)
 
 &nbsp;
 
-## :gb: Hello, dear user!
+
+
+## Hello, dear user!
 
 We’re glad to welcome you to the start page of Free development lab (RD AAOW FDL).
 
@@ -43,7 +46,9 @@ and objectives of the laboratory.
 
 &nbsp;
 
-## :gb: Actual projects and developments
+
+
+## Actual projects and developments
 
 Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as project releases (:iphone: and / or :package:).
@@ -336,3 +341,37 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 “Turtle”, the classic Tetris game. From sample games pack for XNA game studio
 
 &nbsp;
+
+
+
+## Links cloud
+
+● [Batch image convertor](#batch-image-convertor-gb-ru)
+● [BExplorer](#bexplorer-gb-ru)
+● [CodeShow](#fullsilence-codeshow-gb-ru)
+● [ConcurrentDraw](#concurrentdraw-gb-ru)
+● [Counter-strike 1.6 maps](#counter-strike-16-maps-gb)
+● [Crazy cheater’s mod](#crazy-cheaters-mod-gb)
+● [Dates difference](#dates-difference-gb-ru)
+● [**DPModule**](#dpmodule-gb-ru)
+● [ESHQ](#eshq-gb)
+● [ES: Randomaze](#es-randomaze-gb)
+● [File extensions manager](#file-extensions-manager-gb-ru)
+● [Font finder](#font-finder-gb-ru)
+● [FullSilence](#fullsilence-codeshow-gb-ru)
+● [Geomag data drawer](#geomag-data-drawer-gb-ru)
+● [Keyboard switcher](#keyboard-switcher-gb)
+● [Make CST](#make-cst-gb)
+● [Make decision](#make-decision-gb-ru)
+● [OS macros executor](#os-macros-executor-gb-ru)
+● [PA detector / Enchant it](#pa-detector-enchant-it-gb-ru)
+● [Races](#races-ru)
+● [Screen shooter](#screen-shooter-gb-ru)
+● [Snake](#snake-ru)
+● [Sudoku solver](#sudoku-solver-gb-ru)
+● [Turtle](#turtle-ru)
+● [Tables merger](#tables-merger-gb-ru)
+● [UniNotifier](#uninotifier-gb-ru)
+● [Upsilon one](#upsilon-one-ru-gb)
+● [Vector image generator](#vector-image-generator-gb-ru)
+● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
