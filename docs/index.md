@@ -86,10 +86,9 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
-● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:package: Get on DPModule](dp://UniNotifier)
-● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) ●
 
 This utility provides the ability to receive notifications about changes in the state of user-specified sites
 and their webpages (in other words, updates and news) in the form of a text log. In this case, only what the user
@@ -152,8 +151,8 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makedecision/releases/latest)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get on DPModule](dp://MakeDecision)
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
 This application illustrates a math method that allows comparing some objects or events based on a set of criteria and choosing the most “correct” one. User is invited to independently select variants and criteria for their comparison, as well as specify significance of each criterion and each element. As a result, you’ll get the answer for the next question: “what way is the best”

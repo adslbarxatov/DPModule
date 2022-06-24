@@ -61,12 +61,11 @@
 
 ### DPModule :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/dpmodule)
-● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/dpmodule/releases/latest) ●
 
 Модуль развёртки проектов лаборатории. Инструмент выполняет установку / удаление / проверку обновлений / загрузку пакетов для наших продуктов.
 Через это приложение доступны все остальные продукты лаборатории (включая APK для Андроид). Вы сейчас находитесь на его приветственной странице.
-
-[**Прямая ссылка для загрузки**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
 &nbsp;
 
@@ -74,6 +73,7 @@
 ● [:earth_africa: About](https://github.com/adslbarxatov/concurrentdraw)
 ● [:film_projector: Guide](https://youtube.com/watch?v=MMsf7CA5cSE)
 ● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 ● [:package: Get on DPModule](dp://ConcurrentDraw) ●
 
 Инструмент визуализации звука и музыки (самостоятельная обложка для WMP). Работает без дополнительных кодеков и драйверов,
@@ -84,9 +84,10 @@
 ### UniNotifier :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
+● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
-● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
 Эта утилита предоставляет возможность получать уведомления об изменении состояния заданных пользователем сайтов и их веб-страниц
@@ -168,8 +169,9 @@
 ● [:earth_africa: About](https://github.com/adslbarxatov/texttokkt)
 ● [:film_projector: Guide](https://youtube.com/watch?v=akcWsDnyWcQ)
 ● [:page_with_curl: FNReader](https://github.com/adslbarxatov/TextToKKT/blob/master/FNReader.md)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/texttokkt/releases/latest)
 ● [:package: Get on DPModule](dp://TextToKKT)
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
 ● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
@@ -180,6 +182,7 @@
 ● [:earth_africa: About](https://github.com/adslbarxatov/geomagdatadrawer)
 ● [:page_with_curl: Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md)
 ● [:tv: Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
 ● [:package: Get on DPModule](dp://GeomagDataDrawer) ●
 
 Автономный инструмент построения и оформления диаграмм данных на основе табличных данных
@@ -189,8 +192,9 @@
 ### Make decision :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makedecision/releases/latest)
 ● [:package: Get on DPModule](dp://MakeDecision)
+● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается самостоятельно задать варианты и критерии для их сравнения, а также оценить значимость каждого критерия и варианта. Результатом будет ответ на вопрос: «какой выбор наиболее удачный»
@@ -200,6 +204,7 @@
 ### Batch image convertor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/batchimageconvertor)
 ● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 ● [:package: Get on DPModule](dp://BatchImageConvertor) ●
 
 Небольшой инструмент для автоматической обработки групп изображений
@@ -209,6 +214,7 @@
 ### Font finder :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
 ● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fontfinder/releases/latest)
 ● [:package: Get on DPModule](dp://FontFinder) ●
 
 Инструмент для поиска шрифта по его изображению
@@ -253,6 +259,7 @@ ES: Randomaze – генератор карт для одноимённого с
 ● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
 ● [:film_projector: Demo](https://youtube.com/watch?v=RdLt-dTz8vU)
 ● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/bexplorer/releases/latest)
 ● [:package: Get on DPModule](dp://BExplorer) ●
 
 API для работы с файлами сохранений GTA Vice City и приложение, реализующее часть функционала
@@ -261,6 +268,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Make CST :gb:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makecst)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makecst/releases/latest)
 ● [:package: Get on DPModule](dp://MakeCST) ●
 
 Инструмент преобразования моделей DFF и объектов QHullOFF в скрипты столкновений GTA
@@ -270,6 +278,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ### OS macros executor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
 ● [:film_projector: Guide](https://youtube.com/watch?v=a9yjvx7Cy3M)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 ● [:package: Get on DPModule](dp://OSMacrosExecutor) ●
 
 Инструмент автоматизации действий пользователя в операционной системе Windows
@@ -278,6 +287,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### File extensions manager :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 ● [:package: Get on DPModule](dp://FileExtensionsManager) ●
 
 Инструмент управления пользовательскими настройками расширений файлов в операционной системе Windows
@@ -286,6 +296,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Keyboard switcher :gb:
 ● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest)
 ● [:package: Get on DPModule](dp://KeyboardSwitcher) ●
 
 Инструмент быстрого исправления текста, введённого на неправильной раскладке клавиатуры (клавиатуры RU_ru и EN_us). Кроме того, позволяет преобразовывать HEX-данные в двоичные и обратно
@@ -294,6 +305,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Screen shooter :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/screenshooter/releases/latest)
 ● [:package: Get on DPModule](dp://ScreenShooter) ●
 
 Утилита для создания скриншотов. Поддерживает снимки экрана, окон и элементов приложений
@@ -302,6 +314,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Dates difference :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/datesdifference/releases/latest)
 ● [:package: Get on DPModule](dp://DatesDifference) ●
 
 Маленький инструмент, определяющий разницу между двумя датами в различных представлениях
@@ -310,6 +323,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Sudoku solver :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 ● [:package: Get on DPModule](dp://SudokuSolver) ●
 
 Инструмент для решения судоку
@@ -318,6 +332,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Tables merger :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest)
 ● [:package: Get on DPModule](dp://TablesMerger) ●
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет «склеивание» таблиц данных с одинаковым и разным числом строк
@@ -326,6 +341,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ### Vector image generator :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest)
 ● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
 Побочный продукт проекта Geomag data drawer. Этот инструмент выполняет генерацию векторных изображений с помощью сценариев
