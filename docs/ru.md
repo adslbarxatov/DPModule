@@ -9,14 +9,17 @@
 - [Здравствуйте, уважаемый пользователь!](#ru---)
 - [Контакты](https://adslbarxatov.github.io/DPModule/contacts)
 - [Актуальные проекты и разработки](#ru----)
+- [Облако ссылок](#--)
 - [English version :gb:](https://adslbarxatov.github.io/DPModule)
 
 &nbsp;
 
-## :ru: Здравствуйте, уважаемый пользователь!
+
+
+## Здравствуйте, уважаемый пользователь!
 
 Мы рады приветствовать Вас на стартовой странице лаборатории свободных разработок
-(Free development lab, RD AAOW FDL).
+(RD AAOW Free development lab).
 
 Мы работаем (по мере сил) над достаточно разными проектами и делимся актуальными новостями.
 Кроме того, публикуем результаты разработок, ссылки на рабочие инструменты и – в целом – всё,
@@ -41,7 +44,9 @@
 
 &nbsp;
 
-## :ru: Актуальные проекты и разработки
+
+
+## Актуальные проекты и разработки
 
 Далее описаны актуальные проекты лаборатории.
 Описания содержат все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:).
@@ -381,3 +386,39 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). *Проект остановлен*
+
+
+
+## Облако ссылок
+
+● [Batch image convertor](#batch-image-convertor-gb-ru)
+● [BExplorer](#bexplorer-gb-ru)
+● [CodeShow](#fullsilence-codeshow-gb-ru)
+● [ConcurrentDraw](#concurrentdraw-gb-ru)
+● [Counter-strike 1.6 maps](#counter-strike-16-maps-gb)
+● [Crazy cheater’s mod](#crazy-cheaters-mod-gb)
+● [Dates difference](#dates-difference-gb-ru)
+● [**DPModule**](#dpmodule-gb-ru)
+● [ESHQ](#eshq-gb)
+● [ES: Randomaze](#es-randomaze-gb)
+● [File extensions manager](#file-extensions-manager-gb-ru)
+● [Font finder](#font-finder-gb-ru)
+● [FullSilence](#fullsilence-codeshow-gb-ru)
+● [Geomag data drawer](#geomag-data-drawer-gb-ru)
+● [Grammar must joy](#grammar-must-joy-ru)
+● [Keyboard switcher](#keyboard-switcher-gb)
+● [Make CST](#make-cst-gb)
+● [Make decision](#make-decision-gb-ru)
+● [OS macros executor](#os-macros-executor-gb-ru)
+● [PA detector / Enchant it](#pa-detector-enchant-it-gb-ru)
+● [Races](#races-ru)
+● [Screen shooter](#screen-shooter-gb-ru)
+● [Snake](#snake-ru)
+● [Sudoku solver](#sudoku-solver-gb-ru)
+● [Text to KKT](#text-to-kkt-ru)
+● [Turtle](#turtle-ru)
+● [Tables merger](#tables-merger-gb-ru)
+● [UniNotifier](#uninotifier-gb-ru)
+● [Upsilon one](#upsilon-one-ru-gb)
+● [Vector image generator](#vector-image-generator-gb-ru)
+● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
