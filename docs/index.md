@@ -63,6 +63,7 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 ### DPModule :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/dpmodule)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/dpmodule/releases/latest)
 ● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk) ●
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
