@@ -63,13 +63,11 @@ A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl
 
 ### DPModule :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/dpmodule)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/dpmodule/releases/latest)
-● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk) ●
+● [:film_projector: Guide](https://youtube.com/watch?v=RdQoc4tnZsk)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/dpmodule/releases/latest) ●
 
 The deployment module for laboratory projects. The tool installs / removes / checks for updates / loads packages for our products.
 You can get all our products through this application (including APKs for Android). You are now on the welcome page of it.
-
-[**Direct download link**](https://github.com/adslbarxatov/DPModule/releases/latest/download/DPModule.sfx.exe)
 
 &nbsp;
 
@@ -77,6 +75,7 @@ You can get all our products through this application (including APKs for Androi
 ● [:earth_africa: About](https://github.com/adslbarxatov/concurrentdraw)
 ● [:film_projector: Guide](https://youtube.com/watch?v=MMsf7CA5cSE)
 ● [:tv: Live](https://youtube.com/playlist?list=PLe7qKwHNkZTtr1OGOdYMrD73ByPBzCzxc)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/concurrentdraw/releases/latest)
 ● [:package: Get on DPModule](dp://ConcurrentDraw) ●
 
 A sound and music visualization tool (stand-alone cover for WMP). It works without additional codecs and drivers, since it uses a user-selected system audio output
@@ -86,6 +85,7 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 ### UniNotifier :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:package: Get on DPModule](dp://UniNotifier)
@@ -99,7 +99,7 @@ specified is loaded – all other objects (including advertisement) are ignored.
 
 ### Upsilon one :ru: :gb:
 ● [:earth_africa: VK](https://vk.com/upsilon_one)
-● [:iphone: Get &#X03A5;1 client](https://adslbarxatov.github.io/DPModule/#uninotifier-gb-ru) ●
+● [:iphone: Get &#X03A5;1 client](#uninotifier-gb-ru) ●
 
 The **&#X03A5;1 community** is a conditional city (in the future, maybe something more). Each post in it is an independent resident
 (character, entity) or object (building). Not necessarily completely unique, but very likely to have some unique features.
@@ -141,6 +141,7 @@ The paranormal activity search tool. Its task is to discover and mathematically 
 ● [:earth_africa: About](https://github.com/adslbarxatov/geomagdatadrawer)
 ● [:page_with_curl: Guide](https://github.com/adslbarxatov/GeomagDataDrawer/blob/master/UserGuide.md)
 ● [:tv: Guide](https://youtube.com/playlist?list=PLe7qKwHNkZTuAATdj1asHQ6nUxlR9qUZO)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/geomagdatadrawer/releases/latest)
 ● [:package: Get on DPModule](dp://GeomagDataDrawer) ●
 
 Stand-alone tool for building and designing data diagrams based on tabular data
@@ -150,6 +151,7 @@ Stand-alone tool for building and designing data diagrams based on tabular data
 ### Make decision :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makedecision/releases/latest)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get on DPModule](dp://MakeDecision)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
@@ -161,6 +163,7 @@ This application illustrates a math method that allows comparing some objects or
 ### Batch image convertor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/batchimageconvertor)
 ● [:film_projector: Guide](https://youtube.com/watch?v=bejx-r1C6j0)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/batchimageconvertor/releases/latest)
 ● [:package: Get on DPModule](dp://BatchImageConvertor) ●
 
 A small tool for batch images processing
@@ -170,6 +173,7 @@ A small tool for batch images processing
 ### Font finder :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fontfinder)
 ● [:film_projector: Guide](https://youtube.com/watch?v=zK-6pfEMCbA)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fontfinder/releases/latest)
 ● [:package: Get on DPModule](dp://FontFinder) ●
 
 A tool for finding a font by its image
@@ -214,6 +218,7 @@ is available here
 ● [:earth_africa: About](https://github.com/adslbarxatov/bexplorer)
 ● [:film_projector: Demo](https://youtube.com/watch?v=RdLt-dTz8vU)
 ● [:page_with_curl: Guide](https://github.com/adslbarxatov/BExplorer/blob/master/UserManual.md)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/bexplorer/releases/latest)
 ● [:package: Get on DPModule](dp://BExplorer) ●
 
 An API for working with save files for GTA Vice City and an application that implements a part of functionality
@@ -222,6 +227,7 @@ An API for working with save files for GTA Vice City and an application that imp
 
 ### Make CST :gb:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makecst)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makecst/releases/latest)
 ● [:package: Get on DPModule](dp://MakeCST) ●
 
 A tool for converting DFF models and QHullOFF objects to GTA collision scripts
@@ -231,6 +237,7 @@ A tool for converting DFF models and QHullOFF objects to GTA collision scripts
 ### OS macros executor :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/osmacrosexecutor)
 ● [:film_projector: Guide](https://youtube.com/watch?v=a9yjvx7Cy3M)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/osmacrosexecutor/releases/latest)
 ● [:package: Get on DPModule](dp://OSMacrosExecutor) ●
 
 A tool for automation of user actions in Windows operating system
@@ -239,6 +246,7 @@ A tool for automation of user actions in Windows operating system
 
 ### File extensions manager :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fileextensionsmanager)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/fileextensionsmanager/releases/latest)
 ● [:package: Get on DPModule](dp://FileExtensionsManager) ●
 
 A tool for managing the custom file extensions in Windows operating system
@@ -247,6 +255,7 @@ A tool for managing the custom file extensions in Windows operating system
 
 ### Keyboard switcher :gb:
 ● [:earth_africa: About](https://github.com/adslbarxatov/keyboardswitcher)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/keyboardswitcher/releases/latest)
 ● [:package: Get on DPModule](dp://KeyboardSwitcher) ●
 
 Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us keyboards). Also allows you to translate HEX data to binary and backward
@@ -255,6 +264,7 @@ Quick correction tool for text entered on wrong keyboard layout (RU_ru and EN_us
 
 ### Screen shooter :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/screenshooter)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/screenshooter/releases/latest)
 ● [:package: Get on DPModule](dp://ScreenShooter) ●
 
 An utility for creating screenshots. Supports shooting of screen, windows and elements of applications
@@ -263,6 +273,7 @@ An utility for creating screenshots. Supports shooting of screen, windows and el
 
 ### Dates difference :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/datesdifference)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/datesdifference/releases/latest)
 ● [:package: Get on DPModule](dp://DatesDifference) ●
 
 A small tool that can tell the difference between two dates in different views
@@ -271,6 +282,7 @@ A small tool that can tell the difference between two dates in different views
 
 ### Sudoku solver :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/sudokusolver)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/sudokusolver/releases/latest)
 ● [:package: Get on DPModule](dp://SudokuSolver) ●
 
 A tool for solving sudoku
@@ -279,6 +291,7 @@ A tool for solving sudoku
 
 ### Tables merger :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/tablesmerger)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/tablesmerger/releases/latest)
 ● [:package: Get on DPModule](dp://TablesMerger) ●
 
 Byproduct of Geomag data drawer project. This tool performs “gluing” of data tables with equal and different rows quantities
@@ -287,6 +300,7 @@ Byproduct of Geomag data drawer project. This tool performs “gluing” of data
 
 ### Vector image generator :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/vectorimagegenerator)
+● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/vectorimagegenerator/releases/latest)
 ● [:package: Get on DPModule](dp://VectorImageGenerator) ●
 
 Byproduct of Geomag data drawer project. This tool performs generation of vector images using text scripts
