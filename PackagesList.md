@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.5.4	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009A4A5	0
+DPModule					13.6	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009B257	0
 
 #Apps
 Batch image convertor		2.19	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00057891	1

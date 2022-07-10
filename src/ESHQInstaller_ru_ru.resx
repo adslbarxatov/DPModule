@@ -408,7 +408,7 @@
   <data name="PSF_TableHeader05" xml:space="preserve">
     <value>Описание</value>
   </data>
-  <data name="AllowShortcutsFlagText" xml:space="preserve">
+  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
     <value>Создать ярлыки на рабочем столе</value>
   </data>
   <data name="RequiredUpdate" xml:space="preserve">
@@ -465,5 +465,8 @@
     <value>Доступны обновления для ранее развёрнутых пакетов.
 
 В списке обновления выделены жёлтым цветом. В верхней части окна также доступна фильтрация по признаку «только обновления»</value>
+  </data>
+  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+    <value>Создать ярлыки в меню Пуск</value>
   </data>
 </root>

@@ -411,7 +411,7 @@ Do you want to open its webpage for manual downloading?</value>
   <data name="PSF_TableHeader05" xml:space="preserve">
     <value>Description</value>
   </data>
-  <data name="AllowShortcutsFlagText" xml:space="preserve">
+  <data name="AllowDesktopShortcutsFlagText" xml:space="preserve">
     <value>Create shortcuts on the desktop</value>
   </data>
   <data name="RequiredUpdate" xml:space="preserve">
@@ -468,5 +468,8 @@ The app will use default deployment path for this product. If it’s not correct
     <value>Updates are available for previously deployed packages.
 
 Updates are highlighted in yellow in the list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+  </data>
+  <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
+    <value>Create shortcuts in the Start menu</value>
   </data>
 </root>

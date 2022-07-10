@@ -1,7 +1,8 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Shortcuts in the start menu
+Version 13.6:
+• Implemented the ability to create shortcuts in the Start menu (in addition to desktop shortcuts);
+• Some improvements and code refactoring applied
 
 Version 13.5.4:
 • Update packages are now able to create shortcuts
