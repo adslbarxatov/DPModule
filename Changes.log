@@ -1,11 +1,12 @@
 ﻿Deployment packages module changes log
 
-Version 13.6.1 (preparing):
+Version 13.6.1:
 • Found and fixed the bug that affected the file association method: right after the deployment (if “start
   after deployment” flag is set) this method created corresponding icons in the DPModule’s directory. This
   misplacement caused them to be invisible for users. The bug will not appear in versions of applications
-  created after July 10, 2022
-  
+  created after July 10, 2022;
+• Fixed the text color of the modes list
+
 Version 13.6:
 • Implemented the ability to create shortcuts in the Start menu (in addition to desktop shortcuts);
 • Some improvements and code refactoring applied
