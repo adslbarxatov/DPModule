@@ -192,8 +192,6 @@
 ### Make decision :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
-● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/makedecision/releases/latest)
-● [:package: Get on DPModule](dp://MakeDecision)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
