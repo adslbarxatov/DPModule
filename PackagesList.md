@@ -25,7 +25,8 @@ Make decision               2.11.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.d
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
 ESHQ, actual update				12.6	MODSTORAGE/235658?MOD_REFmods%2Feshq		ESHQ_update.7z			40382115	0
-ESHQ, backward compatibility	12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
+ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
+ES:Randomaze					1.7		MODSTORAGE/236287?MOD_REFmods%2Feshq		ESRM.7z					78904		2
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
 Counter-strike 1.6 maps			1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z			28781237	2
 ESHQ, english localization      12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z			709210		2
@@ -44,7 +45,7 @@ UniNotifier for Android		4.17		GIT_LINK/UniNotifier/releases/latest/download/Uni
 
 
 
-#ALERT: New videoguide for UniNotifier is now available on our channel!||Новое видеоруководство для UniNotifier теперь доступно на нашем канале!
-Flags: 1 = disallowed fast deployment, 2 = version control
+#ALERT: New version of the ES:Randomaze submod is now available on our ModDB page!||Новая версия субмода ES:Randomaze уже доступна на нашей ModDB-странице!
+Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
 ```
