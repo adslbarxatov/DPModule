@@ -10,7 +10,7 @@ ConcurrentDraw				2.7.2	DEFSTORAGE/ConcurrentDraw.dp				ConcurrentDraw.dp			0x00
 Dates difference			2.6		DEFSTORAGE/DatesDifference.dp				DatesDifference.dp			0x0003C818	0
 File extensions manager		1.8.2	DEFSTORAGE/FileExtensionsManager.dp			FileExtensionsManager.dp	0x0007BE2B	0
 Font finder					2.15.2	DEFSTORAGE/FontFinder.dp					FontFinder.dp				0x000633D2	0
-Geomag data drawer			4.20.2	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012CC98	1
+Geomag data drawer			4.21	DEFSTORAGE/GeomagDataDrawer.dp				GeomagDataDrawer.dp			0x0012CC6E	1
 Keyboard switcher			1.4.37	DEFSTORAGE/KeyboardSwitcher.dp				KeyboardSwitcher.dp			0x00026EA3	1
 Make CST					1.6.37	DEFSTORAGE/MakeCST.dp						MakeCST.dp					0x000117CC	0
 OS macros executor			2.10.2	DEFSTORAGE/OSMacrosExecutor.dp				OSMacrosExecutor.dp			0x00070DD5	1
@@ -26,7 +26,7 @@ Make decision               2.11.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.d
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
 ESHQ, actual update				12.6	MODSTORAGE/235658?MOD_REFmods%2Feshq		ESHQ_update.7z			40382115	0
 ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
-ES:Randomaze					1.7		MODSTORAGE/236287?MOD_REFmods%2Feshq		ESRM.7z					78904		2
+ES:Randomaze					2.0		MODSTORAGE/236468?MOD_REFmods%2Feshq		ESRM.7z					2152112		2
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
 Counter-strike 1.6 maps			1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z			28781237	2
 ESHQ, english localization      12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z			709210		2
