@@ -24,9 +24,9 @@ Make decision               2.11.3	DEFSTORAGE/MakeDecision.dp					MakeDecision.d
 
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
-ESHQ, actual update				12.6	MODSTORAGE/235658?MOD_REFmods%2Feshq		ESHQ_update.7z			40382115	0
+ESHQ, actual update				12.6b	MODSTORAGE/236572?MOD_REFmods%2Feshq		ESHQ_update.7z			40403867	0
 ESHQ, backward compatibility    12.4	MODSTORAGE/234414?MOD_REFmods%2Feshq		ESHQ_backward.7z		83018595	2
-ES:Randomaze					2.0		MODSTORAGE/236468?MOD_REFmods%2Feshq		ESRM.7z					2152112		2
+ES:Randomaze					2.1		MODSTORAGE/236573?MOD_REFmods%2Feshq		ESRM.7z					2165959		2
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
 Counter-strike 1.6 maps			1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z			28781237	2
 ESHQ, english localization      12		MODSTORAGE/222521?MOD_REFmods%2Feshq		ESHQ_x_en.7z			709210		2
