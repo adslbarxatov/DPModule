@@ -1,5 +1,8 @@
 ﻿Deployment packages module changes log
 
+ToDo:
+- Hidden packages
+
 Version 13.6.1:
 • Found and fixed the bug that affected the file association method: right after the deployment (if “start
   after deployment” flag is set) this method created corresponding icons in the DPModule’s directory. This
