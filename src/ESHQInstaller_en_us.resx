@@ -350,10 +350,10 @@ select a convenient channel and click “▶”)</value>
   <data name="AdditionalMessage0" xml:space="preserve">
     <value>This application uses {0:S}.
 
-Do you want to open its webpage to view additional info?</value>
+Do you want to open its webpage to view the additional info?</value>
   </data>
   <data name="AdditionalMessage1" xml:space="preserve">
-    <value>This application requires installation of {0:S}. If the product is already installed, no further action is required. Otherwise, the app may not work properly.
+    <value>This application requires the {0:S}. If this product is already installed, no further action is required. Otherwise, the app may not work properly.
 
 Do you want to open its webpage for manual downloading?</value>
   </data>
@@ -373,7 +373,7 @@ Do you want to open its webpage for manual downloading?</value>
     <value>Right-click tray icon for details and package info. For continue deployment press “Next” button</value>
   </data>
   <data name="AppIsNotClosed" xml:space="preserve">
-    <value>Application being updated/deleted is not closed. Finish the application and try again</value>
+    <value>The application being updated / deleted is running. Finish this app and try again</value>
   </data>
   <data name="KillProcessFlagText" xml:space="preserve">
     <value>Stop application if it’s running</value>
@@ -467,7 +467,7 @@ The app will use default deployment path for this product. If it’s not correct
   <data name="HasUpdates" xml:space="preserve">
     <value>Updates are available for previously deployed packages.
 
-Updates are highlighted in yellow in the list. At the top of the window, filtering is also available on the basis of “updates only”</value>
+Updates are highlighted in yellow in the packages list. At the top of the window, filtering is also available on the basis of “updates only”</value>
   </data>
   <data name="AllowMenuShortcutsFlagText" xml:space="preserve">
     <value>Create shortcuts in the Start menu</value>

@@ -1,5 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
@@ -219,9 +218,11 @@ namespace RD_AAOW
 				try
 					{
 					// Исправлен некорректный порядок вызовов
-					adpRevision = Registry.GetValue (ADPRevisionPath, ADPRevisionKey, "").ToString ();
+					/*adpRevision = Registry.GetValue (ADPRevisionPath, ADPRevisionKey, "").ToString ();
 					helpShownAt = Registry.GetValue (RDGenerics.AssemblySettingsKey,
-						LastShownVersionKey, "").ToString ();
+						LastShownVersionKey, "").ToString ();*/
+					adpRevision = RDGenerics.GetAppSettingsValue (ADPRevisionKey, ADPRevisionPath);
+					helpShownAt = RDGenerics.GetAppSettingsValue (LastShownVersionKey);
 					}
 				catch { }
 
@@ -229,11 +230,12 @@ namespace RD_AAOW
 				if (adpRevision == "")
 					{
 					adpRevision = "rev. 8!";
-					try
+					/*try
 						{
 						Registry.SetValue (ADPRevisionPath, ADPRevisionKey, adpRevision);
 						}
-					catch { }
+					catch { }*/
+					RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision, ADPRevisionPath);
 					}
 				}
 
@@ -317,8 +319,9 @@ namespace RD_AAOW
 				{
 				if (StartupMode)
 					{
-					Registry.SetValue (RDGenerics.AssemblySettingsKey, LastShownVersionKey,
-						ProgramDescription.AssemblyVersion);
+					/*Registry.SetValue (RDGenerics.AssemblySettingsKey, LastShownVersionKey,
+						ProgramDescription.AssemblyVersion);*/
+					RDGenerics.SetAppSettingsValue (LastShownVersionKey, ProgramDescription.AssemblyVersion);
 
 					// Контроль доступа к реестру
 					WindowsIdentity identity = WindowsIdentity.GetCurrent ();
@@ -333,7 +336,8 @@ namespace RD_AAOW
 				// В случае невозможности загрузки Политики признак необходимости принятия до этого момента
 				// не удаляется из строки версии. Поэтому требуется страховка
 				if (AcceptMode && accepted)
-					Registry.SetValue (ADPRevisionPath, ADPRevisionKey, adpRevision.Replace ("!", ""));
+					/*Registry.SetValue (ADPRevisionPath, ADPRevisionKey, adpRevision.Replace ("!", ""));*/
+					RDGenerics.SetAppSettingsValue (ADPRevisionKey, adpRevision.Replace ("!", ""), ADPRevisionPath);
 				}
 			catch
 				{
@@ -475,13 +479,14 @@ namespace RD_AAOW
 		private void UpdatesPageButton_Click (object sender, EventArgs e)
 			{
 			// Контроль наличия DPModule
-			string dpmv = "";
+			string dpmv = RDGenerics.GetAppSettingsValue (LastShownVersionKey, ADPRevisionPath);
+			/*"";
 			try
 				{
 				dpmv = Registry.GetValue (RDGenerics.AssemblySettingsStorage + "DPModule",
 					LastShownVersionKey, "").ToString ();
 				}
-			catch { }
+			catch { }*/
 
 			string downloadLink = RDGenerics.DPModuleStorageLink;
 			string packagePath = Environment.GetFolderPath (Environment.SpecialFolder.Desktop) + "\\";
@@ -676,11 +681,12 @@ policy:
 					if (!html.StartsWith (adpRevision))
 						{
 						// Сброс версии для вызова Политики при следующем старте
-						try
+						/*try
 							{
 							Registry.SetValue (ADPRevisionPath, ADPRevisionKey, html + "!");
 							}
-						catch { }
+						catch { }*/
+						RDGenerics.SetAppSettingsValue (ADPRevisionKey, html + "!", ADPRevisionPath);
 						}
 					}
 				}
@@ -970,32 +976,44 @@ policy:
 				FileStream FS = new FileStream (RDGenerics.AppStartupPath + fileExt + ".ico", FileMode.Create);
 				FileIcon.Save (FS);
 				FS.Close ();
-
-				// Запись значений реестра
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\." + fileExt, "", fileExt + "file");
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file", "", FileTypeName);
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon", "", RDGenerics.AppStartupPath +
-					fileExt + ".ico");
-
-				if (Openable)
-					{
-					Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell", "", "open");
-					Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open", "Icon",
-						RDGenerics.AppStartupPath + fileExt + ".ico");
-					Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command", "",
-						"\"" + Application.ExecutablePath + "\" \"%1\"");
-					}
-				else
-					{
-					Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file", "NoOpen", "");
-					}
 				}
 			catch
 				{
 				return false;
 				}
 
-			return true;
+			// Запись значений реестра
+			/*Registry.SetValue ("HKEY_CLASSES_ROOT\\." + fileExt, "", fileExt + "file");
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file", "", FileTypeName);
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon", "", RDGenerics.AppStartupPath +
+				fileExt + ".ico");*/
+
+			bool res = true;
+			res &= RDGenerics.SetAppSettingsValue ("", fileExt + "file", "HKEY_CLASSES_ROOT\\." + fileExt);
+			res &= RDGenerics.SetAppSettingsValue ("", FileTypeName, "HKEY_CLASSES_ROOT\\" + fileExt + "file");
+			res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + fileExt + ".ico",
+				"HKEY_CLASSES_ROOT\\" + fileExt + "file\\DefaultIcon");
+
+			if (Openable)
+				{
+				/*Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell", "", "open");
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open", "Icon",
+					RDGenerics.AppStartupPath + fileExt + ".ico");
+				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command", "",
+					"\"" + Application.ExecutablePath + "\" \"%1\"");*/
+				res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell");
+				res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + fileExt + ".ico",
+					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open");
+				res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
+					"HKEY_CLASSES_ROOT\\" + fileExt + "file\\shell\\open\\command");
+				}
+			else
+				{
+				/*Registry.SetValue ("HKEY_CLASSES_ROOT\\" + fileExt + "file", "NoOpen", "");*/
+				res &= RDGenerics.SetAppSettingsValue ("NoOpen", "", "HKEY_CLASSES_ROOT\\" + fileExt + "file");
+				}
+
+			return res;
 			}
 
 		/// <summary>
@@ -1023,26 +1041,39 @@ policy:
 				FileStream FS = new FileStream (protocol + ".ico", FileMode.Create);
 				FileIcon.Save (FS);
 				FS.Close ();
-
-				// Запись значений реестра
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "", ProtocolName);
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "URL Protocol", "");
-
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon", "", RDGenerics.AppStartupPath +
-					protocol + ".ico");
-
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell", "", "open");
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open", "Icon",
-					RDGenerics.AppStartupPath + protocol + ".ico");
-				Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command", "",
-					"\"" + Application.ExecutablePath + "\" \"%1\"");
 				}
 			catch
 				{
 				return false;
 				}
 
-			return true;
+			// Запись значений реестра
+			/*Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "", ProtocolName);
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol, "URL Protocol", "");
+
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon", "", RDGenerics.AppStartupPath +
+				protocol + ".ico");
+
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell", "", "open");
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open", "Icon",
+				RDGenerics.AppStartupPath + protocol + ".ico");
+			Registry.SetValue ("HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command", "",
+				"\"" + Application.ExecutablePath + "\" \"%1\"");*/
+
+			bool res = true;
+			res &= RDGenerics.SetAppSettingsValue ("", ProtocolName, "HKEY_CLASSES_ROOT\\" + protocol);
+			res &= RDGenerics.SetAppSettingsValue ("URL Protocol", "", "HKEY_CLASSES_ROOT\\" + protocol);
+
+			res &= RDGenerics.SetAppSettingsValue ("", RDGenerics.AppStartupPath + protocol + ".ico",
+				"HKEY_CLASSES_ROOT\\" + protocol + "\\DefaultIcon");
+
+			res &= RDGenerics.SetAppSettingsValue ("", "open", "HKEY_CLASSES_ROOT\\" + protocol + "\\shell");
+			res &= RDGenerics.SetAppSettingsValue ("Icon", RDGenerics.AppStartupPath + protocol + ".ico",
+				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open");
+			res &= RDGenerics.SetAppSettingsValue ("", "\"" + Application.ExecutablePath + "\" \"%1\"",
+				"HKEY_CLASSES_ROOT\\" + protocol + "\\shell\\open\\command");
+
+			return res;
 			}
 		}
 	}

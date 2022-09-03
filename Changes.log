@@ -1,7 +1,9 @@
 ﻿Deployment packages module changes log
 
-ToDo:
-- Hidden packages
+Version 13.6.5:
+• Some code refactoring has been applied;
+• Current improvements and updates have been accepted;
+• Some tips have been updated
 
 Version 13.6.1:
 • Found and fixed the bug that affected the file association method: right after the deployment (if “start

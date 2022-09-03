@@ -2,7 +2,6 @@
 #if ANDROID
 	using Xamarin.Essentials;
 #else
-	using Microsoft.Win32;
 	using System.Windows.Forms;
 #endif
 
@@ -91,16 +90,17 @@ namespace RD_AAOW
 			// Установка
 			set
 				{
-				try
-					{
-					currentLanguage = value.ToString ();
-#if ANDROID
-					Preferences.Set (LanguageValueName, currentLanguage);
-#else
-					Registry.SetValue (RDGenerics.AssemblySettingsKey, LanguageValueName, currentLanguage);
-#endif
-					}
-				catch { }
+				/*try
+				{*/
+				currentLanguage = value.ToString ();
+				/*#if ANDROID
+				Preferences.Set (LanguageValueName, currentLanguage);
+				#else
+				Registry.SetValue (RDGenerics.AssemblySettingsKey, LanguageValueName, currentLanguage);
+				#endif*/
+				RDGenerics.SetAppSettingsValue (LanguageValueName, currentLanguage);
+				/*}
+				catch { }*/
 				}
 			}
 		private static string currentLanguage = "";
@@ -120,7 +120,7 @@ namespace RD_AAOW
 		private static string GetCurrentLanguage ()
 			{
 			// Получение значения
-			string lang = "";
+			/*string lang = "";
 			try
 				{
 #if ANDROID
@@ -129,9 +129,10 @@ namespace RD_AAOW
 				lang = Registry.GetValue (RDGenerics.AssemblySettingsKey, LanguageValueName, "").ToString ();
 #endif
 				}
-			catch { }
+			catch { }*/
 
-			return lang;
+			return RDGenerics.GetAppSettingsValue (LanguageValueName);
+			/*lang;*/
 			}
 
 		/// <summary>
@@ -157,7 +158,8 @@ namespace RD_AAOW
 #if !ANDROID
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только Text)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только Text)
 		/// </summary>
 		/// <param name="Container">Контейнер типа Form</param>
 		/// <param name="Language">Требуемый язык локализации</param>
@@ -173,7 +175,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только Text)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только Text)
 		/// </summary>
 		/// <param name="Container">Контейнер типа TabPage</param>
 		/// <param name="Language">Требуемый язык локализации</param>
@@ -189,7 +192,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех пунктов, входящих в состав указанного меню (только Text)
+		/// Метод устанавливает локализованные подписи для всех пунктов, входящих в состав 
+		/// указанного меню (только Text)
 		/// </summary>
 		/// <param name="Container">Контейнер типа MenuStrip</param>
 		/// <param name="Language">Требуемый язык локализации</param>
@@ -205,7 +209,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех пунктов, входящих в состав указанного меню (Text и ToolTipText)
+		/// Метод устанавливает локализованные подписи для всех пунктов, входящих в состав 
+		/// указанного меню (Text и ToolTipText)
 		/// </summary>
 		/// <param name="Container">Контейнер типа ToolStripMenuItem</param>
 		/// <param name="Language">Требуемый язык локализации</param>
@@ -227,7 +232,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только ToolTipText)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только ToolTipText)
 		/// </summary>
 		/// <param name="Container">Контейнер типа TabControl</param>
 		/// <param name="Language">Требуемый язык локализации</param>
@@ -244,7 +250,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только ToolTipText)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только ToolTipText)
 		/// </summary>
 		/// <param name="Container">Контейнер типа Form</param>
 		/// <param name="TextContainer">Контейнер подписей типа ToolTip</param>
@@ -262,7 +269,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только ToolTipText)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только ToolTipText)
 		/// </summary>
 		/// <param name="Container">Контейнер типа TabPage</param>
 		/// <param name="TextContainer">Контейнер подписей типа ToolTip</param>
@@ -280,7 +288,8 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (Text и ToolTipText)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (Text и ToolTipText)
 		/// </summary>
 		/// <param name="Container">Контейнер типа Panel</param>
 		/// <param name="TextContainer">Контейнер подписей типа ToolTip</param>
@@ -303,11 +312,29 @@ namespace RD_AAOW
 			}
 
 		/// <summary>
-		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав указанного контейнера (только Text)
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только Text)
 		/// </summary>
 		/// <param name="Container">Контейнер типа Panel</param>
 		/// <param name="Language">Требуемый язык локализации</param>
 		public static void SetControlsText (Panel Container, SupportedLanguages Language)
+			{
+			for (int i = 0; i < Container.Controls.Count; i++)
+				{
+				if (GetControlText (Container.Name, Container.Controls[i].Name, Language) != null)
+					{
+					Container.Controls[i].Text = GetControlText (Container.Name, Container.Controls[i].Name, Language);
+					}
+				}
+			}
+
+		/// <summary>
+		/// Метод устанавливает локализованные подписи для всех контролов, входящих в состав 
+		/// указанного контейнера (только Text)
+		/// </summary>
+		/// <param name="Container">Контейнер типа GroupBox</param>
+		/// <param name="Language">Требуемый язык локализации</param>
+		public static void SetControlsText (GroupBox Container, SupportedLanguages Language)
 			{
 			for (int i = 0; i < Container.Controls.Count; i++)
 				{
