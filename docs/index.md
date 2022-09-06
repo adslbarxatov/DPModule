@@ -388,7 +388,7 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 ● [Text to KKT](https://adslbarxatov.github.io/DPModule/ru#text-to-kkt-ru)
 ● [Turtle](#turtle-ru)
 ● [Tables merger](#tables-merger-gb-ru)
-● [UniNotifier](#uninotifier-gb-ru)
+● [UniNotifier](#unot-uninotifier-gb-ru)
 ● [Upsilon one](#upsilon-one-ru-gb)
 ● [Vector image generator](#vector-image-generator-gb-ru)
 ● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
