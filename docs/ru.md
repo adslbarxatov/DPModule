@@ -87,6 +87,7 @@
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
 
@@ -159,6 +160,7 @@
 ● [:film_projector: Guide](https://youtube.com/watch?v=hTnDR89VR8w)
 ● [:page_with_curl: Description](https://vk.com/@rd_aaow_fdl-pad)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.EnchantIt)
+● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C104441189?channelId=GitHub&id=981952b9902a490ebfb1b8c5d11f8eef&s=A8B622B12555EE34769CFFF6303E49EF4841788E101068082F7EAF51DE3D7C24&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/EnchantIt/releases/latest/download/PADetector.apk) ●
 
 Инструмент поиска паранормальной активности. Его задача – обнаружить и математически подтвердить какую-либо паранормальную активность. Перед началом использования рекомендуется ознакомиться с видеопрезентацией проекта, а также полным описанием метода
@@ -172,6 +174,7 @@
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/texttokkt/releases/latest)
 ● [:package: Get on DPModule](dp://TextToKKT)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
+● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
 
 Утилита сервис-инженера контрольно-кассовой техники. Первый проект лаборатории, доступный одновременно на платформах Windows и Android (Google play и AppGallery). С недавнего времени FNReader, модуль чтения и анализа данных фискального накопителя (54-ФЗ) входит в состав TextToKKT
@@ -193,6 +196,7 @@
 ● [:earth_africa: About](https://github.com/adslbarxatov/makedecision)
 ● [:film_projector: Guide](https://youtube.com/watch?v=40Lvq0Q1we0)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.MakeDecision)
+● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102653919?channelId=GitHub&id=9e294f4fc1f84e00af29183d5a706fd3&s=9380BD335AB35872FB993207DE1DD83650FABF7D6FF81F9AF4810E8C14BA254E&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/MakeDecision/releases/latest/download/MakeDecision.apk) ●
 
 Программа иллюстрирует математический метод, позволяющий сравнивать некоторые объекты, явления или исходы событий на основе набора критериев и выбирать наиболее «подходящий» из них. Пользователю предлагается самостоятельно задать варианты и критерии для их сравнения, а также оценить значимость каждого критерия и варианта. Результатом будет ответ на вопрос: «какой выбор наиболее удачный»

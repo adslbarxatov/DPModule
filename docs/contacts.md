@@ -18,7 +18,7 @@ You can find us using set of popular platforms listed below (supported languages
 
 - [Mods hosting ● ModDB](https://moddb.com/members/rd-aaow-fdl) :gb:
 
-- [Master channel ● YouTube](https://youtube.com/channel/UCwlJD6J7D5HwEsMiN6CKSuw) :gb: :ru:
+- [Master channel ● YouTube](https://youtube.com/c/rdaaowfdl) :gb: :ru:
 
 - [Side community ● VK](https://vk.com/grammarmustjoy) :ru:
 
