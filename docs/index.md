@@ -82,7 +82,7 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 
 &nbsp;
 
-### UniNotifier :gb: :ru:
+### uNot (UniNotifier) :gb: :ru:
 ● [:earth_africa: About](https://github.com/adslbarxatov/uninotifier)
 ● [:film_projector: User guide](https://youtube.com/watch?v=HPq88MW3jF8)
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
@@ -99,7 +99,7 @@ specified is loaded – all other objects (including advertisement) are ignored.
 
 ### Upsilon one :ru: :gb:
 ● [:earth_africa: VK](https://vk.com/upsilon_one)
-● [:iphone: Get &#X03A5;1 client](#uninotifier-gb-ru) ●
+● [:iphone: Get &#X03A5;1 client](#unot-uninotifier-gb-ru) ●
 
 The **&#X03A5;1 community** is a conditional city (in the future, maybe something more). Each post in it is an independent resident
 (character, entity) or object (building). Not necessarily completely unique, but very likely to have some unique features.
