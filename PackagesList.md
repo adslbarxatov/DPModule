@@ -43,7 +43,7 @@ uNot for Android			5.0			GIT_LINK/UniNotifier/releases/latest/download/UniNotifi
 
 
 
-#ALERT: New version of the ES:Randomaze submod is now available on our ModDB page!||Новая версия субмода ES:Randomaze уже доступна на нашей ModDB-странице!
+#ALERT: Some of our apps got new requirements. Please, read annotation from the last deployment step carefully!||Некоторые приложения получили новые требования. Пожалуйста, внимательно прочитайте аннотацию к последнему шагу развёртывания!
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
 ```
