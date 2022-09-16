@@ -23,7 +23,7 @@ Vector image generator		1.11	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGen
 
 #Mods
 ESHQ							12.4	MODSTORAGE/234416?MOD_REFmods%2Feshq		ESHQ.7z					222674964	3
-ESHQ, actual update				12.7	MODSTORAGE/238420?MOD_REFmods%2Feshq		ESHQ_update.7z			44735719		1
+ESHQ, actual update				12.7	MODSTORAGE/238420?MOD_REFmods%2Feshq		ESHQ_update.7z			44735735		1
 ES:Randomaze					3.7		MODSTORAGE/236625?MOD_REFmods%2Feshq		ESRM.7z					10233824		3
 Crazy cheater’s mod				1.2d	MODSTORAGE/220117?MOD_REFmods%2Fccm			CCM.7z					165320673	2
 Counter-strike 1.6 maps			1.0d	https://moddb.com/addons/start/193826?MOD_REF	CSMaps.7z			28781237	2
