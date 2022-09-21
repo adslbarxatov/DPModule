@@ -400,6 +400,14 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
+### Accounts manager :ru:
+● [:earth_africa: About](https://github.com/adslbarxatov/accountsmanager) ●
+
+Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
+сведений о контрактах и бюджетных обязательствах предприятия.
+
+&nbsp;
+
 ### GIATester :ru: :no_entry:
 ● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
@@ -411,6 +419,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 ## Облако ссылок
 
+● [Accounts manager](#accounts-manager-ru)
 ● [Batch image convertor](#batch-image-convertor-gb-ru)
 ● [BExplorer](#bexplorer-gb-ru)
 ● [CodeShow](#fullsilence-codeshow-gb-ru)
@@ -438,7 +447,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [Text to KKT](#text-to-kkt-ru)
 ● [Turtle](#turtle-ru)
 ● [Tables merger](#tables-merger-gb-ru)
-● [UniNotifier](#unot-uninotifier-gb-ru)
+● [uNot](#unot-uninotifier-gb-ru)
 ● [Upsilon one](#upsilon-one-ru-gb)
 ● [Vector image generator](#vector-image-generator-gb-ru)
 ● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
