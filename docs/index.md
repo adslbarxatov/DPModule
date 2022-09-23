@@ -88,6 +88,7 @@ A sound and music visualization tool (stand-alone cover for WMP). It works witho
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi)
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk) ●
 

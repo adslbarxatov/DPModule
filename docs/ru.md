@@ -87,6 +87,7 @@
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/uninotifier/releases/latest)
 ● [:package: Get on DPModule](dp://UniNotifier)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.UniNotifier)
+● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=uninotifier.xiaomi)
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102838121?channelId=GitHub&id=34da22c3478e4601b33a6ec854592895&s=DB4BF2118E523FEF437C11C7FAB0DE5D24080C18F860F60311E2B5919F1B568A&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/UniNotifier/releases/latest/download/UniNotifier.apk)
 ● [:iphone: Get Tablepedia](https://play.google.com/store/apps/details?id=com.RD_AAOW.TablepediaNotifier) ●
@@ -174,6 +175,7 @@
 ● [:envelope_with_arrow: Get for Windows](https://github.com/adslbarxatov/texttokkt/releases/latest)
 ● [:package: Get on DPModule](dp://TextToKKT)
 ● [:iphone: Get on Google play](https://play.google.com/store/apps/details?id=com.RD_AAOW.TextToKKT)
+● [:iphone: Get on GetApps](https://global.app.mi.com/details?id=texttokkt.xiaomi)
 ● [:iphone: Get on AppGallery](https://appgallery.cloud.huawei.com/ag/n/app/C102663035?channelId=GitHub&id=f4e62031e4b84ebb937a8b75c08fc543&s=E90E5D1DB649783589F6F3EA42475CFECAABFFF996E407E61BACB2268DB9867C&detailType=0&v=&callType=AGDLINK&installType=0000)
 ● [:package: Get APK](https://github.com/adslbarxatov/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk) ●
 
