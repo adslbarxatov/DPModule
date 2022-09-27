@@ -52,7 +52,7 @@
 Описания содержат все необходимые ссылки (:earth_africa:), а также релизы проектов (:iphone: и / или :package:).
 Для каждого обозначен набор доступных языков интерфейса (:gb: и / или :ru:).
 Также в нём имеются видео (:film_projector:), презентационные плейлисты (:tv:) и другие инструкции (:page_with_curl:) для программных продуктов.
-Все значки, кроме флагов, кликабельны.
+Знак :no_entry_sing: указывает на проекты, снятые с поддержки.
 
 Полный список программных продуктов доступен [здесь](https://github.com/adslbarxatov?tab=repositories).
 Общий список модов доступен [здесь](https://moddb.com/members/rd-aaow-fdl/mods).
@@ -250,6 +250,13 @@ ES: Randomaze – генератор карт для одноимённого с
 
 &nbsp;
 
+### Xash3D for ESHQ :gb:
+● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
+
+Адаптация движка Xash3D для мода ESHQ для Half-Life 1
+
+&nbsp;
+
 ### Crazy cheater’s mod :gb:
 ● [:earth_africa: Summary](https://moddb.com/mods/ccm)
 ● [:film_projector: Demo](https://youtube.com/watch?v=tpgKd91QYP4)
@@ -258,6 +265,14 @@ ES: Randomaze – генератор карт для одноимённого с
 Модификация для GTA Vice City, сохраняющая оригинальный сюжет и геймплей, но исправляющая ряд известных проблем,
 а также расширяющая и без того большие возможности Томми Версетти. Здесь доступна короткая презентация вносимых
 дополнений и исправлений
+
+&nbsp;
+
+### Accounts manager :ru:
+● [:earth_africa: About](https://github.com/adslbarxatov/accountsmanager) ●
+
+Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
+сведений о контрактах и бюджетных обязательствах предприятия.
 
 &nbsp;
 
@@ -354,7 +369,9 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### FullSilence, CodeShow :gb: :ru:
+&nbsp;
+
+### FullSilence, CodeShow :gb: :ru: :no_entry_sing:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
 ● [:tv: FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
 ● [:tv: CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
@@ -365,14 +382,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Xash3D for ESHQ :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
-
-Адаптация движка Xash3D для мода ESHQ для Half-Life 1
-
-&nbsp;
-
-### Counter-strike 1.6 maps :gb:
+### Counter-strike 1.6 maps :gb: :no_entry_sing:
 ● [:earth_africa: Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)
 ● [:package: Get on DPModule](dp://CSMaps) ●
 
@@ -380,7 +390,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Races :ru:
+### Races :ru: :no_entry_sing:
 ● [:earth_africa: Races](https://github.com/adslbarxatov/races)
 ● [:package: Get on DPModule](dp://Races) ●
 
@@ -388,7 +398,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Snake :ru:
+### Snake :ru: :no_entry_sing:
 ● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
 ● [:package: Get on DPModule](dp://Snake) ●
 
@@ -396,7 +406,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Turtle :ru:
+### Turtle :ru: :no_entry_sing:
 ● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
 ● [:package: Get on DPModule](dp://Turtle) ●
 
@@ -404,15 +414,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Accounts manager :ru:
-● [:earth_africa: About](https://github.com/adslbarxatov/accountsmanager) ●
-
-Инструмент управления бюджетными счетами. Программа предназначена для накопления, хранения, обработки и выдачи по запросу
-сведений о контрактах и бюджетных обязательствах предприятия.
-
-&nbsp;
-
-### GIATester :ru: :no_entry:
+### GIATester :ru: :no_entry_sing:
 ● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ). *Проект остановлен*
@@ -426,9 +428,9 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [Accounts manager](#accounts-manager-ru)
 ● [Batch image convertor](#batch-image-convertor-gb-ru)
 ● [BExplorer](#bexplorer-gb-ru)
-● [CodeShow](#fullsilence-codeshow-gb-ru)
+● [CodeShow](#fullsilence-codeshow-gb-ru-no_entry_sign)
 ● [ConcurrentDraw](#concurrentdraw-gb-ru)
-● [Counter-strike 1.6 maps](#counter-strike-16-maps-gb)
+● [Counter-strike 1.6 maps](#counter-strike-16-maps-gb-no_entry_sign)
 ● [Crazy cheater’s mod](#crazy-cheaters-mod-gb)
 ● [Dates difference](#dates-difference-gb-ru)
 ● [**DPModule**](#dpmodule-gb-ru)
@@ -436,20 +438,21 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [ES: Randomaze](#es-randomaze-gb)
 ● [File extensions manager](#file-extensions-manager-gb-ru)
 ● [Font finder](#font-finder-gb-ru)
-● [FullSilence](#fullsilence-codeshow-gb-ru)
+● [FullSilence](#fullsilence-codeshow-gb-ru-no_entry_sign)
 ● [Geomag data drawer](#geomag-data-drawer-gb-ru)
+● [GIA tester](#giatester-ru-no_entry_sign)
 ● [Grammar must joy](#grammar-must-joy-ru)
 ● [Keyboard switcher](#keyboard-switcher-gb)
 ● [Make CST](#make-cst-gb)
 ● [Make decision](#make-decision-gb-ru)
 ● [OS macros executor](#os-macros-executor-gb-ru)
 ● [PA detector / Enchant it](#pa-detector-enchant-it-gb-ru)
-● [Races](#races-ru)
+● [Races](#races-ru-no_entry_sign)
 ● [Screen shooter](#screen-shooter-gb-ru)
-● [Snake](#snake-ru)
+● [Snake](#snake-ru-no_entry_sign)
 ● [Sudoku solver](#sudoku-solver-gb-ru)
 ● [Text to KKT](#text-to-kkt-ru)
-● [Turtle](#turtle-ru)
+● [Turtle](#turtle-ru-no_entry_sign)
 ● [Tables merger](#tables-merger-gb-ru)
 ● [uNot](#unot-uninotifier-gb-ru)
 ● [Upsilon one](#upsilon-one-ru-gb)
