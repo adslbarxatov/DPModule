@@ -446,7 +446,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [Make CST](#make-cst-gb)
 ● [Make decision](#make-decision-gb-ru)
 ● [OS macros executor](#os-macros-executor-gb-ru)
-● [PA detector / Enchant it](#pa-detector-enchant-it-gb-ru)
+● [PA detector (Enchant it)](#pa-detector-enchant-it-gb-ru)
 ● [Races](#races-ru-noentrysign)
 ● [Screen shooter](#screen-shooter-gb-ru)
 ● [Snake](#snake-ru-noentrysign)
@@ -454,7 +454,7 @@ API для работы с файлами сохранений GTA Vice City и 
 ● [Text to KKT](#text-to-kkt-ru)
 ● [Turtle](#turtle-ru-noentrysign)
 ● [Tables merger](#tables-merger-gb-ru)
-● [uNot](#unot-uninotifier-gb-ru)
+● [uNot (UniNotifier)](#unot-uninotifier-gb-ru)
 ● [Upsilon one](#upsilon-one-ru-gb)
 ● [Vector image generator](#vector-image-generator-gb-ru)
 ● [Xash3D for ESHQ](#xash3d-for-eshq-gb) ●
