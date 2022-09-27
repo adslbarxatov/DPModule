@@ -36,8 +36,8 @@ Snake						1.16.15		DEFSTORAGE/Snake.dp0					Snake.dp0					0x00A3F3C2	1
 Turtle						1.7.15		DEFSTORAGE/Turtle.dp0					Turtle.dp0					0x00A933F1	1
 
 #Android apps
-Make decision for Android	2.12.2		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31446100	3
-PA detector for Android		2.9			GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		38904160	3
+Make decision for Android	2.13		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31450196	3
+PA detector for Android		2.9.5		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		38895968	3
 Text to KKT for Android		9.5.150		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		32170062	3
 uNot for Android			5.0.5		GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		31707692	3
 
