@@ -54,7 +54,7 @@ Current laboratory’s projects are described below.
 Description contains all the necessary links (:earth_africa:) as well as project releases (:iphone: and / or :package:).
 For each, a set of available interface languages is indicated (:gb: and / or :ru:).
 It also includes video (:film_projector:), presentation playlists (:tv:) and other guides (:page_with_curl:) for software products.
-All icons except flags are clickable.
+The :no_entry_sign: marks projects that are no longer supported.
 
 A complete list of software products is available [here](https://github.com/adslbarxatov?tab=repositories).
 A general list of mods is available [here](https://moddb.com/members/rd-aaow-fdl/mods).
@@ -206,6 +206,13 @@ This tool is the part of the ESHQ mod for Half-Life part 1.
 
 &nbsp;
 
+### Xash3D for ESHQ :gb:
+● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
+
+An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
+
+&nbsp;
+
 ### Crazy cheater’s mod :gb:
 ● [:earth_africa: Summary](https://moddb.com/mods/ccm)
 ● [:film_projector: Demo](https://youtube.com/watch?v=tpgKd91QYP4)
@@ -310,7 +317,9 @@ Byproduct of Geomag data drawer project. This tool performs generation of vector
 
 &nbsp;
 
-### FullSilence, CodeShow :gb: :ru:
+&nbsp;
+
+### FullSilence, CodeShow :gb: :ru: :no_entry_sign:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
 ● [:tv: FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
 ● [:tv: CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
@@ -321,14 +330,7 @@ Code fragments used in video projects of the same names in text visualization.
 
 &nbsp;
 
-### Xash3D for ESHQ :gb:
-● [:earth_africa: About](https://github.com/adslbarxatov/xash3d-for-eshq) ●
-
-An adaptation of Xash3D engine for ESHQ mod for Half-Life 1
-
-&nbsp;
-
-### Counter-strike 1.6 maps :gb:
+### Counter-strike 1.6 maps :gb: :no_entry_sign:
 ● [:earth_africa: Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)
 ● [:package: Get on DPModule](dp://CSMaps) ●
 
@@ -336,27 +338,27 @@ Our first maps done in the Hammer editor. Not sure about the balance, but locati
 
 &nbsp;
 
-### Races :ru:
+### Races :ru: :no_entry_sign:
 ● [:earth_africa: Races](https://github.com/adslbarxatov/races)
 ● [:package: Get on DPModule](dp://Races) ●
 
-“Races”, the classic Tetris game. From sample games pack for XNA game studio
+“Races”, the classic Tetris game. It is the sample project for XNA game studio
 
 &nbsp;
 
-### Snake :ru:
+### Snake :ru: :no_entry_sign:
 ● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
 ● [:package: Get on DPModule](dp://Snake) ●
 
-“Snake”, the classic Tetris game. From sample games pack for XNA game studio
+“Snake”, the classic Tetris game. It is the sample project for XNA game studio
 
 &nbsp;
 
-### Turtle :ru:
+### Turtle :ru: :no_entry_sign:
 ● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
 ● [:package: Get on DPModule](dp://Turtle) ●
 
-“Turtle”, the classic Tetris game. From sample games pack for XNA game studio
+“Turtle”, the classic Tetris game. It is the sample project for XNA game studio
 
 &nbsp;
 
