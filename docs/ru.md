@@ -371,7 +371,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### FullSilence, CodeShow :gb: :ru: :no_entry_sing:
+### FullSilence, CodeShow :gb: :ru: :no_entry_sign:
 ● [:earth_africa: About](https://github.com/adslbarxatov/fullsilence)
 ● [:tv: FullSilence live](https://youtube.com/playlist?list=PLe7qKwHNkZTsreIEQFedftXv3iQG-5LOA)
 ● [:tv: CodeShow live](https://youtube.com/playlist?list=PLe7qKwHNkZTuZiVfiX1EhD4G7EPcReaA5) ●
@@ -382,7 +382,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Counter-strike 1.6 maps :gb: :no_entry_sing:
+### Counter-strike 1.6 maps :gb: :no_entry_sign:
 ● [:earth_africa: Summary](https://moddb.com/games/counter-strike/addons/rdaaow-counter-strike-16-maps)
 ● [:package: Get on DPModule](dp://CSMaps) ●
 
@@ -390,7 +390,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Races :ru: :no_entry_sing:
+### Races :ru: :no_entry_sign:
 ● [:earth_africa: Races](https://github.com/adslbarxatov/races)
 ● [:package: Get on DPModule](dp://Races) ●
 
@@ -398,7 +398,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Snake :ru: :no_entry_sing:
+### Snake :ru: :no_entry_sign:
 ● [:earth_africa: Snake](https://github.com/adslbarxatov/snake)
 ● [:package: Get on DPModule](dp://Snake) ●
 
@@ -406,7 +406,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### Turtle :ru: :no_entry_sing:
+### Turtle :ru: :no_entry_sign:
 ● [:earth_africa: Turtle](https://github.com/adslbarxatov/turtle)
 ● [:package: Get on DPModule](dp://Turtle) ●
 
@@ -414,7 +414,7 @@ API для работы с файлами сохранений GTA Vice City и 
 
 &nbsp;
 
-### GIATester :ru: :no_entry_sing:
+### GIATester :ru: :no_entry_sign:
 ● [:earth_africa: About](https://github.com/adslbarxatov/giatester) ●
 
 Инструмент для автоматизированной подготовки, проведения и оценки тестовых заданий (ГИА/ЕГЭ)
