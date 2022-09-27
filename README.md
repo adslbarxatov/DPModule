@@ -21,7 +21,7 @@ DPModule – модуль развёртки для проектов RD AAOW Fre
 
 ## Requirements / Требования
 
-- Windows XP or newer / или новее;
+- Windows 7 or newer / или новее;
 - [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631).
 
 Interface languages / языки интерфейса: ru_ru, en_us.
