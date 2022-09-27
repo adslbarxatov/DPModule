@@ -1,5 +1,9 @@
 ﻿Deployment packages module changes log
 
+Version 13.7:
+• Implemented the ability to open localized ADP, SCP and Welcome pages;
+• Required framework version updated from 4.0 to 4.8
+
 Version 13.6m:
 • Temporarily disabled the ability to skip the screen with the requirements: we’ve upgraded our C-based
   apps from MSVC RTL v 100 to v 142. Therefore, some users will need to install these redistributables

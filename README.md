@@ -1,7 +1,7 @@
-﻿# DPModule v 13.6.142
-> PCC: 0009B436BED8FEC2
+﻿# DPModule v 13.7
+> PCC: 0009B47211EF4F3C
 
-> CRC32: C83A310E
+> CRC32: AC8536A6
 
 
 
@@ -22,7 +22,7 @@ DPModule – модуль развёртки для проектов RD AAOW Fre
 ## Requirements / Требования
 
 - Windows XP or newer / или новее;
-- [Microsoft .NET Framework 4.0](https://microsoft.com/en-us/download/details.aspx?id=17718).
+- [Microsoft .NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088631).
 
 Interface languages / языки интерфейса: ru_ru, en_us.
 
