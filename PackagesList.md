@@ -18,7 +18,7 @@ Screen shooter				1.9		DEFSTORAGE/ScreenShooter.dp					ScreenShooter.dp			0x0004
 Sudoku solver				2.5		DEFSTORAGE/SudokuSolver.dp					SudokuSolver.dp				0x0003D7D4	0
 Tables merger				1.8		DEFSTORAGE/TablesMerger.dp					TablesMerger.dp				0x00060E07	0
 Text to KKT					9.5.243		DEFSTORAGE/TextToKKT.dp						TextToKKT.dp				0x001213C6	1
-uNot						5.0.5	DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00046F79	0
+uNot						5.1		DEFSTORAGE/UniNotifier.dp					UniNotifier.dp				0x00046F6F	0
 Vector image generator		1.11	DEFSTORAGE/VectorImageGenerator.dp			VectorImageGenerator.dp		0x0003C86F	0
 
 #Mods
@@ -39,7 +39,7 @@ Turtle						1.7.15		DEFSTORAGE/Turtle.dp0					Turtle.dp0					0x00A933F1	1
 Make decision for Android	2.14		GIT_LINK/MakeDecision/releases/latest/download/MakeDecision.apk			MakeDecision.apk	31790208	3
 PA detector for Android		2.10		GIT_LINK/EnchantIt/releases/latest/download/PADetector.apk				PADetector.apk		39240076	3
 Text to KKT for Android		9.5.243		GIT_LINK/TextToKKT/releases/latest/download/TextToKKT_KitKat.apk		TextToKKT.apk		32514170	3
-uNot for Android			5.0.5		GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		31707692	3
+uNot for Android			5.1			GIT_LINK/UniNotifier/releases/latest/download/UniNotifier.apk			UniNotifier.apk		32294351	3
 
 
 
