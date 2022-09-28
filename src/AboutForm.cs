@@ -534,7 +534,8 @@ namespace RD_AAOW
 
 			if (!string.IsNullOrWhiteSpace (msg))
 				{
-				MessageBox.Show (msg, ProgramDescription.AssemblyTitle, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				MessageBox.Show (msg, ProgramDescription.AssemblyTitle, MessageBoxButtons.OK,
+					MessageBoxIcon.Exclamation);
 				return;
 				}
 
@@ -779,8 +780,8 @@ policy:
 				FS.WriteByte ((byte)b);
 
 				if ((length != 0) && (current++ % 0x1000 == 0))
-					((BackgroundWorker)sender).ReportProgress ((int)(HardWorkExecutor.ProgressBarSize * current / length),
-						report);  // Возврат прогресса
+					((BackgroundWorker)sender).ReportProgress ((int)(HardWorkExecutor.ProgressBarSize *
+						current / length), report);  // Возврат прогресса
 
 				// Завершение работы, если получено требование от диалога
 				if (((BackgroundWorker)sender).CancellationPending)
@@ -989,7 +990,8 @@ policy:
 		/// <param name="ShowWarning">Флаг указывает, что необходимо отобразить предупреждение перед регистрацией</param>
 		/// <param name="FileIcon">Ресурс, хранящий значок формата файла</param>
 		/// <returns>Возвращает true в случае успеха</returns>
-		public static bool RegisterProtocol (string ProtocolCode, string ProtocolName, Icon FileIcon, bool ShowWarning)
+		public static bool RegisterProtocol (string ProtocolCode, string ProtocolName, Icon FileIcon,
+			bool ShowWarning)
 			{
 			// Подготовка
 			string protocol = ProtocolCode.ToLower ().Replace (".", "");

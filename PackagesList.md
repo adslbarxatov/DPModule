@@ -1,7 +1,7 @@
 ```
 Packages, available for download:
 
-DPModule					13.7	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009B472	1
+DPModule					14.0	DEFSTORAGE/DPModule.dp0						DPModule.dp0				0x0009CE79	1
 
 #Apps
 Batch image convertor		2.19.142	DEFSTORAGE/BatchImageConvertor.dp			BatchImageConvertor.dp		0x00059BB2	1
@@ -43,7 +43,9 @@ uNot for Android			5.1			GIT_LINK/UniNotifier/releases/latest/download/UniNotifi
 
 
 
-#ALERT: Some of our apps got new requirements. Please, read annotation from the last deployment step carefully!||Некоторые приложения получили новые требования. Пожалуйста, внимательно прочитайте аннотацию к последнему шагу развёртывания!
+#ALERT: Some of our apps got new requirements. Please, read annotation from the last deployment step carefully!||
+#ALERT: Некоторые приложения получили новые требования. Пожалуйста, внимательно прочитайте аннотацию к последнему шагу развёртывания!
+
 Flags: 1 = disallow the fast deployment, 2 = disable the version control
 
 ```
