@@ -9,7 +9,8 @@ DPModule – the deployment module for RD AAOW Free development lab’s projects
 The tool performs installation, deinstallation, updates checking and packages downloading for our products.
 This tool is the only thing you need to start working with all of our projects
 
-:warning: ***This tool has been replaced with the new packages manager – [DPArray](https://adslbarxatov.github.io/DPArray)***
+:warning: ***This tool has been replaced with the new packages manager – [DPArray](https://adslbarxatov.github.io/DPArray).
+This repository will no longer receive updates***
 
 #
 
@@ -17,7 +18,8 @@ DPModule – модуль развёртки для проектов RD AAOW Fre
 Инструмент выполняет установку, удаление, проверку обновлений и загрузку установочных пакетов для наших продуктов.
 Этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки
 
-:warning: ***Этот инструмент заменён новым менеджером пакетов – [DPArray](https://adslbarxatov.github.io/DPArray)***
+:warning: ***Этот инструмент заменён новым менеджером пакетов – [DPArray](https://adslbarxatov.github.io/DPArray).
+Этот репозиторий больше не будет получать обновления***
 
 &nbsp;
 
