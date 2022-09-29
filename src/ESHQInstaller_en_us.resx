@@ -168,7 +168,7 @@ If you have any wishes, advices or troubles with this utility, remind us, using 
   <data name="IncorrectPackage" xml:space="preserve">
     <value>Your deployment package is not original! We strongly recommend against using it!
 
-Launch DPModule again and download the original deployment package</value>
+Launch this managed again and download the original package</value>
   </data>
   <data name="InstallRadioText_Main" xml:space="preserve">
     <value>Install: allows application setup or recover</value>
@@ -256,7 +256,7 @@ Most likely this product has not been installed on this PC before. If this is no
   <data name="UpdateMessage2" xml:space="preserve">
     <value> available for download.
 
-Launch DPModule again to download it</value>
+Launch this manager again to download it</value>
   </data>
   <data name="UpdatesChecking" xml:space="preserve">
     <value>Checking for updates...</value>
@@ -286,19 +286,18 @@ Select new language:</value>
     <value>Open package’s webpage...</value>
   </data>
   <data name="HelpText" xml:space="preserve">
-    <value>DPModule – deployment packages module for RD AAOW Free development lab’s projects
-
-The tool performs installation, uninstallation, updates checking and packages downloading for our products.
-Since v 10, this tool is the only thing you need to start working with our developments</value>
+    <value>DPArray is our old deployment tool with a new name. It was creates to manage installations of Laboratory’s products.
+	
+DPArray performs installation, deinstallation, check for updates, download of packages and their requirements. This tool is the only thing you need to start working with all of our projects</value>
   </data>
   <data name="PackageSelectorForm_Label01" xml:space="preserve">
     <value>Deployment packages manager</value>
   </data>
   <data name="PackagesListUnavailable" xml:space="preserve">
-    <value>Deployment packages list is unavailable. Check your internet connection
+    <value>The list of deployment packages is unavailable. Check your internet connection
 
 If the reason is the blocking of the GitHub platform in your country, please contact the official channels of the Lab for more information
-(activate tray icon’s menu, click “About DPModule”,
+(activate tray icon’s menu, click “About the app”,
 select a convenient channel and click “▶”)</value>
   </data>
   <data name="PackagesListChecking" xml:space="preserve">
@@ -382,7 +381,7 @@ Do you want to open its webpage for manual downloading?</value>
     <value>Start application after completion</value>
   </data>
   <data name="PackageSelectorForm_BAbout" xml:space="preserve">
-    <value>A&amp;bout the DPModule</value>
+    <value>A&amp;bout the app</value>
   </data>
   <data name="CloseOnSuccessFlagText" xml:space="preserve">
     <value>Exit if completed successfully</value>

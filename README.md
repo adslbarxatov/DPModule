@@ -1,7 +1,7 @@
-﻿# DPModule v 14.0
-> PCC: 0009CE797BF0DC94
+﻿# DPModule v 14.0.5
+> PCC: 0009E09238955765
 
-> CRC32: 93562C3E
+> CRC32: C8E9B252
 
 
 
@@ -9,11 +9,15 @@ DPModule – the deployment module for RD AAOW Free development lab’s projects
 The tool performs installation, deinstallation, updates checking and packages downloading for our products.
 This tool is the only thing you need to start working with all of our projects
 
+***This tool has been replaced with [DPArray](https://adslbarxatov.github.io/DPArray)***
+
 #
 
 DPModule – модуль развёртки для проектов RD AAOW Free development lab.
 Инструмент выполняет установку, удаление, проверку обновлений и загрузку установочных пакетов для наших продуктов.
 Этот инструмент – единственное, что Вам нужно, чтобы начать использовать наши разработки
+
+*** Этот инструмент заменён [DPArray](https://adslbarxatov.github.io/DPArray)***
 
 &nbsp;
 
